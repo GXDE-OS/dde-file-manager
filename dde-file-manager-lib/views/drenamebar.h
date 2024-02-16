@@ -30,7 +30,7 @@
 #include <QFrame>
 #include <memory>
 
-
+#include <array>
 #include "shutil/filebatchprocess.h"
 
 
