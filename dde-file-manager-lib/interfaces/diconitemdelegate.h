@@ -48,31 +48,31 @@ public:
 
     void paint(QPainter *painter,
                const QStyleOptionViewItem &option,
-               const QModelIndex &index) const Q_DECL_OVERRIDE;
+               const QModelIndex &index) const;
 
-    QSize sizeHint(const QStyleOptionViewItem &, const QModelIndex &) const Q_DECL_OVERRIDE;
-    QWidget *createEditor(QWidget *parent, const QStyleOptionViewItem &, const QModelIndex &index) const Q_DECL_OVERRIDE;
+    QSize sizeHint(const QStyleOptionViewItem &, const QModelIndex &) const;
+    QWidget *createEditor(QWidget *parent, const QStyleOptionViewItem &, const QModelIndex &index) const;
 
-    void updateEditorGeometry(QWidget * editor, const QStyleOptionViewItem & option, const QModelIndex &) const Q_DECL_OVERRIDE;
-    void setEditorData(QWidget * editor, const QModelIndex & index) const Q_DECL_OVERRIDE;
+    void updateEditorGeometry(QWidget * editor, const QStyleOptionViewItem & option, const QModelIndex &) const;
+    void setEditorData(QWidget * editor, const QModelIndex & index) const;
 
-    QList<QRect> paintGeomertys(const QStyleOptionViewItem &option, const QModelIndex &index, bool sizeHintMode = false) const Q_DECL_OVERRIDE;
+    QList<QRect> paintGeomertys(const QStyleOptionViewItem &option, const QModelIndex &index, bool sizeHintMode = false) const;
 
-    QModelIndexList hasWidgetIndexs() const Q_DECL_OVERRIDE;
-    void hideNotEditingIndexWidget() Q_DECL_OVERRIDE;
+    QModelIndexList hasWidgetIndexs() const;
+    void hideNotEditingIndexWidget();
 
     QModelIndex expandedIndex() const;
     QWidget *expandedIndexWidget() const;
 
-    int iconSizeLevel() const Q_DECL_OVERRIDE;
-    int minimumIconSizeLevel() const Q_DECL_OVERRIDE;
-    int maximumIconSizeLevel() const Q_DECL_OVERRIDE;
+    int iconSizeLevel() const;
+    int minimumIconSizeLevel() const;
+    int maximumIconSizeLevel() const;
 
-    int increaseIcon() Q_DECL_OVERRIDE;
-    int decreaseIcon() Q_DECL_OVERRIDE;
-    int setIconSizeByIconSizeLevel(int level) Q_DECL_OVERRIDE;
+    int increaseIcon();
+    int decreaseIcon();
+    int setIconSizeByIconSizeLevel(int level);
 
-    void updateItemSizeHint() Q_DECL_OVERRIDE;
+    void updateItemSizeHint();
 
     QColor focusTextBackgroundBorderColor() const;
     bool enabledTextShadow() const;
@@ -82,17 +82,17 @@ public slots:
     void setEnabledTextShadow(bool enabledTextShadow);
 
 protected:
-    void initTextLayout(const QModelIndex &index, QTextLayout *layout) const override;
+    void initTextLayout(const QModelIndex &index, QTextLayout *layout) const;
 
-    bool eventFilter(QObject *object, QEvent *event) Q_DECL_OVERRIDE;
+    bool eventFilter(QObject *object, QEvent *event);
 
     QList<QRectF> drawText(const QModelIndex &index, QPainter *painter, QTextLayout *layout,
                            const QRectF &boundingRect, qreal radius, const QBrush &background,
                            QTextOption::WrapMode wordWrap = QTextOption::WrapAtWordBoundaryOrAnywhere,
                            Qt::TextElideMode mode = Qt::ElideMiddle, int flags = Qt::AlignCenter,
-                           const QColor &shadowColor = QColor()) const override;
+                           const QColor &shadowColor = QColor()) const;
 
-    using DStyledItemDelegate::drawText;
+    //using DStyledItemDelegate::drawText;
 
 private:
     void onEditWidgetFocusOut();

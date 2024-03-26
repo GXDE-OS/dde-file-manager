@@ -45,6 +45,10 @@
 #include <QRegularExpression>
 #include <QQueue>
 
+#include <dapplication.h>
+
+DWIDGET_USE_NAMESPACE
+
 class SearchFileWatcherPrivate;
 class SearchFileWatcher : public DAbstractFileWatcher
 {
@@ -480,7 +484,7 @@ const DAbstractFileInfoPointer SearchController::createFileInfo(const QSharedPoi
 
 bool SearchController::openFileLocation(const QSharedPointer<DFMOpenFileLocation> &event) const
 {
-    return DTK_WIDGET_NAMESPACE::DDesktopServices::showFileItem(realUrl(event->url()));
+    return Dtk::Widget::DDesktopServices::showFileItem(realUrl(event->url()));
 }
 
 bool SearchController::openFile(const QSharedPointer<DFMOpenFileEvent> &event) const

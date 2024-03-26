@@ -33,7 +33,7 @@
 
 #include "singleton.h"
 
-#include <dseparatorhorizontal.h>
+#include <dialogs/dseparatorhorizontal.h>
 
 #include <QVBoxLayout>
 #include <QHBoxLayout>

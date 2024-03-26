@@ -14,6 +14,8 @@
 #include <QMargins>
 #include <QEvent>
 
+#include <dstyleditemdelegate.h>
+
 #include "dabstractfileinfo.h"
 
 QT_BEGIN_NAMESPACE
@@ -22,7 +24,7 @@ class QStyleOptionViewItem;
 class QMenu;
 QT_END_NAMESPACE
 class DAbstractFileInfo;
-class DStyledItemDelegate;
+//class DStyledItemDelegate;
 class DFileSystemModel;
 class DFileViewHelperPrivate;
 class DFileViewHelper : public QObject

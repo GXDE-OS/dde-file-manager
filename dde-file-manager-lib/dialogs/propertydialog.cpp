@@ -56,7 +56,7 @@
 #include "../plugininterfaces/menu/menuinterface.h"
 #include "dfmeventdispatcher.h"
 
-#include <dseparatorhorizontal.h>
+#include <dialogs/dseparatorhorizontal.h>
 #include <darrowlineexpand.h>
 #include <dthememanager.h>
 #include <dexpandgroup.h>
@@ -79,6 +79,8 @@
 #include <QVariantAnimation>
 #include <QScrollArea>
 #include <ddiskmanager.h>
+
+#include <dthememanager.h>
 
 #include "unistd.h"
 
@@ -257,7 +259,7 @@ PropertyDialog::PropertyDialog(const DFMEvent &event, const DUrl url, QWidget *p
     , m_icon(new QLabel)
     , m_edit(new NameTextEdit)
 {
-    D_THEME_INIT_WIDGET(PropertyDialog)
+    //D_THEME_INIT_WIDGET(PropertyDialog)
 
     setAttribute(Qt::WA_DeleteOnClose);
     setWindowFlags(windowFlags()

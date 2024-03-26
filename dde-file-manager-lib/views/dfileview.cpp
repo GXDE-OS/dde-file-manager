@@ -78,6 +78,8 @@
 #include <QScroller>
 #include <QtConcurrent>
 
+#include <dstyleditemdelegate.h>
+
 #include <private/qguiapplication_p.h>
 #include <qpa/qplatformtheme.h>
 

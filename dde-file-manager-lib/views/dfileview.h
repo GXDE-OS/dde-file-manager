@@ -29,6 +29,8 @@
 #include "durl.h"
 #include "dfmbaseview.h"
 
+#include "dstatusbar.h"
+
 #include <dlistview.h>
 
 #include <QDir>
@@ -46,9 +48,9 @@ DFM_USE_NAMESPACE
 class FileController;
 class DFileMenuManager;
 class DFileSystemModel;
-class DStyledItemDelegate;
+//class DStyledItemDelegate;
 class DAbstractFileInfo;
-class DStatusBar;
+//class DStatusBar;
 class FileViewHelper;
 class DFileViewPrivate;
 class DFileView : public DListView, public DFMBaseView

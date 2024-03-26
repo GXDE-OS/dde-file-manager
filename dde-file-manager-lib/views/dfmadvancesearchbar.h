@@ -29,7 +29,7 @@
 #include <QWidget>
 #include <dfmglobal.h>
 #include <dboxwidget.h>
-#include <dlinkbutton.h>
+#include <dialogs/dlinkbutton.h>
 
 DWIDGET_USE_NAMESPACE
 

@@ -81,6 +81,7 @@ RESOURCES += \
 HEADERS += \
     controllers/appcontroller.h \
     views/dfmsidebaropticaldevitem.h \
+    views/dtextbutton.h \
     views/dtoolbar.h \
     views/dfileview.h \
     views/ddetailview.h \
@@ -196,6 +197,7 @@ HEADERS += \
     interfaces/plugins/dfmfilepreviewfactory.h \
     interfaces/dfmfilepreview.h \
     dialogs/filepreviewdialog.h \
+    dialogs/dseparatorhorizontal.h \
     gvfs/mountsecretdiskaskpassworddialog.h \
     views/drenamebar.h \
     shutil/filebatchprocess.h \
@@ -270,6 +272,7 @@ HEADERS += \
 SOURCES += \
     controllers/appcontroller.cpp \
     views/dfmsidebaropticaldevitem.cpp \
+    views/dtextbutton.cpp \
     views/dtoolbar.cpp \
     views/dfileview.cpp \
     views/ddetailview.cpp \
@@ -378,6 +381,7 @@ SOURCES += \
     interfaces/plugins/dfmfilepreviewfactory.cpp \
     interfaces/dfmfilepreview.cpp \
     dialogs/filepreviewdialog.cpp \
+    dialogs/dseparatorhorizontal.cpp \
     dialogs/usersharepasswordsettingdialog.cpp\
     gvfs/mountsecretdiskaskpassworddialog.cpp \
     views/drenamebar.cpp \

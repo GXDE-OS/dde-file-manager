@@ -14,7 +14,7 @@
 #include "dfmfilepreview.h"
 #include "dabstractfileinfo.h"
 #include <dabstractdialog.h>
-#include <dseparatorhorizontal.h>
+#include <dialogs/dseparatorhorizontal.h>
 #include <QPointer>
 QT_BEGIN_NAMESPACE
 class QPushButton;

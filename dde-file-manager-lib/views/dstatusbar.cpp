@@ -36,7 +36,7 @@
 
 #include "singleton.h"
 #include <QComboBox>
-#include <dtextbutton.h>
+#include <views/dtextbutton.h>
 #include <dlineedit.h>
 #include <danchors.h>
 #include <DThemeManager>
@@ -52,7 +52,7 @@ DWIDGET_USE_NAMESPACE
 DStatusBar::DStatusBar(QWidget *parent)
     : QFrame(parent)
 {
-    D_THEME_INIT_WIDGET(DStatusBar, mode)
+    //D_THEME_INIT_WIDGET(DStatusBar, mode)
 
     setObjectName("DStatusBar");
 

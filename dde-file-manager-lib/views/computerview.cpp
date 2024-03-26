@@ -30,6 +30,7 @@
 #include "dfmeventdispatcher.h"
 #include "dfmapplication.h"
 #include "dfmsettings.h"
+#include "dstatusbar.h"
 
 #include "app/define.h"
 #include "app/filesignalmanager.h"

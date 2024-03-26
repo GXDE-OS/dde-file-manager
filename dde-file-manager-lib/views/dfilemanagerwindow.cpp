@@ -452,9 +452,9 @@ DFileManagerWindow::DFileManagerWindow(const DUrl &fileUrl, QWidget *parent)
     }
 
     if (DFMGlobal::isRootUser()) {
-        D_THEME_INIT_WIDGET(DFileManagerWindowAdmin)
+        //D_THEME_INIT_WIDGET(DFileManagerWindowAdmin)
     } else {
-        D_THEME_INIT_WIDGET(DFileManagerWindow)
+        //D_THEME_INIT_WIDGET(DFileManagerWindow)
     }
 
     /// init global AppController
