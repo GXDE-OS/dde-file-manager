@@ -27,7 +27,6 @@
 #include "dfilemenumanager.h"
 #include "dfilemenu.h"
 #include "windowmanager.h"
-//#include "dstatusbar.h"
 #include "fileviewhelper.h"
 #include "dfilemanagerwindow.h"
 #include "dtoolbar.h"
@@ -78,8 +77,6 @@
 #include <QScroller>
 #include <QtConcurrent>
 
-#include <dstyleditemdelegate.h>
-
 #include <private/qguiapplication_p.h>
 #include <qpa/qplatformtheme.h>
 
@@ -112,7 +109,7 @@ public:
     DFMHeaderView *headerView = nullptr;
     QWidget *headerViewHolder = nullptr;
     DFMOpticalMediaWidget *headerOpticalDisc = nullptr;
-    DStatusBar* statusBar = nullptr;
+    DStatusBar *statusBar = nullptr;
 
     QActionGroup* displayAsActionGroup;
     QActionGroup* sortByActionGroup;
@@ -185,9 +182,9 @@ DFileView::DFileView(QWidget *parent)
     , d_ptr(new DFileViewPrivate(this))
 {
     if (DFMGlobal::isRootUser()) {
-        D_THEME_INIT_WIDGET(DFileViewRoot)
+        //D_THEME_INIT_WIDGET(DFileViewRoot)
     } else {
-        D_THEME_INIT_WIDGET(DFileView);
+        //D_THEME_INIT_WIDGET(DFileView);
     }
 
     D_D(DFileView);

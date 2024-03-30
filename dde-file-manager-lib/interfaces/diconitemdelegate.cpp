@@ -344,7 +344,7 @@ public:
         const QMargins &margins = contentsMargins();
         QRect label_rect(TEXT_PADDING + margins.left(), margins.top() + iconHeight + TEXT_PADDING + ICON_MODE_ICON_SPACING,
                          width() - TEXT_PADDING * 2 - margins.left() - margins.right(), INT_MAX);
-        const QList<QRectF> &lines = delegate->drawText(index, &pa, option.text, label_rect, ICON_MODE_RECT_RADIUS,
+        const QList<QRectF> &lines = delegate->drawText(index, &pa, new QTextLayout(option.text), label_rect, ICON_MODE_RECT_RADIUS,
                                                         option.backgroundBrush,
                                                         QTextOption::WrapAtWordBoundaryOrAnywhere,
                                                         option.textElideMode, Qt::AlignCenter);
@@ -403,7 +403,7 @@ public:
             width -= (margins.left() + margins.right());
 
             QRect label_rect(TEXT_PADDING + margins.left(), iconHeight + TEXT_PADDING + ICON_MODE_ICON_SPACING + margins.top(), width - TEXT_PADDING * 2, INT_MAX);
-            const QList<QRectF> &lines = delegate->drawText(index, nullptr, option.text, label_rect, ICON_MODE_RECT_RADIUS, Qt::NoBrush,
+            const QList<QRectF> &lines = delegate->drawText(index, nullptr, new QTextLayout(option.text), label_rect, ICON_MODE_RECT_RADIUS, Qt::NoBrush,
                                                             QTextOption::WrapAtWordBoundaryOrAnywhere, option.textElideMode, Qt::AlignCenter);
 
             textBounding = boundingRect(lines);
@@ -707,7 +707,7 @@ void DIconItemDelegate::paint(QPainter *painter,
 //            str = d->wordWrapMap.value(str);
 //            height = d->textHeightMap.value(str);
 //        } else {
-            const QList<QRectF> &lines = drawText(index, 0, str, label_rect.adjusted(0, 0, 0, 99999), 0, QBrush(Qt::NoBrush));
+            const QList<QRectF> &lines = drawText(index, 0, new QTextLayout(str), label_rect.adjusted(0, 0, 0, 99999), 0, QBrush(Qt::NoBrush));
 //            wordWrap_str = trimmedEnd(wordWrap_str);
 
 //            d->wordWrapMap[str] = wordWrap_str;
@@ -761,7 +761,7 @@ void DIconItemDelegate::paint(QPainter *painter,
     }
 
     if (isSelected || !d->enabledTextShadow) {
-        const QList<QRectF> &lines = drawText(index, painter, str, label_rect, ICON_MODE_RECT_RADIUS,
+        const QList<QRectF> &lines = drawText(index, painter, new QTextLayout(str), label_rect, ICON_MODE_RECT_RADIUS,
                                               isSelected ? opt.backgroundBrush : QBrush(Qt::NoBrush),
                                               QTextOption::WrapAtWordBoundaryOrAnywhere, opt.textElideMode, Qt::AlignCenter);
 
@@ -782,7 +782,7 @@ void DIconItemDelegate::paint(QPainter *painter,
         QPainter p(&text_image);
         p.setPen(painter->pen());
         p.setFont(painter->font());
-        drawText(index, &p, str, QRectF(QPoint(0, 0), QSizeF(text_image.size()) / pixel_ratio),
+        drawText(index, &p, new QTextLayout(str), QRectF(QPoint(0, 0), QSizeF(text_image.size()) / pixel_ratio),
                  ICON_MODE_RECT_RADIUS, QBrush(Qt::NoBrush),
                  QTextOption::WrapAtWordBoundaryOrAnywhere, opt.textElideMode, Qt::AlignCenter);
         p.end();
@@ -1030,7 +1030,7 @@ QList<QRect> DIconItemDelegate::paintGeomertys(const QStyleOptionViewItem &optio
 
     bool elide = (!isSelected || !singleSelected);
 
-    auto lines = drawText(index, nullptr, str, QRect(label_rect.topLeft(), QSize(label_rect.width(), INT_MAX)),
+    auto lines = drawText(index, nullptr, new QTextLayout(str), QRect(label_rect.topLeft(), QSize(label_rect.width(), INT_MAX)),
                           ICON_MODE_RECT_RADIUS, isSelected ? opt.backgroundBrush : QBrush(Qt::NoBrush),
                           QTextOption::WrapAtWordBoundaryOrAnywhere, elide ? opt.textElideMode : Qt::ElideNone,
                           Qt::AlignCenter);

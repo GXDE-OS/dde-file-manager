@@ -24,6 +24,14 @@ class DStyledItemDelegate : public QStyledItemDelegate
     Q_OBJECT
 
 public:
+    enum BackgroundType {
+        NoBackground = 0,
+        ClipCornerBackground = 1,
+        RoundedBackground = 2,
+        BackgroundType_Mask = 0xff,
+        NoNormalState = 0x100
+    };
+
     explicit DStyledItemDelegate(DFileViewHelper *parent);
     ~DStyledItemDelegate();
 

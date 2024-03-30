@@ -45,6 +45,7 @@
 #include "dfmapplication.h"
 #include "dfmstandardpaths.h"
 
+#include "dtoolbar.h"
 #include "app/define.h"
 #include "dfmevent.h"
 #include "app/filesignalmanager.h"

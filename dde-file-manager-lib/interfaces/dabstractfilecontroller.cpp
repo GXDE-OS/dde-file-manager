@@ -26,6 +26,7 @@
 #include "dfmevent.h"
 
 #include <DDesktopServices>
+#include <dapplication.h>
 
 DWIDGET_USE_NAMESPACE
 

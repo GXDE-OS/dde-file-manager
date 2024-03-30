@@ -44,7 +44,7 @@
 #define TITLE_FIXED_HEIGHT 40
 
 class DTitleBar;
-class DToolBar;
+//class DToolBar;
 class DDetailView;
 class QStatusBar;
 class QFrame;
@@ -56,7 +56,7 @@ class ExtendView;
 class QStackedLayout;
 class QPushButton;
 
-class DStatusBar;
+//class DStatusBar;
 class DFMEvent;
 class DFMUrlBaseEvent;
 class TabBar;
@@ -87,7 +87,7 @@ public:
     DFMBaseView::ViewState currentViewState() const;
     bool isCurrentUrlSupportSearch(const DUrl &currentUrl);
 
-    DToolBar *getToolBar() const;
+    QToolBar *getToolBar() const;
     DFMBaseView *getFileView() const;
     DFMSideBar *getLeftSideBar() const;
     int getSplitterPosition() const;

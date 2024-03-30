@@ -31,7 +31,10 @@
 
 #include "dstatusbar.h"
 
+#include <views/dstatusbar.h>
+#include "dstyleditemdelegate.h"
 #include <dlistview.h>
+#include <views/dtoolbar.h>
 
 #include <QDir>
 
