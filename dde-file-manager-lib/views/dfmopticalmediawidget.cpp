@@ -2,6 +2,9 @@
 #include "disomaster.h"
 #include "shutil/fileutils.h"
 #include "dialogs/burnoptdialog.h"
+#include <dlabel.h>
+
+DWIDGET_USE_NAMESPACE
 
 using namespace DISOMasterNS;
 
@@ -17,7 +20,7 @@ public:
 private:
     DLabel *lb_mediatype;
     DLabel *lb_available;
-    DPushButton *pb_burn;
+    QPushButton *pb_burn;
     QHBoxLayout *layout;
     DFMOpticalMediaWidget *q_ptr;
     QString curdev;
@@ -31,7 +34,7 @@ DFMOpticalMediaWidget::DFMOpticalMediaWidget(QWidget *parent) :
     Q_D(DFMOpticalMediaWidget);
     d->setupUi();
 
-    connect(d->pb_burn, &DPushButton::clicked, this, [=] {
+    connect(d->pb_burn, &QPushButton::clicked, this, [=] {
             QScopedPointer<BurnOptDialog> bd(new BurnOptDialog(d->getCurrentDevice(), this));
             bd->setJobWindowId(this->window()->winId());
             bd->exec();
@@ -65,7 +68,7 @@ void DFMOpticalMediaWidgetPrivate::setupUi()
     q->setLayout(layout);
     layout->addWidget(lb_mediatype = new DLabel("<Media Type>"));
     layout->addWidget(lb_available = new DLabel("<Space Available>"));
-    layout->addWidget(pb_burn = new DPushButton());
+    layout->addWidget(pb_burn = new QPushButton());
     pb_burn->setText(QObject::tr("Burn"));
 
     pb_burn->setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);

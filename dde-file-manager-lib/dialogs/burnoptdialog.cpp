@@ -1,3 +1,4 @@
+#include "interfaces/dstyleditemdelegate.h"
 #include "burnoptdialog.h"
 #include <DLineEdit>
 #include "dlabel.h"
@@ -146,7 +147,7 @@ void BurnOptDialogPrivate::setupUi()
     w_content->layout()->addWidget(lb_volname);
 
     le_volname = new DLineEdit();
-    le_volname->setMaxLength(32);
+    le_volname->lineEdit()->setMaxLength(32);
     w_content->layout()->addWidget(le_volname);
 
     lb_writespeed = new DLabel(QObject::tr("Write speed:"));

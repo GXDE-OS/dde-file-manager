@@ -218,7 +218,7 @@ FilePreviewDialog::FilePreviewDialog(const DUrlList &previewUrllist, QWidget *pa
     : DAbstractDialog(parent)
     , m_fileList(previewUrllist)
 {
-    D_THEME_INIT_WIDGET(FilePreviewDialog);
+    //D_THEME_INIT_WIDGET(FilePreviewDialog);
 
 #ifdef Q_OS_LINUX
 #ifndef ARCH_SW     // 申威和龙芯架构已禁用视频预览功能，不会触发此问题

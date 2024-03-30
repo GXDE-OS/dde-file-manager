@@ -5,6 +5,7 @@
 #include "dfileservices.h"
 
 #include <DtkWidgets>
+#include <dlabel.h>
 
 class DFMOpticalMediaWidgetPrivate;
 class DFMOpticalMediaWidget : public QWidget
