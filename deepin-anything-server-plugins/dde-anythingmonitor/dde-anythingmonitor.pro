@@ -11,7 +11,7 @@ TEMPLATE = lib
 
 QT += core \
       dbus \
-      concurrent
+      concurrent 
 
 CONFIG += c++11 \
           console \
@@ -32,8 +32,8 @@ isEmpty(DDE_FILE_MANAGER_DIR){
     DDE_FILE_MANAGER_DIR = $$PWD/../..
 }
 
-
-PKGCONFIG += deepin-anything-server-lib
+# 内置了 deepin anything 库，无需引用
+#PKGCONFIG += deepin-anything-server-lib
 
 
 INCLUDEPATH += $$PWD/../../dde-file-manager-lib \
@@ -84,6 +84,9 @@ HEADERS += \
     $$DDE_FILE_MANAGER_LIB_DIR/interfaces/dfmstandardpaths.h \
     $$DDE_FILE_MANAGER_LIB_DIR/interfaces/dfmapplication.h \
     $$DDE_FILE_MANAGER_LIB_DIR/interfaces/dfmsettings.h \
+    dasdefine.h \
+    dasinterface.h \
+    dasplugin.h \
     taghandle.h
 
 

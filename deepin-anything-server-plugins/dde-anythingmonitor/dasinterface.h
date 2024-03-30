@@ -1,9 +1,9 @@
 /*
  * Copyright (C) 2017 ~ 2018 Deepin Technology Co., Ltd.
  *
- * Author:     shihua <tangtong@deepin.com>
+ * Author:     zccrs <zccrs@live.com>
  *
- * Maintainer: shihua <tangtong@deepin.com>
+ * Maintainer: zccrs <zhangjide@deepin.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,30 +18,27 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-#ifndef TAGHANDLE_H
-#define TAGHANDLE_H
+#ifndef DASINTERFACE_H
+#define DASINTERFACE_H
 
-#include <dasinterface.h>
+#include <dasdefine.h>
 
+#include <QObject>
 
-using namespace DAS_NAMESPACE;
+DAS_BEGIN_NAMESPACE
 
-class TagHandle : public DASInterface
+class DASInterface : public QObject
 {
     Q_OBJECT
-
 public:
-    explicit TagHandle(QObject *const parent = nullptr)
-        : DASInterface{ parent } {}
-    virtual ~TagHandle() = default;
+    explicit DASInterface(QObject *parent = nullptr);
 
-    TagHandle(const TagHandle &other) = delete;
-    TagHandle &operator=(const TagHandle &other) = delete;
-
-
-    virtual void onFileCreate(const QByteArrayList &files);
-    virtual void onFileDelete(const QByteArrayList &files);
-    virtual void onFileRename(const QList<QPair<QByteArray, QByteArray>> &files);
+public Q_SLOTS:
+    virtual void onFileCreate(const QByteArrayList &files) = 0;
+    virtual void onFileDelete(const QByteArrayList &files) = 0;
+    virtual void onFileRename(const QList<QPair<QByteArray, QByteArray>> &files) = 0;
 };
 
-#endif // TAGHANDLE_H
+DAS_END_NAMESPACE
+
+#endif // DASINTERFACE_H
