@@ -685,8 +685,8 @@ void ComputerView::initConnect()
     connect(deviceListener, &UDiskListener::mountRemoved, this, &ComputerView::mountRemoved);
     connect(deviceListener, &UDiskListener::volumeAdded, this, &ComputerView::volumeAdded);
     connect(deviceListener, &UDiskListener::volumeRemoved, this, &ComputerView::volumeRemoved);
-    connect(m_statusBar->scalingSlider(), &DSlider::valueChanged, this, &ComputerView::resizeAllItemsBySizeIndex);
-    connect(m_statusBar->scalingSlider(), &DSlider::valueChanged, this, &ComputerView::saveViewState);
+    //connect(m_statusBar->scalingSlider(), &DSlider::valueChanged, this, &ComputerView::resizeAllItemsBySizeIndex);
+    //connect(m_statusBar->scalingSlider(), &DSlider::valueChanged, this, &ComputerView::saveViewState);
     connect(DFMApplication::instance(), &DFMApplication::iconSizeLevelChanged, this, &ComputerView::resizeAllItemsBySizeIndex);
     connect(fileSignalManager, &FileSignalManager::requestRename, this, &ComputerView::onRequestEdit);
 

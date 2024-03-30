@@ -27,7 +27,7 @@
 #include "dfilemenumanager.h"
 #include "dfilemenu.h"
 #include "windowmanager.h"
-#include "dstatusbar.h"
+//#include "dstatusbar.h"
 #include "fileviewhelper.h"
 #include "dfilemanagerwindow.h"
 #include "dtoolbar.h"
