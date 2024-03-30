@@ -38,6 +38,7 @@
 #include <ddiskdevice.h>
 #include <dfmsettings.h>
 #include <DDesktopServices>
+#include <ddesktopservices.h>
 
 DWIDGET_USE_NAMESPACE
 

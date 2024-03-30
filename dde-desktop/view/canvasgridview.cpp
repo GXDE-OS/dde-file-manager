@@ -91,7 +91,7 @@ DWIDGET_USE_NAMESPACE
 CanvasGridView::CanvasGridView(QWidget *parent)
     : QAbstractItemView(parent), d(new CanvasViewPrivate)
 {
-    D_THEME_INIT_WIDGET(CanvasGridView);
+    //D_THEME_INIT_WIDGET(CanvasGridView);
 
     initUI();
     initConnection();

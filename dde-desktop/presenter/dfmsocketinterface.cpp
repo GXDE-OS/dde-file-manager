@@ -26,7 +26,6 @@
 #include <stdio.h>
 #include <unistd.h>
 
-#include <DDesktopServices>
 
 DWIDGET_USE_NAMESPACE
 

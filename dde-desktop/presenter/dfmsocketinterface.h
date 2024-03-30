@@ -12,6 +12,8 @@
 #include <QObject>
 #include <QScopedPointer>
 #include "../global/singleton.h"
+#include <ddesktopservices.h>
+#include <dapplication.h>
 
 class DFMSocketInterfacePrivate;
 class DFMSocketInterface : public QObject, public Singleton<DFMSocketInterface>

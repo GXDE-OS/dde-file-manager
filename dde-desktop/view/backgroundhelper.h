@@ -26,8 +26,10 @@
 #include <com_deepin_wm.h>
 #include <QGSettings>
 #include <DWindowManagerHelper>
+#include <dapplication.h>
 
 using WMInter = com::deepin::wm;
+DGUI_USE_NAMESPACE
 DWIDGET_USE_NAMESPACE
 
 class BackgroundHelper : public QObject

@@ -42,6 +42,7 @@
 #include <QScrollBar>
 #include <QDebug>
 #include <DDBusSender>
+#include <ddesktopservices.h>
 
 #define WIDTH           300
 

@@ -16,7 +16,7 @@
 
 #include "dbus/dbuszone.h"
 #include <QLabel>
-#include <DVideoWidget>
+#include "dvideowidget.h"
 
 DWIDGET_USE_NAMESPACE
 

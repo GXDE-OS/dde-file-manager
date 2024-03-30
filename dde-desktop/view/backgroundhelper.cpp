@@ -29,6 +29,8 @@
 #include <private/qhighdpiscaling_p.h>
 #undef private
 
+DGUI_USE_NAMESPACE
+
 BackgroundHelper *BackgroundHelper::desktop_instance = nullptr;
 
 BackgroundHelper::BackgroundHelper(bool preview, QObject *parent)
