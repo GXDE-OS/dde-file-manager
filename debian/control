@@ -58,7 +58,8 @@ Depends:
  socat,
  deepin-anything-dkms[i386 amd64],
  deepin-anything-server[i386 amd64],
- libdtkwidget2
+ libdtkwidget2,
+ libdtkcore2
 Recommends: dde-qt5integration, avfs, samba
 Description: File manager front end
  File manager front-end of Deepin OS
