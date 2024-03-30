@@ -244,7 +244,7 @@ void DFileView::setItemDelegate(DStyledItemDelegate *delegate)
 
     DListView::setItemDelegate(delegate);
 
-    connect(d->statusBar->scalingSlider(), &DSlider::valueChanged, delegate, &DStyledItemDelegate::setIconSizeByIconSizeLevel);
+    connect(d->statusBar->scalingSlider(), &QSlider::valueChanged, delegate, &DStyledItemDelegate::setIconSizeByIconSizeLevel);
 
     if (isIconViewMode()) {
         d->statusBar->scalingSlider()->setMinimum(delegate->minimumIconSizeLevel());

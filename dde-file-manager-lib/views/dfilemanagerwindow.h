@@ -29,6 +29,7 @@
 #include "dfmglobal.h"
 #include "dfmabstracteventhandler.h"
 #include "shutil/filebatchprocess.h"
+#include "dtoolbar.h"
 
 
 #include <DMainWindow>
@@ -87,7 +88,7 @@ public:
     DFMBaseView::ViewState currentViewState() const;
     bool isCurrentUrlSupportSearch(const DUrl &currentUrl);
 
-    QToolBar *getToolBar() const;
+    DToolBar *getToolBar() const;
     DFMBaseView *getFileView() const;
     DFMSideBar *getLeftSideBar() const;
     int getSplitterPosition() const;
