@@ -1,0 +1,13 @@
+DStatusBar {
+    color: "#797979";
+    background-color: white;
+}
+
+DStatusBar QLabel {
+    color: "#797979";
+    margin-bottom: 2px;
+}
+
+DStatusBar[mode=0] {
+    broder: none;
+}

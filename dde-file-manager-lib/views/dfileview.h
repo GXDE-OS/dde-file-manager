@@ -29,7 +29,7 @@
 #include "durl.h"
 #include "dfmbaseview.h"
 
-//#include "dstatusbar.h"
+#include "dstatusbar.h"
 
 #include <dlistview.h>
 
