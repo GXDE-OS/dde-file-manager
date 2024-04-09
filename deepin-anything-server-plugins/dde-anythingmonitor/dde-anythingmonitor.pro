@@ -33,7 +33,7 @@ isEmpty(DDE_FILE_MANAGER_DIR){
 }
 
 
-PKGCONFIG += deepin-anything-server-lib
+#PKGCONFIG += deepin-anything-server-lib
 
 
 INCLUDEPATH += $$PWD/../../dde-file-manager-lib \
@@ -84,6 +84,8 @@ HEADERS += \
     $$DDE_FILE_MANAGER_LIB_DIR/interfaces/dfmstandardpaths.h \
     $$DDE_FILE_MANAGER_LIB_DIR/interfaces/dfmapplication.h \
     $$DDE_FILE_MANAGER_LIB_DIR/interfaces/dfmsettings.h \
+    dasdefine.h \
+    dasinterface.h \
     taghandle.h
 
 
