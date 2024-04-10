@@ -19,10 +19,12 @@ isEqual(BUILD_MINIMUM, YES){
 #    dde-sharefiles
 }
 
-!CONFIG(DISABLE_ANYTHING) {
-    message("Deepin Anything server plugin enabled for" $$ARCH)
-    SUBDIRS += deepin-anything-server-plugins
-}
+# 强制开启 deepin anything 编译
+SUBDIRS += deepin-anything-server-plugins
+#!CONFIG(DISABLE_ANYTHING) {
+#    message("Deepin Anything server plugin enabled for" $$ARCH)
+#    SUBDIRS += deepin-anything-server-plugins
+#}
 
 dde-file-manager.depends = dde-file-manager-lib
 dde-dock-plugins.depends = dde-file-manager-lib
