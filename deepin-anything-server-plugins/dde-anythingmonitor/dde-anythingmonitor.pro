@@ -86,6 +86,7 @@ HEADERS += \
     $$DDE_FILE_MANAGER_LIB_DIR/interfaces/dfmsettings.h \
     dasdefine.h \
     dasinterface.h \
+    dasplugin.h \
     taghandle.h
 
 
