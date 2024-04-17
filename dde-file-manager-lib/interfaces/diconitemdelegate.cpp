@@ -42,7 +42,7 @@
 #include <QAbstractItemView>
 #include <QVBoxLayout>
 #include <private/qtextengine_p.h>
-
+#include <QPainterPath>
 DFM_USE_NAMESPACE
 
 #define ICON_SPACING 16

@@ -31,6 +31,7 @@
 #include <QLabel>
 #include <QImage>
 #include <QVBoxLayout>
+#include <QPainterPath>
 
 ProgressBox::ProgressBox(QWidget *parent) :
     ProgressLine(parent),

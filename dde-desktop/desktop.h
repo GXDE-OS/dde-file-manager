@@ -40,7 +40,7 @@ public:
 
 public slots:
     void Show();
-
+    Q_SCRIPTABLE void EnableBackground(bool v);
 private:
     explicit Desktop();
     ~Desktop();

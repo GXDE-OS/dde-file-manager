@@ -26,6 +26,7 @@
 #include "themeconfig.h"
 #include <QPainter>
 #include <QDebug>
+#include <QPainterPath>
 
 DFM_USE_NAMESPACE
 

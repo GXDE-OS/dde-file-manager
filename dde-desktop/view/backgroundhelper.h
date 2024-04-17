@@ -39,12 +39,14 @@ public:
     ~BackgroundHelper();
 
     bool isEnabled() const;
+    void setEnabled(bool enabled);
     QLabel *backgroundForScreen(QScreen *screen) const;
     QList<QLabel*> allBackgrounds() const;
 
     void setBackground(const QString &path);
     void setVisible(bool visible);
 
+    void onWMChanged();
 Q_SIGNALS:
     void aboutDestoryBackground(QLabel *l);
     void enableChanged();
@@ -54,7 +56,6 @@ Q_SIGNALS:
 private:
     bool isKWin() const;
     bool isDeepinWM() const;
-    void onWMChanged();
     void updateBackground(QLabel *l);
     void updateBackground();
     void onScreenAdded(QScreen *screen);
@@ -62,7 +63,7 @@ private:
 
     bool m_previuew = false;
     bool m_visible = true;
-
+    bool m_backgroundEnable = true; // 背景是否显示
     QGSettings          *gsettings          = nullptr;
     WMInter             *wmInter            = nullptr;
     DWindowManagerHelper* windowManagerHelper = nullptr;
