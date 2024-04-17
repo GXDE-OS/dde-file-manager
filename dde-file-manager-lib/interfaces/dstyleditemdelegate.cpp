@@ -16,6 +16,7 @@
 #include <QPainter>
 #include <QGuiApplication>
 #include <QThreadStorage>
+#include <QPainterPath>
 
 DStyledItemDelegate::DStyledItemDelegate(DFileViewHelper *parent)
     : DStyledItemDelegate(*new DStyledItemDelegatePrivate(this), parent)

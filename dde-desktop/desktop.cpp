@@ -83,7 +83,7 @@ static void setWindowFlag(QWidget *w, Qt::WindowType flag, bool on)
     w->setWindowFlag(flag, on);
 #endif
 }
-
+#include <QPainter>
 void Desktop::onBackgroundEnableChanged()
 {
     qInfo() << "Primary Screen:" << qApp->primaryScreen();
@@ -115,7 +115,7 @@ void Desktop::onBackgroundEnableChanged()
         setWindowFlag(&d->screenFrame, Qt::FramelessWindowHint, true);
         d->screenFrame.QWidget::setGeometry(qApp->primaryScreen()->geometry());
         Xcb::XcbMisc::instance().set_window_type(d->screenFrame.winId(), Xcb::XcbMisc::Desktop);
-
+        QWindow::fromWinId(d->screenFrame.winId())->setOpacity(0.99);
         d->screenFrame.show();
     }
 }
@@ -210,4 +210,12 @@ CanvasGridView *Desktop::getView()
 void Desktop::Show()
 {
     d->screenFrame.show();
+}
+
+void Desktop::EnableBackground(bool v)
+{
+    if (d && d->background) {
+        d->background->setEnabled(v);
+        d->background->onWMChanged();
+    }
 }

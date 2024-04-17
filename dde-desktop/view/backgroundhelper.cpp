@@ -62,8 +62,18 @@ BackgroundHelper* BackgroundHelper::getDesktopInstance()
 
 bool BackgroundHelper::isEnabled() const
 {
+    //不绘制壁纸
+    if(!m_backgroundEnable)
+    {
+        return false;
+    }
     // 只支持kwin，或未开启混成的桌面环境
     return windowManagerHelper->windowManagerName() == DWindowManagerHelper::KWinWM || !windowManagerHelper->hasComposite();
+}
+
+void BackgroundHelper::setEnabled(bool enabled)
+{
+    m_backgroundEnable = enabled;
 }
 
 QLabel *BackgroundHelper::backgroundForScreen(QScreen *screen) const
@@ -152,11 +162,16 @@ void BackgroundHelper::onWMChanged()
         }
 
         // 清理数据
-        gsettings->deleteLater();
-        gsettings = nullptr;
+        if(gsettings)
+        {
+            gsettings->deleteLater();
+            gsettings = nullptr;
+        }
 
-        wmInter->deleteLater();
-        wmInter = nullptr;
+        if (wmInter) {
+            wmInter->deleteLater();
+            wmInter = nullptr;
+        }
 
         currentWallpaper.clear();
         currentWorkspaceIndex = 0;

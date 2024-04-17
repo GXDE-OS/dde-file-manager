@@ -49,6 +49,7 @@
 #include <QFileDialog>
 #include <QStandardPaths>
 #include <QScroller>
+#include <QPainterPath>
 
 class OpenWithDialogListItem : public QWidget
 {
