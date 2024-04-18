@@ -68,7 +68,7 @@ Description: File manager front end
 
 Package: dde-desktop
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libdde-file-manager( =${binary:Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}, libdde-file-manager( =${binary:Version}), fantascene-gxde
 Conflicts: dde-workspace (<< 2.90.5)
 Recommends: qt5dxcb-plugin, deepin-screensaver
 Description: deepin desktop-environment - desktop module
