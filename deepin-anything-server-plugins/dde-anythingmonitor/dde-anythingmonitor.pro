@@ -43,7 +43,7 @@ INCLUDEPATH += $$PWD/../../dde-file-manager-lib \
 
 unix{
       PKG_CONFIG = pkg-config
-      target.path = $$system($$PKG_CONFIG --variable libdir deepin-anything-server-lib)/deepin-anything-server-lib/plugins/handlers
+      target.path = $$system($$PKG_CONFIG --variable libdir libwebp)/deepin-anything-server-lib/plugins/handlers
       INSTALLS += target
 }
 
