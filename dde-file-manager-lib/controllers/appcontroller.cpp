@@ -351,9 +351,9 @@ void AppController::actionAddToBookMark(const QSharedPointer<DFMUrlBaseEvent> &e
     fileService->addToBookmark(event->sender(), event->url());
 }
 
-void AppController::actionRefresh(DFileView *view)
+void AppController::actionRefresh(quint64 winId)
 {
-    view->refresh();
+    fileSignalManager->requestFreshFileView(winId);
 }
 
 void AppController::actionNewFolder(const QSharedPointer<DFMUrlBaseEvent> &event)

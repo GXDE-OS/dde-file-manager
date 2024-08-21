@@ -2355,7 +2355,7 @@ void CanvasGridView::showEmptyAreaMenu(const Qt::ItemFlags &/*indexFlags*/)
                 << MenuAction::SortBy;
         actions << MenuAction::Paste;
     }
-    actions << MenuAction::SelectAll << MenuAction::OpenInTerminal
+    actions << MenuAction::Refresh << MenuAction::SelectAll << MenuAction::OpenInTerminal
             << MenuAction::Property << MenuAction::Separator;
 
     if (actions.isEmpty()) {

@@ -229,6 +229,9 @@ static bool processMenuEvent(const QSharedPointer<DFMMenuActionEvent> &event)
     case DFMGlobal::Property:
         AppController::instance()->actionProperty(dMakeEventPointer<DFMUrlListBaseEvent>(event->sender(), event->selectedUrls().isEmpty() ? DUrlList() << event->currentUrl() : event->selectedUrls()));
         break;
+    case DFMGlobal::Refresh:
+        AppController::instance()->actionRefresh(event->windowId());
+        break;
     case DFMGlobal::NewFolder:
         AppController::instance()->actionNewFolder(dMakeEventPointer<DFMUrlBaseEvent>(event->sender(), event->currentUrl()));
         break;
