@@ -1027,6 +1027,7 @@ void DFileView::keyPressEvent(QKeyEvent *event)
                 return;
 
             clearSelection();
+            appController->actionRefresh(this);
             appController->actionNewFolder(dMakeEventPointer<DFMUrlBaseEvent>(this, rootUrl()));
 
             return;

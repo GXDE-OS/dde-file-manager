@@ -274,6 +274,13 @@ bool DAbstractFileController::unShareFolder(const QSharedPointer<DFMCancelFileSh
     return false;
 }
 
+bool DAbstractFileController::reFresh(const QSharedPointer<DFMRefreshEvent> &event) const
+{
+    event->ignore();
+
+    return false;
+}
+
 bool DAbstractFileController::openInTerminal(const QSharedPointer<DFMOpenInTerminalEvent> &event) const
 {
     event->ignore();

@@ -54,6 +54,7 @@ class DFMGetChildrensEvent;
 class DFMCreateDiriterator;
 class DFMCreateFileInfoEvent;
 class DFMCreateFileWatcherEvent;
+class DFMRefreshEvent;
 class DFMOpenInTerminalEvent;
 class DFMFileShareEvent;
 class DFMCancelFileShareEvent;
@@ -106,6 +107,7 @@ public:
     virtual bool createSymlink(const QSharedPointer<DFMCreateSymlinkEvent> &event) const;
     virtual bool shareFolder(const QSharedPointer<DFMFileShareEvent> &event) const;
     virtual bool unShareFolder(const QSharedPointer<DFMCancelFileShareEvent> &event) const;
+    virtual bool reFresh(const QSharedPointer<DFMRefreshEvent> &event) const;
     virtual bool openInTerminal(const QSharedPointer<DFMOpenInTerminalEvent> &event) const;
 
     virtual bool setFileTags(const QSharedPointer<DFMSetFileTagsEvent> &event) const;

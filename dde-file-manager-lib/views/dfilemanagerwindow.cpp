@@ -87,6 +87,8 @@
 
 DWIDGET_USE_NAMESPACE
 
+const QColor DARK_TOP_BORDERCOLOR = QColor(255, 255, 255, 13);
+
 std::unique_ptr<RecordRenameBarState>  DFileManagerWindow::renameBarState{ nullptr };
 std::atomic<bool> DFileManagerWindow::flagForNewWindowFromTab{ false };
 
@@ -936,6 +938,9 @@ void DFileManagerWindow::initTitleBar()
         set_theme_action->setText(tr("Dark theme"));
         if (DThemeManager::instance()->theme(this) == "dark") {
             set_theme_action->setChecked(true);
+            QPalette palette;
+            palette.setColor(QPalette::Window, DARK_TOP_BORDERCOLOR);
+            d->toolbar->setPalette(palette);
         }
         connect(set_theme_action, &QAction::triggered, this, &DFileManagerWindow::onThemeChanged);
     }

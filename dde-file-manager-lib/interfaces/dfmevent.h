@@ -65,6 +65,7 @@ public:
         CreateSymlink,
         FileShare,
         CancelFileShare,
+        Refresh,
         OpenInTerminal,
         GetChildrens,
         CreateFileInfo,
@@ -493,6 +494,14 @@ public:
     explicit DFMCancelFileShareEvent(const QObject *sender, const DUrl &url);
 
     static QSharedPointer<DFMCancelFileShareEvent> fromJson(const QJsonObject &json);
+};
+
+class DFMRefreshEvent : public DFMUrlBaseEvent
+{
+public:
+    explicit DFMRefreshEvent(const QObject *sender, const DUrl &url);
+
+    static QSharedPointer<DFMRefreshEvent> fromJson(const QJsonObject &json);
 };
 
 class DFMOpenInTerminalEvent : public DFMUrlBaseEvent

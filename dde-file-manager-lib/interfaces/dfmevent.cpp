@@ -72,6 +72,8 @@ static QString fmeventType2String(DFMEvent::Type type)
         return QStringLiteral(QT_STRINGIFY(FileShare));
     case DFMEvent::CancelFileShare:
         return QStringLiteral(QT_STRINGIFY(CancelFileShare));
+    case DFMEvent::Refresh:
+        return QStringLiteral(QT_STRINGIFY(Refresh));
     case DFMEvent::OpenInTerminal:
         return QStringLiteral(QT_STRINGIFY(OpenInTerminal));
     case DFMEvent::GetChildrens:
@@ -253,6 +255,8 @@ const QSharedPointer<DFMEvent> DFMEvent::fromJson(DFMEvent::Type type, const QJs
         return DFMFileShareEvent::fromJson(json);
     case CancelFileShare:
         return DFMCancelFileShareEvent::fromJson(json);
+    case Refresh:
+        return DFMRefreshEvent::fromJson(json);
     case OpenInTerminal:
         return DFMOpenInTerminalEvent::fromJson(json);
     case GetChildrens:
@@ -634,6 +638,17 @@ DFMCancelFileShareEvent::DFMCancelFileShareEvent(const QObject *sender, const DU
 QSharedPointer<DFMCancelFileShareEvent> DFMCancelFileShareEvent::fromJson(const QJsonObject &json)
 {
     return DFMUrlBaseEvent::fromJson(CancelFileShare, json).staticCast<DFMCancelFileShareEvent>();
+}
+
+DFMRefreshEvent::DFMRefreshEvent(const QObject *sender, const DUrl &url)
+    : DFMUrlBaseEvent(Refresh, sender, url)
+{
+
+}
+
+QSharedPointer<DFMRefreshEvent> DFMRefreshEvent::fromJson(const QJsonObject &json)
+{
+    return DFMUrlBaseEvent::fromJson(Refresh, json).staticCast<DFMRefreshEvent>();
 }
 
 DFMOpenInTerminalEvent::DFMOpenInTerminalEvent(const QObject *sender, const DUrl &url)

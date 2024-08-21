@@ -87,6 +87,8 @@
 #include "models/desktopfileinfo.h"
 #include "controllers/tagmanagerdaemoncontroller.h"
 
+#include <QMessageBox>
+
 #include "dblockdevice.h"
 #include "ddiskdevice.h"
 #include "ddiskmanager.h"
@@ -347,6 +349,11 @@ void AppController::actionSendToDesktop(const QSharedPointer<DFMUrlListBaseEvent
 void AppController::actionAddToBookMark(const QSharedPointer<DFMUrlBaseEvent> &event)
 {
     fileService->addToBookmark(event->sender(), event->url());
+}
+
+void AppController::actionRefresh(DFileView *view)
+{
+    view->refresh();
 }
 
 void AppController::actionNewFolder(const QSharedPointer<DFMUrlBaseEvent> &event)

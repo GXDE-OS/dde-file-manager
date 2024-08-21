@@ -676,6 +676,7 @@ void DFileMenuData::initData()
     actionKeys[MenuAction::NewExcel] = QObject::tr("Spreadsheets");
     actionKeys[MenuAction::NewPowerpoint] = QObject::tr("Presentation");
     actionKeys[MenuAction::NewText] = QObject::tr("Plain Text");
+    actionKeys[MenuAction::Refresh] = QObject::tr("Refresh");
     actionKeys[MenuAction::OpenInTerminal] = QObject::tr("Open in terminal");
     actionKeys[MenuAction::Restore] = QObject::tr("Restore");
     actionKeys[MenuAction::RestoreAll] = QObject::tr("Restore all");

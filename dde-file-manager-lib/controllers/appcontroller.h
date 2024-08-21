@@ -32,7 +32,7 @@
 #include "dfmevent.h"
 #include "dbusinterface/startmanager_interface.h"
 #include "dbusinterface/introspectable_interface.h"
-
+#include "views/dfileview.h"
 
 class FileController;
 class FileMonitor;
@@ -119,6 +119,8 @@ public slots:
     void actionShowHotkeyHelp(quint64 winId);
     void actionBack(quint64 winId);
     void actionForward(quint64 winId);
+
+    void actionRefresh(DFileView *view);
 
     void actionForgetPassword(const QSharedPointer<DFMUrlBaseEvent> &event);
 

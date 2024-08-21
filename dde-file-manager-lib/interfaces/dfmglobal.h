@@ -181,6 +181,7 @@ public:
         NewPowerpoint, /// sub menu
         NewText, /// sub menu
         OpenInTerminal,
+        Refresh,
         Restore,
         RestoreAll,
         CompleteDeletion,
