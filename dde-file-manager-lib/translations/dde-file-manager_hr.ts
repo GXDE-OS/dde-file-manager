@@ -1,8 +1,10 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="hr" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="hr">
 <context>
     <name>AppController</name>
     <message>
-        <location filename="../controllers/appcontroller.cpp" line="356"/>
+        <location filename="../controllers/appcontroller.cpp" line="363"/>
         <source>New Folder</source>
         <translation>Nova mapa</translation>
     </message>
@@ -114,12 +116,12 @@
     <message>
         <location filename="../views/dfmadvancesearchbar.cpp" line="105"/>
         <source>Time Modified:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../views/dfmadvancesearchbar.cpp" line="107"/>
         <source>Reset</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../views/dfmadvancesearchbar.cpp" line="121"/>
@@ -207,17 +209,17 @@
     <message>
         <location filename="../views/dfmsidebaropticaldevitem.cpp" line="178"/>
         <source>Blank %1 disc</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../views/dfmsidebaropticaldevitem.cpp" line="180"/>
         <source>%1 disc</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../views/dfmsidebaropticaldevitem.cpp" line="189"/>
         <source>%1 drive</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -225,7 +227,7 @@
     <message>
         <location filename="../controllers/dfmtagcrumbcontroller.cpp" line="55"/>
         <source>Tag information</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -233,7 +235,7 @@
     <message>
         <location filename="../io/dfilecopymovejob.cpp" line="163"/>
         <source>Permission error</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../io/dfilecopymovejob.cpp" line="165"/>
@@ -283,22 +285,22 @@
     <message>
         <location filename="../io/dfilecopymovejob.cpp" line="187"/>
         <source>Target disk doesn&apos;t have enough space</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../io/dfilecopymovejob.cpp" line="189"/>
         <source>File integrity was damaged</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../io/dfilecopymovejob.cpp" line="191"/>
         <source>The target device is read only</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../io/dfilecopymovejob.cpp" line="193"/>
         <source>Target folder is inside the source folder</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../io/dfilecopymovejob.cpp" line="505"/>
@@ -309,54 +311,54 @@
     <message>
         <location filename="../io/dfilecopymovejob.cpp" line="807"/>
         <source>Failed to create the directory, cause: %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../io/dfilecopymovejob.cpp" line="904"/>
         <location filename="../io/dfilecopymovejob.cpp" line="926"/>
         <source>Failed to open the file, cause: %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../io/dfilecopymovejob.cpp" line="995"/>
         <source>Failed to read the file, cause: %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../io/dfilecopymovejob.cpp" line="1051"/>
         <source>Failed to write the file, cause: %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../io/dfilecopymovejob.cpp" line="1135"/>
         <source>File integrity was damaged, cause: %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../io/dfilecopymovejob.cpp" line="1194"/>
         <source>Failed to delete the file, cause: %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../io/dfilecopymovejob.cpp" line="1254"/>
         <source>Fail to create symlink, cause: %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>DFileDialog</name>
     <message>
-        <location filename="../views/dfiledialog.cpp" line="1020"/>
+        <location filename="../views/dfiledialog.cpp" line="1018"/>
         <source>%1 already exists, do you want to replace it?</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../views/dfiledialog.cpp" line="1021"/>
+        <location filename="../views/dfiledialog.cpp" line="1019"/>
         <source>Cancel</source>
         <translation>Otkaži</translation>
     </message>
     <message>
-        <location filename="../views/dfiledialog.cpp" line="1022"/>
+        <location filename="../views/dfiledialog.cpp" line="1020"/>
         <source>Replace</source>
         <translation>Zamijeni</translation>
     </message>
@@ -364,9 +366,9 @@
 <context>
     <name>DFileManagerWindow</name>
     <message>
-        <location filename="../views/dfilemanagerwindow.cpp" line="842"/>
+        <location filename="../views/dfilemanagerwindow.cpp" line="938"/>
         <source>Dark theme</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -378,7 +380,7 @@
         <translation>Ime</translation>
     </message>
     <message>
-        <location filename="../interfaces/dabstractfileinfo.cpp" line="1020"/>
+        <location filename="../interfaces/dabstractfileinfo.cpp" line="1030"/>
         <location filename="../interfaces/dfilesystemmodel.cpp" line="1379"/>
         <location filename="../models/searchfileinfo.cpp" line="121"/>
         <source>Time modified</source>
@@ -400,7 +402,7 @@
         <translation>Vrijeme stvaranja</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="692"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="693"/>
         <location filename="../interfaces/dfilesystemmodel.cpp" line="1387"/>
         <source>Last access</source>
         <translation>Zadnji pristup</translation>
@@ -414,9 +416,9 @@
 <context>
     <name>DFileView</name>
     <message>
-        <location filename="../views/dfileview.cpp" line="2722"/>
+        <location filename="../views/dfileview.cpp" line="2723"/>
         <source>(Reverse)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -424,7 +426,7 @@
     <message>
         <location filename="../interfaces/dfileviewhelper.cpp" line="560"/>
         <source>Add tag &quot;%1&quot;</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -493,9 +495,8 @@
 <context>
     <name>DTaskDialog</name>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="83"/>
         <source>This action is not supported</source>
-        <translation>Ova radnja nije podržana</translation>
+        <translation type="vanished">Ova radnja nije podržana</translation>
     </message>
 </context>
 <context>
@@ -504,13 +505,13 @@
         <location filename="../devicemanagement/dfmudisks2deviceinfo.cpp" line="114"/>
         <location filename="../devicemanagement/dfmudisks2deviceinfo.cpp" line="129"/>
         <source>%1 Volume</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../deviceinfo/udiskdeviceinfo.cpp" line="53"/>
         <source>Data Disk</source>
         <comment>Data Partition</comment>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -591,7 +592,7 @@
     <message>
         <location filename="../dialogs/dialogmanager.cpp" line="411"/>
         <source>This file is not executable, do you want to add the execute permission and run?</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/dialogmanager.cpp" line="425"/>
@@ -611,58 +612,58 @@
     <message>
         <location filename="../dialogs/dialogmanager.cpp" line="437"/>
         <source>Are you sure you want to erase all data on the disc?</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/dialogmanager.cpp" line="442"/>
         <source>Erase</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/dialogmanager.cpp" line="464"/>
         <source>How do you want to use this disc?</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/dialogmanager.cpp" line="468"/>
         <source>Burn image</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/dialogmanager.cpp" line="468"/>
         <source>Burn files</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/dialogmanager.cpp" line="495"/>
         <source>Disc erase failed</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/dialogmanager.cpp" line="499"/>
         <source>Burn process failed</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/dialogmanager.cpp" line="502"/>
         <source>%1: %2</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/dialogmanager.cpp" line="518"/>
         <location filename="../dialogs/dialogmanager.cpp" line="528"/>
         <source>Show details</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/dialogmanager.cpp" line="522"/>
         <source>Hide details</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/dialogmanager.cpp" line="523"/>
         <source>Error</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/dialogmanager.cpp" line="550"/>
@@ -752,7 +753,7 @@
     <message>
         <location filename="../dialogs/dialogmanager.cpp" line="961"/>
         <source>%1 files failed to restore, target file removed or location changed</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/dialogmanager.cpp" line="973"/>
@@ -763,17 +764,17 @@
     <message>
         <location filename="../dialogs/dialogmanager.cpp" line="1015"/>
         <source>Sorry, you don&apos;t have permission to operate the following %1 file/folder(s)!</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/dialogmanager.cpp" line="1102"/>
         <source>2. Uncheck &quot;Turn on fast startup&quot; and &quot;Hibernate&quot; in shutdown settings and reboot</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/dialogmanager.cpp" line="1319"/>
         <source>Share folder can&apos;t be named after the current username</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/dialogmanager.cpp" line="1043"/>
@@ -783,28 +784,28 @@
     <message>
         <location filename="../dialogs/dialogmanager.cpp" line="394"/>
         <source>Do you want to run %1?</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/dialogmanager.cpp" line="548"/>
         <source>Are you sure you want to empty %1 item?</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/dialogmanager.cpp" line="549"/>
         <source>Are you sure you want to empty %1 items?</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/dialogmanager.cpp" line="451"/>
         <location filename="../dialogs/dialogmanager.cpp" line="599"/>
         <source>This action cannot be undone</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/dialogmanager.cpp" line="755"/>
         <source>Disk is busy, cannot unmount now</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/dialogmanager.cpp" line="1087"/>
@@ -814,7 +815,7 @@
     <message>
         <location filename="../dialogs/dialogmanager.cpp" line="1091"/>
         <source>Disks in Windows will be unable to read and write normally if check &quot;Turn on fast startup (recommended)&quot; in Shutdown settings</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/dialogmanager.cpp" line="1095"/>
@@ -878,454 +879,187 @@
 <context>
     <name>FileJob</name>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="164"/>
         <source>copy</source>
-        <translation>kopiraj</translation>
+        <translation type="vanished">kopiraj</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="690"/>
-        <location filename="../../fileoperations/filejob.cpp" line="749"/>
-        <source>Data verification successful.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../fileoperations/filejob.cpp" line="690"/>
-        <location filename="../../fileoperations/filejob.cpp" line="749"/>
-        <source>Data verification failed.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../fileoperations/filejob.cpp" line="692"/>
-        <location filename="../../fileoperations/filejob.cpp" line="751"/>
-        <source>Burn process completed</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../fileoperations/filejob.cpp" line="865"/>
         <source>%1 s</source>
-        <translation>%1 s</translation>
+        <translation type="vanished">%1 s</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="869"/>
         <source>%1 m %2 s</source>
-        <translation>%1 m %2 s</translation>
+        <translation type="vanished">%1 m %2 s</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="875"/>
         <source>%1 h %2 m %3 s</source>
-        <translation>%1 s %2 m %3 s</translation>
+        <translation type="vanished">%1 s %2 m %3 s</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="884"/>
         <source>%1 d %2 h %3 m %4 s</source>
-        <translation>%1 d %2 s %3 m %4 s</translation>
-    </message>
-    <message>
-        <location filename="../../fileoperations/filejob.cpp" line="2611"/>
-        <source>%1 is a duplicate file.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../fileoperations/filejob.cpp" line="2614"/>
-        <source>Insufficient disc space.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../fileoperations/filejob.cpp" line="2617"/>
-        <source>Lost connection to drive.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../fileoperations/filejob.cpp" line="2620"/>
-        <source>The CD/DVD drive is not ready. Try another disc.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../fileoperations/filejob.cpp" line="2623"/>
-        <source>The CD/DVD drive is busy. Exit the program using the drive, and insert the drive again.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../fileoperations/filejob.cpp" line="2626"/>
-        <source>Unknown error</source>
-        <translation type="unfinished"/>
+        <translation type="vanished">%1 d %2 s %3 m %4 s</translation>
     </message>
 </context>
 <context>
     <name>GenerateSettingTranslate</name>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="5"/>
-        <location filename="../configure/global-setting-template-pro.js" line="5"/>
-        <location filename="../configure/global-setting-template.js" line="5"/>
         <source>Basic</source>
-        <translation>Osnovno</translation>
+        <translation type="vanished">Osnovno</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="9"/>
-        <location filename="../configure/global-setting-template-pro.js" line="9"/>
-        <location filename="../configure/global-setting-template.js" line="9"/>
         <source>Open behavior</source>
-        <translation>Ponašanje otvaranja</translation>
+        <translation type="vanished">Ponašanje otvaranja</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="14"/>
-        <location filename="../configure/global-setting-template-pro.js" line="14"/>
-        <location filename="../configure/global-setting-template.js" line="14"/>
         <source>Always open folder in new window</source>
-        <translation>Uvijek otvori mapu u novom prozoru</translation>
+        <translation type="vanished">Uvijek otvori mapu u novom prozoru</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="19"/>
-        <location filename="../configure/global-setting-template-pro.js" line="19"/>
-        <location filename="../configure/global-setting-template.js" line="19"/>
         <source>Open file:</source>
-        <translation>Otvori datoteku:</translation>
+        <translation type="vanished">Otvori datoteku:</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="22"/>
-        <location filename="../configure/global-setting-template-pro.js" line="22"/>
-        <location filename="../configure/global-setting-template.js" line="22"/>
         <source>Click</source>
-        <translation>Klik</translation>
+        <translation type="vanished">Klik</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="23"/>
-        <location filename="../configure/global-setting-template-pro.js" line="23"/>
-        <location filename="../configure/global-setting-template.js" line="23"/>
         <source>Double click</source>
-        <translation>Dvostruki klik</translation>
+        <translation type="vanished">Dvostruki klik</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="31"/>
-        <location filename="../configure/global-setting-template-pro.js" line="31"/>
-        <location filename="../configure/global-setting-template.js" line="31"/>
         <source>New window and tab</source>
-        <translation>Novi prozor i nova kartica</translation>
+        <translation type="vanished">Novi prozor i nova kartica</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="35"/>
-        <location filename="../configure/global-setting-template-pro.js" line="35"/>
-        <location filename="../configure/global-setting-template.js" line="35"/>
         <source>Open from default window:</source>
-        <translation>Otvori iz zadanog prozora:</translation>
+        <translation type="vanished">Otvori iz zadanog prozora:</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="39"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="68"/>
-        <location filename="../configure/global-setting-template-pro.js" line="39"/>
-        <location filename="../configure/global-setting-template-pro.js" line="68"/>
-        <location filename="../configure/global-setting-template.js" line="39"/>
-        <location filename="../configure/global-setting-template.js" line="68"/>
         <source>Computer</source>
-        <translation>Računalo</translation>
+        <translation type="vanished">Računalo</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="40"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="69"/>
-        <location filename="../configure/global-setting-template-pro.js" line="40"/>
-        <location filename="../configure/global-setting-template-pro.js" line="69"/>
-        <location filename="../configure/global-setting-template.js" line="40"/>
-        <location filename="../configure/global-setting-template.js" line="69"/>
         <source>Home</source>
-        <translation>Dom</translation>
+        <translation type="vanished">Dom</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="41"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="70"/>
-        <location filename="../configure/global-setting-template-pro.js" line="41"/>
-        <location filename="../configure/global-setting-template-pro.js" line="70"/>
-        <location filename="../configure/global-setting-template.js" line="41"/>
-        <location filename="../configure/global-setting-template.js" line="70"/>
         <source>Desktop</source>
-        <translation>Radna površina</translation>
+        <translation type="vanished">Radna površina</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="42"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="71"/>
-        <location filename="../configure/global-setting-template-pro.js" line="42"/>
-        <location filename="../configure/global-setting-template-pro.js" line="71"/>
-        <location filename="../configure/global-setting-template.js" line="42"/>
-        <location filename="../configure/global-setting-template.js" line="71"/>
         <source>Videos</source>
-        <translation>Video zapisi</translation>
+        <translation type="vanished">Video zapisi</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="43"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="72"/>
-        <location filename="../configure/global-setting-template-pro.js" line="43"/>
-        <location filename="../configure/global-setting-template-pro.js" line="72"/>
-        <location filename="../configure/global-setting-template.js" line="43"/>
-        <location filename="../configure/global-setting-template.js" line="72"/>
         <source>Music</source>
-        <translation>Glazba</translation>
+        <translation type="vanished">Glazba</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="44"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="73"/>
-        <location filename="../configure/global-setting-template-pro.js" line="44"/>
-        <location filename="../configure/global-setting-template-pro.js" line="73"/>
-        <location filename="../configure/global-setting-template.js" line="44"/>
-        <location filename="../configure/global-setting-template.js" line="73"/>
         <source>Pictures</source>
-        <translation>Slike</translation>
+        <translation type="vanished">Slike</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="45"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="74"/>
-        <location filename="../configure/global-setting-template-pro.js" line="45"/>
-        <location filename="../configure/global-setting-template-pro.js" line="74"/>
-        <location filename="../configure/global-setting-template.js" line="45"/>
-        <location filename="../configure/global-setting-template.js" line="74"/>
         <source>Documents</source>
-        <translation>Dokumenti</translation>
+        <translation type="vanished">Dokumenti</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="46"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="75"/>
-        <location filename="../configure/global-setting-template-pro.js" line="46"/>
-        <location filename="../configure/global-setting-template-pro.js" line="75"/>
-        <location filename="../configure/global-setting-template.js" line="46"/>
-        <location filename="../configure/global-setting-template.js" line="75"/>
         <source>Downloads</source>
-        <translation>Preuzimanja</translation>
+        <translation type="vanished">Preuzimanja</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="63"/>
-        <location filename="../configure/global-setting-template-pro.js" line="63"/>
-        <location filename="../configure/global-setting-template.js" line="63"/>
         <source>Open in new tab:</source>
-        <translation>Otvori u novoj kartici:</translation>
+        <translation type="vanished">Otvori u novoj kartici:</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="67"/>
-        <location filename="../configure/global-setting-template-pro.js" line="67"/>
-        <location filename="../configure/global-setting-template.js" line="67"/>
         <source>Current Directory</source>
-        <translation>Trenutni direktorij</translation>
+        <translation type="vanished">Trenutni direktorij</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="95"/>
-        <location filename="../configure/global-setting-template-pro.js" line="95"/>
-        <location filename="../configure/global-setting-template.js" line="95"/>
         <source>View</source>
-        <translation>Pogled</translation>
+        <translation type="vanished">Pogled</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="99"/>
-        <location filename="../configure/global-setting-template-pro.js" line="99"/>
-        <location filename="../configure/global-setting-template.js" line="99"/>
         <source>Default size:</source>
-        <translation>Zadana veličina:</translation>
+        <translation type="vanished">Zadana veličina:</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="102"/>
-        <location filename="../configure/global-setting-template-pro.js" line="102"/>
-        <location filename="../configure/global-setting-template.js" line="102"/>
         <source>Extra small</source>
-        <translation>Izuzetno malo</translation>
+        <translation type="vanished">Izuzetno malo</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="103"/>
-        <location filename="../configure/global-setting-template-pro.js" line="103"/>
-        <location filename="../configure/global-setting-template.js" line="103"/>
         <source>Small</source>
-        <translation>Malo</translation>
+        <translation type="vanished">Malo</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="104"/>
-        <location filename="../configure/global-setting-template-pro.js" line="104"/>
-        <location filename="../configure/global-setting-template.js" line="104"/>
         <source>Medium</source>
-        <translation>Srednje</translation>
+        <translation type="vanished">Srednje</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="105"/>
-        <location filename="../configure/global-setting-template-pro.js" line="105"/>
-        <location filename="../configure/global-setting-template.js" line="105"/>
         <source>Large</source>
-        <translation>Veliko</translation>
+        <translation type="vanished">Veliko</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="106"/>
-        <location filename="../configure/global-setting-template-pro.js" line="106"/>
-        <location filename="../configure/global-setting-template.js" line="106"/>
         <source>Extra large</source>
-        <translation>Izuzetno veliko</translation>
+        <translation type="vanished">Izuzetno veliko</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="112"/>
-        <location filename="../configure/global-setting-template-pro.js" line="112"/>
-        <location filename="../configure/global-setting-template.js" line="112"/>
-        <source>Default view:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="116"/>
-        <location filename="../configure/global-setting-template-pro.js" line="116"/>
-        <location filename="../configure/global-setting-template.js" line="116"/>
         <source>Icon</source>
-        <translation>Ikona</translation>
+        <translation type="vanished">Ikona</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="117"/>
-        <location filename="../configure/global-setting-template-pro.js" line="117"/>
-        <location filename="../configure/global-setting-template.js" line="117"/>
         <source>List</source>
-        <translation>Popis</translation>
+        <translation type="vanished">Popis</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="129"/>
-        <location filename="../configure/global-setting-template-pro.js" line="129"/>
-        <location filename="../configure/global-setting-template.js" line="129"/>
         <source>Hidden files</source>
-        <translation>Skrivene datoteke</translation>
+        <translation type="vanished">Skrivene datoteke</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="133"/>
-        <location filename="../configure/global-setting-template-pro.js" line="133"/>
-        <location filename="../configure/global-setting-template.js" line="133"/>
         <source>Show hidden files</source>
-        <translation>Pokaži skrivene datoteke</translation>
+        <translation type="vanished">Pokaži skrivene datoteke</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="139"/>
-        <location filename="../configure/global-setting-template-pro.js" line="139"/>
-        <location filename="../configure/global-setting-template.js" line="139"/>
-        <source>Hide file extension when rename</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="156"/>
-        <location filename="../configure/global-setting-template-pro.js" line="157"/>
-        <location filename="../configure/global-setting-template.js" line="157"/>
         <source>Advanced</source>
-        <translation>Napredno</translation>
+        <translation type="vanished">Napredno</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="160"/>
-        <location filename="../configure/global-setting-template-pro.js" line="161"/>
-        <location filename="../configure/global-setting-template.js" line="161"/>
-        <source>Index</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="164"/>
-        <location filename="../configure/global-setting-template-pro.js" line="165"/>
-        <location filename="../configure/global-setting-template.js" line="165"/>
-        <source>Auto index internal disk</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="170"/>
-        <location filename="../configure/global-setting-template-pro.js" line="171"/>
-        <location filename="../configure/global-setting-template.js" line="171"/>
-        <source>Index external storage device after connected to computer</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="259"/>
-        <location filename="../configure/global-setting-template-pro.js" line="259"/>
-        <location filename="../configure/global-setting-template.js" line="258"/>
         <source>Other</source>
-        <translation>Ostalo</translation>
+        <translation type="vanished">Ostalo</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="263"/>
-        <location filename="../configure/global-setting-template-pro.js" line="263"/>
-        <location filename="../configure/global-setting-template.js" line="262"/>
-        <source>Hide system disk</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="182"/>
-        <location filename="../configure/global-setting-template-pro.js" line="183"/>
-        <location filename="../configure/global-setting-template.js" line="183"/>
         <source>Show hidden files in search results</source>
-        <translation>Pokaži skrivene datoteke u rezultatima pretrage</translation>
+        <translation type="vanished">Pokaži skrivene datoteke u rezultatima pretrage</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="145"/>
-        <location filename="../configure/global-setting-template-pro.js" line="145"/>
-        <location filename="../configure/global-setting-template.js" line="145"/>
-        <source>Display recent file entry in left panel</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="191"/>
-        <location filename="../configure/global-setting-template-pro.js" line="192"/>
-        <location filename="../configure/global-setting-template.js" line="192"/>
         <source>Preview</source>
-        <translation>Pregled</translation>
+        <translation type="vanished">Pregled</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="195"/>
-        <location filename="../configure/global-setting-template-pro.js" line="196"/>
-        <location filename="../configure/global-setting-template.js" line="196"/>
-        <source>Compress file preview</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="202"/>
-        <location filename="../configure/global-setting-template-pro.js" line="203"/>
-        <location filename="../configure/global-setting-template.js" line="202"/>
         <source>Text preview</source>
-        <translation>Pregled teksta</translation>
+        <translation type="vanished">Pregled teksta</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="208"/>
-        <location filename="../configure/global-setting-template-pro.js" line="209"/>
-        <location filename="../configure/global-setting-template.js" line="208"/>
         <source>Document preview</source>
-        <translation>Pregled dokumenta</translation>
+        <translation type="vanished">Pregled dokumenta</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="214"/>
-        <location filename="../configure/global-setting-template-pro.js" line="215"/>
-        <location filename="../configure/global-setting-template.js" line="214"/>
         <source>Image preview</source>
-        <translation>Pregled slike</translation>
+        <translation type="vanished">Pregled slike</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="220"/>
-        <location filename="../configure/global-setting-template-pro.js" line="221"/>
-        <location filename="../configure/global-setting-template.js" line="220"/>
         <source>Video preview</source>
-        <translation>Pregled video zapisa</translation>
+        <translation type="vanished">Pregled video zapisa</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="229"/>
-        <location filename="../configure/global-setting-template-pro.js" line="229"/>
-        <location filename="../configure/global-setting-template.js" line="228"/>
         <source>Mount</source>
-        <translation>Spoji</translation>
+        <translation type="vanished">Spoji</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="233"/>
-        <location filename="../configure/global-setting-template-pro.js" line="233"/>
-        <location filename="../configure/global-setting-template.js" line="232"/>
         <source>Auto mount</source>
-        <translation>Samomontiranje</translation>
+        <translation type="vanished">Samomontiranje</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="239"/>
-        <location filename="../configure/global-setting-template-pro.js" line="239"/>
-        <location filename="../configure/global-setting-template.js" line="238"/>
-        <source>Open after auto mount</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="247"/>
-        <location filename="../configure/global-setting-template-pro.js" line="247"/>
-        <location filename="../configure/global-setting-template.js" line="246"/>
         <source>Dialog</source>
-        <translation>Dijalog</translation>
-    </message>
-    <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="251"/>
-        <location filename="../configure/global-setting-template-pro.js" line="251"/>
-        <location filename="../configure/global-setting-template.js" line="250"/>
-        <source>Use the file chooser dialog of Deepin File Manager</source>
-        <translation type="unfinished"/>
+        <translation type="vanished">Dijalog</translation>
     </message>
 </context>
 <context>
@@ -1333,7 +1067,7 @@
     <message>
         <location filename="../gvfs/gvfsmountclient.cpp" line="149"/>
         <source>Mounting device error</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1341,7 +1075,7 @@
     <message>
         <location filename="../gvfs/gvfsmountmanager.cpp" line="1337"/>
         <source>The disk is mounted by user &quot;%1&quot;, you cannot unmount it.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../gvfs/gvfsmountmanager.cpp" line="1340"/>
@@ -1356,17 +1090,17 @@
         <location filename="../gvfs/gvfsmountmanager.cpp" line="1347"/>
         <location filename="../gvfs/gvfsmountmanager.cpp" line="1528"/>
         <source>Cannot find the mounting device</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../gvfs/gvfsmountmanager.cpp" line="1376"/>
         <source>Cannot unmount the device</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../gvfs/gvfsmountmanager.cpp" line="1496"/>
         <source>Cannot eject the device &quot;%1&quot;</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1375,37 +1109,37 @@
         <location filename="../controllers/mergeddesktopcontroller.cpp" line="387"/>
         <location filename="../controllers/mergeddesktopcontroller.cpp" line="407"/>
         <source>Pictures</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Slike</translation>
     </message>
     <message>
         <location filename="../controllers/mergeddesktopcontroller.cpp" line="389"/>
         <location filename="../controllers/mergeddesktopcontroller.cpp" line="409"/>
         <source>Music</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Glazba</translation>
     </message>
     <message>
         <location filename="../controllers/mergeddesktopcontroller.cpp" line="391"/>
         <location filename="../controllers/mergeddesktopcontroller.cpp" line="411"/>
         <source>Applications</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../controllers/mergeddesktopcontroller.cpp" line="393"/>
         <location filename="../controllers/mergeddesktopcontroller.cpp" line="413"/>
         <source>Videos</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Video zapisi</translation>
     </message>
     <message>
         <location filename="../controllers/mergeddesktopcontroller.cpp" line="395"/>
         <location filename="../controllers/mergeddesktopcontroller.cpp" line="415"/>
         <source>Documents</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Dokumenti</translation>
     </message>
     <message>
         <location filename="../controllers/mergeddesktopcontroller.cpp" line="397"/>
         <location filename="../controllers/mergeddesktopcontroller.cpp" line="417"/>
         <source>Others</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Ostali</translation>
     </message>
 </context>
 <context>
@@ -1421,7 +1155,7 @@
         <location filename="../shutil/mimetypedisplaymanager.cpp" line="54"/>
         <location filename="../views/dfmadvancesearchbar.cpp" line="129"/>
         <source>Application</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../controllers/mergeddesktopcontroller.cpp" line="447"/>
@@ -1467,7 +1201,7 @@
         <location filename="../shutil/mimetypedisplaymanager.cpp" line="61"/>
         <location filename="../views/dfmadvancesearchbar.cpp" line="136"/>
         <source>Backup file</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../interfaces/dabstractfileinfo.cpp" line="621"/>
@@ -1539,154 +1273,94 @@
     <message>
         <location filename="../gvfs/mountsecretdiskaskpassworddialog.cpp" line="52"/>
         <source>Input password to decrypt the disk</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>MoveCopyTaskWidget</name>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="355"/>
         <source>Skip</source>
-        <translation>Preskoči</translation>
+        <translation type="vanished">Preskoči</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="354"/>
         <source>Keep both</source>
-        <translation>Zadrži obje</translation>
+        <translation type="vanished">Zadrži obje</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="356"/>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="505"/>
         <source>Replace</source>
-        <translation>Zamijeni</translation>
+        <translation type="vanished">Zamijeni</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="377"/>
         <source>Do not ask again</source>
-        <translation>Ne pitaj ponovno</translation>
+        <translation type="vanished">Ne pitaj ponovno</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="503"/>
-        <source>merge</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="473"/>
         <source>Copying %1</source>
-        <translation>Kopiram %1</translation>
+        <translation type="vanished">Kopiram %1</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="413"/>
-        <source>Erasing disc %1, please wait...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="414"/>
-        <source>Burning disc %1, please wait...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="419"/>
-        <source>Writing data...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="420"/>
-        <source>Verifying data...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="474"/>
         <source>Copy to %2</source>
-        <translation>Kopiraj u %2</translation>
+        <translation type="vanished">Kopiraj u %2</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="477"/>
         <source>Moving %1</source>
-        <translation>Premještam %1</translation>
+        <translation type="vanished">Premještam %1</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="478"/>
         <source>Move to %2</source>
-        <translation>Premjesti u %2</translation>
+        <translation type="vanished">Premjesti u %2</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="480"/>
         <source>Restoring %1</source>
-        <translation>Obnavljam %1</translation>
+        <translation type="vanished">Obnavljam %1</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="481"/>
         <source>Restore to %2</source>
-        <translation>Obnovi u %2</translation>
+        <translation type="vanished">Obnovi u %2</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="483"/>
         <source>Deleting %1</source>
-        <translation>Brišem %1</translation>
+        <translation type="vanished">Brišem %1</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="486"/>
         <source>Trashing %1</source>
-        <translation>Bacam u smeće %1</translation>
+        <translation type="vanished">Bacam u smeće %1</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="494"/>
         <source>Calculating space, please wait</source>
-        <translation>Izračunavam prostor, molim pričekajte</translation>
+        <translation type="vanished">Izračunavam prostor, molim pričekajte</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="497"/>
         <source>File named %1 already exists in target folder</source>
-        <translation>Datoteka imenom %1 već postoji u ciljanoj mapi</translation>
+        <translation type="vanished">Datoteka imenom %1 već postoji u ciljanoj mapi</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="498"/>
         <source>Original path %1 target path %2</source>
-        <translation>Izvorna putanja %1 ciljana putanja %2</translation>
+        <translation type="vanished">Izvorna putanja %1 ciljana putanja %2</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="513"/>
         <source>Retry</source>
-        <translation>Pokušajte ponovno</translation>
+        <translation type="vanished">Pokušajte ponovno</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="607"/>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="619"/>
         <source>Time modified:%1</source>
-        <translation>Vrijeme izmjene:%1</translation>
+        <translation type="vanished">Vrijeme izmjene:%1</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="609"/>
         <source>Original folder</source>
-        <translation>Izvorna mapa</translation>
+        <translation type="vanished">Izvorna mapa</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="612"/>
         <source>Original file</source>
-        <translation>Izvorna datoteka</translation>
+        <translation type="vanished">Izvorna datoteka</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="622"/>
-        <source>Target folder</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="625"/>
-        <source>Target file</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="610"/>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="623"/>
         <source>Contains:%1</source>
-        <translation>Sadrži:%1</translation>
+        <translation type="vanished">Sadrži:%1</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="613"/>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="626"/>
         <source>Size:%1</source>
-        <translation>Veličina:%1</translation>
+        <translation type="vanished">Veličina:%1</translation>
     </message>
 </context>
 <context>
@@ -1699,7 +1373,7 @@
     <message>
         <location filename="../dialogs/movetotrashconflictdialog.cpp" line="38"/>
         <source>Are you sure you want to permanently delete %1?</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/movetotrashconflictdialog.cpp" line="41"/>
@@ -1709,7 +1383,7 @@
     <message>
         <location filename="../dialogs/movetotrashconflictdialog.cpp" line="42"/>
         <source>Are you sure you want to permanently delete %1 files?</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/movetotrashconflictdialog.cpp" line="66"/>
@@ -1725,37 +1399,37 @@
 <context>
     <name>OpenWithDialog</name>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="211"/>
+        <location filename="../dialogs/openwithdialog.cpp" line="212"/>
         <source>Open with</source>
         <translation>Otvori sa</translation>
     </message>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="230"/>
+        <location filename="../dialogs/openwithdialog.cpp" line="231"/>
         <source>Add other programs</source>
         <translation>Dodaj druge programe</translation>
     </message>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="231"/>
+        <location filename="../dialogs/openwithdialog.cpp" line="232"/>
         <source>Set as default</source>
         <translation>Postavi kao zadano</translation>
     </message>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="233"/>
+        <location filename="../dialogs/openwithdialog.cpp" line="234"/>
         <source>Cancel</source>
         <translation>Otkaži</translation>
     </message>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="234"/>
+        <location filename="../dialogs/openwithdialog.cpp" line="235"/>
         <source>Choose</source>
         <translation>Odaberi</translation>
     </message>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="238"/>
+        <location filename="../dialogs/openwithdialog.cpp" line="239"/>
         <source>Recommended Applications</source>
         <translation>Preporučeni programi</translation>
     </message>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="240"/>
+        <location filename="../dialogs/openwithdialog.cpp" line="241"/>
         <source>Other Applications</source>
         <translation>Ostali programi</translation>
     </message>
@@ -1827,7 +1501,7 @@
     <message>
         <location filename="../controllers/pathmanager.cpp" line="67"/>
         <source>Recent</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1850,7 +1524,7 @@
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="270"/>
         <source>Permission Management</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="307"/>
@@ -1860,12 +1534,12 @@
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="334"/>
         <source>%1 (%2)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="335"/>
         <source>%1 / %2</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="1205"/>
@@ -1882,7 +1556,7 @@
     <name>QObject</name>
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="870"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="688"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="689"/>
         <source>Size</source>
         <translation>Veličina</translation>
     </message>
@@ -1895,7 +1569,7 @@
     </message>
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="871"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="689"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="690"/>
         <source>Type</source>
         <translation>Tip</translation>
     </message>
@@ -1906,7 +1580,7 @@
     </message>
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="873"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="691"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="692"/>
         <source>Time modified</source>
         <translation>Vrijeme promjene</translation>
     </message>
@@ -1942,7 +1616,7 @@
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="1117"/>
         <source>Access denied</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="1118"/>
@@ -1954,7 +1628,7 @@
         <location filename="../dialogs/propertydialog.cpp" line="1119"/>
         <location filename="../dialogs/propertydialog.cpp" line="1120"/>
         <source>Write only</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="1121"/>
@@ -1966,7 +1640,7 @@
         <location filename="../dialogs/propertydialog.cpp" line="1123"/>
         <location filename="../dialogs/propertydialog.cpp" line="1124"/>
         <source>Read-write</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="1200"/>
@@ -2082,10 +1756,10 @@
         <translation>Prekopiraj</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="382"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="383"/>
         <location filename="../interfaces/dfilemenumanager.cpp" line="656"/>
         <location filename="../interfaces/dfilemenumanager.cpp" line="657"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="715"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="716"/>
         <location filename="../views/dfmsidebarbookmarkitem.cpp" line="88"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="113"/>
         <location filename="../views/dfmsidebartagitem.cpp" line="60"/>
@@ -2094,7 +1768,7 @@
         <translation>Preimenuj</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="686"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="687"/>
         <location filename="../views/dfmsidebarbookmarkitem.cpp" line="93"/>
         <location filename="../views/dfmsidebartagitem.cpp" line="65"/>
         <source>Remove</source>
@@ -2172,47 +1846,52 @@
         <translation>Novi dokument</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="690"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="679"/>
+        <source>Refresh</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="691"/>
         <source>Time created</source>
         <translation>Vrijeme stvaranja</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="701"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="702"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="164"/>
         <source>Log out and unmount</source>
         <translation>Odjavi i odspoji se</translation>
     </message>
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="874"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="703"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="704"/>
         <source>Source path</source>
         <translation>Izvorna putanja</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="705"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="706"/>
         <source>Share folder</source>
         <translation>Dijeli mapu</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="706"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="707"/>
         <source>Cancel sharing</source>
         <translation>Otkaži djeljenje</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="707"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="708"/>
         <source>Set share password</source>
         <translation>Postavi lozinku djeljenja</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="708"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="709"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="150"/>
         <source>Format</source>
         <translation>Format</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="711"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="712"/>
         <source>Tag information</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../interfaces/dfilemenumanager.cpp" line="646"/>
@@ -2232,42 +1911,42 @@
     <message>
         <location filename="../interfaces/dfilemenumanager.cpp" line="658"/>
         <source>Remove bookmark</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../interfaces/dfilemenumanager.cpp" line="663"/>
         <location filename="../interfaces/dfilemenumanager.cpp" line="664"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="713"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="714"/>
         <source>Delete</source>
         <translation>Obriši</translation>
     </message>
     <message>
         <location filename="../interfaces/dfilemenumanager.cpp" line="675"/>
         <source>Office Text</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../interfaces/dfilemenumanager.cpp" line="676"/>
         <source>Spreadsheets</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../interfaces/dfilemenumanager.cpp" line="678"/>
         <source>Plain Text</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="679"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="680"/>
         <source>Open in terminal</source>
         <translation>Otvori u terminalu</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="680"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="681"/>
         <source>Restore</source>
         <translation>Vrati</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="681"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="682"/>
         <source>Restore all</source>
         <translation>Vrati sve</translation>
     </message>
@@ -2279,110 +1958,110 @@
     <message>
         <location filename="../dialogs/dfmsettingdialog.cpp" line="381"/>
         <source>Open after auto mount</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="682"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="717"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="683"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="718"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="132"/>
         <location filename="../views/dfmsidebaropticaldevitem.cpp" line="95"/>
         <source>Mount</source>
         <translation>Spoji</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="683"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="684"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="146"/>
         <location filename="../views/dfmsidebaropticaldevitem.cpp" line="103"/>
         <source>Unmount</source>
         <translation>Odspoji</translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="136"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="718"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="138"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="719"/>
         <location filename="../views/dfmopticalmediawidget.cpp" line="69"/>
         <source>Burn</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="143"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="145"/>
         <source>Disc name:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="154"/>
         <location filename="../dialogs/burnoptdialog.cpp" line="156"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="158"/>
         <source>Maximum</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="167"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="169"/>
         <source>Allow files to be added later</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="176"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="178"/>
         <source>Verify data</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="150"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="152"/>
         <source>Write speed:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="179"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="684"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="181"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="685"/>
         <source>Eject</source>
         <translation>Izbaci</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="685"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="686"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="126"/>
         <source>Safely Remove</source>
         <translation>Sigurno ukloni</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="687"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="688"/>
         <source>Name</source>
         <translation>Ime</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="693"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="694"/>
         <source>Settings</source>
         <translation>Postavke</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="694"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="695"/>
         <source>Help</source>
         <translation>Pomoć</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="695"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="696"/>
         <source>About</source>
         <translation>O programu</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="696"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="697"/>
         <source>Exit</source>
         <translation>Izlaz</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="697"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="698"/>
         <source>Icon</source>
         <translation>Ikona</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="698"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="699"/>
         <source>List</source>
         <translation>Popis</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="699"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="700"/>
         <source>Extend</source>
         <translation>Proširi</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="700"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="701"/>
         <source>Set as wallpaper</source>
         <translation>Postavi za pozadinu</translation>
     </message>
@@ -2419,7 +2098,7 @@
     <message>
         <location filename="../deviceinfo/udiskdeviceinfo.cpp" line="306"/>
         <source>DVD</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../deviceinfo/udiskdeviceinfo.cpp" line="308"/>
@@ -2451,24 +2130,25 @@
         <translation>Stvori simboličku vezu</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="704"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="705"/>
         <source>Path</source>
         <translation>Putanja</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="702"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="703"/>
         <location filename="../models/trashfileinfo.cpp" line="335"/>
         <location filename="../models/trashfileinfo.cpp" line="343"/>
         <source>Time deleted</source>
         <translation>Vrijeme brisanja</translation>
     </message>
     <message>
-        <location filename="../interfaces/dabstractfileinfo.cpp" line="1229"/>
+        <location filename="../interfaces/dabstractfileinfo.cpp" line="1239"/>
         <source>Loading...</source>
         <translation>Učitavam...</translation>
     </message>
     <message>
         <location filename="../interfaces/dfileinfo.cpp" line="754"/>
+        <location filename="../models/fileinfo.cpp" line="130"/>
         <source>File has been moved or deleted</source>
         <translation>Datoteka je premještena ili obrisana</translation>
     </message>
@@ -2476,11 +2156,13 @@
         <location filename="../interfaces/dfileinfo.cpp" line="756"/>
         <location filename="../interfaces/dfileinfo.cpp" line="764"/>
         <location filename="../interfaces/dfileinfo.cpp" line="770"/>
+        <location filename="../models/fileinfo.cpp" line="132"/>
         <source>You do not have permission to access this folder</source>
         <translation>Nemate dozvole za pristup ovoj mapi</translation>
     </message>
     <message>
         <location filename="../interfaces/dfileinfo.cpp" line="774"/>
+        <location filename="../models/fileinfo.cpp" line="135"/>
         <location filename="../models/recentfileinfo.cpp" line="191"/>
         <location filename="../models/trashfileinfo.cpp" line="376"/>
         <source>Folder is empty</source>
@@ -2509,114 +2191,112 @@
         <translation>Izvorna putanja</translation>
     </message>
     <message>
-        <location filename="../controllers/appcontroller.cpp" line="385"/>
+        <location filename="../controllers/appcontroller.cpp" line="392"/>
         <source>Document</source>
         <translation>Dokument</translation>
     </message>
     <message>
-        <location filename="../controllers/appcontroller.cpp" line="392"/>
+        <location filename="../controllers/appcontroller.cpp" line="399"/>
         <source>Spreadsheet</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../controllers/appcontroller.cpp" line="399"/>
+        <location filename="../controllers/appcontroller.cpp" line="406"/>
         <location filename="../interfaces/dfilemenumanager.cpp" line="677"/>
         <source>Presentation</source>
         <translation>Prezentacija</translation>
     </message>
     <message>
-        <location filename="../controllers/appcontroller.cpp" line="406"/>
+        <location filename="../controllers/appcontroller.cpp" line="413"/>
         <source>Text</source>
         <translation>Tekst</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="921"/>
         <source>1 task in progress</source>
-        <translation>1 zadatak u tijeku</translation>
+        <translation type="vanished">1 zadatak u tijeku</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="923"/>
         <source>%1 tasks in progress</source>
-        <translation>%1 zadataka u tijeku</translation>
+        <translation type="vanished">%1 zadataka u tijeku</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="141"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="142"/>
         <source>Mode:</source>
         <translation>Način rada:</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="143"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="144"/>
         <location filename="../views/drenamebar.cpp" line="234"/>
         <source>Replace Text</source>
         <translation>Zamijeni tekst</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="143"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="144"/>
         <location filename="../views/drenamebar.cpp" line="234"/>
         <source>Add Text</source>
         <translation>Dodaj tekst</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="143"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="144"/>
         <location filename="../views/drenamebar.cpp" line="234"/>
         <source>Custom Text</source>
         <translation>Prilagođeni tekst</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="149"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="150"/>
         <source>Find:</source>
         <translation>Nađi:</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="170"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="171"/>
         <source>Replace:</source>
         <translation>Zamijeni:</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="172"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="173"/>
         <location filename="../views/drenamebar.cpp" line="251"/>
         <source>Optional</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="189"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="190"/>
         <source>Add:</source>
         <translation>Dodaj:</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="208"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="209"/>
         <source>Location:</source>
         <translation>Lokacija</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="215"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="216"/>
         <source>File name:</source>
         <translation>Ime datoteke:</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="232"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="233"/>
         <source>+SN:</source>
         <translation>+SN:</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="152"/>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="191"/>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="217"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="153"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="192"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="218"/>
         <location filename="../views/drenamebar.cpp" line="243"/>
         <location filename="../views/drenamebar.cpp" line="260"/>
         <location filename="../views/drenamebar.cpp" line="276"/>
         <location filename="../views/drenamebar.cpp" line="286"/>
         <source>Required</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="210"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="211"/>
         <location filename="../views/drenamebar.cpp" line="269"/>
         <source>Before file name</source>
         <translation>Prije imena datoteke</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="210"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="211"/>
         <location filename="../views/drenamebar.cpp" line="269"/>
         <source>After file name</source>
         <translation>Nakon imena datoteke</translation>
@@ -2657,8 +2337,8 @@
         <translation>Savjeti: Sortiraj po odabranom redu datoteku</translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="135"/>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="381"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="137"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="382"/>
         <location filename="../views/drenamebar.cpp" line="297"/>
         <source>Cancel</source>
         <translation>Otkaži</translation>
@@ -2691,7 +2371,7 @@
     <message>
         <location filename="../dialogs/dmultifilepropertydialog.cpp" line="168"/>
         <source>%1 file(s), %2 folder(s)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/dmultifilepropertydialog.cpp" line="173"/>
@@ -2706,47 +2386,47 @@
     <message>
         <location filename="../tag/tagutil.cpp" line="49"/>
         <source>Orange</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../tag/tagutil.cpp" line="50"/>
         <source>Red</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../tag/tagutil.cpp" line="51"/>
         <source>Purple</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../tag/tagutil.cpp" line="52"/>
         <source>Navy-blue</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../tag/tagutil.cpp" line="53"/>
         <source>Azure</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../tag/tagutil.cpp" line="54"/>
         <source>Green</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../tag/tagutil.cpp" line="55"/>
         <source>Yellow</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../tag/tagutil.cpp" line="56"/>
         <source>Gray</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../views/dtagedit.cpp" line="91"/>
         <source>Input tag info, such as work, family. A comma is used between two tags.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../controllers/dfmbookmarkcrumbcontroller.cpp" line="46"/>
@@ -2757,7 +2437,7 @@
         <location filename="../views/dfmsidebardeviceitem.cpp" line="156"/>
         <location filename="../views/dfmsidebaropticaldevitem.cpp" line="107"/>
         <source>Erase</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="171"/>
@@ -2765,12 +2445,12 @@
         <location filename="../views/dfmsidebaropticaldevitem.cpp" line="114"/>
         <location filename="../views/dfmsidebarrootitem.cpp" line="61"/>
         <source>Disk info</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../interfaces/dfmcrumbitem.cpp" line="130"/>
         <source>Copy path</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../interfaces/dfmcrumbitem.cpp" line="144"/>
@@ -2780,7 +2460,12 @@
     <message>
         <location filename="../views/dfmopticalmediawidget.cpp" line="96"/>
         <source>Free Space %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../controllers/filecontroller.cpp" line="753"/>
+        <source>Files are being processed</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2906,7 +2591,7 @@
     <message>
         <location filename="../shutil/shortcut.cpp" line="42"/>
         <source>To parent directory</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../shutil/shortcut.cpp" line="42"/>
@@ -3091,7 +2776,7 @@
     <message>
         <location filename="../shutil/shortcut.cpp" line="62"/>
         <source>Switch to icon view</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../shutil/shortcut.cpp" line="62"/>
@@ -3101,7 +2786,7 @@
     <message>
         <location filename="../shutil/shortcut.cpp" line="63"/>
         <source>Switch to list view</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../shutil/shortcut.cpp" line="63"/>
@@ -3232,7 +2917,7 @@
     <message>
         <location filename="../deviceinfo/udisklistener.cpp" line="187"/>
         <source>Failed to rename the label</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3241,19 +2926,6 @@
         <location filename="../dialogs/previewdialog.cpp" line="560"/>
         <source>Type</source>
         <translation>Tip</translation>
-    </message>
-</context>
-<context>
-    <name>UserShareManager</name>
-    <message>
-        <location filename="../../usershare/usersharemanager.cpp" line="420"/>
-        <source>Kindly Reminder</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../usershare/usersharemanager.cpp" line="420"/>
-        <source>Please firstly install samba to continue</source>
-        <translation type="unfinished"/>
     </message>
 </context>
 <context>

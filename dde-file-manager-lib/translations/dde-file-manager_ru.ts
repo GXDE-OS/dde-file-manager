@@ -1,8 +1,10 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ru" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="ru">
 <context>
     <name>AppController</name>
     <message>
-        <location filename="../controllers/appcontroller.cpp" line="356"/>
+        <location filename="../controllers/appcontroller.cpp" line="363"/>
         <source>New Folder</source>
         <translation>Новая Папка</translation>
     </message>
@@ -346,17 +348,17 @@
 <context>
     <name>DFileDialog</name>
     <message>
-        <location filename="../views/dfiledialog.cpp" line="1020"/>
+        <location filename="../views/dfiledialog.cpp" line="1018"/>
         <source>%1 already exists, do you want to replace it?</source>
         <translation>%1 существует, хотите заменить?</translation>
     </message>
     <message>
-        <location filename="../views/dfiledialog.cpp" line="1021"/>
+        <location filename="../views/dfiledialog.cpp" line="1019"/>
         <source>Cancel</source>
         <translation>Отмена</translation>
     </message>
     <message>
-        <location filename="../views/dfiledialog.cpp" line="1022"/>
+        <location filename="../views/dfiledialog.cpp" line="1020"/>
         <source>Replace</source>
         <translation>Заменить</translation>
     </message>
@@ -364,7 +366,7 @@
 <context>
     <name>DFileManagerWindow</name>
     <message>
-        <location filename="../views/dfilemanagerwindow.cpp" line="842"/>
+        <location filename="../views/dfilemanagerwindow.cpp" line="938"/>
         <source>Dark theme</source>
         <translation>Темная тема</translation>
     </message>
@@ -378,7 +380,7 @@
         <translation>Имя</translation>
     </message>
     <message>
-        <location filename="../interfaces/dabstractfileinfo.cpp" line="1020"/>
+        <location filename="../interfaces/dabstractfileinfo.cpp" line="1030"/>
         <location filename="../interfaces/dfilesystemmodel.cpp" line="1379"/>
         <location filename="../models/searchfileinfo.cpp" line="121"/>
         <source>Time modified</source>
@@ -400,7 +402,7 @@
         <translation>Время создания</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="692"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="693"/>
         <location filename="../interfaces/dfilesystemmodel.cpp" line="1387"/>
         <source>Last access</source>
         <translation>Последний доступ</translation>
@@ -414,7 +416,7 @@
 <context>
     <name>DFileView</name>
     <message>
-        <location filename="../views/dfileview.cpp" line="2722"/>
+        <location filename="../views/dfileview.cpp" line="2723"/>
         <source>(Reverse)</source>
         <translation>(Реверс)</translation>
     </message>
@@ -493,9 +495,8 @@
 <context>
     <name>DTaskDialog</name>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="83"/>
         <source>This action is not supported</source>
-        <translation>Это действие не поддерживается</translation>
+        <translation type="vanished">Это действие не поддерживается</translation>
     </message>
 </context>
 <context>
@@ -878,454 +879,263 @@
 <context>
     <name>FileJob</name>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="164"/>
         <source>copy</source>
-        <translation>копия</translation>
+        <translation type="vanished">копия</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="690"/>
-        <location filename="../../fileoperations/filejob.cpp" line="749"/>
         <source>Data verification successful.</source>
-        <translation>Проверка данных прошла успешно.</translation>
+        <translation type="vanished">Проверка данных прошла успешно.</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="690"/>
-        <location filename="../../fileoperations/filejob.cpp" line="749"/>
         <source>Data verification failed.</source>
-        <translation>Проверка данных не удалась.</translation>
+        <translation type="vanished">Проверка данных не удалась.</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="692"/>
-        <location filename="../../fileoperations/filejob.cpp" line="751"/>
         <source>Burn process completed</source>
-        <translation>Процесс записи завершен</translation>
+        <translation type="vanished">Процесс записи завершен</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="865"/>
         <source>%1 s</source>
-        <translation>%1 s</translation>
+        <translation type="vanished">%1 s</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="869"/>
         <source>%1 m %2 s</source>
-        <translation>%1 m %2 s</translation>
+        <translation type="vanished">%1 m %2 s</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="875"/>
         <source>%1 h %2 m %3 s</source>
-        <translation>%1 h %2 m %3 s</translation>
+        <translation type="vanished">%1 h %2 m %3 s</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="884"/>
         <source>%1 d %2 h %3 m %4 s</source>
-        <translation>%1 d %2 h %3 m %4 s</translation>
+        <translation type="vanished">%1 d %2 h %3 m %4 s</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="2611"/>
         <source>%1 is a duplicate file.</source>
-        <translation>%1 является дубликатом файла.</translation>
+        <translation type="vanished">%1 является дубликатом файла.</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="2614"/>
         <source>Insufficient disc space.</source>
-        <translation>Недостаточно места на диске.</translation>
+        <translation type="vanished">Недостаточно места на диске.</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="2617"/>
         <source>Lost connection to drive.</source>
-        <translation>Потеряна связь с приводом.</translation>
+        <translation type="vanished">Потеряна связь с приводом.</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="2620"/>
         <source>The CD/DVD drive is not ready. Try another disc.</source>
-        <translation>Привод CD/DVD не готов. Попробуйте другой диск.</translation>
+        <translation type="vanished">Привод CD/DVD не готов. Попробуйте другой диск.</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="2623"/>
         <source>The CD/DVD drive is busy. Exit the program using the drive, and insert the drive again.</source>
-        <translation>Дисковод CD/DVD занят. Выйдите из программы, используя привод, и снова вставьте диск.</translation>
+        <translation type="vanished">Дисковод CD/DVD занят. Выйдите из программы, используя привод, и снова вставьте диск.</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="2626"/>
         <source>Unknown error</source>
-        <translation>Неизвестная ошибка</translation>
+        <translation type="vanished">Неизвестная ошибка</translation>
     </message>
 </context>
 <context>
     <name>GenerateSettingTranslate</name>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="5"/>
-        <location filename="../configure/global-setting-template-pro.js" line="5"/>
-        <location filename="../configure/global-setting-template.js" line="5"/>
         <source>Basic</source>
-        <translation>Основной</translation>
+        <translation type="vanished">Основной</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="9"/>
-        <location filename="../configure/global-setting-template-pro.js" line="9"/>
-        <location filename="../configure/global-setting-template.js" line="9"/>
         <source>Open behavior</source>
-        <translation>Поведение при открытии</translation>
+        <translation type="vanished">Поведение при открытии</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="14"/>
-        <location filename="../configure/global-setting-template-pro.js" line="14"/>
-        <location filename="../configure/global-setting-template.js" line="14"/>
         <source>Always open folder in new window</source>
-        <translation>Всегда открывать папку в новом окне</translation>
+        <translation type="vanished">Всегда открывать папку в новом окне</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="19"/>
-        <location filename="../configure/global-setting-template-pro.js" line="19"/>
-        <location filename="../configure/global-setting-template.js" line="19"/>
         <source>Open file:</source>
-        <translation>Открыть файл:</translation>
+        <translation type="vanished">Открыть файл:</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="22"/>
-        <location filename="../configure/global-setting-template-pro.js" line="22"/>
-        <location filename="../configure/global-setting-template.js" line="22"/>
         <source>Click</source>
-        <translation>Щелчок</translation>
+        <translation type="vanished">Щелчок</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="23"/>
-        <location filename="../configure/global-setting-template-pro.js" line="23"/>
-        <location filename="../configure/global-setting-template.js" line="23"/>
         <source>Double click</source>
-        <translation>Двойной щелчок</translation>
+        <translation type="vanished">Двойной щелчок</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="31"/>
-        <location filename="../configure/global-setting-template-pro.js" line="31"/>
-        <location filename="../configure/global-setting-template.js" line="31"/>
         <source>New window and tab</source>
-        <translation>Новое окно и закладка</translation>
+        <translation type="vanished">Новое окно и закладка</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="35"/>
-        <location filename="../configure/global-setting-template-pro.js" line="35"/>
-        <location filename="../configure/global-setting-template.js" line="35"/>
         <source>Open from default window:</source>
-        <translation>Открыть в текущем окне:</translation>
+        <translation type="vanished">Открыть в текущем окне:</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="39"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="68"/>
-        <location filename="../configure/global-setting-template-pro.js" line="39"/>
-        <location filename="../configure/global-setting-template-pro.js" line="68"/>
-        <location filename="../configure/global-setting-template.js" line="39"/>
-        <location filename="../configure/global-setting-template.js" line="68"/>
         <source>Computer</source>
-        <translation>Компьютер</translation>
+        <translation type="vanished">Компьютер</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="40"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="69"/>
-        <location filename="../configure/global-setting-template-pro.js" line="40"/>
-        <location filename="../configure/global-setting-template-pro.js" line="69"/>
-        <location filename="../configure/global-setting-template.js" line="40"/>
-        <location filename="../configure/global-setting-template.js" line="69"/>
         <source>Home</source>
-        <translation>Главная</translation>
+        <translation type="vanished">Главная</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="41"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="70"/>
-        <location filename="../configure/global-setting-template-pro.js" line="41"/>
-        <location filename="../configure/global-setting-template-pro.js" line="70"/>
-        <location filename="../configure/global-setting-template.js" line="41"/>
-        <location filename="../configure/global-setting-template.js" line="70"/>
         <source>Desktop</source>
-        <translation>Рабочий Стол</translation>
+        <translation type="vanished">Рабочий Стол</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="42"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="71"/>
-        <location filename="../configure/global-setting-template-pro.js" line="42"/>
-        <location filename="../configure/global-setting-template-pro.js" line="71"/>
-        <location filename="../configure/global-setting-template.js" line="42"/>
-        <location filename="../configure/global-setting-template.js" line="71"/>
         <source>Videos</source>
-        <translation>Видео</translation>
+        <translation type="vanished">Видео</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="43"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="72"/>
-        <location filename="../configure/global-setting-template-pro.js" line="43"/>
-        <location filename="../configure/global-setting-template-pro.js" line="72"/>
-        <location filename="../configure/global-setting-template.js" line="43"/>
-        <location filename="../configure/global-setting-template.js" line="72"/>
         <source>Music</source>
-        <translation>Мызука</translation>
+        <translation type="vanished">Мызука</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="44"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="73"/>
-        <location filename="../configure/global-setting-template-pro.js" line="44"/>
-        <location filename="../configure/global-setting-template-pro.js" line="73"/>
-        <location filename="../configure/global-setting-template.js" line="44"/>
-        <location filename="../configure/global-setting-template.js" line="73"/>
         <source>Pictures</source>
-        <translation>Изображения</translation>
+        <translation type="vanished">Изображения</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="45"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="74"/>
-        <location filename="../configure/global-setting-template-pro.js" line="45"/>
-        <location filename="../configure/global-setting-template-pro.js" line="74"/>
-        <location filename="../configure/global-setting-template.js" line="45"/>
-        <location filename="../configure/global-setting-template.js" line="74"/>
         <source>Documents</source>
-        <translation>Документы</translation>
+        <translation type="vanished">Документы</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="46"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="75"/>
-        <location filename="../configure/global-setting-template-pro.js" line="46"/>
-        <location filename="../configure/global-setting-template-pro.js" line="75"/>
-        <location filename="../configure/global-setting-template.js" line="46"/>
-        <location filename="../configure/global-setting-template.js" line="75"/>
         <source>Downloads</source>
-        <translation>Загрузки</translation>
+        <translation type="vanished">Загрузки</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="63"/>
-        <location filename="../configure/global-setting-template-pro.js" line="63"/>
-        <location filename="../configure/global-setting-template.js" line="63"/>
         <source>Open in new tab:</source>
-        <translation>Открыть в новой вкладке:</translation>
+        <translation type="vanished">Открыть в новой вкладке:</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="67"/>
-        <location filename="../configure/global-setting-template-pro.js" line="67"/>
-        <location filename="../configure/global-setting-template.js" line="67"/>
         <source>Current Directory</source>
-        <translation>Текущий Каталог</translation>
+        <translation type="vanished">Текущий Каталог</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="95"/>
-        <location filename="../configure/global-setting-template-pro.js" line="95"/>
-        <location filename="../configure/global-setting-template.js" line="95"/>
         <source>View</source>
-        <translation>Просмотр</translation>
+        <translation type="vanished">Просмотр</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="99"/>
-        <location filename="../configure/global-setting-template-pro.js" line="99"/>
-        <location filename="../configure/global-setting-template.js" line="99"/>
         <source>Default size:</source>
-        <translation>Размер по-умолчанию:</translation>
+        <translation type="vanished">Размер по-умолчанию:</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="102"/>
-        <location filename="../configure/global-setting-template-pro.js" line="102"/>
-        <location filename="../configure/global-setting-template.js" line="102"/>
         <source>Extra small</source>
-        <translation>Крохотный</translation>
+        <translation type="vanished">Крохотный</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="103"/>
-        <location filename="../configure/global-setting-template-pro.js" line="103"/>
-        <location filename="../configure/global-setting-template.js" line="103"/>
         <source>Small</source>
-        <translation>Маленький</translation>
+        <translation type="vanished">Маленький</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="104"/>
-        <location filename="../configure/global-setting-template-pro.js" line="104"/>
-        <location filename="../configure/global-setting-template.js" line="104"/>
         <source>Medium</source>
-        <translation>Средний</translation>
+        <translation type="vanished">Средний</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="105"/>
-        <location filename="../configure/global-setting-template-pro.js" line="105"/>
-        <location filename="../configure/global-setting-template.js" line="105"/>
         <source>Large</source>
-        <translation>Большой</translation>
+        <translation type="vanished">Большой</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="106"/>
-        <location filename="../configure/global-setting-template-pro.js" line="106"/>
-        <location filename="../configure/global-setting-template.js" line="106"/>
         <source>Extra large</source>
-        <translation>Очень большой</translation>
+        <translation type="vanished">Очень большой</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="112"/>
-        <location filename="../configure/global-setting-template-pro.js" line="112"/>
-        <location filename="../configure/global-setting-template.js" line="112"/>
         <source>Default view:</source>
-        <translation>Вид по-умолчанию:</translation>
+        <translation type="vanished">Вид по-умолчанию:</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="116"/>
-        <location filename="../configure/global-setting-template-pro.js" line="116"/>
-        <location filename="../configure/global-setting-template.js" line="116"/>
         <source>Icon</source>
-        <translation>Значок</translation>
+        <translation type="vanished">Значок</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="117"/>
-        <location filename="../configure/global-setting-template-pro.js" line="117"/>
-        <location filename="../configure/global-setting-template.js" line="117"/>
         <source>List</source>
-        <translation>Список</translation>
+        <translation type="vanished">Список</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="129"/>
-        <location filename="../configure/global-setting-template-pro.js" line="129"/>
-        <location filename="../configure/global-setting-template.js" line="129"/>
         <source>Hidden files</source>
-        <translation>Скрытые файлы</translation>
+        <translation type="vanished">Скрытые файлы</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="133"/>
-        <location filename="../configure/global-setting-template-pro.js" line="133"/>
-        <location filename="../configure/global-setting-template.js" line="133"/>
         <source>Show hidden files</source>
-        <translation>Показывать скрытые файлы</translation>
+        <translation type="vanished">Показывать скрытые файлы</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="139"/>
-        <location filename="../configure/global-setting-template-pro.js" line="139"/>
-        <location filename="../configure/global-setting-template.js" line="139"/>
         <source>Hide file extension when rename</source>
-        <translation>Скрыть расширение файла при переименовании</translation>
+        <translation type="vanished">Скрыть расширение файла при переименовании</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="156"/>
-        <location filename="../configure/global-setting-template-pro.js" line="157"/>
-        <location filename="../configure/global-setting-template.js" line="157"/>
         <source>Advanced</source>
-        <translation>Расширенные</translation>
+        <translation type="vanished">Расширенные</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="160"/>
-        <location filename="../configure/global-setting-template-pro.js" line="161"/>
-        <location filename="../configure/global-setting-template.js" line="161"/>
         <source>Index</source>
-        <translation>Указатель</translation>
+        <translation type="vanished">Указатель</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="164"/>
-        <location filename="../configure/global-setting-template-pro.js" line="165"/>
-        <location filename="../configure/global-setting-template.js" line="165"/>
         <source>Auto index internal disk</source>
-        <translation>Автоматически индексировать внутренний диск</translation>
+        <translation type="vanished">Автоматически индексировать внутренний диск</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="170"/>
-        <location filename="../configure/global-setting-template-pro.js" line="171"/>
-        <location filename="../configure/global-setting-template.js" line="171"/>
         <source>Index external storage device after connected to computer</source>
-        <translation>Индексировать внешнее запоминающее устройство после подключения к компьютеру</translation>
+        <translation type="vanished">Индексировать внешнее запоминающее устройство после подключения к компьютеру</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="259"/>
-        <location filename="../configure/global-setting-template-pro.js" line="259"/>
-        <location filename="../configure/global-setting-template.js" line="258"/>
         <source>Other</source>
-        <translation>Другое</translation>
+        <translation type="vanished">Другое</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="263"/>
-        <location filename="../configure/global-setting-template-pro.js" line="263"/>
-        <location filename="../configure/global-setting-template.js" line="262"/>
         <source>Hide system disk</source>
-        <translation>Скрыть системный диск</translation>
+        <translation type="vanished">Скрыть системный диск</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="182"/>
-        <location filename="../configure/global-setting-template-pro.js" line="183"/>
-        <location filename="../configure/global-setting-template.js" line="183"/>
         <source>Show hidden files in search results</source>
-        <translation>Показывать скрытые файлы в результатах поиска</translation>
+        <translation type="vanished">Показывать скрытые файлы в результатах поиска</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="145"/>
-        <location filename="../configure/global-setting-template-pro.js" line="145"/>
-        <location filename="../configure/global-setting-template.js" line="145"/>
         <source>Display recent file entry in left panel</source>
-        <translation>Отобразить недавние обращения к файлам в левой панели</translation>
+        <translation type="vanished">Отобразить недавние обращения к файлам в левой панели</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="191"/>
-        <location filename="../configure/global-setting-template-pro.js" line="192"/>
-        <location filename="../configure/global-setting-template.js" line="192"/>
         <source>Preview</source>
-        <translation>Предварительный просмотр</translation>
+        <translation type="vanished">Предварительный просмотр</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="195"/>
-        <location filename="../configure/global-setting-template-pro.js" line="196"/>
-        <location filename="../configure/global-setting-template.js" line="196"/>
         <source>Compress file preview</source>
-        <translation>Предварительный просмотр сжатых файлов</translation>
+        <translation type="vanished">Предварительный просмотр сжатых файлов</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="202"/>
-        <location filename="../configure/global-setting-template-pro.js" line="203"/>
-        <location filename="../configure/global-setting-template.js" line="202"/>
         <source>Text preview</source>
-        <translation>Предварительный просмотр текста</translation>
+        <translation type="vanished">Предварительный просмотр текста</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="208"/>
-        <location filename="../configure/global-setting-template-pro.js" line="209"/>
-        <location filename="../configure/global-setting-template.js" line="208"/>
         <source>Document preview</source>
-        <translation>Предварительный просмотр документа</translation>
+        <translation type="vanished">Предварительный просмотр документа</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="214"/>
-        <location filename="../configure/global-setting-template-pro.js" line="215"/>
-        <location filename="../configure/global-setting-template.js" line="214"/>
         <source>Image preview</source>
-        <translation>Предварительный просмотр изображения</translation>
+        <translation type="vanished">Предварительный просмотр изображения</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="220"/>
-        <location filename="../configure/global-setting-template-pro.js" line="221"/>
-        <location filename="../configure/global-setting-template.js" line="220"/>
         <source>Video preview</source>
-        <translation>Предварительный просмотр видео</translation>
+        <translation type="vanished">Предварительный просмотр видео</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="229"/>
-        <location filename="../configure/global-setting-template-pro.js" line="229"/>
-        <location filename="../configure/global-setting-template.js" line="228"/>
         <source>Mount</source>
-        <translation>Подключить</translation>
+        <translation type="vanished">Подключить</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="233"/>
-        <location filename="../configure/global-setting-template-pro.js" line="233"/>
-        <location filename="../configure/global-setting-template.js" line="232"/>
         <source>Auto mount</source>
-        <translation>Авто-подключение</translation>
+        <translation type="vanished">Авто-подключение</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="239"/>
-        <location filename="../configure/global-setting-template-pro.js" line="239"/>
-        <location filename="../configure/global-setting-template.js" line="238"/>
         <source>Open after auto mount</source>
-        <translation>Открывать после авто-подключения</translation>
+        <translation type="vanished">Открывать после авто-подключения</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="247"/>
-        <location filename="../configure/global-setting-template-pro.js" line="247"/>
-        <location filename="../configure/global-setting-template.js" line="246"/>
         <source>Dialog</source>
-        <translation>Диалог</translation>
+        <translation type="vanished">Диалог</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="251"/>
-        <location filename="../configure/global-setting-template-pro.js" line="251"/>
-        <location filename="../configure/global-setting-template.js" line="250"/>
         <source>Use the file chooser dialog of Deepin File Manager</source>
-        <translation>Используйте диалог выбора файлов в Файловом Менеджере Deepin</translation>
+        <translation type="vanished">Используйте диалог выбора файлов в Файловом Менеджере Deepin</translation>
     </message>
 </context>
 <context>
@@ -1545,148 +1355,116 @@
 <context>
     <name>MoveCopyTaskWidget</name>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="355"/>
         <source>Skip</source>
-        <translation>Пропустить</translation>
+        <translation type="vanished">Пропустить</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="354"/>
         <source>Keep both</source>
-        <translation>Оставить оба</translation>
+        <translation type="vanished">Оставить оба</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="356"/>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="505"/>
         <source>Replace</source>
-        <translation>Заменить</translation>
+        <translation type="vanished">Заменить</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="377"/>
         <source>Do not ask again</source>
-        <translation>Не спрашивать больше</translation>
+        <translation type="vanished">Не спрашивать больше</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="503"/>
         <source>merge</source>
-        <translation>Совместить</translation>
+        <translation type="vanished">Совместить</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="473"/>
         <source>Copying %1</source>
-        <translation>Копирование %1</translation>
+        <translation type="vanished">Копирование %1</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="413"/>
         <source>Erasing disc %1, please wait...</source>
-        <translation>Очистка диска %1, пожалуйста, подождите ...</translation>
+        <translation type="vanished">Очистка диска %1, пожалуйста, подождите ...</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="414"/>
         <source>Burning disc %1, please wait...</source>
-        <translation>Запись диска %1, пожалуйста, подождите ...</translation>
+        <translation type="vanished">Запись диска %1, пожалуйста, подождите ...</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="419"/>
         <source>Writing data...</source>
-        <translation>Запись данных ...</translation>
+        <translation type="vanished">Запись данных ...</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="420"/>
         <source>Verifying data...</source>
-        <translation>Проверка данных...</translation>
+        <translation type="vanished">Проверка данных...</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="474"/>
         <source>Copy to %2</source>
-        <translation>Скопировать в %2</translation>
+        <translation type="vanished">Скопировать в %2</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="477"/>
         <source>Moving %1</source>
-        <translation>Перемещение %1</translation>
+        <translation type="vanished">Перемещение %1</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="478"/>
         <source>Move to %2</source>
-        <translation>Переместить в %2</translation>
+        <translation type="vanished">Переместить в %2</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="480"/>
         <source>Restoring %1</source>
-        <translation>Восстановление %1</translation>
+        <translation type="vanished">Восстановление %1</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="481"/>
         <source>Restore to %2</source>
-        <translation>Восстановить в %2</translation>
+        <translation type="vanished">Восстановить в %2</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="483"/>
         <source>Deleting %1</source>
-        <translation>Удаление %1</translation>
+        <translation type="vanished">Удаление %1</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="486"/>
         <source>Trashing %1</source>
-        <translation>Удаление %1</translation>
+        <translation type="vanished">Удаление %1</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="494"/>
         <source>Calculating space, please wait</source>
-        <translation>Расчет места, пожалуйста, ждите</translation>
+        <translation type="vanished">Расчет места, пожалуйста, ждите</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="497"/>
         <source>File named %1 already exists in target folder</source>
-        <translation>Файл %1 уже существует в целевой папке</translation>
+        <translation type="vanished">Файл %1 уже существует в целевой папке</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="498"/>
         <source>Original path %1 target path %2</source>
-        <translation>Исходный путь %1 путь назначения %2</translation>
+        <translation type="vanished">Исходный путь %1 путь назначения %2</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="513"/>
         <source>Retry</source>
-        <translation>Повторить</translation>
+        <translation type="vanished">Повторить</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="607"/>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="619"/>
         <source>Time modified:%1</source>
-        <translation>Время изменения:%1</translation>
+        <translation type="vanished">Время изменения:%1</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="609"/>
         <source>Original folder</source>
-        <translation>Исходная папка</translation>
+        <translation type="vanished">Исходная папка</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="612"/>
         <source>Original file</source>
-        <translation>Исходный файл</translation>
+        <translation type="vanished">Исходный файл</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="622"/>
         <source>Target folder</source>
-        <translation>Папка назначения</translation>
+        <translation type="vanished">Папка назначения</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="625"/>
         <source>Target file</source>
-        <translation>Файл назначения</translation>
+        <translation type="vanished">Файл назначения</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="610"/>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="623"/>
         <source>Contains:%1</source>
-        <translation>Содержит:%1</translation>
+        <translation type="vanished">Содержит:%1</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="613"/>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="626"/>
         <source>Size:%1</source>
-        <translation>Размер:%1</translation>
+        <translation type="vanished">Размер:%1</translation>
     </message>
 </context>
 <context>
@@ -1725,37 +1503,37 @@
 <context>
     <name>OpenWithDialog</name>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="211"/>
+        <location filename="../dialogs/openwithdialog.cpp" line="212"/>
         <source>Open with</source>
         <translation>Открыть с помощью</translation>
     </message>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="230"/>
+        <location filename="../dialogs/openwithdialog.cpp" line="231"/>
         <source>Add other programs</source>
         <translation>Добавить другие программы</translation>
     </message>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="231"/>
+        <location filename="../dialogs/openwithdialog.cpp" line="232"/>
         <source>Set as default</source>
         <translation>Установить по умолчанию</translation>
     </message>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="233"/>
+        <location filename="../dialogs/openwithdialog.cpp" line="234"/>
         <source>Cancel</source>
         <translation>Отменить</translation>
     </message>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="234"/>
+        <location filename="../dialogs/openwithdialog.cpp" line="235"/>
         <source>Choose</source>
         <translation>Выбрать</translation>
     </message>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="238"/>
+        <location filename="../dialogs/openwithdialog.cpp" line="239"/>
         <source>Recommended Applications</source>
         <translation>Рекомендованные Приложения</translation>
     </message>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="240"/>
+        <location filename="../dialogs/openwithdialog.cpp" line="241"/>
         <source>Other Applications</source>
         <translation>Другие Приложения</translation>
     </message>
@@ -1882,7 +1660,7 @@
     <name>QObject</name>
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="870"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="688"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="689"/>
         <source>Size</source>
         <translation>Размер</translation>
     </message>
@@ -1895,7 +1673,7 @@
     </message>
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="871"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="689"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="690"/>
         <source>Type</source>
         <translation>Тип</translation>
     </message>
@@ -1906,7 +1684,7 @@
     </message>
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="873"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="691"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="692"/>
         <source>Time modified</source>
         <translation>Время изменения</translation>
     </message>
@@ -2082,10 +1860,10 @@
         <translation>Вставить</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="382"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="383"/>
         <location filename="../interfaces/dfilemenumanager.cpp" line="656"/>
         <location filename="../interfaces/dfilemenumanager.cpp" line="657"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="715"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="716"/>
         <location filename="../views/dfmsidebarbookmarkitem.cpp" line="88"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="113"/>
         <location filename="../views/dfmsidebartagitem.cpp" line="60"/>
@@ -2094,7 +1872,7 @@
         <translation>Переименовать</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="686"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="687"/>
         <location filename="../views/dfmsidebarbookmarkitem.cpp" line="93"/>
         <location filename="../views/dfmsidebartagitem.cpp" line="65"/>
         <source>Remove</source>
@@ -2172,45 +1950,50 @@
         <translation>Новый документ</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="690"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="679"/>
+        <source>Refresh</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="691"/>
         <source>Time created</source>
         <translation>Время создания</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="701"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="702"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="164"/>
         <source>Log out and unmount</source>
         <translation>Выйти и отмонтировать</translation>
     </message>
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="874"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="703"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="704"/>
         <source>Source path</source>
         <translation>Путь к источнику</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="705"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="706"/>
         <source>Share folder</source>
         <translation>Общедоступная папка</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="706"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="707"/>
         <source>Cancel sharing</source>
         <translation>Отменить общий доступ</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="707"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="708"/>
         <source>Set share password</source>
         <translation>Установить пароль общего доступа</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="708"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="709"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="150"/>
         <source>Format</source>
         <translation>Форматировать</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="711"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="712"/>
         <source>Tag information</source>
         <translation>Информация о метках</translation>
     </message>
@@ -2237,7 +2020,7 @@
     <message>
         <location filename="../interfaces/dfilemenumanager.cpp" line="663"/>
         <location filename="../interfaces/dfilemenumanager.cpp" line="664"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="713"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="714"/>
         <source>Delete</source>
         <translation>Удалить</translation>
     </message>
@@ -2257,17 +2040,17 @@
         <translation>Обычный</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="679"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="680"/>
         <source>Open in terminal</source>
         <translation>Открыть в терминале</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="680"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="681"/>
         <source>Restore</source>
         <translation>Восстановить</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="681"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="682"/>
         <source>Restore all</source>
         <translation>Восстановить все</translation>
     </message>
@@ -2282,107 +2065,107 @@
         <translation>Открыть после авто-монтирования</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="682"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="717"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="683"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="718"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="132"/>
         <location filename="../views/dfmsidebaropticaldevitem.cpp" line="95"/>
         <source>Mount</source>
         <translation>Подключить</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="683"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="684"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="146"/>
         <location filename="../views/dfmsidebaropticaldevitem.cpp" line="103"/>
         <source>Unmount</source>
         <translation>Отключить</translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="136"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="718"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="138"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="719"/>
         <location filename="../views/dfmopticalmediawidget.cpp" line="69"/>
         <source>Burn</source>
         <translation>Запись</translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="143"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="145"/>
         <source>Disc name:</source>
         <translation>Имя привода:</translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="154"/>
         <location filename="../dialogs/burnoptdialog.cpp" line="156"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="158"/>
         <source>Maximum</source>
         <translation>Максимальная</translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="167"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="169"/>
         <source>Allow files to be added later</source>
         <translation>Разрешить добавление файлов позже</translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="176"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="178"/>
         <source>Verify data</source>
         <translation>Проверить данные</translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="150"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="152"/>
         <source>Write speed:</source>
         <translation>Скорость записи:</translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="179"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="684"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="181"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="685"/>
         <source>Eject</source>
         <translation>Извлечь</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="685"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="686"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="126"/>
         <source>Safely Remove</source>
         <translation>Безопасное Извлечение</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="687"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="688"/>
         <source>Name</source>
         <translation>Имя</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="693"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="694"/>
         <source>Settings</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="694"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="695"/>
         <source>Help</source>
         <translation>Помощь</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="695"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="696"/>
         <source>About</source>
         <translation>О программе</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="696"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="697"/>
         <source>Exit</source>
         <translation>Выход</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="697"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="698"/>
         <source>Icon</source>
         <translation>Значок</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="698"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="699"/>
         <source>List</source>
         <translation>Список</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="699"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="700"/>
         <source>Extend</source>
         <translation>Расширить</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="700"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="701"/>
         <source>Set as wallpaper</source>
         <translation>Сделать фоном рабочего стола</translation>
     </message>
@@ -2451,24 +2234,25 @@
         <translation>Создать символическую ссылку</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="704"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="705"/>
         <source>Path</source>
         <translation>Путь</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="702"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="703"/>
         <location filename="../models/trashfileinfo.cpp" line="335"/>
         <location filename="../models/trashfileinfo.cpp" line="343"/>
         <source>Time deleted</source>
         <translation>Время удаления</translation>
     </message>
     <message>
-        <location filename="../interfaces/dabstractfileinfo.cpp" line="1229"/>
+        <location filename="../interfaces/dabstractfileinfo.cpp" line="1239"/>
         <source>Loading...</source>
         <translation>Загрузка...</translation>
     </message>
     <message>
         <location filename="../interfaces/dfileinfo.cpp" line="754"/>
+        <location filename="../models/fileinfo.cpp" line="130"/>
         <source>File has been moved or deleted</source>
         <translation>Файл был перемещен или удален</translation>
     </message>
@@ -2476,11 +2260,13 @@
         <location filename="../interfaces/dfileinfo.cpp" line="756"/>
         <location filename="../interfaces/dfileinfo.cpp" line="764"/>
         <location filename="../interfaces/dfileinfo.cpp" line="770"/>
+        <location filename="../models/fileinfo.cpp" line="132"/>
         <source>You do not have permission to access this folder</source>
         <translation>У вас нет разрешения на доступ к этой папке</translation>
     </message>
     <message>
         <location filename="../interfaces/dfileinfo.cpp" line="774"/>
+        <location filename="../models/fileinfo.cpp" line="135"/>
         <location filename="../models/recentfileinfo.cpp" line="191"/>
         <location filename="../models/trashfileinfo.cpp" line="376"/>
         <source>Folder is empty</source>
@@ -2509,99 +2295,97 @@
         <translation>Исходный Путь</translation>
     </message>
     <message>
-        <location filename="../controllers/appcontroller.cpp" line="385"/>
+        <location filename="../controllers/appcontroller.cpp" line="392"/>
         <source>Document</source>
         <translation>Документ</translation>
     </message>
     <message>
-        <location filename="../controllers/appcontroller.cpp" line="392"/>
+        <location filename="../controllers/appcontroller.cpp" line="399"/>
         <source>Spreadsheet</source>
         <translation>Таблица</translation>
     </message>
     <message>
-        <location filename="../controllers/appcontroller.cpp" line="399"/>
+        <location filename="../controllers/appcontroller.cpp" line="406"/>
         <location filename="../interfaces/dfilemenumanager.cpp" line="677"/>
         <source>Presentation</source>
         <translation>Презентация</translation>
     </message>
     <message>
-        <location filename="../controllers/appcontroller.cpp" line="406"/>
+        <location filename="../controllers/appcontroller.cpp" line="413"/>
         <source>Text</source>
         <translation>Текст</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="921"/>
         <source>1 task in progress</source>
-        <translation>1 задача выполняется</translation>
+        <translation type="vanished">1 задача выполняется</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="923"/>
         <source>%1 tasks in progress</source>
-        <translation>%1 задачи выполняются</translation>
+        <translation type="vanished">%1 задачи выполняются</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="141"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="142"/>
         <source>Mode:</source>
         <translation>Режим:</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="143"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="144"/>
         <location filename="../views/drenamebar.cpp" line="234"/>
         <source>Replace Text</source>
         <translation>Заменить Текст</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="143"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="144"/>
         <location filename="../views/drenamebar.cpp" line="234"/>
         <source>Add Text</source>
         <translation>Добавить Текст</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="143"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="144"/>
         <location filename="../views/drenamebar.cpp" line="234"/>
         <source>Custom Text</source>
         <translation>Пользовательский Текст</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="149"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="150"/>
         <source>Find:</source>
         <translation>Найти:</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="170"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="171"/>
         <source>Replace:</source>
         <translation>Заменить:</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="172"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="173"/>
         <location filename="../views/drenamebar.cpp" line="251"/>
         <source>Optional</source>
         <translation>Необязательный</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="189"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="190"/>
         <source>Add:</source>
         <translation>Добавить:</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="208"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="209"/>
         <source>Location:</source>
         <translation>Местоположение:</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="215"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="216"/>
         <source>File name:</source>
         <translation>Имя файла:</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="232"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="233"/>
         <source>+SN:</source>
         <translation>+SN:</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="152"/>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="191"/>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="217"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="153"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="192"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="218"/>
         <location filename="../views/drenamebar.cpp" line="243"/>
         <location filename="../views/drenamebar.cpp" line="260"/>
         <location filename="../views/drenamebar.cpp" line="276"/>
@@ -2610,13 +2394,13 @@
         <translation>Требуется</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="210"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="211"/>
         <location filename="../views/drenamebar.cpp" line="269"/>
         <source>Before file name</source>
         <translation>До имени файла</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="210"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="211"/>
         <location filename="../views/drenamebar.cpp" line="269"/>
         <source>After file name</source>
         <translation>После имени файла</translation>
@@ -2657,8 +2441,8 @@
         <translation>Совет: Сортировать по выбранному файлу ордера</translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="135"/>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="381"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="137"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="382"/>
         <location filename="../views/drenamebar.cpp" line="297"/>
         <source>Cancel</source>
         <translation>Отмена</translation>
@@ -2781,6 +2565,11 @@
         <location filename="../views/dfmopticalmediawidget.cpp" line="96"/>
         <source>Free Space %1</source>
         <translation>Свободное пространство %1</translation>
+    </message>
+    <message>
+        <location filename="../controllers/filecontroller.cpp" line="753"/>
+        <source>Files are being processed</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3246,14 +3035,12 @@
 <context>
     <name>UserShareManager</name>
     <message>
-        <location filename="../../usershare/usersharemanager.cpp" line="420"/>
         <source>Kindly Reminder</source>
-        <translation>Пожалуйста Запомните</translation>
+        <translation type="vanished">Пожалуйста Запомните</translation>
     </message>
     <message>
-        <location filename="../../usershare/usersharemanager.cpp" line="420"/>
         <source>Please firstly install samba to continue</source>
-        <translation>Пожалуйста, сначала установите samba для продолжения</translation>
+        <translation type="vanished">Пожалуйста, сначала установите samba для продолжения</translation>
     </message>
 </context>
 <context>

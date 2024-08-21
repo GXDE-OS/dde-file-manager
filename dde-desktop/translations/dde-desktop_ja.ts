@@ -1,43 +1,45 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ja" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="ja">
 <context>
     <name>CanvasGridView</name>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2400"/>
+        <location filename="../view/canvasgridview.cpp" line="2405"/>
         <source>Icon size</source>
         <translation>アイコンサイズ</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2406"/>
+        <location filename="../view/canvasgridview.cpp" line="2411"/>
         <source>Auto merge</source>
         <translation>自動的にまとめる</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2415"/>
+        <location filename="../view/canvasgridview.cpp" line="2420"/>
         <source>Auto arrange</source>
         <translation>自動整列</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2470"/>
+        <location filename="../view/canvasgridview.cpp" line="2475"/>
         <source>Set Wallpaper</source>
         <translation>壁紙を設定</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2472"/>
+        <location filename="../view/canvasgridview.cpp" line="2477"/>
         <source>Wallpaper and Screensaver</source>
         <translation>壁紙とスクリーンセーバー</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2553"/>
+        <location filename="../view/canvasgridview.cpp" line="2558"/>
         <source>Properties</source>
         <translation>プロパテイ</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2456"/>
+        <location filename="../view/canvasgridview.cpp" line="2461"/>
         <source>Display Settings</source>
         <translation>ディスプレイ設定</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2463"/>
+        <location filename="../view/canvasgridview.cpp" line="2468"/>
         <source>Corner Settings</source>
         <translation>コーナー設定</translation>
     </message>
@@ -73,97 +75,79 @@
 <context>
     <name>Frame</name>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="423"/>
         <source>Wallpaper Slideshow</source>
-        <translation>壁紙をスライドショーにする</translation>
+        <translation type="vanished">壁紙をスライドショーにする</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="449"/>
         <source>When login</source>
-        <translation>ログイン時</translation>
+        <translation type="vanished">ログイン時</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="451"/>
         <source>When wakeup</source>
-        <translation>再開時</translation>
+        <translation type="vanished">再開時</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="491"/>
         <source>Require a password on wakeup</source>
-        <translation>再開時にパスワードを入力</translation>
+        <translation type="vanished">再開時にパスワードを入力</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="516"/>
         <source>Never</source>
-        <translation>使用しない</translation>
+        <translation type="vanished">使用しない</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="517"/>
         <source>Wait:</source>
-        <translation>開始まで:</translation>
+        <translation type="vanished">開始まで:</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="545"/>
         <source>Wallpaper</source>
-        <translation>壁紙</translation>
+        <translation type="vanished">壁紙</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="545"/>
         <source>Screensaver</source>
-        <translation>スクリーンセーバー</translation>
+        <translation type="vanished">スクリーンセーバー</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="607"/>
         <source>Only desktop</source>
-        <translation>デスクトップのみ</translation>
+        <translation type="vanished">デスクトップのみ</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="608"/>
         <source>Only lock screen</source>
-        <translation>ロック画面のみ</translation>
+        <translation type="vanished">ロック画面のみ</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="636"/>
         <source>Apply</source>
-        <translation>適用</translation>
+        <translation type="vanished">適用</translation>
     </message>
 </context>
 <context>
     <name>ZoneMainWindow</name>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Fast Screen Off</source>
-        <translation>すぐに画面を切る</translation>
+        <translation type="vanished">すぐに画面を切る</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Control Center</source>
-        <translation>コントロールセンター</translation>
+        <translation type="vanished">コントロールセンター</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>All Windows</source>
-        <translation>すべてのウインドウ</translation>
+        <translation type="vanished">すべてのウインドウ</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Launcher</source>
-        <translation>ランチャー</translation>
+        <translation type="vanished">ランチャー</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Desktop</source>
-        <translation>デスクトップ</translation>
+        <translation type="vanished">デスクトップ</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>None</source>
-        <translation>なにもしない</translation>
+        <translation type="vanished">なにもしない</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="59"/>
         <source>Close Window</source>
-        <translation>ウインドウを閉じる</translation>
+        <translation type="vanished">ウインドウを閉じる</translation>
     </message>
 </context>
 </TS>

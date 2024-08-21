@@ -1,43 +1,45 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="tr" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="tr">
 <context>
     <name>CanvasGridView</name>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2400"/>
+        <location filename="../view/canvasgridview.cpp" line="2405"/>
         <source>Icon size</source>
         <translation>Simge boyutu</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2406"/>
+        <location filename="../view/canvasgridview.cpp" line="2411"/>
         <source>Auto merge</source>
         <translation>Otomatik birleştir</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2415"/>
+        <location filename="../view/canvasgridview.cpp" line="2420"/>
         <source>Auto arrange</source>
         <translation>Otomatik hizala</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2470"/>
+        <location filename="../view/canvasgridview.cpp" line="2475"/>
         <source>Set Wallpaper</source>
         <translation>Duvar Kağıdını Ayarla</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2472"/>
+        <location filename="../view/canvasgridview.cpp" line="2477"/>
         <source>Wallpaper and Screensaver</source>
         <translation>Duvar Kağıdı ve Ekran Koruyucu</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2553"/>
+        <location filename="../view/canvasgridview.cpp" line="2558"/>
         <source>Properties</source>
         <translation>Özellikler</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2456"/>
+        <location filename="../view/canvasgridview.cpp" line="2461"/>
         <source>Display Settings</source>
         <translation>Görüntü Ayarları</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2463"/>
+        <location filename="../view/canvasgridview.cpp" line="2468"/>
         <source>Corner Settings</source>
         <translation>Köşe Ayarları</translation>
     </message>
@@ -73,97 +75,79 @@
 <context>
     <name>Frame</name>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="423"/>
         <source>Wallpaper Slideshow</source>
-        <translation>Duvar Kağıdı Slayt Gösterisi</translation>
+        <translation type="vanished">Duvar Kağıdı Slayt Gösterisi</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="449"/>
         <source>When login</source>
-        <translation>Oturum açıldığında</translation>
+        <translation type="vanished">Oturum açıldığında</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="451"/>
         <source>When wakeup</source>
-        <translation>Uykudan uyanıldığında</translation>
+        <translation type="vanished">Uykudan uyanıldığında</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="491"/>
         <source>Require a password on wakeup</source>
-        <translation>Uyanıldığında parola sor</translation>
+        <translation type="vanished">Uyanıldığında parola sor</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="516"/>
         <source>Never</source>
-        <translation>Asla</translation>
+        <translation type="vanished">Asla</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="517"/>
         <source>Wait:</source>
-        <translation>Bekleme:</translation>
+        <translation type="vanished">Bekleme:</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="545"/>
         <source>Wallpaper</source>
-        <translation>Duvar Kağıdı</translation>
+        <translation type="vanished">Duvar Kağıdı</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="545"/>
         <source>Screensaver</source>
-        <translation>Ekran Koruyucu</translation>
+        <translation type="vanished">Ekran Koruyucu</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="607"/>
         <source>Only desktop</source>
-        <translation>Sadece masaüstü</translation>
+        <translation type="vanished">Sadece masaüstü</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="608"/>
         <source>Only lock screen</source>
-        <translation>Sadece kilit ekranı</translation>
+        <translation type="vanished">Sadece kilit ekranı</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="636"/>
         <source>Apply</source>
-        <translation>Uygula</translation>
+        <translation type="vanished">Uygula</translation>
     </message>
 </context>
 <context>
     <name>ZoneMainWindow</name>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Fast Screen Off</source>
-        <translation>Hızlı Ekran Kapalı</translation>
+        <translation type="vanished">Hızlı Ekran Kapalı</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Control Center</source>
-        <translation>Kontrol Merkezi</translation>
+        <translation type="vanished">Kontrol Merkezi</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>All Windows</source>
-        <translation>Tüm Pencereler</translation>
+        <translation type="vanished">Tüm Pencereler</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Launcher</source>
-        <translation>Başlatıcı</translation>
+        <translation type="vanished">Başlatıcı</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Desktop</source>
-        <translation>Masaüstü</translation>
+        <translation type="vanished">Masaüstü</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>None</source>
-        <translation>Yok</translation>
+        <translation type="vanished">Yok</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="59"/>
         <source>Close Window</source>
-        <translation>Pencereyi Kapat</translation>
+        <translation type="vanished">Pencereyi Kapat</translation>
     </message>
 </context>
 </TS>

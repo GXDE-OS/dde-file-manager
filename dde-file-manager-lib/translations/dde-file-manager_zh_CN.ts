@@ -1,8 +1,10 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_CN" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="zh_CN">
 <context>
     <name>AppController</name>
     <message>
-        <location filename="../controllers/appcontroller.cpp" line="356"/>
+        <location filename="../controllers/appcontroller.cpp" line="363"/>
         <source>New Folder</source>
         <translation>新建文件夹</translation>
     </message>
@@ -346,17 +348,17 @@
 <context>
     <name>DFileDialog</name>
     <message>
-        <location filename="../views/dfiledialog.cpp" line="1020"/>
+        <location filename="../views/dfiledialog.cpp" line="1018"/>
         <source>%1 already exists, do you want to replace it?</source>
         <translation>“%1”已经存在，您是否要替换？</translation>
     </message>
     <message>
-        <location filename="../views/dfiledialog.cpp" line="1021"/>
+        <location filename="../views/dfiledialog.cpp" line="1019"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="../views/dfiledialog.cpp" line="1022"/>
+        <location filename="../views/dfiledialog.cpp" line="1020"/>
         <source>Replace</source>
         <translation>替换</translation>
     </message>
@@ -364,7 +366,7 @@
 <context>
     <name>DFileManagerWindow</name>
     <message>
-        <location filename="../views/dfilemanagerwindow.cpp" line="842"/>
+        <location filename="../views/dfilemanagerwindow.cpp" line="938"/>
         <source>Dark theme</source>
         <translation>深色主题</translation>
     </message>
@@ -378,7 +380,7 @@
         <translation>名称</translation>
     </message>
     <message>
-        <location filename="../interfaces/dabstractfileinfo.cpp" line="1020"/>
+        <location filename="../interfaces/dabstractfileinfo.cpp" line="1030"/>
         <location filename="../interfaces/dfilesystemmodel.cpp" line="1379"/>
         <location filename="../models/searchfileinfo.cpp" line="121"/>
         <source>Time modified</source>
@@ -400,7 +402,7 @@
         <translation>创建时间</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="692"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="693"/>
         <location filename="../interfaces/dfilesystemmodel.cpp" line="1387"/>
         <source>Last access</source>
         <translation>最近访问时间</translation>
@@ -414,7 +416,7 @@
 <context>
     <name>DFileView</name>
     <message>
-        <location filename="../views/dfileview.cpp" line="2722"/>
+        <location filename="../views/dfileview.cpp" line="2723"/>
         <source>(Reverse)</source>
         <translation>（反序）</translation>
     </message>
@@ -493,9 +495,8 @@
 <context>
     <name>DTaskDialog</name>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="83"/>
         <source>This action is not supported</source>
-        <translation>不支持此操作</translation>
+        <translation type="vanished">不支持此操作</translation>
     </message>
 </context>
 <context>
@@ -878,454 +879,263 @@
 <context>
     <name>FileJob</name>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="164"/>
         <source>copy</source>
-        <translation>副本</translation>
+        <translation type="vanished">副本</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="690"/>
-        <location filename="../../fileoperations/filejob.cpp" line="749"/>
         <source>Data verification successful.</source>
-        <translation>数据验证成功。</translation>
+        <translation type="vanished">数据验证成功。</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="690"/>
-        <location filename="../../fileoperations/filejob.cpp" line="749"/>
         <source>Data verification failed.</source>
-        <translation>数据验证失败。</translation>
+        <translation type="vanished">数据验证失败。</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="692"/>
-        <location filename="../../fileoperations/filejob.cpp" line="751"/>
         <source>Burn process completed</source>
-        <translation>刻录完成</translation>
+        <translation type="vanished">刻录完成</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="865"/>
         <source>%1 s</source>
-        <translation>%1 秒</translation>
+        <translation type="vanished">%1 秒</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="869"/>
         <source>%1 m %2 s</source>
-        <translation>%1 分 %2 秒</translation>
+        <translation type="vanished">%1 分 %2 秒</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="875"/>
         <source>%1 h %2 m %3 s</source>
-        <translation>%1 时 %2 分 %3 秒</translation>
+        <translation type="vanished">%1 时 %2 分 %3 秒</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="884"/>
         <source>%1 d %2 h %3 m %4 s</source>
-        <translation>%1 天 %2 时 %3 分 %4 秒</translation>
+        <translation type="vanished">%1 天 %2 时 %3 分 %4 秒</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="2611"/>
         <source>%1 is a duplicate file.</source>
-        <translation>%1为重复文件。</translation>
+        <translation type="vanished">%1为重复文件。</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="2614"/>
         <source>Insufficient disc space.</source>
-        <translation>光盘空间不足。</translation>
+        <translation type="vanished">光盘空间不足。</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="2617"/>
         <source>Lost connection to drive.</source>
-        <translation>与光驱的连接断开。</translation>
+        <translation type="vanished">与光驱的连接断开。</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="2620"/>
         <source>The CD/DVD drive is not ready. Try another disc.</source>
-        <translation>光驱未准备好，您可以换一张光盘再试。</translation>
+        <translation type="vanished">光驱未准备好，您可以换一张光盘再试。</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="2623"/>
         <source>The CD/DVD drive is busy. Exit the program using the drive, and insert the drive again.</source>
-        <translation>光驱被占用，您可以尝试关掉正在使用光驱的程序后重新插入光驱。</translation>
+        <translation type="vanished">光驱被占用，您可以尝试关掉正在使用光驱的程序后重新插入光驱。</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="2626"/>
         <source>Unknown error</source>
-        <translation>未知错误</translation>
+        <translation type="vanished">未知错误</translation>
     </message>
 </context>
 <context>
     <name>GenerateSettingTranslate</name>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="5"/>
-        <location filename="../configure/global-setting-template-pro.js" line="5"/>
-        <location filename="../configure/global-setting-template.js" line="5"/>
         <source>Basic</source>
-        <translation>基础设置</translation>
+        <translation type="vanished">基础设置</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="9"/>
-        <location filename="../configure/global-setting-template-pro.js" line="9"/>
-        <location filename="../configure/global-setting-template.js" line="9"/>
         <source>Open behavior</source>
-        <translation>打开行为</translation>
+        <translation type="vanished">打开行为</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="14"/>
-        <location filename="../configure/global-setting-template-pro.js" line="14"/>
-        <location filename="../configure/global-setting-template.js" line="14"/>
         <source>Always open folder in new window</source>
-        <translation>总是在新窗口打开文件夹</translation>
+        <translation type="vanished">总是在新窗口打开文件夹</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="19"/>
-        <location filename="../configure/global-setting-template-pro.js" line="19"/>
-        <location filename="../configure/global-setting-template.js" line="19"/>
         <source>Open file:</source>
-        <translation>打开文件：</translation>
+        <translation type="vanished">打开文件：</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="22"/>
-        <location filename="../configure/global-setting-template-pro.js" line="22"/>
-        <location filename="../configure/global-setting-template.js" line="22"/>
         <source>Click</source>
-        <translation>单击</translation>
+        <translation type="vanished">单击</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="23"/>
-        <location filename="../configure/global-setting-template-pro.js" line="23"/>
-        <location filename="../configure/global-setting-template.js" line="23"/>
         <source>Double click</source>
-        <translation>双击</translation>
+        <translation type="vanished">双击</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="31"/>
-        <location filename="../configure/global-setting-template-pro.js" line="31"/>
-        <location filename="../configure/global-setting-template.js" line="31"/>
         <source>New window and tab</source>
-        <translation>新窗口和新标签</translation>
+        <translation type="vanished">新窗口和新标签</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="35"/>
-        <location filename="../configure/global-setting-template-pro.js" line="35"/>
-        <location filename="../configure/global-setting-template.js" line="35"/>
         <source>Open from default window:</source>
-        <translation>从默认窗口打开：</translation>
+        <translation type="vanished">从默认窗口打开：</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="39"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="68"/>
-        <location filename="../configure/global-setting-template-pro.js" line="39"/>
-        <location filename="../configure/global-setting-template-pro.js" line="68"/>
-        <location filename="../configure/global-setting-template.js" line="39"/>
-        <location filename="../configure/global-setting-template.js" line="68"/>
         <source>Computer</source>
-        <translation>计算机</translation>
+        <translation type="vanished">计算机</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="40"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="69"/>
-        <location filename="../configure/global-setting-template-pro.js" line="40"/>
-        <location filename="../configure/global-setting-template-pro.js" line="69"/>
-        <location filename="../configure/global-setting-template.js" line="40"/>
-        <location filename="../configure/global-setting-template.js" line="69"/>
         <source>Home</source>
-        <translation>主目录</translation>
+        <translation type="vanished">主目录</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="41"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="70"/>
-        <location filename="../configure/global-setting-template-pro.js" line="41"/>
-        <location filename="../configure/global-setting-template-pro.js" line="70"/>
-        <location filename="../configure/global-setting-template.js" line="41"/>
-        <location filename="../configure/global-setting-template.js" line="70"/>
         <source>Desktop</source>
-        <translation>桌面</translation>
+        <translation type="vanished">桌面</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="42"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="71"/>
-        <location filename="../configure/global-setting-template-pro.js" line="42"/>
-        <location filename="../configure/global-setting-template-pro.js" line="71"/>
-        <location filename="../configure/global-setting-template.js" line="42"/>
-        <location filename="../configure/global-setting-template.js" line="71"/>
         <source>Videos</source>
-        <translation>视频</translation>
+        <translation type="vanished">视频</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="43"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="72"/>
-        <location filename="../configure/global-setting-template-pro.js" line="43"/>
-        <location filename="../configure/global-setting-template-pro.js" line="72"/>
-        <location filename="../configure/global-setting-template.js" line="43"/>
-        <location filename="../configure/global-setting-template.js" line="72"/>
         <source>Music</source>
-        <translation>音乐</translation>
+        <translation type="vanished">音乐</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="44"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="73"/>
-        <location filename="../configure/global-setting-template-pro.js" line="44"/>
-        <location filename="../configure/global-setting-template-pro.js" line="73"/>
-        <location filename="../configure/global-setting-template.js" line="44"/>
-        <location filename="../configure/global-setting-template.js" line="73"/>
         <source>Pictures</source>
-        <translation>图片</translation>
+        <translation type="vanished">图片</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="45"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="74"/>
-        <location filename="../configure/global-setting-template-pro.js" line="45"/>
-        <location filename="../configure/global-setting-template-pro.js" line="74"/>
-        <location filename="../configure/global-setting-template.js" line="45"/>
-        <location filename="../configure/global-setting-template.js" line="74"/>
         <source>Documents</source>
-        <translation>文档</translation>
+        <translation type="vanished">文档</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="46"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="75"/>
-        <location filename="../configure/global-setting-template-pro.js" line="46"/>
-        <location filename="../configure/global-setting-template-pro.js" line="75"/>
-        <location filename="../configure/global-setting-template.js" line="46"/>
-        <location filename="../configure/global-setting-template.js" line="75"/>
         <source>Downloads</source>
-        <translation>下载</translation>
+        <translation type="vanished">下载</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="63"/>
-        <location filename="../configure/global-setting-template-pro.js" line="63"/>
-        <location filename="../configure/global-setting-template.js" line="63"/>
         <source>Open in new tab:</source>
-        <translation>从新标签打开：</translation>
+        <translation type="vanished">从新标签打开：</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="67"/>
-        <location filename="../configure/global-setting-template-pro.js" line="67"/>
-        <location filename="../configure/global-setting-template.js" line="67"/>
         <source>Current Directory</source>
-        <translation>当前目录</translation>
+        <translation type="vanished">当前目录</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="95"/>
-        <location filename="../configure/global-setting-template-pro.js" line="95"/>
-        <location filename="../configure/global-setting-template.js" line="95"/>
         <source>View</source>
-        <translation>视图</translation>
+        <translation type="vanished">视图</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="99"/>
-        <location filename="../configure/global-setting-template-pro.js" line="99"/>
-        <location filename="../configure/global-setting-template.js" line="99"/>
         <source>Default size:</source>
-        <translation>默认大小：</translation>
+        <translation type="vanished">默认大小：</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="102"/>
-        <location filename="../configure/global-setting-template-pro.js" line="102"/>
-        <location filename="../configure/global-setting-template.js" line="102"/>
         <source>Extra small</source>
-        <translation>特小</translation>
+        <translation type="vanished">特小</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="103"/>
-        <location filename="../configure/global-setting-template-pro.js" line="103"/>
-        <location filename="../configure/global-setting-template.js" line="103"/>
         <source>Small</source>
-        <translation>小</translation>
+        <translation type="vanished">小</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="104"/>
-        <location filename="../configure/global-setting-template-pro.js" line="104"/>
-        <location filename="../configure/global-setting-template.js" line="104"/>
         <source>Medium</source>
-        <translation>中</translation>
+        <translation type="vanished">中</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="105"/>
-        <location filename="../configure/global-setting-template-pro.js" line="105"/>
-        <location filename="../configure/global-setting-template.js" line="105"/>
         <source>Large</source>
-        <translation>大</translation>
+        <translation type="vanished">大</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="106"/>
-        <location filename="../configure/global-setting-template-pro.js" line="106"/>
-        <location filename="../configure/global-setting-template.js" line="106"/>
         <source>Extra large</source>
-        <translation>特大</translation>
+        <translation type="vanished">特大</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="112"/>
-        <location filename="../configure/global-setting-template-pro.js" line="112"/>
-        <location filename="../configure/global-setting-template.js" line="112"/>
         <source>Default view:</source>
-        <translation>默认视图：</translation>
+        <translation type="vanished">默认视图：</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="116"/>
-        <location filename="../configure/global-setting-template-pro.js" line="116"/>
-        <location filename="../configure/global-setting-template.js" line="116"/>
         <source>Icon</source>
-        <translation>图标视图</translation>
+        <translation type="vanished">图标视图</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="117"/>
-        <location filename="../configure/global-setting-template-pro.js" line="117"/>
-        <location filename="../configure/global-setting-template.js" line="117"/>
         <source>List</source>
-        <translation>列表视图</translation>
+        <translation type="vanished">列表视图</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="129"/>
-        <location filename="../configure/global-setting-template-pro.js" line="129"/>
-        <location filename="../configure/global-setting-template.js" line="129"/>
         <source>Hidden files</source>
-        <translation>隐藏文件</translation>
+        <translation type="vanished">隐藏文件</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="133"/>
-        <location filename="../configure/global-setting-template-pro.js" line="133"/>
-        <location filename="../configure/global-setting-template.js" line="133"/>
         <source>Show hidden files</source>
-        <translation>显示隐藏文件</translation>
+        <translation type="vanished">显示隐藏文件</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="139"/>
-        <location filename="../configure/global-setting-template-pro.js" line="139"/>
-        <location filename="../configure/global-setting-template.js" line="139"/>
         <source>Hide file extension when rename</source>
-        <translation>重命名时隐藏文件扩展名</translation>
+        <translation type="vanished">重命名时隐藏文件扩展名</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="156"/>
-        <location filename="../configure/global-setting-template-pro.js" line="157"/>
-        <location filename="../configure/global-setting-template.js" line="157"/>
         <source>Advanced</source>
-        <translation>高级设置</translation>
+        <translation type="vanished">高级设置</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="160"/>
-        <location filename="../configure/global-setting-template-pro.js" line="161"/>
-        <location filename="../configure/global-setting-template.js" line="161"/>
         <source>Index</source>
-        <translation>索引</translation>
+        <translation type="vanished">索引</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="164"/>
-        <location filename="../configure/global-setting-template-pro.js" line="165"/>
-        <location filename="../configure/global-setting-template.js" line="165"/>
         <source>Auto index internal disk</source>
-        <translation>自动索引内置磁盘</translation>
+        <translation type="vanished">自动索引内置磁盘</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="170"/>
-        <location filename="../configure/global-setting-template-pro.js" line="171"/>
-        <location filename="../configure/global-setting-template.js" line="171"/>
         <source>Index external storage device after connected to computer</source>
-        <translation>连接电脑后索引外部存储设备</translation>
+        <translation type="vanished">连接电脑后索引外部存储设备</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="259"/>
-        <location filename="../configure/global-setting-template-pro.js" line="259"/>
-        <location filename="../configure/global-setting-template.js" line="258"/>
         <source>Other</source>
-        <translation>其他</translation>
+        <translation type="vanished">其他</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="263"/>
-        <location filename="../configure/global-setting-template-pro.js" line="263"/>
-        <location filename="../configure/global-setting-template.js" line="262"/>
         <source>Hide system disk</source>
-        <translation>隐藏系统盘</translation>
+        <translation type="vanished">隐藏系统盘</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="182"/>
-        <location filename="../configure/global-setting-template-pro.js" line="183"/>
-        <location filename="../configure/global-setting-template.js" line="183"/>
         <source>Show hidden files in search results</source>
-        <translation>搜索结果显示隐藏文件</translation>
+        <translation type="vanished">搜索结果显示隐藏文件</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="145"/>
-        <location filename="../configure/global-setting-template-pro.js" line="145"/>
-        <location filename="../configure/global-setting-template.js" line="145"/>
         <source>Display recent file entry in left panel</source>
-        <translation>显示最近使用文件</translation>
+        <translation type="vanished">显示最近使用文件</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="191"/>
-        <location filename="../configure/global-setting-template-pro.js" line="192"/>
-        <location filename="../configure/global-setting-template.js" line="192"/>
         <source>Preview</source>
-        <translation>预览</translation>
+        <translation type="vanished">预览</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="195"/>
-        <location filename="../configure/global-setting-template-pro.js" line="196"/>
-        <location filename="../configure/global-setting-template.js" line="196"/>
         <source>Compress file preview</source>
-        <translation>压缩包预览</translation>
+        <translation type="vanished">压缩包预览</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="202"/>
-        <location filename="../configure/global-setting-template-pro.js" line="203"/>
-        <location filename="../configure/global-setting-template.js" line="202"/>
         <source>Text preview</source>
-        <translation>文本预览</translation>
+        <translation type="vanished">文本预览</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="208"/>
-        <location filename="../configure/global-setting-template-pro.js" line="209"/>
-        <location filename="../configure/global-setting-template.js" line="208"/>
         <source>Document preview</source>
-        <translation>文档预览</translation>
+        <translation type="vanished">文档预览</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="214"/>
-        <location filename="../configure/global-setting-template-pro.js" line="215"/>
-        <location filename="../configure/global-setting-template.js" line="214"/>
         <source>Image preview</source>
-        <translation>图片预览</translation>
+        <translation type="vanished">图片预览</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="220"/>
-        <location filename="../configure/global-setting-template-pro.js" line="221"/>
-        <location filename="../configure/global-setting-template.js" line="220"/>
         <source>Video preview</source>
-        <translation>视频预览</translation>
+        <translation type="vanished">视频预览</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="229"/>
-        <location filename="../configure/global-setting-template-pro.js" line="229"/>
-        <location filename="../configure/global-setting-template.js" line="228"/>
         <source>Mount</source>
-        <translation>挂载</translation>
+        <translation type="vanished">挂载</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="233"/>
-        <location filename="../configure/global-setting-template-pro.js" line="233"/>
-        <location filename="../configure/global-setting-template.js" line="232"/>
         <source>Auto mount</source>
-        <translation>自动挂载</translation>
+        <translation type="vanished">自动挂载</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="239"/>
-        <location filename="../configure/global-setting-template-pro.js" line="239"/>
-        <location filename="../configure/global-setting-template.js" line="238"/>
         <source>Open after auto mount</source>
-        <translation>自动挂载后打开</translation>
+        <translation type="vanished">自动挂载后打开</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="247"/>
-        <location filename="../configure/global-setting-template-pro.js" line="247"/>
-        <location filename="../configure/global-setting-template.js" line="246"/>
         <source>Dialog</source>
-        <translation>对话框</translation>
+        <translation type="vanished">对话框</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="251"/>
-        <location filename="../configure/global-setting-template-pro.js" line="251"/>
-        <location filename="../configure/global-setting-template.js" line="250"/>
         <source>Use the file chooser dialog of Deepin File Manager</source>
-        <translation>使用深度文件管理器的文件选择对话框</translation>
+        <translation type="vanished">使用深度文件管理器的文件选择对话框</translation>
     </message>
 </context>
 <context>
@@ -1545,148 +1355,116 @@
 <context>
     <name>MoveCopyTaskWidget</name>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="355"/>
         <source>Skip</source>
-        <translation>跳过</translation>
+        <translation type="vanished">跳过</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="354"/>
         <source>Keep both</source>
-        <translation>共存</translation>
+        <translation type="vanished">共存</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="356"/>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="505"/>
         <source>Replace</source>
-        <translation>替换</translation>
+        <translation type="vanished">替换</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="377"/>
         <source>Do not ask again</source>
-        <translation>不再询问</translation>
+        <translation type="vanished">不再询问</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="503"/>
         <source>merge</source>
-        <translation>合并</translation>
+        <translation type="vanished">合并</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="473"/>
         <source>Copying %1</source>
-        <translation>正在复制%1</translation>
+        <translation type="vanished">正在复制%1</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="413"/>
         <source>Erasing disc %1, please wait...</source>
-        <translation>正在擦除%1，请稍候...</translation>
+        <translation type="vanished">正在擦除%1，请稍候...</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="414"/>
         <source>Burning disc %1, please wait...</source>
-        <translation>正在刻录到%1，请稍候...</translation>
+        <translation type="vanished">正在刻录到%1，请稍候...</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="419"/>
         <source>Writing data...</source>
-        <translation>正在写入数据...</translation>
+        <translation type="vanished">正在写入数据...</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="420"/>
         <source>Verifying data...</source>
-        <translation>正在校验数据...</translation>
+        <translation type="vanished">正在校验数据...</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="474"/>
         <source>Copy to %2</source>
-        <translation>复制到%2</translation>
+        <translation type="vanished">复制到%2</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="477"/>
         <source>Moving %1</source>
-        <translation>正在移动%1</translation>
+        <translation type="vanished">正在移动%1</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="478"/>
         <source>Move to %2</source>
-        <translation>移动到%2</translation>
+        <translation type="vanished">移动到%2</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="480"/>
         <source>Restoring %1</source>
-        <translation>正在恢复%1</translation>
+        <translation type="vanished">正在恢复%1</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="481"/>
         <source>Restore to %2</source>
-        <translation>恢复到%2</translation>
+        <translation type="vanished">恢复到%2</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="483"/>
         <source>Deleting %1</source>
-        <translation>正在删除%1</translation>
+        <translation type="vanished">正在删除%1</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="486"/>
         <source>Trashing %1</source>
-        <translation>正在移动 %1</translation>
+        <translation type="vanished">正在移动 %1</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="494"/>
         <source>Calculating space, please wait</source>
-        <translation>正在计算大小，请稍候</translation>
+        <translation type="vanished">正在计算大小，请稍候</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="497"/>
         <source>File named %1 already exists in target folder</source>
-        <translation>目标文件夹中已存在名为%1的文件</translation>
+        <translation type="vanished">目标文件夹中已存在名为%1的文件</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="498"/>
         <source>Original path %1 target path %2</source>
-        <translation>原路径%1 目标路径%2</translation>
+        <translation type="vanished">原路径%1 目标路径%2</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="513"/>
         <source>Retry</source>
-        <translation>重试</translation>
+        <translation type="vanished">重试</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="607"/>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="619"/>
         <source>Time modified:%1</source>
-        <translation>修改时间:%1</translation>
+        <translation type="vanished">修改时间:%1</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="609"/>
         <source>Original folder</source>
-        <translation>原始文件夹</translation>
+        <translation type="vanished">原始文件夹</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="612"/>
         <source>Original file</source>
-        <translation>原始文件</translation>
+        <translation type="vanished">原始文件</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="622"/>
         <source>Target folder</source>
-        <translation>目标文件夹</translation>
+        <translation type="vanished">目标文件夹</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="625"/>
         <source>Target file</source>
-        <translation>目标文件</translation>
+        <translation type="vanished">目标文件</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="610"/>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="623"/>
         <source>Contains:%1</source>
-        <translation>个数：%1</translation>
+        <translation type="vanished">个数：%1</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="613"/>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="626"/>
         <source>Size:%1</source>
-        <translation>大小：%1</translation>
+        <translation type="vanished">大小：%1</translation>
     </message>
 </context>
 <context>
@@ -1725,37 +1503,37 @@
 <context>
     <name>OpenWithDialog</name>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="211"/>
+        <location filename="../dialogs/openwithdialog.cpp" line="212"/>
         <source>Open with</source>
         <translation>打开方式</translation>
     </message>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="230"/>
+        <location filename="../dialogs/openwithdialog.cpp" line="231"/>
         <source>Add other programs</source>
         <translation>添加其他程序</translation>
     </message>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="231"/>
+        <location filename="../dialogs/openwithdialog.cpp" line="232"/>
         <source>Set as default</source>
         <translation>设为默认</translation>
     </message>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="233"/>
+        <location filename="../dialogs/openwithdialog.cpp" line="234"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="234"/>
+        <location filename="../dialogs/openwithdialog.cpp" line="235"/>
         <source>Choose</source>
         <translation>选择</translation>
     </message>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="238"/>
+        <location filename="../dialogs/openwithdialog.cpp" line="239"/>
         <source>Recommended Applications</source>
         <translation>推荐应用</translation>
     </message>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="240"/>
+        <location filename="../dialogs/openwithdialog.cpp" line="241"/>
         <source>Other Applications</source>
         <translation>其它应用</translation>
     </message>
@@ -1882,7 +1660,7 @@
     <name>QObject</name>
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="870"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="688"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="689"/>
         <source>Size</source>
         <translation>大小</translation>
     </message>
@@ -1895,7 +1673,7 @@
     </message>
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="871"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="689"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="690"/>
         <source>Type</source>
         <translation>类型</translation>
     </message>
@@ -1906,7 +1684,7 @@
     </message>
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="873"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="691"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="692"/>
         <source>Time modified</source>
         <translation>修改时间</translation>
     </message>
@@ -2082,10 +1860,10 @@
         <translation>粘贴</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="382"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="383"/>
         <location filename="../interfaces/dfilemenumanager.cpp" line="656"/>
         <location filename="../interfaces/dfilemenumanager.cpp" line="657"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="715"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="716"/>
         <location filename="../views/dfmsidebarbookmarkitem.cpp" line="88"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="113"/>
         <location filename="../views/dfmsidebartagitem.cpp" line="60"/>
@@ -2094,7 +1872,7 @@
         <translation>重命名</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="686"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="687"/>
         <location filename="../views/dfmsidebarbookmarkitem.cpp" line="93"/>
         <location filename="../views/dfmsidebartagitem.cpp" line="65"/>
         <source>Remove</source>
@@ -2172,45 +1950,50 @@
         <translation>新建文档</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="690"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="679"/>
+        <source>Refresh</source>
+        <translation>刷新</translation>
+    </message>
+    <message>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="691"/>
         <source>Time created</source>
         <translation>创建时间</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="701"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="702"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="164"/>
         <source>Log out and unmount</source>
         <translation>退出登录并卸载</translation>
     </message>
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="874"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="703"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="704"/>
         <source>Source path</source>
         <translation>原始路径</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="705"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="706"/>
         <source>Share folder</source>
         <translation>共享文件夹</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="706"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="707"/>
         <source>Cancel sharing</source>
         <translation>取消共享</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="707"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="708"/>
         <source>Set share password</source>
         <translation>设置共享密码</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="708"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="709"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="150"/>
         <source>Format</source>
         <translation>格式化</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="711"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="712"/>
         <source>Tag information</source>
         <translation>标记信息</translation>
     </message>
@@ -2237,7 +2020,7 @@
     <message>
         <location filename="../interfaces/dfilemenumanager.cpp" line="663"/>
         <location filename="../interfaces/dfilemenumanager.cpp" line="664"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="713"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="714"/>
         <source>Delete</source>
         <translation>删除</translation>
     </message>
@@ -2257,17 +2040,17 @@
         <translation>文本文档</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="679"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="680"/>
         <source>Open in terminal</source>
         <translation>在终端中打开</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="680"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="681"/>
         <source>Restore</source>
         <translation>还原</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="681"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="682"/>
         <source>Restore all</source>
         <translation>全部还原</translation>
     </message>
@@ -2282,107 +2065,107 @@
         <translation>自动挂载后打开</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="682"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="717"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="683"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="718"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="132"/>
         <location filename="../views/dfmsidebaropticaldevitem.cpp" line="95"/>
         <source>Mount</source>
         <translation>挂载</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="683"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="684"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="146"/>
         <location filename="../views/dfmsidebaropticaldevitem.cpp" line="103"/>
         <source>Unmount</source>
         <translation>卸载</translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="136"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="718"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="138"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="719"/>
         <location filename="../views/dfmopticalmediawidget.cpp" line="69"/>
         <source>Burn</source>
         <translation>刻录</translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="143"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="145"/>
         <source>Disc name:</source>
         <translation>光盘名称：</translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="154"/>
         <location filename="../dialogs/burnoptdialog.cpp" line="156"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="158"/>
         <source>Maximum</source>
         <translation>最大速度</translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="167"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="169"/>
         <source>Allow files to be added later</source>
         <translation>允许追加数据</translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="176"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="178"/>
         <source>Verify data</source>
         <translation>校验数据</translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="150"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="152"/>
         <source>Write speed:</source>
         <translation>写入速度：</translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="179"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="684"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="181"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="685"/>
         <source>Eject</source>
         <translation>弹出</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="685"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="686"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="126"/>
         <source>Safely Remove</source>
         <translation>安全移除</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="687"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="688"/>
         <source>Name</source>
         <translation>名称</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="693"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="694"/>
         <source>Settings</source>
         <translation>设置</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="694"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="695"/>
         <source>Help</source>
         <translation>帮助</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="695"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="696"/>
         <source>About</source>
         <translation>关于</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="696"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="697"/>
         <source>Exit</source>
         <translation>退出</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="697"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="698"/>
         <source>Icon</source>
         <translation>图标视图</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="698"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="699"/>
         <source>List</source>
         <translation>列表视图</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="699"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="700"/>
         <source>Extend</source>
         <translation>扩展视图</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="700"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="701"/>
         <source>Set as wallpaper</source>
         <translation>设置壁纸</translation>
     </message>
@@ -2451,24 +2234,25 @@
         <translation>创建链接</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="704"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="705"/>
         <source>Path</source>
         <translation>路径</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="702"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="703"/>
         <location filename="../models/trashfileinfo.cpp" line="335"/>
         <location filename="../models/trashfileinfo.cpp" line="343"/>
         <source>Time deleted</source>
         <translation>删除时间</translation>
     </message>
     <message>
-        <location filename="../interfaces/dabstractfileinfo.cpp" line="1229"/>
+        <location filename="../interfaces/dabstractfileinfo.cpp" line="1239"/>
         <source>Loading...</source>
         <translation>正在加载...</translation>
     </message>
     <message>
         <location filename="../interfaces/dfileinfo.cpp" line="754"/>
+        <location filename="../models/fileinfo.cpp" line="130"/>
         <source>File has been moved or deleted</source>
         <translation>文件已被移动或删除</translation>
     </message>
@@ -2476,11 +2260,13 @@
         <location filename="../interfaces/dfileinfo.cpp" line="756"/>
         <location filename="../interfaces/dfileinfo.cpp" line="764"/>
         <location filename="../interfaces/dfileinfo.cpp" line="770"/>
+        <location filename="../models/fileinfo.cpp" line="132"/>
         <source>You do not have permission to access this folder</source>
         <translation>您没有权限读取此文件夹</translation>
     </message>
     <message>
         <location filename="../interfaces/dfileinfo.cpp" line="774"/>
+        <location filename="../models/fileinfo.cpp" line="135"/>
         <location filename="../models/recentfileinfo.cpp" line="191"/>
         <location filename="../models/trashfileinfo.cpp" line="376"/>
         <source>Folder is empty</source>
@@ -2509,99 +2295,97 @@
         <translation>原始路径</translation>
     </message>
     <message>
-        <location filename="../controllers/appcontroller.cpp" line="385"/>
+        <location filename="../controllers/appcontroller.cpp" line="392"/>
         <source>Document</source>
         <translation>新建Word文档</translation>
     </message>
     <message>
-        <location filename="../controllers/appcontroller.cpp" line="392"/>
+        <location filename="../controllers/appcontroller.cpp" line="399"/>
         <source>Spreadsheet</source>
         <translation>新建Excel文档</translation>
     </message>
     <message>
-        <location filename="../controllers/appcontroller.cpp" line="399"/>
+        <location filename="../controllers/appcontroller.cpp" line="406"/>
         <location filename="../interfaces/dfilemenumanager.cpp" line="677"/>
         <source>Presentation</source>
         <translation>演示文档</translation>
     </message>
     <message>
-        <location filename="../controllers/appcontroller.cpp" line="406"/>
+        <location filename="../controllers/appcontroller.cpp" line="413"/>
         <source>Text</source>
         <translation>新建文本</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="921"/>
         <source>1 task in progress</source>
-        <translation>有1个任务正在进行</translation>
+        <translation type="vanished">有1个任务正在进行</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="923"/>
         <source>%1 tasks in progress</source>
-        <translation>有%1个任务正在进行</translation>
+        <translation type="vanished">有%1个任务正在进行</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="141"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="142"/>
         <source>Mode:</source>
         <translation>方式：</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="143"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="144"/>
         <location filename="../views/drenamebar.cpp" line="234"/>
         <source>Replace Text</source>
         <translation>替换文本</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="143"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="144"/>
         <location filename="../views/drenamebar.cpp" line="234"/>
         <source>Add Text</source>
         <translation>添加文本</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="143"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="144"/>
         <location filename="../views/drenamebar.cpp" line="234"/>
         <source>Custom Text</source>
         <translation>自定义文本</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="149"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="150"/>
         <source>Find:</source>
         <translation>查找：</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="170"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="171"/>
         <source>Replace:</source>
         <translation>替换：</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="172"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="173"/>
         <location filename="../views/drenamebar.cpp" line="251"/>
         <source>Optional</source>
         <translation>选填</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="189"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="190"/>
         <source>Add:</source>
         <translation>添加：</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="208"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="209"/>
         <source>Location:</source>
         <translation>位置：</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="215"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="216"/>
         <source>File name:</source>
         <translation>文件名：</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="232"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="233"/>
         <source>+SN:</source>
         <translation>+序列：</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="152"/>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="191"/>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="217"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="153"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="192"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="218"/>
         <location filename="../views/drenamebar.cpp" line="243"/>
         <location filename="../views/drenamebar.cpp" line="260"/>
         <location filename="../views/drenamebar.cpp" line="276"/>
@@ -2610,13 +2394,13 @@
         <translation>必填</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="210"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="211"/>
         <location filename="../views/drenamebar.cpp" line="269"/>
         <source>Before file name</source>
         <translation>名称之前</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="210"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="211"/>
         <location filename="../views/drenamebar.cpp" line="269"/>
         <source>After file name</source>
         <translation>名称之后</translation>
@@ -2657,8 +2441,8 @@
         <translation>提示：根据选择文件的顺序先后排序</translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="135"/>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="381"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="137"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="382"/>
         <location filename="../views/drenamebar.cpp" line="297"/>
         <source>Cancel</source>
         <translation>取消</translation>
@@ -2781,6 +2565,11 @@
         <location filename="../views/dfmopticalmediawidget.cpp" line="96"/>
         <source>Free Space %1</source>
         <translation>可用空间 %1</translation>
+    </message>
+    <message>
+        <location filename="../controllers/filecontroller.cpp" line="753"/>
+        <source>Files are being processed</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3246,14 +3035,12 @@
 <context>
     <name>UserShareManager</name>
     <message>
-        <location filename="../../usershare/usersharemanager.cpp" line="420"/>
         <source>Kindly Reminder</source>
-        <translation>温馨提示</translation>
+        <translation type="vanished">温馨提示</translation>
     </message>
     <message>
-        <location filename="../../usershare/usersharemanager.cpp" line="420"/>
         <source>Please firstly install samba to continue</source>
-        <translation>请您先安装samba后，再进行共享相关操作！</translation>
+        <translation type="vanished">请您先安装samba后，再进行共享相关操作！</translation>
     </message>
 </context>
 <context>

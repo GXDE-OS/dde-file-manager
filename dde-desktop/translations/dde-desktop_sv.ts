@@ -1,43 +1,45 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="sv" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="sv">
 <context>
     <name>CanvasGridView</name>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2400"/>
+        <location filename="../view/canvasgridview.cpp" line="2405"/>
         <source>Icon size</source>
         <translation>Ikonstorlek</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2406"/>
+        <location filename="../view/canvasgridview.cpp" line="2411"/>
         <source>Auto merge</source>
         <translation>Autosammanfogning</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2415"/>
+        <location filename="../view/canvasgridview.cpp" line="2420"/>
         <source>Auto arrange</source>
         <translation>Autoarrangera</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2470"/>
+        <location filename="../view/canvasgridview.cpp" line="2475"/>
         <source>Set Wallpaper</source>
         <translation>Ange som bakgrundsbild</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2472"/>
+        <location filename="../view/canvasgridview.cpp" line="2477"/>
         <source>Wallpaper and Screensaver</source>
         <translation>Bakgrundsbild och skärmsläckare</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2553"/>
+        <location filename="../view/canvasgridview.cpp" line="2558"/>
         <source>Properties</source>
         <translation>Egenskaper</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2456"/>
+        <location filename="../view/canvasgridview.cpp" line="2461"/>
         <source>Display Settings</source>
         <translation>Skärminställningar</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2463"/>
+        <location filename="../view/canvasgridview.cpp" line="2468"/>
         <source>Corner Settings</source>
         <translation>Kantinställningar</translation>
     </message>
@@ -73,97 +75,71 @@
 <context>
     <name>Frame</name>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="423"/>
         <source>Wallpaper Slideshow</source>
-        <translation>Bakgrundsbildsbildspel</translation>
+        <translation type="vanished">Bakgrundsbildsbildspel</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="449"/>
         <source>When login</source>
-        <translation>Vid inloggning</translation>
+        <translation type="vanished">Vid inloggning</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="451"/>
         <source>When wakeup</source>
-        <translation>Vid väckning</translation>
+        <translation type="vanished">Vid väckning</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="491"/>
         <source>Require a password on wakeup</source>
-        <translation>Kräv ett lösenord vid väckning</translation>
+        <translation type="vanished">Kräv ett lösenord vid väckning</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="516"/>
         <source>Never</source>
-        <translation>Aldrig</translation>
+        <translation type="vanished">Aldrig</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="517"/>
         <source>Wait:</source>
-        <translation>Vänta:</translation>
+        <translation type="vanished">Vänta:</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="545"/>
         <source>Wallpaper</source>
-        <translation>Bakgrundsbild</translation>
+        <translation type="vanished">Bakgrundsbild</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="545"/>
         <source>Screensaver</source>
-        <translation>Skärmsläckare</translation>
+        <translation type="vanished">Skärmsläckare</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="607"/>
         <source>Only desktop</source>
-        <translation>Bara skrivbord</translation>
+        <translation type="vanished">Bara skrivbord</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="608"/>
         <source>Only lock screen</source>
-        <translation>Bara låsskärm</translation>
+        <translation type="vanished">Bara låsskärm</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="636"/>
         <source>Apply</source>
-        <translation>Tillämpa</translation>
+        <translation type="vanished">Tillämpa</translation>
     </message>
 </context>
 <context>
     <name>ZoneMainWindow</name>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
-        <source>Fast Screen Off</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Control Center</source>
-        <translation>Kontrollpanel</translation>
+        <translation type="vanished">Kontrollpanel</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>All Windows</source>
-        <translation>Alla fönster</translation>
+        <translation type="vanished">Alla fönster</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
-        <source>Launcher</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Desktop</source>
-        <translation>Skrivbord</translation>
+        <translation type="vanished">Skrivbord</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>None</source>
-        <translation>Ingen</translation>
+        <translation type="vanished">Ingen</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="59"/>
         <source>Close Window</source>
-        <translation>Stäng fönster</translation>
+        <translation type="vanished">Stäng fönster</translation>
     </message>
 </context>
 </TS>

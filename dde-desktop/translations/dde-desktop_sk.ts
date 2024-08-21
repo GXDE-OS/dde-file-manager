@@ -1,43 +1,45 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="sk" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="sk">
 <context>
     <name>CanvasGridView</name>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2400"/>
+        <location filename="../view/canvasgridview.cpp" line="2405"/>
         <source>Icon size</source>
         <translation>Veľkosť ikony</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2406"/>
+        <location filename="../view/canvasgridview.cpp" line="2411"/>
         <source>Auto merge</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2415"/>
+        <location filename="../view/canvasgridview.cpp" line="2420"/>
         <source>Auto arrange</source>
         <translation>Automaticky usporiadať</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2470"/>
+        <location filename="../view/canvasgridview.cpp" line="2475"/>
         <source>Set Wallpaper</source>
         <translation>Nastaviť pozadie</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2472"/>
+        <location filename="../view/canvasgridview.cpp" line="2477"/>
         <source>Wallpaper and Screensaver</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2553"/>
+        <location filename="../view/canvasgridview.cpp" line="2558"/>
         <source>Properties</source>
         <translation>Vlastnosti</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2456"/>
+        <location filename="../view/canvasgridview.cpp" line="2461"/>
         <source>Display Settings</source>
         <translation>Nastavenie zobrazenia</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2463"/>
+        <location filename="../view/canvasgridview.cpp" line="2468"/>
         <source>Corner Settings</source>
         <translation>Nastavenia rohov</translation>
     </message>
@@ -73,97 +75,47 @@
 <context>
     <name>Frame</name>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="423"/>
-        <source>Wallpaper Slideshow</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="449"/>
-        <source>When login</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="451"/>
-        <source>When wakeup</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="491"/>
-        <source>Require a password on wakeup</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="516"/>
-        <source>Never</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="517"/>
-        <source>Wait:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="545"/>
         <source>Wallpaper</source>
-        <translation>Pozadie</translation>
+        <translation type="vanished">Pozadie</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="545"/>
-        <source>Screensaver</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="607"/>
         <source>Only desktop</source>
-        <translation>Iba pracovná plocha</translation>
+        <translation type="vanished">Iba pracovná plocha</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="608"/>
         <source>Only lock screen</source>
-        <translation>Iba obrazovka zamknutia</translation>
-    </message>
-    <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="636"/>
-        <source>Apply</source>
-        <translation type="unfinished"/>
+        <translation type="vanished">Iba obrazovka zamknutia</translation>
     </message>
 </context>
 <context>
     <name>ZoneMainWindow</name>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Fast Screen Off</source>
-        <translation>Rýchle vypnutie obrazovky</translation>
+        <translation type="vanished">Rýchle vypnutie obrazovky</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Control Center</source>
-        <translation>Ovládacie centrum</translation>
+        <translation type="vanished">Ovládacie centrum</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>All Windows</source>
-        <translation>Všetky okná</translation>
+        <translation type="vanished">Všetky okná</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Launcher</source>
-        <translation>Spúšťač</translation>
+        <translation type="vanished">Spúšťač</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Desktop</source>
-        <translation>Plocha</translation>
+        <translation type="vanished">Plocha</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>None</source>
-        <translation>Nič</translation>
+        <translation type="vanished">Nič</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="59"/>
         <source>Close Window</source>
-        <translation>Zatvoriť okno</translation>
+        <translation type="vanished">Zatvoriť okno</translation>
     </message>
 </context>
 </TS>

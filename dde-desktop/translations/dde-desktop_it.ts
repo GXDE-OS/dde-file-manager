@@ -1,43 +1,45 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="it" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="it">
 <context>
     <name>CanvasGridView</name>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2400"/>
+        <location filename="../view/canvasgridview.cpp" line="2405"/>
         <source>Icon size</source>
         <translation>Dimensione icone</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2406"/>
+        <location filename="../view/canvasgridview.cpp" line="2411"/>
         <source>Auto merge</source>
         <translation>Organizza automaticamente</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2415"/>
+        <location filename="../view/canvasgridview.cpp" line="2420"/>
         <source>Auto arrange</source>
         <translation>Disponi automaticamente</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2470"/>
+        <location filename="../view/canvasgridview.cpp" line="2475"/>
         <source>Set Wallpaper</source>
         <translation>Imposta sfondo</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2472"/>
+        <location filename="../view/canvasgridview.cpp" line="2477"/>
         <source>Wallpaper and Screensaver</source>
         <translation>Sfondi e screensaver</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2553"/>
+        <location filename="../view/canvasgridview.cpp" line="2558"/>
         <source>Properties</source>
         <translation>Proprietà</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2456"/>
+        <location filename="../view/canvasgridview.cpp" line="2461"/>
         <source>Display Settings</source>
         <translation>Impostazioni visualizzazione</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2463"/>
+        <location filename="../view/canvasgridview.cpp" line="2468"/>
         <source>Corner Settings</source>
         <translation>Impostazioni angoli di navigazione</translation>
     </message>
@@ -73,97 +75,79 @@
 <context>
     <name>Frame</name>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="423"/>
         <source>Wallpaper Slideshow</source>
-        <translation>Slideshow sfondi</translation>
+        <translation type="vanished">Slideshow sfondi</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="449"/>
         <source>When login</source>
-        <translation>Al Login</translation>
+        <translation type="vanished">Al Login</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="451"/>
         <source>When wakeup</source>
-        <translation>Al risveglio</translation>
+        <translation type="vanished">Al risveglio</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="491"/>
         <source>Require a password on wakeup</source>
-        <translation>Richiedi la password per risvegliare</translation>
+        <translation type="vanished">Richiedi la password per risvegliare</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="516"/>
         <source>Never</source>
-        <translation>Mai</translation>
+        <translation type="vanished">Mai</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="517"/>
         <source>Wait:</source>
-        <translation>Attesa: </translation>
+        <translation type="vanished">Attesa: </translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="545"/>
         <source>Wallpaper</source>
-        <translation>Sfondi</translation>
+        <translation type="vanished">Sfondi</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="545"/>
         <source>Screensaver</source>
-        <translation>Screensaver</translation>
+        <translation type="vanished">Screensaver</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="607"/>
         <source>Only desktop</source>
-        <translation>Solo desktop</translation>
+        <translation type="vanished">Solo desktop</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="608"/>
         <source>Only lock screen</source>
-        <translation>Solo Lockscreen</translation>
+        <translation type="vanished">Solo Lockscreen</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="636"/>
         <source>Apply</source>
-        <translation>Applica</translation>
+        <translation type="vanished">Applica</translation>
     </message>
 </context>
 <context>
     <name>ZoneMainWindow</name>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Fast Screen Off</source>
-        <translation>Fast Screen Disabilitato</translation>
+        <translation type="vanished">Fast Screen Disabilitato</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Control Center</source>
-        <translation>Control Center</translation>
+        <translation type="vanished">Control Center</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>All Windows</source>
-        <translation>Tutte le finestre</translation>
+        <translation type="vanished">Tutte le finestre</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Launcher</source>
-        <translation>Launcher</translation>
+        <translation type="vanished">Launcher</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Desktop</source>
-        <translation>Desktop</translation>
+        <translation type="vanished">Desktop</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>None</source>
-        <translation>Nessuna</translation>
+        <translation type="vanished">Nessuna</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="59"/>
         <source>Close Window</source>
-        <translation>Chiudi finestra</translation>
+        <translation type="vanished">Chiudi finestra</translation>
     </message>
 </context>
 </TS>

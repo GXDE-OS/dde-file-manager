@@ -1,43 +1,45 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ru" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="ru">
 <context>
     <name>CanvasGridView</name>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2400"/>
+        <location filename="../view/canvasgridview.cpp" line="2405"/>
         <source>Icon size</source>
         <translation>Размер значка</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2406"/>
+        <location filename="../view/canvasgridview.cpp" line="2411"/>
         <source>Auto merge</source>
         <translation>Автоматическое объединение</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2415"/>
+        <location filename="../view/canvasgridview.cpp" line="2420"/>
         <source>Auto arrange</source>
         <translation>Автоматическое размещение</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2470"/>
+        <location filename="../view/canvasgridview.cpp" line="2475"/>
         <source>Set Wallpaper</source>
         <translation>Установить в Качестве Обоев</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2472"/>
+        <location filename="../view/canvasgridview.cpp" line="2477"/>
         <source>Wallpaper and Screensaver</source>
         <translation>Обои и Заставка рабочего стола</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2553"/>
+        <location filename="../view/canvasgridview.cpp" line="2558"/>
         <source>Properties</source>
         <translation>Свойства</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2456"/>
+        <location filename="../view/canvasgridview.cpp" line="2461"/>
         <source>Display Settings</source>
         <translation>Настройки Экрана</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2463"/>
+        <location filename="../view/canvasgridview.cpp" line="2468"/>
         <source>Corner Settings</source>
         <translation>Угловая Навигация</translation>
     </message>
@@ -73,97 +75,79 @@
 <context>
     <name>Frame</name>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="423"/>
         <source>Wallpaper Slideshow</source>
-        <translation>Слайд-шоу Обоев рабочего стола</translation>
+        <translation type="vanished">Слайд-шоу Обоев рабочего стола</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="449"/>
         <source>When login</source>
-        <translation>При входе</translation>
+        <translation type="vanished">При входе</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="451"/>
         <source>When wakeup</source>
-        <translation>При пробуждении</translation>
+        <translation type="vanished">При пробуждении</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="491"/>
         <source>Require a password on wakeup</source>
-        <translation>Требовать пароль при пробуждении</translation>
+        <translation type="vanished">Требовать пароль при пробуждении</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="516"/>
         <source>Never</source>
-        <translation>Никогда</translation>
+        <translation type="vanished">Никогда</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="517"/>
         <source>Wait:</source>
-        <translation>Задержка:</translation>
+        <translation type="vanished">Задержка:</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="545"/>
         <source>Wallpaper</source>
-        <translation>Обои Рабочего стола</translation>
+        <translation type="vanished">Обои Рабочего стола</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="545"/>
         <source>Screensaver</source>
-        <translation>Заставка Рабочего стола</translation>
+        <translation type="vanished">Заставка Рабочего стола</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="607"/>
         <source>Only desktop</source>
-        <translation>Только рабочий стол</translation>
+        <translation type="vanished">Только рабочий стол</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="608"/>
         <source>Only lock screen</source>
-        <translation>Только экран блокировки</translation>
+        <translation type="vanished">Только экран блокировки</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="636"/>
         <source>Apply</source>
-        <translation>Применить</translation>
+        <translation type="vanished">Применить</translation>
     </message>
 </context>
 <context>
     <name>ZoneMainWindow</name>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Fast Screen Off</source>
-        <translation>Погасить</translation>
+        <translation type="vanished">Погасить</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Control Center</source>
-        <translation>Центр Управления</translation>
+        <translation type="vanished">Центр Управления</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>All Windows</source>
-        <translation>Все Окна</translation>
+        <translation type="vanished">Все Окна</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Launcher</source>
-        <translation>Выбор Программ</translation>
+        <translation type="vanished">Выбор Программ</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Desktop</source>
-        <translation>Рабочий Стол</translation>
+        <translation type="vanished">Рабочий Стол</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>None</source>
-        <translation>Ничего</translation>
+        <translation type="vanished">Ничего</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="59"/>
         <source>Close Window</source>
-        <translation>Закрыть Окно</translation>
+        <translation type="vanished">Закрыть Окно</translation>
     </message>
 </context>
 </TS>

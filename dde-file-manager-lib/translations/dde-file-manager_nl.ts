@@ -1,8 +1,10 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="nl" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="nl">
 <context>
     <name>AppController</name>
     <message>
-        <location filename="../controllers/appcontroller.cpp" line="356"/>
+        <location filename="../controllers/appcontroller.cpp" line="363"/>
         <source>New Folder</source>
         <translation>Nieuwe map</translation>
     </message>
@@ -346,17 +348,17 @@
 <context>
     <name>DFileDialog</name>
     <message>
-        <location filename="../views/dfiledialog.cpp" line="1020"/>
+        <location filename="../views/dfiledialog.cpp" line="1018"/>
         <source>%1 already exists, do you want to replace it?</source>
         <translation>%1 bestaat al. Wil je het vervangen?</translation>
     </message>
     <message>
-        <location filename="../views/dfiledialog.cpp" line="1021"/>
+        <location filename="../views/dfiledialog.cpp" line="1019"/>
         <source>Cancel</source>
         <translation>Annuleren</translation>
     </message>
     <message>
-        <location filename="../views/dfiledialog.cpp" line="1022"/>
+        <location filename="../views/dfiledialog.cpp" line="1020"/>
         <source>Replace</source>
         <translation>Vervangen</translation>
     </message>
@@ -364,7 +366,7 @@
 <context>
     <name>DFileManagerWindow</name>
     <message>
-        <location filename="../views/dfilemanagerwindow.cpp" line="842"/>
+        <location filename="../views/dfilemanagerwindow.cpp" line="938"/>
         <source>Dark theme</source>
         <translation>Donker thema</translation>
     </message>
@@ -378,7 +380,7 @@
         <translation>Naam</translation>
     </message>
     <message>
-        <location filename="../interfaces/dabstractfileinfo.cpp" line="1020"/>
+        <location filename="../interfaces/dabstractfileinfo.cpp" line="1030"/>
         <location filename="../interfaces/dfilesystemmodel.cpp" line="1379"/>
         <location filename="../models/searchfileinfo.cpp" line="121"/>
         <source>Time modified</source>
@@ -400,7 +402,7 @@
         <translation>Tijdstip gecreëerd</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="692"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="693"/>
         <location filename="../interfaces/dfilesystemmodel.cpp" line="1387"/>
         <source>Last access</source>
         <translation>Laatst benaderd</translation>
@@ -414,7 +416,7 @@
 <context>
     <name>DFileView</name>
     <message>
-        <location filename="../views/dfileview.cpp" line="2722"/>
+        <location filename="../views/dfileview.cpp" line="2723"/>
         <source>(Reverse)</source>
         <translation>(Omkeren)</translation>
     </message>
@@ -493,9 +495,8 @@
 <context>
     <name>DTaskDialog</name>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="83"/>
         <source>This action is not supported</source>
-        <translation>Deze actie wordt niet ondersteund</translation>
+        <translation type="vanished">Deze actie wordt niet ondersteund</translation>
     </message>
 </context>
 <context>
@@ -878,454 +879,263 @@
 <context>
     <name>FileJob</name>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="164"/>
         <source>copy</source>
-        <translation>Kopiëren</translation>
+        <translation type="vanished">Kopiëren</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="690"/>
-        <location filename="../../fileoperations/filejob.cpp" line="749"/>
         <source>Data verification successful.</source>
-        <translation>Gegevens zijn geverifieerd.</translation>
+        <translation type="vanished">Gegevens zijn geverifieerd.</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="690"/>
-        <location filename="../../fileoperations/filejob.cpp" line="749"/>
         <source>Data verification failed.</source>
-        <translation>Gegevens zijn niet geverifieerd.</translation>
+        <translation type="vanished">Gegevens zijn niet geverifieerd.</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="692"/>
-        <location filename="../../fileoperations/filejob.cpp" line="751"/>
         <source>Burn process completed</source>
-        <translation>Branden voltooid</translation>
+        <translation type="vanished">Branden voltooid</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="865"/>
         <source>%1 s</source>
-        <translation>%1 s</translation>
+        <translation type="vanished">%1 s</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="869"/>
         <source>%1 m %2 s</source>
-        <translation>%1 m %2 s</translation>
+        <translation type="vanished">%1 m %2 s</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="875"/>
         <source>%1 h %2 m %3 s</source>
-        <translation>%1 u %2 m %3 s</translation>
+        <translation type="vanished">%1 u %2 m %3 s</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="884"/>
         <source>%1 d %2 h %3 m %4 s</source>
-        <translation>%1 d %2 u %3 m %4 s</translation>
+        <translation type="vanished">%1 d %2 u %3 m %4 s</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="2611"/>
         <source>%1 is a duplicate file.</source>
-        <translation>%1 is een duplicaat.</translation>
+        <translation type="vanished">%1 is een duplicaat.</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="2614"/>
         <source>Insufficient disc space.</source>
-        <translation>Onvoldoende schijfruimte.</translation>
+        <translation type="vanished">Onvoldoende schijfruimte.</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="2617"/>
         <source>Lost connection to drive.</source>
-        <translation>Verbinding met schijf verbroken.</translation>
+        <translation type="vanished">Verbinding met schijf verbroken.</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="2620"/>
         <source>The CD/DVD drive is not ready. Try another disc.</source>
-        <translation>De CD/DVD is niet gereed. Probeer een andere.</translation>
+        <translation type="vanished">De CD/DVD is niet gereed. Probeer een andere.</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="2623"/>
         <source>The CD/DVD drive is busy. Exit the program using the drive, and insert the drive again.</source>
-        <translation>De CD-/DVD-schijf is bezig. Sluit het programma af waarin deze wordt gebruikt en voer de schijf opnieuw in.</translation>
+        <translation type="vanished">De CD-/DVD-schijf is bezig. Sluit het programma af waarin deze wordt gebruikt en voer de schijf opnieuw in.</translation>
     </message>
     <message>
-        <location filename="../../fileoperations/filejob.cpp" line="2626"/>
         <source>Unknown error</source>
-        <translation>Onbekende fout</translation>
+        <translation type="vanished">Onbekende fout</translation>
     </message>
 </context>
 <context>
     <name>GenerateSettingTranslate</name>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="5"/>
-        <location filename="../configure/global-setting-template-pro.js" line="5"/>
-        <location filename="../configure/global-setting-template.js" line="5"/>
         <source>Basic</source>
-        <translation>Basis</translation>
+        <translation type="vanished">Basis</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="9"/>
-        <location filename="../configure/global-setting-template-pro.js" line="9"/>
-        <location filename="../configure/global-setting-template.js" line="9"/>
         <source>Open behavior</source>
-        <translation>Open-gedrag</translation>
+        <translation type="vanished">Open-gedrag</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="14"/>
-        <location filename="../configure/global-setting-template-pro.js" line="14"/>
-        <location filename="../configure/global-setting-template.js" line="14"/>
         <source>Always open folder in new window</source>
-        <translation>Map altijd openen in nieuw venster</translation>
+        <translation type="vanished">Map altijd openen in nieuw venster</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="19"/>
-        <location filename="../configure/global-setting-template-pro.js" line="19"/>
-        <location filename="../configure/global-setting-template.js" line="19"/>
         <source>Open file:</source>
-        <translation>Bestand openen:</translation>
+        <translation type="vanished">Bestand openen:</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="22"/>
-        <location filename="../configure/global-setting-template-pro.js" line="22"/>
-        <location filename="../configure/global-setting-template.js" line="22"/>
         <source>Click</source>
-        <translation>Klikken</translation>
+        <translation type="vanished">Klikken</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="23"/>
-        <location filename="../configure/global-setting-template-pro.js" line="23"/>
-        <location filename="../configure/global-setting-template.js" line="23"/>
         <source>Double click</source>
-        <translation>Dubbelklikken</translation>
+        <translation type="vanished">Dubbelklikken</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="31"/>
-        <location filename="../configure/global-setting-template-pro.js" line="31"/>
-        <location filename="../configure/global-setting-template.js" line="31"/>
         <source>New window and tab</source>
-        <translation>Nieuw venster en tabblad</translation>
+        <translation type="vanished">Nieuw venster en tabblad</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="35"/>
-        <location filename="../configure/global-setting-template-pro.js" line="35"/>
-        <location filename="../configure/global-setting-template.js" line="35"/>
         <source>Open from default window:</source>
-        <translation>Openen in standaardvenster:</translation>
+        <translation type="vanished">Openen in standaardvenster:</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="39"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="68"/>
-        <location filename="../configure/global-setting-template-pro.js" line="39"/>
-        <location filename="../configure/global-setting-template-pro.js" line="68"/>
-        <location filename="../configure/global-setting-template.js" line="39"/>
-        <location filename="../configure/global-setting-template.js" line="68"/>
         <source>Computer</source>
-        <translation>Computer</translation>
+        <translation type="vanished">Computer</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="40"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="69"/>
-        <location filename="../configure/global-setting-template-pro.js" line="40"/>
-        <location filename="../configure/global-setting-template-pro.js" line="69"/>
-        <location filename="../configure/global-setting-template.js" line="40"/>
-        <location filename="../configure/global-setting-template.js" line="69"/>
         <source>Home</source>
-        <translation>Persoonlijke map</translation>
+        <translation type="vanished">Persoonlijke map</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="41"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="70"/>
-        <location filename="../configure/global-setting-template-pro.js" line="41"/>
-        <location filename="../configure/global-setting-template-pro.js" line="70"/>
-        <location filename="../configure/global-setting-template.js" line="41"/>
-        <location filename="../configure/global-setting-template.js" line="70"/>
         <source>Desktop</source>
-        <translation>Bureaublad</translation>
+        <translation type="vanished">Bureaublad</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="42"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="71"/>
-        <location filename="../configure/global-setting-template-pro.js" line="42"/>
-        <location filename="../configure/global-setting-template-pro.js" line="71"/>
-        <location filename="../configure/global-setting-template.js" line="42"/>
-        <location filename="../configure/global-setting-template.js" line="71"/>
         <source>Videos</source>
-        <translation>Video&apos;s</translation>
+        <translation type="vanished">Video&apos;s</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="43"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="72"/>
-        <location filename="../configure/global-setting-template-pro.js" line="43"/>
-        <location filename="../configure/global-setting-template-pro.js" line="72"/>
-        <location filename="../configure/global-setting-template.js" line="43"/>
-        <location filename="../configure/global-setting-template.js" line="72"/>
         <source>Music</source>
-        <translation>Muziek</translation>
+        <translation type="vanished">Muziek</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="44"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="73"/>
-        <location filename="../configure/global-setting-template-pro.js" line="44"/>
-        <location filename="../configure/global-setting-template-pro.js" line="73"/>
-        <location filename="../configure/global-setting-template.js" line="44"/>
-        <location filename="../configure/global-setting-template.js" line="73"/>
         <source>Pictures</source>
-        <translation>Afbeeldingen</translation>
+        <translation type="vanished">Afbeeldingen</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="45"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="74"/>
-        <location filename="../configure/global-setting-template-pro.js" line="45"/>
-        <location filename="../configure/global-setting-template-pro.js" line="74"/>
-        <location filename="../configure/global-setting-template.js" line="45"/>
-        <location filename="../configure/global-setting-template.js" line="74"/>
         <source>Documents</source>
-        <translation>Documenten</translation>
+        <translation type="vanished">Documenten</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="46"/>
-        <location filename="../configure/global-setting-template-fedora.js" line="75"/>
-        <location filename="../configure/global-setting-template-pro.js" line="46"/>
-        <location filename="../configure/global-setting-template-pro.js" line="75"/>
-        <location filename="../configure/global-setting-template.js" line="46"/>
-        <location filename="../configure/global-setting-template.js" line="75"/>
         <source>Downloads</source>
-        <translation>Downloads</translation>
+        <translation type="vanished">Downloads</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="63"/>
-        <location filename="../configure/global-setting-template-pro.js" line="63"/>
-        <location filename="../configure/global-setting-template.js" line="63"/>
         <source>Open in new tab:</source>
-        <translation>Openen op nieuw tabblad:</translation>
+        <translation type="vanished">Openen op nieuw tabblad:</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="67"/>
-        <location filename="../configure/global-setting-template-pro.js" line="67"/>
-        <location filename="../configure/global-setting-template.js" line="67"/>
         <source>Current Directory</source>
-        <translation>Huidige map</translation>
+        <translation type="vanished">Huidige map</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="95"/>
-        <location filename="../configure/global-setting-template-pro.js" line="95"/>
-        <location filename="../configure/global-setting-template.js" line="95"/>
         <source>View</source>
-        <translation>Tonen</translation>
+        <translation type="vanished">Tonen</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="99"/>
-        <location filename="../configure/global-setting-template-pro.js" line="99"/>
-        <location filename="../configure/global-setting-template.js" line="99"/>
         <source>Default size:</source>
-        <translation>Standaardgrootte:</translation>
+        <translation type="vanished">Standaardgrootte:</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="102"/>
-        <location filename="../configure/global-setting-template-pro.js" line="102"/>
-        <location filename="../configure/global-setting-template.js" line="102"/>
         <source>Extra small</source>
-        <translation>Extra klein</translation>
+        <translation type="vanished">Extra klein</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="103"/>
-        <location filename="../configure/global-setting-template-pro.js" line="103"/>
-        <location filename="../configure/global-setting-template.js" line="103"/>
         <source>Small</source>
-        <translation>Klein</translation>
+        <translation type="vanished">Klein</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="104"/>
-        <location filename="../configure/global-setting-template-pro.js" line="104"/>
-        <location filename="../configure/global-setting-template.js" line="104"/>
         <source>Medium</source>
-        <translation>Normaal</translation>
+        <translation type="vanished">Normaal</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="105"/>
-        <location filename="../configure/global-setting-template-pro.js" line="105"/>
-        <location filename="../configure/global-setting-template.js" line="105"/>
         <source>Large</source>
-        <translation>Groot</translation>
+        <translation type="vanished">Groot</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="106"/>
-        <location filename="../configure/global-setting-template-pro.js" line="106"/>
-        <location filename="../configure/global-setting-template.js" line="106"/>
         <source>Extra large</source>
-        <translation>Extra groot</translation>
+        <translation type="vanished">Extra groot</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="112"/>
-        <location filename="../configure/global-setting-template-pro.js" line="112"/>
-        <location filename="../configure/global-setting-template.js" line="112"/>
         <source>Default view:</source>
-        <translation>Standaardweergave:</translation>
+        <translation type="vanished">Standaardweergave:</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="116"/>
-        <location filename="../configure/global-setting-template-pro.js" line="116"/>
-        <location filename="../configure/global-setting-template.js" line="116"/>
         <source>Icon</source>
-        <translation>Pictogram</translation>
+        <translation type="vanished">Pictogram</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="117"/>
-        <location filename="../configure/global-setting-template-pro.js" line="117"/>
-        <location filename="../configure/global-setting-template.js" line="117"/>
         <source>List</source>
-        <translation>Lijst</translation>
+        <translation type="vanished">Lijst</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="129"/>
-        <location filename="../configure/global-setting-template-pro.js" line="129"/>
-        <location filename="../configure/global-setting-template.js" line="129"/>
         <source>Hidden files</source>
-        <translation>Verborgen bestanden</translation>
+        <translation type="vanished">Verborgen bestanden</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="133"/>
-        <location filename="../configure/global-setting-template-pro.js" line="133"/>
-        <location filename="../configure/global-setting-template.js" line="133"/>
         <source>Show hidden files</source>
-        <translation>Verborgen bestanden tonen</translation>
+        <translation type="vanished">Verborgen bestanden tonen</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="139"/>
-        <location filename="../configure/global-setting-template-pro.js" line="139"/>
-        <location filename="../configure/global-setting-template.js" line="139"/>
         <source>Hide file extension when rename</source>
-        <translation>Bestandextensie verbergen tijdens naamswijzigingen</translation>
+        <translation type="vanished">Bestandextensie verbergen tijdens naamswijzigingen</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="156"/>
-        <location filename="../configure/global-setting-template-pro.js" line="157"/>
-        <location filename="../configure/global-setting-template.js" line="157"/>
         <source>Advanced</source>
-        <translation>Geavanceerd</translation>
+        <translation type="vanished">Geavanceerd</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="160"/>
-        <location filename="../configure/global-setting-template-pro.js" line="161"/>
-        <location filename="../configure/global-setting-template.js" line="161"/>
         <source>Index</source>
-        <translation>Indexeren</translation>
+        <translation type="vanished">Indexeren</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="164"/>
-        <location filename="../configure/global-setting-template-pro.js" line="165"/>
-        <location filename="../configure/global-setting-template.js" line="165"/>
         <source>Auto index internal disk</source>
-        <translation>Interne schijf automatisch indexeren</translation>
+        <translation type="vanished">Interne schijf automatisch indexeren</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="170"/>
-        <location filename="../configure/global-setting-template-pro.js" line="171"/>
-        <location filename="../configure/global-setting-template.js" line="171"/>
         <source>Index external storage device after connected to computer</source>
-        <translation>Externe schijf indexeren na aankoppelen</translation>
+        <translation type="vanished">Externe schijf indexeren na aankoppelen</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="259"/>
-        <location filename="../configure/global-setting-template-pro.js" line="259"/>
-        <location filename="../configure/global-setting-template.js" line="258"/>
         <source>Other</source>
-        <translation>Overig</translation>
+        <translation type="vanished">Overig</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="263"/>
-        <location filename="../configure/global-setting-template-pro.js" line="263"/>
-        <location filename="../configure/global-setting-template.js" line="262"/>
         <source>Hide system disk</source>
-        <translation>Systeemschijf verbergen</translation>
+        <translation type="vanished">Systeemschijf verbergen</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="182"/>
-        <location filename="../configure/global-setting-template-pro.js" line="183"/>
-        <location filename="../configure/global-setting-template.js" line="183"/>
         <source>Show hidden files in search results</source>
-        <translation>Verborgen bestanden tonen in zoekresultaten</translation>
+        <translation type="vanished">Verborgen bestanden tonen in zoekresultaten</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="145"/>
-        <location filename="../configure/global-setting-template-pro.js" line="145"/>
-        <location filename="../configure/global-setting-template.js" line="145"/>
         <source>Display recent file entry in left panel</source>
-        <translation>Verwijzing naar recente bestanden tonen in linkerpaneel</translation>
+        <translation type="vanished">Verwijzing naar recente bestanden tonen in linkerpaneel</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="191"/>
-        <location filename="../configure/global-setting-template-pro.js" line="192"/>
-        <location filename="../configure/global-setting-template.js" line="192"/>
         <source>Preview</source>
-        <translation>Voorbeeld</translation>
+        <translation type="vanished">Voorbeeld</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="195"/>
-        <location filename="../configure/global-setting-template-pro.js" line="196"/>
-        <location filename="../configure/global-setting-template.js" line="196"/>
         <source>Compress file preview</source>
-        <translation>Compressie toepassen op bestandsvoorbeeld</translation>
+        <translation type="vanished">Compressie toepassen op bestandsvoorbeeld</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="202"/>
-        <location filename="../configure/global-setting-template-pro.js" line="203"/>
-        <location filename="../configure/global-setting-template.js" line="202"/>
         <source>Text preview</source>
-        <translation>Tekstvoorbeeld</translation>
+        <translation type="vanished">Tekstvoorbeeld</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="208"/>
-        <location filename="../configure/global-setting-template-pro.js" line="209"/>
-        <location filename="../configure/global-setting-template.js" line="208"/>
         <source>Document preview</source>
-        <translation>Documentvoorbeeld</translation>
+        <translation type="vanished">Documentvoorbeeld</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="214"/>
-        <location filename="../configure/global-setting-template-pro.js" line="215"/>
-        <location filename="../configure/global-setting-template.js" line="214"/>
         <source>Image preview</source>
-        <translation>Afbeeldingsvoorbeeld</translation>
+        <translation type="vanished">Afbeeldingsvoorbeeld</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="220"/>
-        <location filename="../configure/global-setting-template-pro.js" line="221"/>
-        <location filename="../configure/global-setting-template.js" line="220"/>
         <source>Video preview</source>
-        <translation>Videovoorbeeld</translation>
+        <translation type="vanished">Videovoorbeeld</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="229"/>
-        <location filename="../configure/global-setting-template-pro.js" line="229"/>
-        <location filename="../configure/global-setting-template.js" line="228"/>
         <source>Mount</source>
-        <translation>Aankoppelen</translation>
+        <translation type="vanished">Aankoppelen</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="233"/>
-        <location filename="../configure/global-setting-template-pro.js" line="233"/>
-        <location filename="../configure/global-setting-template.js" line="232"/>
         <source>Auto mount</source>
-        <translation>Automatisch aankoppelen</translation>
+        <translation type="vanished">Automatisch aankoppelen</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="239"/>
-        <location filename="../configure/global-setting-template-pro.js" line="239"/>
-        <location filename="../configure/global-setting-template.js" line="238"/>
         <source>Open after auto mount</source>
-        <translation>Openen na automatisch aankoppelen</translation>
+        <translation type="vanished">Openen na automatisch aankoppelen</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="247"/>
-        <location filename="../configure/global-setting-template-pro.js" line="247"/>
-        <location filename="../configure/global-setting-template.js" line="246"/>
         <source>Dialog</source>
-        <translation>Dialoogvenster</translation>
+        <translation type="vanished">Dialoogvenster</translation>
     </message>
     <message>
-        <location filename="../configure/global-setting-template-fedora.js" line="251"/>
-        <location filename="../configure/global-setting-template-pro.js" line="251"/>
-        <location filename="../configure/global-setting-template.js" line="250"/>
         <source>Use the file chooser dialog of Deepin File Manager</source>
-        <translation>Deepin Bestandsbeheer&apos;s bestandskiezer gebruiken</translation>
+        <translation type="vanished">Deepin Bestandsbeheer&apos;s bestandskiezer gebruiken</translation>
     </message>
 </context>
 <context>
@@ -1545,148 +1355,116 @@
 <context>
     <name>MoveCopyTaskWidget</name>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="355"/>
         <source>Skip</source>
-        <translation>Overslaan</translation>
+        <translation type="vanished">Overslaan</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="354"/>
         <source>Keep both</source>
-        <translation>Beide behouden</translation>
+        <translation type="vanished">Beide behouden</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="356"/>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="505"/>
         <source>Replace</source>
-        <translation>Vervangen</translation>
+        <translation type="vanished">Vervangen</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="377"/>
         <source>Do not ask again</source>
-        <translation>Niet meer vragen</translation>
+        <translation type="vanished">Niet meer vragen</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="503"/>
         <source>merge</source>
-        <translation>samenvoegen</translation>
+        <translation type="vanished">samenvoegen</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="473"/>
         <source>Copying %1</source>
-        <translation>Bezig met kopiëren van %1</translation>
+        <translation type="vanished">Bezig met kopiëren van %1</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="413"/>
         <source>Erasing disc %1, please wait...</source>
-        <translation>Bezig met wissen van %1; even geduld...</translation>
+        <translation type="vanished">Bezig met wissen van %1; even geduld...</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="414"/>
         <source>Burning disc %1, please wait...</source>
-        <translation>Bezig met branden van %1; even geduld...</translation>
+        <translation type="vanished">Bezig met branden van %1; even geduld...</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="419"/>
         <source>Writing data...</source>
-        <translation>Bezig met wegschrijven...</translation>
+        <translation type="vanished">Bezig met wegschrijven...</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="420"/>
         <source>Verifying data...</source>
-        <translation>Bezig met verifiëren...</translation>
+        <translation type="vanished">Bezig met verifiëren...</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="474"/>
         <source>Copy to %2</source>
-        <translation>Kopiëren naar %2</translation>
+        <translation type="vanished">Kopiëren naar %2</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="477"/>
         <source>Moving %1</source>
-        <translation>Bezig met verplaatsen van %1</translation>
+        <translation type="vanished">Bezig met verplaatsen van %1</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="478"/>
         <source>Move to %2</source>
-        <translation>Verplaatsen naar %2</translation>
+        <translation type="vanished">Verplaatsen naar %2</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="480"/>
         <source>Restoring %1</source>
-        <translation>Bezig met herstellen van %1</translation>
+        <translation type="vanished">Bezig met herstellen van %1</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="481"/>
         <source>Restore to %2</source>
-        <translation>Herstellen naar %2</translation>
+        <translation type="vanished">Herstellen naar %2</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="483"/>
         <source>Deleting %1</source>
-        <translation>Bezig met verwijderen van %1</translation>
+        <translation type="vanished">Bezig met verwijderen van %1</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="486"/>
         <source>Trashing %1</source>
-        <translation>Bezig met verplaatsen van %1 naar de prullenbak</translation>
+        <translation type="vanished">Bezig met verplaatsen van %1 naar de prullenbak</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="494"/>
         <source>Calculating space, please wait</source>
-        <translation>Bezig met berekenen van ruimte; even geduld</translation>
+        <translation type="vanished">Bezig met berekenen van ruimte; even geduld</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="497"/>
         <source>File named %1 already exists in target folder</source>
-        <translation>Bestand genaamd %1 bestaat al in doelmap</translation>
+        <translation type="vanished">Bestand genaamd %1 bestaat al in doelmap</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="498"/>
         <source>Original path %1 target path %2</source>
-        <translation>Oorspronkelijk pad %1 - doelpad %2</translation>
+        <translation type="vanished">Oorspronkelijk pad %1 - doelpad %2</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="513"/>
         <source>Retry</source>
-        <translation>Opnieuw</translation>
+        <translation type="vanished">Opnieuw</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="607"/>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="619"/>
         <source>Time modified:%1</source>
-        <translation>Tijdstip wijziging:%1</translation>
+        <translation type="vanished">Tijdstip wijziging:%1</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="609"/>
         <source>Original folder</source>
-        <translation>Oorspronkelijke map</translation>
+        <translation type="vanished">Oorspronkelijke map</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="612"/>
         <source>Original file</source>
-        <translation>Oorspronkelijk bestand</translation>
+        <translation type="vanished">Oorspronkelijk bestand</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="622"/>
         <source>Target folder</source>
-        <translation>Doelmap</translation>
+        <translation type="vanished">Doelmap</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="625"/>
         <source>Target file</source>
-        <translation>Doelbestand</translation>
+        <translation type="vanished">Doelbestand</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="610"/>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="623"/>
         <source>Contains:%1</source>
-        <translation>Bevat:%1</translation>
+        <translation type="vanished">Bevat:%1</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="613"/>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="626"/>
         <source>Size:%1</source>
-        <translation>Grootte:%1</translation>
+        <translation type="vanished">Grootte:%1</translation>
     </message>
 </context>
 <context>
@@ -1725,37 +1503,37 @@
 <context>
     <name>OpenWithDialog</name>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="211"/>
+        <location filename="../dialogs/openwithdialog.cpp" line="212"/>
         <source>Open with</source>
         <translation>Openen met</translation>
     </message>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="230"/>
+        <location filename="../dialogs/openwithdialog.cpp" line="231"/>
         <source>Add other programs</source>
         <translation>Andere applicaties toevoegen</translation>
     </message>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="231"/>
+        <location filename="../dialogs/openwithdialog.cpp" line="232"/>
         <source>Set as default</source>
         <translation>Instellen als standaard</translation>
     </message>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="233"/>
+        <location filename="../dialogs/openwithdialog.cpp" line="234"/>
         <source>Cancel</source>
         <translation>Annuleren</translation>
     </message>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="234"/>
+        <location filename="../dialogs/openwithdialog.cpp" line="235"/>
         <source>Choose</source>
         <translation>Kiezen</translation>
     </message>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="238"/>
+        <location filename="../dialogs/openwithdialog.cpp" line="239"/>
         <source>Recommended Applications</source>
         <translation>Aanbevolen applicaties</translation>
     </message>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="240"/>
+        <location filename="../dialogs/openwithdialog.cpp" line="241"/>
         <source>Other Applications</source>
         <translation>Andere applicaties</translation>
     </message>
@@ -1882,7 +1660,7 @@
     <name>QObject</name>
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="870"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="688"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="689"/>
         <source>Size</source>
         <translation>Grootte</translation>
     </message>
@@ -1895,7 +1673,7 @@
     </message>
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="871"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="689"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="690"/>
         <source>Type</source>
         <translation>Type</translation>
     </message>
@@ -1906,7 +1684,7 @@
     </message>
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="873"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="691"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="692"/>
         <source>Time modified</source>
         <translation>Tijdstip wijziging</translation>
     </message>
@@ -2082,10 +1860,10 @@
         <translation>Plakken</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="382"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="383"/>
         <location filename="../interfaces/dfilemenumanager.cpp" line="656"/>
         <location filename="../interfaces/dfilemenumanager.cpp" line="657"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="715"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="716"/>
         <location filename="../views/dfmsidebarbookmarkitem.cpp" line="88"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="113"/>
         <location filename="../views/dfmsidebartagitem.cpp" line="60"/>
@@ -2094,7 +1872,7 @@
         <translation>Naam wijzigen</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="686"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="687"/>
         <location filename="../views/dfmsidebarbookmarkitem.cpp" line="93"/>
         <location filename="../views/dfmsidebartagitem.cpp" line="65"/>
         <source>Remove</source>
@@ -2172,45 +1950,50 @@
         <translation>Nieuw document</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="690"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="679"/>
+        <source>Refresh</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="691"/>
         <source>Time created</source>
         <translation>Tijdstip gecreëerd</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="701"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="702"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="164"/>
         <source>Log out and unmount</source>
         <translation>Uitloggen en afkoppelen</translation>
     </message>
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="874"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="703"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="704"/>
         <source>Source path</source>
         <translation>Bronpad</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="705"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="706"/>
         <source>Share folder</source>
         <translation>Map delen</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="706"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="707"/>
         <source>Cancel sharing</source>
         <translation>Delen annuleren</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="707"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="708"/>
         <source>Set share password</source>
         <translation>Gedeeld wachtwoord instellen</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="708"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="709"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="150"/>
         <source>Format</source>
         <translation>Formatteren</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="711"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="712"/>
         <source>Tag information</source>
         <translation>Labelinformatie</translation>
     </message>
@@ -2237,7 +2020,7 @@
     <message>
         <location filename="../interfaces/dfilemenumanager.cpp" line="663"/>
         <location filename="../interfaces/dfilemenumanager.cpp" line="664"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="713"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="714"/>
         <source>Delete</source>
         <translation>Verwijderen</translation>
     </message>
@@ -2257,17 +2040,17 @@
         <translation>Platte tekst</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="679"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="680"/>
         <source>Open in terminal</source>
         <translation>Openen in terminalvenster</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="680"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="681"/>
         <source>Restore</source>
         <translation>Herstellen</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="681"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="682"/>
         <source>Restore all</source>
         <translation>Alles herstellen</translation>
     </message>
@@ -2282,107 +2065,107 @@
         <translation>Openen na automatisch aankoppelen</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="682"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="717"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="683"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="718"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="132"/>
         <location filename="../views/dfmsidebaropticaldevitem.cpp" line="95"/>
         <source>Mount</source>
         <translation>Aankoppelen</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="683"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="684"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="146"/>
         <location filename="../views/dfmsidebaropticaldevitem.cpp" line="103"/>
         <source>Unmount</source>
         <translation>Afkoppelen</translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="136"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="718"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="138"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="719"/>
         <location filename="../views/dfmopticalmediawidget.cpp" line="69"/>
         <source>Burn</source>
         <translation>Branden</translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="143"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="145"/>
         <source>Disc name:</source>
         <translation>Schijfnaam:</translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="154"/>
         <location filename="../dialogs/burnoptdialog.cpp" line="156"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="158"/>
         <source>Maximum</source>
         <translation>Maximaal</translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="167"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="169"/>
         <source>Allow files to be added later</source>
         <translation>Ik wil later nog bestanden toevoegen</translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="176"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="178"/>
         <source>Verify data</source>
         <translation>Gegevens verifiëren</translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="150"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="152"/>
         <source>Write speed:</source>
         <translation>Schrijfsnelheid:</translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="179"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="684"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="181"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="685"/>
         <source>Eject</source>
         <translation>Uitwerpen</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="685"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="686"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="126"/>
         <source>Safely Remove</source>
         <translation>Veilig verwijderen</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="687"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="688"/>
         <source>Name</source>
         <translation>Naam</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="693"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="694"/>
         <source>Settings</source>
         <translation>Instellingen</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="694"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="695"/>
         <source>Help</source>
         <translation>Hulp</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="695"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="696"/>
         <source>About</source>
         <translation>Over</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="696"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="697"/>
         <source>Exit</source>
         <translation>Afsluiten</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="697"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="698"/>
         <source>Icon</source>
         <translation>Pictogram</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="698"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="699"/>
         <source>List</source>
         <translation>Lijst</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="699"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="700"/>
         <source>Extend</source>
         <translation>Uitklappen</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="700"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="701"/>
         <source>Set as wallpaper</source>
         <translation>Instellen als bureaubladachtergrond</translation>
     </message>
@@ -2451,24 +2234,25 @@
         <translation>Zachte koppeling creëren</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="704"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="705"/>
         <source>Path</source>
         <translation>Pad</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="702"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="703"/>
         <location filename="../models/trashfileinfo.cpp" line="335"/>
         <location filename="../models/trashfileinfo.cpp" line="343"/>
         <source>Time deleted</source>
         <translation>Tijdstip verwijderd</translation>
     </message>
     <message>
-        <location filename="../interfaces/dabstractfileinfo.cpp" line="1229"/>
+        <location filename="../interfaces/dabstractfileinfo.cpp" line="1239"/>
         <source>Loading...</source>
         <translation>Bezig met laden...</translation>
     </message>
     <message>
         <location filename="../interfaces/dfileinfo.cpp" line="754"/>
+        <location filename="../models/fileinfo.cpp" line="130"/>
         <source>File has been moved or deleted</source>
         <translation>Bestand is verplaatst of verwijderd</translation>
     </message>
@@ -2476,11 +2260,13 @@
         <location filename="../interfaces/dfileinfo.cpp" line="756"/>
         <location filename="../interfaces/dfileinfo.cpp" line="764"/>
         <location filename="../interfaces/dfileinfo.cpp" line="770"/>
+        <location filename="../models/fileinfo.cpp" line="132"/>
         <source>You do not have permission to access this folder</source>
         <translation>Je bent niet gemachtigd om deze map te openen</translation>
     </message>
     <message>
         <location filename="../interfaces/dfileinfo.cpp" line="774"/>
+        <location filename="../models/fileinfo.cpp" line="135"/>
         <location filename="../models/recentfileinfo.cpp" line="191"/>
         <location filename="../models/trashfileinfo.cpp" line="376"/>
         <source>Folder is empty</source>
@@ -2509,99 +2295,97 @@
         <translation>Bronpad</translation>
     </message>
     <message>
-        <location filename="../controllers/appcontroller.cpp" line="385"/>
+        <location filename="../controllers/appcontroller.cpp" line="392"/>
         <source>Document</source>
         <translation>Document</translation>
     </message>
     <message>
-        <location filename="../controllers/appcontroller.cpp" line="392"/>
+        <location filename="../controllers/appcontroller.cpp" line="399"/>
         <source>Spreadsheet</source>
         <translation>Rekenblad</translation>
     </message>
     <message>
-        <location filename="../controllers/appcontroller.cpp" line="399"/>
+        <location filename="../controllers/appcontroller.cpp" line="406"/>
         <location filename="../interfaces/dfilemenumanager.cpp" line="677"/>
         <source>Presentation</source>
         <translation>Presentatie</translation>
     </message>
     <message>
-        <location filename="../controllers/appcontroller.cpp" line="406"/>
+        <location filename="../controllers/appcontroller.cpp" line="413"/>
         <source>Text</source>
         <translation>Tekst</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="921"/>
         <source>1 task in progress</source>
-        <translation>1 taak wordt uitgevoerd</translation>
+        <translation type="vanished">1 taak wordt uitgevoerd</translation>
     </message>
     <message>
-        <location filename="../../dialogs/dtaskdialog.cpp" line="923"/>
         <source>%1 tasks in progress</source>
-        <translation>1% taken worden uitgevoerd</translation>
+        <translation type="vanished">1% taken worden uitgevoerd</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="141"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="142"/>
         <source>Mode:</source>
         <translation>Modus:</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="143"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="144"/>
         <location filename="../views/drenamebar.cpp" line="234"/>
         <source>Replace Text</source>
         <translation>Tekst vervangen</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="143"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="144"/>
         <location filename="../views/drenamebar.cpp" line="234"/>
         <source>Add Text</source>
         <translation>Tekst toevoegen</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="143"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="144"/>
         <location filename="../views/drenamebar.cpp" line="234"/>
         <source>Custom Text</source>
         <translation>Aangepaste tekst</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="149"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="150"/>
         <source>Find:</source>
         <translation>Zoeken:</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="170"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="171"/>
         <source>Replace:</source>
         <translation>Vervangen:</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="172"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="173"/>
         <location filename="../views/drenamebar.cpp" line="251"/>
         <source>Optional</source>
         <translation>Optioneel</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="189"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="190"/>
         <source>Add:</source>
         <translation>Toevoegen:</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="208"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="209"/>
         <source>Location:</source>
         <translation>Locatie:</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="215"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="216"/>
         <source>File name:</source>
         <translation>Bestandsnaam:</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="232"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="233"/>
         <source>+SN:</source>
         <translation>+SN:</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="152"/>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="191"/>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="217"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="153"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="192"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="218"/>
         <location filename="../views/drenamebar.cpp" line="243"/>
         <location filename="../views/drenamebar.cpp" line="260"/>
         <location filename="../views/drenamebar.cpp" line="276"/>
@@ -2610,13 +2394,13 @@
         <translation>Vereist</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="210"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="211"/>
         <location filename="../views/drenamebar.cpp" line="269"/>
         <source>Before file name</source>
         <translation>Vóór de bestandsnaam</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="210"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="211"/>
         <location filename="../views/drenamebar.cpp" line="269"/>
         <source>After file name</source>
         <translation>Achter de bestandsnaam</translation>
@@ -2657,8 +2441,8 @@
         <translation>Tip: sorteren op geselecteerde bestandsvolgorde</translation>
     </message>
     <message>
-        <location filename="../dialogs/burnoptdialog.cpp" line="135"/>
-        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="381"/>
+        <location filename="../dialogs/burnoptdialog.cpp" line="137"/>
+        <location filename="../dialogs/ddesktoprenamedialog.cpp" line="382"/>
         <location filename="../views/drenamebar.cpp" line="297"/>
         <source>Cancel</source>
         <translation>Annuleren</translation>
@@ -2781,6 +2565,11 @@
         <location filename="../views/dfmopticalmediawidget.cpp" line="96"/>
         <source>Free Space %1</source>
         <translation>Vrije ruimte %1</translation>
+    </message>
+    <message>
+        <location filename="../controllers/filecontroller.cpp" line="753"/>
+        <source>Files are being processed</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3246,14 +3035,12 @@
 <context>
     <name>UserShareManager</name>
     <message>
-        <location filename="../../usershare/usersharemanager.cpp" line="420"/>
         <source>Kindly Reminder</source>
-        <translation>Vriendelijke herinnering</translation>
+        <translation type="vanished">Vriendelijke herinnering</translation>
     </message>
     <message>
-        <location filename="../../usershare/usersharemanager.cpp" line="420"/>
         <source>Please firstly install samba to continue</source>
-        <translation>Installeer samba om door te gaan</translation>
+        <translation type="vanished">Installeer samba om door te gaan</translation>
     </message>
 </context>
 <context>

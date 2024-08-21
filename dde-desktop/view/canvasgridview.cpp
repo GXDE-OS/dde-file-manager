@@ -2353,9 +2353,14 @@ void CanvasGridView::showEmptyAreaMenu(const Qt::ItemFlags &/*indexFlags*/)
     if (!autoMerge()) {
         actions << MenuAction::NewFolder << MenuAction::NewDocument
                 << MenuAction::SortBy;
+        actions << MenuAction::Separator;
+    }
+    actions << MenuAction::Refresh;
+    actions << MenuAction::Separator;
+    if (!autoMerge()) {
         actions << MenuAction::Paste;
     }
-    actions << MenuAction::Refresh << MenuAction::SelectAll << MenuAction::OpenInTerminal
+    actions << MenuAction::SelectAll << MenuAction::OpenInTerminal
             << MenuAction::Property << MenuAction::Separator;
 
     if (actions.isEmpty()) {
@@ -2383,7 +2388,7 @@ void CanvasGridView::showEmptyAreaMenu(const Qt::ItemFlags &/*indexFlags*/)
         return;
     }
 
-    auto *pasteAction = menu->actionAt(DFileMenuManager::getActionString(MenuAction::Paste));
+    auto *pasteAction = menu->actionAt(DFileMenuManager::getActionString(MenuAction::Separator));
 
     QMenu iconSizeMenu;
 

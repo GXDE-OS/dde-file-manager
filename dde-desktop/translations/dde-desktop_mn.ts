@@ -1,43 +1,45 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="mn" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="mn">
 <context>
     <name>CanvasGridView</name>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2400"/>
+        <location filename="../view/canvasgridview.cpp" line="2405"/>
         <source>Icon size</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2406"/>
+        <location filename="../view/canvasgridview.cpp" line="2411"/>
         <source>Auto merge</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2415"/>
+        <location filename="../view/canvasgridview.cpp" line="2420"/>
         <source>Auto arrange</source>
         <translation>Автоматаар зохион байгуулах</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2470"/>
+        <location filename="../view/canvasgridview.cpp" line="2475"/>
         <source>Set Wallpaper</source>
         <translation>Фон зургийг тохируулах</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2472"/>
+        <location filename="../view/canvasgridview.cpp" line="2477"/>
         <source>Wallpaper and Screensaver</source>
         <translation>Фон зураг болон дэлгэц амраагч</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2553"/>
+        <location filename="../view/canvasgridview.cpp" line="2558"/>
         <source>Properties</source>
         <translation>Төлөв байдал</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2456"/>
+        <location filename="../view/canvasgridview.cpp" line="2461"/>
         <source>Display Settings</source>
         <translation>Дэлгэцийн тохируулга</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2463"/>
+        <location filename="../view/canvasgridview.cpp" line="2468"/>
         <source>Corner Settings</source>
         <translation>Булангийн тохируулга</translation>
     </message>
@@ -73,97 +75,59 @@
 <context>
     <name>Frame</name>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="423"/>
-        <source>Wallpaper Slideshow</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="449"/>
-        <source>When login</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="451"/>
-        <source>When wakeup</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="491"/>
-        <source>Require a password on wakeup</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="516"/>
         <source>Never</source>
-        <translation>Хэзээ ч үгүй</translation>
+        <translation type="vanished">Хэзээ ч үгүй</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="517"/>
         <source>Wait:</source>
-        <translation>Хүлээх:</translation>
+        <translation type="vanished">Хүлээх:</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="545"/>
         <source>Wallpaper</source>
-        <translation>Дэлгэцийн зураг</translation>
+        <translation type="vanished">Дэлгэцийн зураг</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="545"/>
         <source>Screensaver</source>
-        <translation>Дэлгэц амраагч</translation>
+        <translation type="vanished">Дэлгэц амраагч</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="607"/>
         <source>Only desktop</source>
-        <translation>Зөвхөн ажлын тавцан</translation>
+        <translation type="vanished">Зөвхөн ажлын тавцан</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="608"/>
         <source>Only lock screen</source>
-        <translation>Зөвхөн түгжээний дэлгэц</translation>
+        <translation type="vanished">Зөвхөн түгжээний дэлгэц</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="636"/>
         <source>Apply</source>
-        <translation>Бататгах</translation>
+        <translation type="vanished">Бататгах</translation>
     </message>
 </context>
 <context>
     <name>ZoneMainWindow</name>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
-        <source>Fast Screen Off</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Control Center</source>
-        <translation>Удирдлагын төв</translation>
+        <translation type="vanished">Удирдлагын төв</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>All Windows</source>
-        <translation>Бүх цонхнууд</translation>
+        <translation type="vanished">Бүх цонхнууд</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Launcher</source>
-        <translation>Эхлүүлэгч</translation>
+        <translation type="vanished">Эхлүүлэгч</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Desktop</source>
-        <translation>Ажлын тавцан</translation>
+        <translation type="vanished">Ажлын тавцан</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>None</source>
-        <translation>Байхгүй</translation>
+        <translation type="vanished">Байхгүй</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="59"/>
         <source>Close Window</source>
-        <translation>Цонхыг хаах</translation>
+        <translation type="vanished">Цонхыг хаах</translation>
     </message>
 </context>
 </TS>

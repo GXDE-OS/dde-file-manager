@@ -1,43 +1,45 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ta" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="ta">
 <context>
     <name>CanvasGridView</name>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2400"/>
+        <location filename="../view/canvasgridview.cpp" line="2405"/>
         <source>Icon size</source>
         <translation>ஐகான் அளவு</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2406"/>
+        <location filename="../view/canvasgridview.cpp" line="2411"/>
         <source>Auto merge</source>
         <translation>தானாக இணை</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2415"/>
+        <location filename="../view/canvasgridview.cpp" line="2420"/>
         <source>Auto arrange</source>
         <translation>தானாக ஒழுங்குபடுத்து</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2470"/>
+        <location filename="../view/canvasgridview.cpp" line="2475"/>
         <source>Set Wallpaper</source>
         <translation>வால்பேப்பராக அமைக்கவும்</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2472"/>
+        <location filename="../view/canvasgridview.cpp" line="2477"/>
         <source>Wallpaper and Screensaver</source>
         <translation>வால்பேப்பர் மற்றும் ஸ்கிரீன்சேவர்கள்</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2553"/>
+        <location filename="../view/canvasgridview.cpp" line="2558"/>
         <source>Properties</source>
         <translation>பண்புகள்</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2456"/>
+        <location filename="../view/canvasgridview.cpp" line="2461"/>
         <source>Display Settings</source>
         <translation>காட்சி அமைப்புகள்</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2463"/>
+        <location filename="../view/canvasgridview.cpp" line="2468"/>
         <source>Corner Settings</source>
         <translation>கார்னர் அமைப்புகள்</translation>
     </message>
@@ -73,97 +75,79 @@
 <context>
     <name>Frame</name>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="423"/>
         <source>Wallpaper Slideshow</source>
-        <translation>வால்பேப்பர் ஸ்லைடுஷோ</translation>
+        <translation type="vanished">வால்பேப்பர் ஸ்லைடுஷோ</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="449"/>
         <source>When login</source>
-        <translation>உள்நுழையும் போது</translation>
+        <translation type="vanished">உள்நுழையும் போது</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="451"/>
         <source>When wakeup</source>
-        <translation>விழிப்புணர்வு போது</translation>
+        <translation type="vanished">விழிப்புணர்வு போது</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="491"/>
         <source>Require a password on wakeup</source>
-        <translation>விழிப்பூட்டலில் கடவுச்சொல் தேவை</translation>
+        <translation type="vanished">விழிப்பூட்டலில் கடவுச்சொல் தேவை</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="516"/>
         <source>Never</source>
-        <translation>ஒருபோதும்</translation>
+        <translation type="vanished">ஒருபோதும்</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="517"/>
         <source>Wait:</source>
-        <translation>காத்திரு:</translation>
+        <translation type="vanished">காத்திரு:</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="545"/>
         <source>Wallpaper</source>
-        <translation>வால்பேப்பர்</translation>
+        <translation type="vanished">வால்பேப்பர்</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="545"/>
         <source>Screensaver</source>
-        <translation>ஸ்கிரீன்சேவர்கள்</translation>
+        <translation type="vanished">ஸ்கிரீன்சேவர்கள்</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="607"/>
         <source>Only desktop</source>
-        <translation>டெஸ்க்டாப்பில் மட்டும்</translation>
+        <translation type="vanished">டெஸ்க்டாப்பில் மட்டும்</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="608"/>
         <source>Only lock screen</source>
-        <translation>திரையை மட்டுமே பூட்டு</translation>
+        <translation type="vanished">திரையை மட்டுமே பூட்டு</translation>
     </message>
     <message>
-        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="636"/>
         <source>Apply</source>
-        <translation>உபயோகி</translation>
+        <translation type="vanished">உபயோகி</translation>
     </message>
 </context>
 <context>
     <name>ZoneMainWindow</name>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Fast Screen Off</source>
-        <translation>விரைவு திரை அணைத்தல்</translation>
+        <translation type="vanished">விரைவு திரை அணைத்தல்</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Control Center</source>
-        <translation>கட்டுப்பாட்டு மையம்</translation>
+        <translation type="vanished">கட்டுப்பாட்டு மையம்</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>All Windows</source>
-        <translation>அனைத்து விண்டோஸ்களும்</translation>
+        <translation type="vanished">அனைத்து விண்டோஸ்களும்</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Launcher</source>
-        <translation>தொடக்கம்</translation>
+        <translation type="vanished">தொடக்கம்</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Desktop</source>
-        <translation>கணினி</translation>
+        <translation type="vanished">கணினி</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>None</source>
-        <translation>எதுவும் இல்லை</translation>
+        <translation type="vanished">எதுவும் இல்லை</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="59"/>
         <source>Close Window</source>
-        <translation>விண்டோஸை மூடு</translation>
+        <translation type="vanished">விண்டோஸை மூடு</translation>
     </message>
 </context>
 </TS>
