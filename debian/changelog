@@ -1,9 +1,10 @@
-dde-file-manager (4.8.8.4) UNRELEASED; urgency=medium
+dde-file-manager (4.8.9) UNRELEASED; urgency=medium
 
   * Non-maintainer upload.
   * 
+  * 
 
- -- gfdgd_xi <3025613752@qq.com>  Wed, 21 Aug 2024 12:29:32 +0800
+ -- gfdgd_xi <3025613752@qq.com>  Wed, 21 Aug 2024 18:29:26 +0800
 
 dde-file-manager (4.8.8.3) unstable; urgency=low
 
