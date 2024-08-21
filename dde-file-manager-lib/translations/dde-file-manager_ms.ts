@@ -1710,31 +1710,31 @@
         <translation>Kumpulan</translation>
     </message>
     <message>
-        <location filename="../dialogs/filepreviewdialog.cpp" line="75"/>
-        <location filename="../dialogs/previewdialog.cpp" line="156"/>
+        <location filename="../dialogs/filepreviewdialog.cpp" line="77"/>
+        <location filename="../dialogs/previewdialog.cpp" line="157"/>
         <location filename="../interfaces/dfilemenumanager.cpp" line="640"/>
         <location filename="../interfaces/dfilemenumanager.cpp" line="643"/>
         <source>Open</source>
         <translation>Buka</translation>
     </message>
     <message>
-        <location filename="../dialogs/filepreviewdialog.cpp" line="188"/>
-        <location filename="../dialogs/filepreviewdialog.cpp" line="208"/>
+        <location filename="../dialogs/filepreviewdialog.cpp" line="190"/>
+        <location filename="../dialogs/filepreviewdialog.cpp" line="210"/>
         <source>Size: %1</source>
         <translation>Saiz: %1</translation>
     </message>
     <message>
-        <location filename="../dialogs/filepreviewdialog.cpp" line="189"/>
+        <location filename="../dialogs/filepreviewdialog.cpp" line="191"/>
         <source>Type: %1</source>
         <translation>Jenis: %1</translation>
     </message>
     <message>
-        <location filename="../dialogs/filepreviewdialog.cpp" line="201"/>
+        <location filename="../dialogs/filepreviewdialog.cpp" line="203"/>
         <source>Size: 0</source>
         <translation>Saiz: 0</translation>
     </message>
     <message>
-        <location filename="../dialogs/filepreviewdialog.cpp" line="207"/>
+        <location filename="../dialogs/filepreviewdialog.cpp" line="209"/>
         <source>Items: %1</source>
         <translation>Item: %1</translation>
     </message>
@@ -2975,7 +2975,7 @@
 <context>
     <name>UnknownPreviewWidget</name>
     <message>
-        <location filename="../dialogs/previewdialog.cpp" line="560"/>
+        <location filename="../dialogs/previewdialog.cpp" line="561"/>
         <source>Type</source>
         <translation>Jenis</translation>
     </message>
