@@ -142,6 +142,7 @@ void PreviewDialog::initUI()
     d->closeButton = new QPushButton(this);
     d->closeButton->setFixedSize(24, 24);
     d->closeButton->setObjectName("CloseButton");
+    d->closeButton->setStyleSheet(getQssFromFile(":/light/PreviewDialogDefault.theme"));
 
 //    d->popupCloseButton = new QPushButton;
 //    d->popupCloseButton->setFixedSize(24, 24);

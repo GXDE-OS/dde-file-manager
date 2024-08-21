@@ -14,6 +14,8 @@
 
 #include "shutil/fileutils.h"
 
+#include "utils/utils.h"
+
 #include <danchors.h>
 #include <dthememanager.h>
 #include <denhancedwidget.h>
@@ -330,6 +332,10 @@ void FilePreviewDialog::initUI()
     m_closeButton = new QPushButton(this);
     m_closeButton->setObjectName("CloseButton");
     m_closeButton->setFocusPolicy(Qt::NoFocus);
+    m_closeButton->setStyleSheet(getQssFromFile(":/light/PreviewDialogDefault.theme"));
+    m_closeButton->setFixedSize(24, 24);
+    /*m_closeButton->setIcon(QIcon(":/dark/icons/active_tab_close_normal.svg"));
+    m_closeButton->setStyleSheet("background-color: rgba(255, 255, 255, 0);");*/
 
     m_separator = new DSeparatorHorizontal(this);
     m_separator->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
