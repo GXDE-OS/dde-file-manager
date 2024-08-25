@@ -318,16 +318,17 @@ DFMSettingDialog::DFMSettingDialog(QWidget *parent):
     widgetFactory()->registerWidget("mountCheckBox", &DFMSettingDialog::createAutoMountCheckBox);
     widgetFactory()->registerWidget("openCheckBox", &DFMSettingDialog::createAutoMountOpenCheckBox);
 
-#ifdef DISABLE_COMPRESS_PREIVEW
+/*#ifdef DISABLE_COMPRESS_PREIVEW
     //load temlate
     m_settings = fromJsJson(":/configure/global-setting-template-pro.js").data();
 #else
 #ifdef DISABLE_FFMEPG
     m_settings = fromJsJson(":/configure/global-setting-template-fedora.js").data();
 #else
+#endif
+#endif*/
+
     m_settings = fromJsJson(":/configure/global-setting-template.js").data();
-#endif
-#endif
 
     //load conf value
     auto backen = new SettingBackend(this);

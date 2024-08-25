@@ -1,5 +1,5 @@
 {
-    groups: [
+    "groups": [
         {
             "key": "base",
             "name": qsTranslate("GenerateSettingTranslate", "Basic"),
