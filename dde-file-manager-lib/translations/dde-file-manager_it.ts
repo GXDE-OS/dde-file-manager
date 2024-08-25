@@ -495,13 +495,16 @@
 <context>
     <name>DTaskDialog</name>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="83"/>
         <source>This action is not supported</source>
-        <translation type="vanished">Questa azione non è supportata</translation>
+        <translation>Questa azione non è supportata</translation>
     </message>
 </context>
 <context>
     <name>DeepinStorage</name>
     <message>
+        <location filename="../../dde-dock-plugins/disk-mount/dattachedudisks2device.cpp" line="91"/>
+        <location filename="../../dde-dock-plugins/disk-mount/dattachedudisks2device.cpp" line="106"/>
         <location filename="../devicemanagement/dfmudisks2deviceinfo.cpp" line="114"/>
         <location filename="../devicemanagement/dfmudisks2deviceinfo.cpp" line="129"/>
         <source>%1 Volume</source>
@@ -840,6 +843,24 @@ Localizzazione italiana a cura di Massimo A. Carofano</translation>
     </message>
 </context>
 <context>
+    <name>DiskMountPlugin</name>
+    <message>
+        <location filename="../../dde-dock-plugins/disk-mount/diskmountplugin.cpp" line="48"/>
+        <source>Disk</source>
+        <translation type="unfinished">Disco</translation>
+    </message>
+    <message>
+        <location filename="../../dde-dock-plugins/disk-mount/diskmountplugin.cpp" line="102"/>
+        <source>Open</source>
+        <translation type="unfinished">Apri</translation>
+    </message>
+    <message>
+        <location filename="../../dde-dock-plugins/disk-mount/diskmountplugin.cpp" line="108"/>
+        <source>Unmount all</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>FileDialogStatusBar</name>
     <message>
         <location filename="../views/filedialogstatusbar.cpp" line="30"/>
@@ -880,60 +901,77 @@ Localizzazione italiana a cura di Massimo A. Carofano</translation>
 <context>
     <name>FileJob</name>
     <message>
+        <location filename="../../fileoperations/filejob.cpp" line="164"/>
         <source>copy</source>
-        <translation type="vanished">copia</translation>
+        <translation>copia</translation>
     </message>
     <message>
+        <location filename="../../fileoperations/filejob.cpp" line="691"/>
+        <location filename="../../fileoperations/filejob.cpp" line="751"/>
         <source>Data verification successful.</source>
-        <translation type="vanished">Verifica dati completata.</translation>
+        <translation>Verifica dati completata.</translation>
     </message>
     <message>
+        <location filename="../../fileoperations/filejob.cpp" line="691"/>
+        <location filename="../../fileoperations/filejob.cpp" line="751"/>
         <source>Data verification failed.</source>
-        <translation type="vanished">Verifica dati fallita.</translation>
+        <translation>Verifica dati fallita.</translation>
     </message>
     <message>
+        <location filename="../../fileoperations/filejob.cpp" line="693"/>
+        <location filename="../../fileoperations/filejob.cpp" line="753"/>
         <source>Burn process completed</source>
-        <translation type="vanished">Processo di scrittura completato</translation>
+        <translation>Processo di scrittura completato</translation>
     </message>
     <message>
+        <location filename="../../fileoperations/filejob.cpp" line="867"/>
         <source>%1 s</source>
-        <translation type="vanished">%1 s</translation>
+        <translation>%1 s</translation>
     </message>
     <message>
+        <location filename="../../fileoperations/filejob.cpp" line="871"/>
         <source>%1 m %2 s</source>
-        <translation type="vanished">%1 m %2 s</translation>
+        <translation>%1 m %2 s</translation>
     </message>
     <message>
+        <location filename="../../fileoperations/filejob.cpp" line="877"/>
         <source>%1 h %2 m %3 s</source>
-        <translation type="vanished">%1 h %2 m %3 s</translation>
+        <translation>%1 h %2 m %3 s</translation>
     </message>
     <message>
+        <location filename="../../fileoperations/filejob.cpp" line="886"/>
         <source>%1 d %2 h %3 m %4 s</source>
-        <translation type="vanished">%1 d %2 h %3 m %4 s</translation>
+        <translation>%1 d %2 h %3 m %4 s</translation>
     </message>
     <message>
+        <location filename="../../fileoperations/filejob.cpp" line="2613"/>
         <source>%1 is a duplicate file.</source>
-        <translation type="vanished">%1 è un file duplicato.</translation>
+        <translation>%1 è un file duplicato.</translation>
     </message>
     <message>
+        <location filename="../../fileoperations/filejob.cpp" line="2616"/>
         <source>Insufficient disc space.</source>
-        <translation type="vanished">Spazio insufficiente su disco</translation>
+        <translation>Spazio insufficiente su disco</translation>
     </message>
     <message>
+        <location filename="../../fileoperations/filejob.cpp" line="2619"/>
         <source>Lost connection to drive.</source>
-        <translation type="vanished">Connessione al disco persa.</translation>
+        <translation>Connessione al disco persa.</translation>
     </message>
     <message>
+        <location filename="../../fileoperations/filejob.cpp" line="2622"/>
         <source>The CD/DVD drive is not ready. Try another disc.</source>
-        <translation type="vanished">Il CD/DVD non è pronto. Prova con un altro disco.</translation>
+        <translation>Il CD/DVD non è pronto. Prova con un altro disco.</translation>
     </message>
     <message>
+        <location filename="../../fileoperations/filejob.cpp" line="2625"/>
         <source>The CD/DVD drive is busy. Exit the program using the drive, and insert the drive again.</source>
-        <translation type="vanished">Il CD/DVD è occupato. Esci dal programma che sta utilizzando il lettore, inserendo nuovamente il disco.</translation>
+        <translation>Il CD/DVD è occupato. Esci dal programma che sta utilizzando il lettore, inserendo nuovamente il disco.</translation>
     </message>
     <message>
+        <location filename="../../fileoperations/filejob.cpp" line="2628"/>
         <source>Unknown error</source>
-        <translation type="vanished">Errore sconosciuto</translation>
+        <translation>Errore sconosciuto</translation>
     </message>
 </context>
 <context>
@@ -1181,6 +1219,72 @@ Localizzazione italiana a cura di Massimo A. Carofano</translation>
     </message>
 </context>
 <context>
+    <name>ImageMenuPlugin</name>
+    <message>
+        <location filename="../../dde-file-manager-plugins/ImageMenuPlugin/imagemenuplugin.cpp" line="49"/>
+        <source>Format convert</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-file-manager-plugins/ImageMenuPlugin/imagemenuplugin.cpp" line="50"/>
+        <source>Format test</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-file-manager-plugins/ImageMenuPlugin/imagemenuplugin.cpp" line="51"/>
+        <source>SubMenu</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-file-manager-plugins/ImageMenuPlugin/imagemenuplugin.cpp" line="93"/>
+        <source>dssdds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-file-manager-plugins/ImageMenuPlugin/imagemenuplugin.cpp" line="94"/>
+        <source>sdsdds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-file-manager-plugins/ImageMenuPlugin/imagemenuplugin.cpp" line="95"/>
+        <source>sdds</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>MainWindow</name>
+    <message>
+        <location filename="../../dde-file-manager-plugins/showfile/testprog/testprog.ui" line="14"/>
+        <source>菜单测试</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-file-manager-plugins/showfile/testprog/testprog.ui" line="41"/>
+        <source>菜单：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-file-manager-plugins/showfile/testprog/testprog.ui" line="54"/>
+        <source>测试</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-file-manager-plugins/showfile/testprog/testprog.ui" line="67"/>
+        <source>点击事件：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-file-manager-plugins/showfile/testprog/testprog.ui" line="80"/>
+        <source>文件：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-file-manager-plugins/showfile/testprog/testprog.ui" line="93"/>
+        <source>TextLabel</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>MergedDesktopController</name>
     <message>
         <location filename="../controllers/mergeddesktopcontroller.cpp" line="387"/>
@@ -1356,116 +1460,148 @@ Localizzazione italiana a cura di Massimo A. Carofano</translation>
 <context>
     <name>MoveCopyTaskWidget</name>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="355"/>
         <source>Skip</source>
-        <translation type="vanished">Salta</translation>
+        <translation>Salta</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="354"/>
         <source>Keep both</source>
-        <translation type="vanished">Mantieni entrambi</translation>
+        <translation>Mantieni entrambi</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="356"/>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="505"/>
         <source>Replace</source>
-        <translation type="vanished">Sostituisci</translation>
+        <translation>Sostituisci</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="377"/>
         <source>Do not ask again</source>
-        <translation type="vanished">Non chiederlo nuovamente</translation>
+        <translation>Non chiederlo nuovamente</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="503"/>
         <source>merge</source>
-        <translation type="vanished">unisci</translation>
+        <translation>unisci</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="473"/>
         <source>Copying %1</source>
-        <translation type="vanished">Copia di %1</translation>
+        <translation>Copia di %1</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="413"/>
         <source>Erasing disc %1, please wait...</source>
-        <translation type="vanished">Cancellazione disco %1, attendi...</translation>
+        <translation>Cancellazione disco %1, attendi...</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="414"/>
         <source>Burning disc %1, please wait...</source>
-        <translation type="vanished">Scrittura disco %1, attendi...</translation>
+        <translation>Scrittura disco %1, attendi...</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="419"/>
         <source>Writing data...</source>
-        <translation type="vanished">Scrittura dati...</translation>
+        <translation>Scrittura dati...</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="420"/>
         <source>Verifying data...</source>
-        <translation type="vanished">Verifica dati...</translation>
+        <translation>Verifica dati...</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="474"/>
         <source>Copy to %2</source>
-        <translation type="vanished">Copia in %2</translation>
+        <translation>Copia in %2</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="477"/>
         <source>Moving %1</source>
-        <translation type="vanished">Spostamento di %1</translation>
+        <translation>Spostamento di %1</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="478"/>
         <source>Move to %2</source>
-        <translation type="vanished">Spostamento in %2</translation>
+        <translation>Spostamento in %2</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="480"/>
         <source>Restoring %1</source>
-        <translation type="vanished">Ripristino di %1</translation>
+        <translation>Ripristino di %1</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="481"/>
         <source>Restore to %2</source>
-        <translation type="vanished">Ripristino in %2</translation>
+        <translation>Ripristino in %2</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="483"/>
         <source>Deleting %1</source>
-        <translation type="vanished">Eliminazione di %1</translation>
+        <translation>Eliminazione di %1</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="486"/>
         <source>Trashing %1</source>
-        <translation type="vanished">Eliminazione di %1</translation>
+        <translation>Eliminazione di %1</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="494"/>
         <source>Calculating space, please wait</source>
-        <translation type="vanished">Calcolo spazio, attendere prego</translation>
+        <translation>Calcolo spazio, attendere prego</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="497"/>
         <source>File named %1 already exists in target folder</source>
-        <translation type="vanished">Il file %1 esiste già nella cartella di destinazione</translation>
+        <translation>Il file %1 esiste già nella cartella di destinazione</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="498"/>
         <source>Original path %1 target path %2</source>
-        <translation type="vanished">Cartella di origine %1, cartella di destinazione %2</translation>
+        <translation>Cartella di origine %1, cartella di destinazione %2</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="513"/>
         <source>Retry</source>
-        <translation type="vanished">Riprova</translation>
+        <translation>Riprova</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="607"/>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="619"/>
         <source>Time modified:%1</source>
-        <translation type="vanished">Ultima modifica: %1</translation>
+        <translation>Ultima modifica: %1</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="609"/>
         <source>Original folder</source>
-        <translation type="vanished">Cartella originaria</translation>
+        <translation>Cartella originaria</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="612"/>
         <source>Original file</source>
-        <translation type="vanished">File originario</translation>
+        <translation>File originario</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="622"/>
         <source>Target folder</source>
-        <translation type="vanished">Cartella di destinazione</translation>
+        <translation>Cartella di destinazione</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="625"/>
         <source>Target file</source>
-        <translation type="vanished">File di destinazione</translation>
+        <translation>File di destinazione</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="610"/>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="623"/>
         <source>Contains:%1</source>
-        <translation type="vanished">Contiene: %1</translation>
+        <translation>Contiene: %1</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="613"/>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="626"/>
         <source>Size:%1</source>
-        <translation type="vanished">Dimensione: %1</translation>
+        <translation>Dimensione: %1</translation>
     </message>
 </context>
 <context>
@@ -1607,6 +1743,14 @@ Localizzazione italiana a cura di Massimo A. Carofano</translation>
         <location filename="../controllers/pathmanager.cpp" line="67"/>
         <source>Recent</source>
         <translation>File Recenti</translation>
+    </message>
+</context>
+<context>
+    <name>PdfWidget</name>
+    <message>
+        <location filename="../../dde-file-manager-plugins/pluginPreview/dde-pdf-preview-plugin/pdfwidget.cpp" line="198"/>
+        <source>Cannot preview this file!</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2317,12 +2461,14 @@ Localizzazione italiana a cura di Massimo A. Carofano</translation>
         <translation>Testo</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="921"/>
         <source>1 task in progress</source>
-        <translation type="vanished">1 operazione in corso</translation>
+        <translation>1 operazione in corso</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="923"/>
         <source>%1 tasks in progress</source>
-        <translation type="vanished">1% operazioni in corso</translation>
+        <translation>1% operazioni in corso</translation>
     </message>
     <message>
         <location filename="../dialogs/ddesktoprenamedialog.cpp" line="142"/>
@@ -2570,6 +2716,11 @@ Localizzazione italiana a cura di Massimo A. Carofano</translation>
     <message>
         <location filename="../controllers/filecontroller.cpp" line="753"/>
         <source>Files are being processed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-dock-plugins/disk-mount/diskcontrolwidget.cpp" line="292"/>
+        <source>Device has been removed</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3036,12 +3187,14 @@ Localizzazione italiana a cura di Massimo A. Carofano</translation>
 <context>
     <name>UserShareManager</name>
     <message>
+        <location filename="../../usershare/usersharemanager.cpp" line="420"/>
         <source>Kindly Reminder</source>
-        <translation type="vanished">Promemoria</translation>
+        <translation>Promemoria</translation>
     </message>
     <message>
+        <location filename="../../usershare/usersharemanager.cpp" line="420"/>
         <source>Please firstly install samba to continue</source>
-        <translation type="vanished">Installa Samba prima di continuare</translation>
+        <translation>Installa Samba prima di continuare</translation>
     </message>
 </context>
 <context>

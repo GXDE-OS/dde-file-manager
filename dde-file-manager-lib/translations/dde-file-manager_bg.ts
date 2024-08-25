@@ -495,13 +495,16 @@
 <context>
     <name>DTaskDialog</name>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="83"/>
         <source>This action is not supported</source>
-        <translation type="vanished">Това действие не се поддържа</translation>
+        <translation>Това действие не се поддържа</translation>
     </message>
 </context>
 <context>
     <name>DeepinStorage</name>
     <message>
+        <location filename="../../dde-dock-plugins/disk-mount/dattachedudisks2device.cpp" line="91"/>
+        <location filename="../../dde-dock-plugins/disk-mount/dattachedudisks2device.cpp" line="106"/>
         <location filename="../devicemanagement/dfmudisks2deviceinfo.cpp" line="114"/>
         <location filename="../devicemanagement/dfmudisks2deviceinfo.cpp" line="129"/>
         <source>%1 Volume</source>
@@ -839,6 +842,24 @@
     </message>
 </context>
 <context>
+    <name>DiskMountPlugin</name>
+    <message>
+        <location filename="../../dde-dock-plugins/disk-mount/diskmountplugin.cpp" line="48"/>
+        <source>Disk</source>
+        <translation type="unfinished">Диск</translation>
+    </message>
+    <message>
+        <location filename="../../dde-dock-plugins/disk-mount/diskmountplugin.cpp" line="102"/>
+        <source>Open</source>
+        <translation type="unfinished">Отваряне</translation>
+    </message>
+    <message>
+        <location filename="../../dde-dock-plugins/disk-mount/diskmountplugin.cpp" line="108"/>
+        <source>Unmount all</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>FileDialogStatusBar</name>
     <message>
         <location filename="../views/filedialogstatusbar.cpp" line="30"/>
@@ -879,24 +900,77 @@
 <context>
     <name>FileJob</name>
     <message>
+        <location filename="../../fileoperations/filejob.cpp" line="164"/>
         <source>copy</source>
-        <translation type="vanished">копиране</translation>
+        <translation>копиране</translation>
     </message>
     <message>
+        <location filename="../../fileoperations/filejob.cpp" line="691"/>
+        <location filename="../../fileoperations/filejob.cpp" line="751"/>
+        <source>Data verification successful.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../fileoperations/filejob.cpp" line="691"/>
+        <location filename="../../fileoperations/filejob.cpp" line="751"/>
+        <source>Data verification failed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../fileoperations/filejob.cpp" line="693"/>
+        <location filename="../../fileoperations/filejob.cpp" line="753"/>
+        <source>Burn process completed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../fileoperations/filejob.cpp" line="867"/>
         <source>%1 s</source>
-        <translation type="vanished">%1 с</translation>
+        <translation>%1 с</translation>
     </message>
     <message>
+        <location filename="../../fileoperations/filejob.cpp" line="871"/>
         <source>%1 m %2 s</source>
-        <translation type="vanished">%1 м %2 с</translation>
+        <translation>%1 м %2 с</translation>
     </message>
     <message>
+        <location filename="../../fileoperations/filejob.cpp" line="877"/>
         <source>%1 h %2 m %3 s</source>
-        <translation type="vanished">%1 ч %2 м %3 с</translation>
+        <translation>%1 ч %2 м %3 с</translation>
     </message>
     <message>
+        <location filename="../../fileoperations/filejob.cpp" line="886"/>
         <source>%1 d %2 h %3 m %4 s</source>
-        <translation type="vanished">%1 д %2 ч %3 м %4 с</translation>
+        <translation>%1 д %2 ч %3 м %4 с</translation>
+    </message>
+    <message>
+        <location filename="../../fileoperations/filejob.cpp" line="2613"/>
+        <source>%1 is a duplicate file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../fileoperations/filejob.cpp" line="2616"/>
+        <source>Insufficient disc space.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../fileoperations/filejob.cpp" line="2619"/>
+        <source>Lost connection to drive.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../fileoperations/filejob.cpp" line="2622"/>
+        <source>The CD/DVD drive is not ready. Try another disc.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../fileoperations/filejob.cpp" line="2625"/>
+        <source>The CD/DVD drive is busy. Exit the program using the drive, and insert the drive again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../fileoperations/filejob.cpp" line="2628"/>
+        <source>Unknown error</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1144,6 +1218,72 @@
     </message>
 </context>
 <context>
+    <name>ImageMenuPlugin</name>
+    <message>
+        <location filename="../../dde-file-manager-plugins/ImageMenuPlugin/imagemenuplugin.cpp" line="49"/>
+        <source>Format convert</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-file-manager-plugins/ImageMenuPlugin/imagemenuplugin.cpp" line="50"/>
+        <source>Format test</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-file-manager-plugins/ImageMenuPlugin/imagemenuplugin.cpp" line="51"/>
+        <source>SubMenu</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-file-manager-plugins/ImageMenuPlugin/imagemenuplugin.cpp" line="93"/>
+        <source>dssdds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-file-manager-plugins/ImageMenuPlugin/imagemenuplugin.cpp" line="94"/>
+        <source>sdsdds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-file-manager-plugins/ImageMenuPlugin/imagemenuplugin.cpp" line="95"/>
+        <source>sdds</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>MainWindow</name>
+    <message>
+        <location filename="../../dde-file-manager-plugins/showfile/testprog/testprog.ui" line="14"/>
+        <source>菜单测试</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-file-manager-plugins/showfile/testprog/testprog.ui" line="41"/>
+        <source>菜单：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-file-manager-plugins/showfile/testprog/testprog.ui" line="54"/>
+        <source>测试</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-file-manager-plugins/showfile/testprog/testprog.ui" line="67"/>
+        <source>点击事件：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-file-manager-plugins/showfile/testprog/testprog.ui" line="80"/>
+        <source>文件：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-file-manager-plugins/showfile/testprog/testprog.ui" line="93"/>
+        <source>TextLabel</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>MergedDesktopController</name>
     <message>
         <location filename="../controllers/mergeddesktopcontroller.cpp" line="387"/>
@@ -1319,100 +1459,148 @@
 <context>
     <name>MoveCopyTaskWidget</name>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="355"/>
         <source>Skip</source>
-        <translation type="vanished">Пропускане</translation>
+        <translation>Пропускане</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="354"/>
         <source>Keep both</source>
-        <translation type="vanished">Запази и двете</translation>
+        <translation>Запази и двете</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="356"/>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="505"/>
         <source>Replace</source>
-        <translation type="vanished">Замяна</translation>
+        <translation>Замяна</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="377"/>
         <source>Do not ask again</source>
-        <translation type="vanished">Не ме питай повече</translation>
+        <translation>Не ме питай повече</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="503"/>
         <source>merge</source>
-        <translation type="vanished">обедини</translation>
+        <translation>обедини</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="473"/>
         <source>Copying %1</source>
-        <translation type="vanished">Копиране %1</translation>
+        <translation>Копиране %1</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="413"/>
+        <source>Erasing disc %1, please wait...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="414"/>
+        <source>Burning disc %1, please wait...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="419"/>
+        <source>Writing data...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="420"/>
+        <source>Verifying data...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="474"/>
         <source>Copy to %2</source>
-        <translation type="vanished">Копиране в %2</translation>
+        <translation>Копиране в %2</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="477"/>
         <source>Moving %1</source>
-        <translation type="vanished">Преместване %1</translation>
+        <translation>Преместване %1</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="478"/>
         <source>Move to %2</source>
-        <translation type="vanished">Преместване в %2</translation>
+        <translation>Преместване в %2</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="480"/>
         <source>Restoring %1</source>
-        <translation type="vanished">Възстановяване %1</translation>
+        <translation>Възстановяване %1</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="481"/>
         <source>Restore to %2</source>
-        <translation type="vanished">Възстановяване в %2</translation>
+        <translation>Възстановяване в %2</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="483"/>
         <source>Deleting %1</source>
-        <translation type="vanished">Изтриване %1</translation>
+        <translation>Изтриване %1</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="486"/>
         <source>Trashing %1</source>
-        <translation type="vanished">Преместване в кошчето %1</translation>
+        <translation>Преместване в кошчето %1</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="494"/>
         <source>Calculating space, please wait</source>
-        <translation type="vanished">Изчисляване на пространството, моля изчакайте</translation>
+        <translation>Изчисляване на пространството, моля изчакайте</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="497"/>
         <source>File named %1 already exists in target folder</source>
-        <translation type="vanished">Файл с име %1 вече съществува в посочената папка</translation>
+        <translation>Файл с име %1 вече съществува в посочената папка</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="498"/>
         <source>Original path %1 target path %2</source>
-        <translation type="vanished">Път до оригинала %1 път до целта %2</translation>
+        <translation>Път до оригинала %1 път до целта %2</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="513"/>
         <source>Retry</source>
-        <translation type="vanished">Отново</translation>
+        <translation>Отново</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="607"/>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="619"/>
         <source>Time modified:%1</source>
-        <translation type="vanished">Време на промяна:%1</translation>
+        <translation>Време на промяна:%1</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="609"/>
         <source>Original folder</source>
-        <translation type="vanished">Оригинална папка</translation>
+        <translation>Оригинална папка</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="612"/>
         <source>Original file</source>
-        <translation type="vanished">Оригинален файл</translation>
+        <translation>Оригинален файл</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="622"/>
         <source>Target folder</source>
-        <translation type="vanished">Целева папка</translation>
+        <translation>Целева папка</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="625"/>
         <source>Target file</source>
-        <translation type="vanished">Целеви файл</translation>
+        <translation>Целеви файл</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="610"/>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="623"/>
         <source>Contains:%1</source>
-        <translation type="vanished">Съдържание:%1</translation>
+        <translation>Съдържание:%1</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="613"/>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="626"/>
         <source>Size:%1</source>
-        <translation type="vanished">Размер:%1</translation>
+        <translation>Размер:%1</translation>
     </message>
 </context>
 <context>
@@ -1554,6 +1742,14 @@
         <location filename="../controllers/pathmanager.cpp" line="67"/>
         <source>Recent</source>
         <translation>Последни</translation>
+    </message>
+</context>
+<context>
+    <name>PdfWidget</name>
+    <message>
+        <location filename="../../dde-file-manager-plugins/pluginPreview/dde-pdf-preview-plugin/pdfwidget.cpp" line="198"/>
+        <source>Cannot preview this file!</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2264,12 +2460,14 @@
         <translation>Текст</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="921"/>
         <source>1 task in progress</source>
-        <translation type="vanished">1 задача в изпълнение</translation>
+        <translation>1 задача в изпълнение</translation>
     </message>
     <message>
+        <location filename="../../dialogs/dtaskdialog.cpp" line="923"/>
         <source>%1 tasks in progress</source>
-        <translation type="vanished">%1 задачи в изпълнение</translation>
+        <translation>%1 задачи в изпълнение</translation>
     </message>
     <message>
         <location filename="../dialogs/ddesktoprenamedialog.cpp" line="142"/>
@@ -2517,6 +2715,11 @@
     <message>
         <location filename="../controllers/filecontroller.cpp" line="753"/>
         <source>Files are being processed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-dock-plugins/disk-mount/diskcontrolwidget.cpp" line="292"/>
+        <source>Device has been removed</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2983,12 +3186,14 @@
 <context>
     <name>UserShareManager</name>
     <message>
+        <location filename="../../usershare/usersharemanager.cpp" line="420"/>
         <source>Kindly Reminder</source>
-        <translation type="vanished">Любезно напомняне</translation>
+        <translation>Любезно напомняне</translation>
     </message>
     <message>
+        <location filename="../../usershare/usersharemanager.cpp" line="420"/>
         <source>Please firstly install samba to continue</source>
-        <translation type="vanished">Първо инсталирайте samba, за да продължите</translation>
+        <translation>Първо инсталирайте samba, за да продължите</translation>
     </message>
 </context>
 <context>
