@@ -75,79 +75,97 @@
 <context>
     <name>Frame</name>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="423"/>
         <source>Wallpaper Slideshow</source>
-        <translation type="vanished">Bureaubladachtergrond - Diavoorstelling</translation>
+        <translation>Bureaubladachtergrond - Diavoorstelling</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="449"/>
         <source>When login</source>
-        <translation type="vanished">Bij inloggen</translation>
+        <translation>Bij inloggen</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="451"/>
         <source>When wakeup</source>
-        <translation type="vanished">Bij ontwaken</translation>
+        <translation>Bij ontwaken</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="491"/>
         <source>Require a password on wakeup</source>
-        <translation type="vanished">Wachtwoord vereisen bij ontwaken</translation>
+        <translation>Wachtwoord vereisen bij ontwaken</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="516"/>
         <source>Never</source>
-        <translation type="vanished">Nooit</translation>
+        <translation>Nooit</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="517"/>
         <source>Wait:</source>
-        <translation type="vanished">Wachten:</translation>
+        <translation>Wachten:</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="545"/>
         <source>Wallpaper</source>
-        <translation type="vanished">Bureaubladachtergrond</translation>
+        <translation>Bureaubladachtergrond</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="545"/>
         <source>Screensaver</source>
-        <translation type="vanished">Schermbeveiliging</translation>
+        <translation>Schermbeveiliging</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="607"/>
         <source>Only desktop</source>
-        <translation type="vanished">Alleen op bureaublad</translation>
+        <translation>Alleen op bureaublad</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="608"/>
         <source>Only lock screen</source>
-        <translation type="vanished">Alleen op vergrendelscherm</translation>
+        <translation>Alleen op vergrendelscherm</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="636"/>
         <source>Apply</source>
-        <translation type="vanished">Instellen</translation>
+        <translation>Instellen</translation>
     </message>
 </context>
 <context>
     <name>ZoneMainWindow</name>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Fast Screen Off</source>
-        <translation type="vanished">Scherm snel uitschakelen</translation>
+        <translation>Scherm snel uitschakelen</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Control Center</source>
-        <translation type="vanished">Configuratiecentrum</translation>
+        <translation>Configuratiecentrum</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>All Windows</source>
-        <translation type="vanished">Alle vensters</translation>
+        <translation>Alle vensters</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Launcher</source>
-        <translation type="vanished">Startmenu</translation>
+        <translation>Startmenu</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Desktop</source>
-        <translation type="vanished">Bureaublad</translation>
+        <translation>Bureaublad</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>None</source>
-        <translation type="vanished">Geen</translation>
+        <translation>Geen</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="59"/>
         <source>Close Window</source>
-        <translation type="vanished">Venster sluiten</translation>
+        <translation>Venster sluiten</translation>
     </message>
 </context>
 </TS>

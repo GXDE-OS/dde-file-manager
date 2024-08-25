@@ -75,80 +75,98 @@
 <context>
     <name>Frame</name>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="423"/>
         <source>Wallpaper Slideshow</source>
-        <translation type="vanished">Wallpaper Slideshow</translation>
+        <translation>Wallpaper Slideshow</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="449"/>
         <source>When login</source>
-        <translation type="vanished">When login</translation>
+        <translation>When login</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="451"/>
         <source>When wakeup</source>
-        <translation type="vanished">When wake up</translation>
+        <translation>When wake up</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="491"/>
         <source>Require a password on wakeup</source>
-        <translation type="vanished">Password-required on wake up
+        <translation>Password-required on wake up
 </translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="516"/>
         <source>Never</source>
-        <translation type="vanished">Never</translation>
+        <translation>Never</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="517"/>
         <source>Wait:</source>
-        <translation type="vanished">Wait:</translation>
+        <translation>Wait:</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="545"/>
         <source>Wallpaper</source>
-        <translation type="vanished">Wallpaper</translation>
+        <translation>Wallpaper</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="545"/>
         <source>Screensaver</source>
-        <translation type="vanished">Screensaver</translation>
+        <translation>Screensaver</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="607"/>
         <source>Only desktop</source>
-        <translation type="vanished">Desktop only</translation>
+        <translation>Desktop only</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="608"/>
         <source>Only lock screen</source>
-        <translation type="vanished">Lock screen only</translation>
+        <translation>Lock screen only</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="636"/>
         <source>Apply</source>
-        <translation type="vanished">Apply</translation>
+        <translation>Apply</translation>
     </message>
 </context>
 <context>
     <name>ZoneMainWindow</name>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Fast Screen Off</source>
-        <translation type="vanished">Fast Screen Off</translation>
+        <translation>Fast Screen Off</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Control Center</source>
-        <translation type="vanished">Control Centre</translation>
+        <translation>Control Centre</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>All Windows</source>
-        <translation type="vanished">All Windows</translation>
+        <translation>All Windows</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Launcher</source>
-        <translation type="vanished">Launcher</translation>
+        <translation>Launcher</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Desktop</source>
-        <translation type="vanished">Desktop</translation>
+        <translation>Desktop</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>None</source>
-        <translation type="vanished">None</translation>
+        <translation>None</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="59"/>
         <source>Close Window</source>
-        <translation type="vanished">Close Window</translation>
+        <translation>Close Window</translation>
     </message>
 </context>
 </TS>

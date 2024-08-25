@@ -75,79 +75,97 @@
 <context>
     <name>Frame</name>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="423"/>
         <source>Wallpaper Slideshow</source>
-        <translation type="vanished">Darbalaukio fono skaidrių rodymas</translation>
+        <translation>Darbalaukio fono skaidrių rodymas</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="449"/>
         <source>When login</source>
-        <translation type="vanished">Prisijungus</translation>
+        <translation>Prisijungus</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="451"/>
         <source>When wakeup</source>
-        <translation type="vanished">Pažadinus kompiuterį</translation>
+        <translation>Pažadinus kompiuterį</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="491"/>
         <source>Require a password on wakeup</source>
-        <translation type="vanished">Pažadinus, reikalauti slaptažodžio</translation>
+        <translation>Pažadinus, reikalauti slaptažodžio</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="516"/>
         <source>Never</source>
-        <translation type="vanished">Niekada</translation>
+        <translation>Niekada</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="517"/>
         <source>Wait:</source>
-        <translation type="vanished">Laukti:</translation>
+        <translation>Laukti:</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="545"/>
         <source>Wallpaper</source>
-        <translation type="vanished">Darbalaukio fonas</translation>
+        <translation>Darbalaukio fonas</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="545"/>
         <source>Screensaver</source>
-        <translation type="vanished">Ekrano užsklanda</translation>
+        <translation>Ekrano užsklanda</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="607"/>
         <source>Only desktop</source>
-        <translation type="vanished">Tik darbalaukiui</translation>
+        <translation>Tik darbalaukiui</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="608"/>
         <source>Only lock screen</source>
-        <translation type="vanished">Tik užrakto ekranui</translation>
+        <translation>Tik užrakto ekranui</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="636"/>
         <source>Apply</source>
-        <translation type="vanished">Taikyti</translation>
+        <translation>Taikyti</translation>
     </message>
 </context>
 <context>
     <name>ZoneMainWindow</name>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Fast Screen Off</source>
-        <translation type="vanished">Greitas ekrano išjungimas</translation>
+        <translation>Greitas ekrano išjungimas</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Control Center</source>
-        <translation type="vanished">Valdymo centras</translation>
+        <translation>Valdymo centras</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>All Windows</source>
-        <translation type="vanished">Visi langai</translation>
+        <translation>Visi langai</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Launcher</source>
-        <translation type="vanished">Leistukas</translation>
+        <translation>Leistukas</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Desktop</source>
-        <translation type="vanished">Darbalaukis</translation>
+        <translation>Darbalaukis</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>None</source>
-        <translation type="vanished">Nėra</translation>
+        <translation>Nėra</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="59"/>
         <source>Close Window</source>
-        <translation type="vanished">Užverti langą</translation>
+        <translation>Užverti langą</translation>
     </message>
 </context>
 </TS>

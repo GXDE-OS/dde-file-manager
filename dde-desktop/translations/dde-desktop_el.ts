@@ -75,79 +75,97 @@
 <context>
     <name>Frame</name>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="423"/>
         <source>Wallpaper Slideshow</source>
-        <translation type="vanished">Wallpaper Slideshow</translation>
+        <translation>Wallpaper Slideshow</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="449"/>
         <source>When login</source>
-        <translation type="vanished">Στη σύνδεση</translation>
+        <translation>Στη σύνδεση</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="451"/>
         <source>When wakeup</source>
-        <translation type="vanished">Στην αφύπνιση </translation>
+        <translation>Στην αφύπνιση </translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="491"/>
         <source>Require a password on wakeup</source>
-        <translation type="vanished">Απαίτηση κωδικού πρόσβασης κατά την αφύπνιση</translation>
+        <translation>Απαίτηση κωδικού πρόσβασης κατά την αφύπνιση</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="516"/>
         <source>Never</source>
-        <translation type="vanished">Ποτέ</translation>
+        <translation>Ποτέ</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="517"/>
         <source>Wait:</source>
-        <translation type="vanished">Αναμονή:</translation>
+        <translation>Αναμονή:</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="545"/>
         <source>Wallpaper</source>
-        <translation type="vanished">Wallpaper</translation>
+        <translation>Wallpaper</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="545"/>
         <source>Screensaver</source>
-        <translation type="vanished">Screensaver</translation>
+        <translation>Screensaver</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="607"/>
         <source>Only desktop</source>
-        <translation type="vanished">Μόνο η επιφάνεια εργασίας</translation>
+        <translation>Μόνο η επιφάνεια εργασίας</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="608"/>
         <source>Only lock screen</source>
-        <translation type="vanished">Μόνο το κλείδωμα οθόνης</translation>
+        <translation>Μόνο το κλείδωμα οθόνης</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="636"/>
         <source>Apply</source>
-        <translation type="vanished">Εφαρμογή</translation>
+        <translation>Εφαρμογή</translation>
     </message>
 </context>
 <context>
     <name>ZoneMainWindow</name>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Fast Screen Off</source>
-        <translation type="vanished">Γρήγορο Κλείσιμο Οθόνης</translation>
+        <translation>Γρήγορο Κλείσιμο Οθόνης</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Control Center</source>
-        <translation type="vanished">Κέντρο Ελέγχου</translation>
+        <translation>Κέντρο Ελέγχου</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>All Windows</source>
-        <translation type="vanished">Όλα τα Παράθυρα</translation>
+        <translation>Όλα τα Παράθυρα</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Launcher</source>
-        <translation type="vanished">Εκκινητής Εφαρμογών</translation>
+        <translation>Εκκινητής Εφαρμογών</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Desktop</source>
-        <translation type="vanished">Επιφάνεια Εργασίας</translation>
+        <translation>Επιφάνεια Εργασίας</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>None</source>
-        <translation type="vanished">Κανένα</translation>
+        <translation>Κανένα</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="59"/>
         <source>Close Window</source>
-        <translation type="vanished">Κλείσιμο Παραθύρου</translation>
+        <translation>Κλείσιμο Παραθύρου</translation>
     </message>
 </context>
 </TS>

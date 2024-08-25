@@ -75,75 +75,97 @@
 <context>
     <name>Frame</name>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="423"/>
         <source>Wallpaper Slideshow</source>
-        <translation type="vanished">Слайдшоу на тапети</translation>
+        <translation>Слайдшоу на тапети</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="449"/>
         <source>When login</source>
-        <translation type="vanished">При влизане</translation>
+        <translation>При влизане</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="451"/>
         <source>When wakeup</source>
-        <translation type="vanished">При събуждане</translation>
+        <translation>При събуждане</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="491"/>
+        <source>Require a password on wakeup</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="516"/>
         <source>Never</source>
-        <translation type="vanished">Никога</translation>
+        <translation>Никога</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="517"/>
         <source>Wait:</source>
-        <translation type="vanished">Чакай:</translation>
+        <translation>Чакай:</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="545"/>
         <source>Wallpaper</source>
-        <translation type="vanished">Тапет</translation>
+        <translation>Тапет</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="545"/>
         <source>Screensaver</source>
-        <translation type="vanished">Предпазител на екрана</translation>
+        <translation>Предпазител на екрана</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="607"/>
         <source>Only desktop</source>
-        <translation type="vanished">Само десктоп</translation>
+        <translation>Само десктоп</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="608"/>
         <source>Only lock screen</source>
-        <translation type="vanished">Само заключи екрана</translation>
+        <translation>Само заключи екрана</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="636"/>
         <source>Apply</source>
-        <translation type="vanished">Приложи</translation>
+        <translation>Приложи</translation>
     </message>
 </context>
 <context>
     <name>ZoneMainWindow</name>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Fast Screen Off</source>
-        <translation type="vanished">Бързо изключване на екрана</translation>
+        <translation>Бързо изключване на екрана</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Control Center</source>
-        <translation type="vanished">Контролен център</translation>
+        <translation>Контролен център</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>All Windows</source>
-        <translation type="vanished">Всички прозорци</translation>
+        <translation>Всички прозорци</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Launcher</source>
-        <translation type="vanished">Стартер</translation>
+        <translation>Стартер</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Desktop</source>
-        <translation type="vanished">Десктоп</translation>
+        <translation>Десктоп</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>None</source>
-        <translation type="vanished">Без</translation>
+        <translation>Без</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="59"/>
         <source>Close Window</source>
-        <translation type="vanished">Затвори прозопрец</translation>
+        <translation>Затвори прозопрец</translation>
     </message>
 </context>
 </TS>

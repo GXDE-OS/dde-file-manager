@@ -75,79 +75,97 @@
 <context>
     <name>Frame</name>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="423"/>
         <source>Wallpaper Slideshow</source>
-        <translation type="vanished">வால்பேப்பர் ஸ்லைடுஷோ</translation>
+        <translation>வால்பேப்பர் ஸ்லைடுஷோ</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="449"/>
         <source>When login</source>
-        <translation type="vanished">உள்நுழையும் போது</translation>
+        <translation>உள்நுழையும் போது</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="451"/>
         <source>When wakeup</source>
-        <translation type="vanished">விழிப்புணர்வு போது</translation>
+        <translation>விழிப்புணர்வு போது</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="491"/>
         <source>Require a password on wakeup</source>
-        <translation type="vanished">விழிப்பூட்டலில் கடவுச்சொல் தேவை</translation>
+        <translation>விழிப்பூட்டலில் கடவுச்சொல் தேவை</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="516"/>
         <source>Never</source>
-        <translation type="vanished">ஒருபோதும்</translation>
+        <translation>ஒருபோதும்</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="517"/>
         <source>Wait:</source>
-        <translation type="vanished">காத்திரு:</translation>
+        <translation>காத்திரு:</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="545"/>
         <source>Wallpaper</source>
-        <translation type="vanished">வால்பேப்பர்</translation>
+        <translation>வால்பேப்பர்</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="545"/>
         <source>Screensaver</source>
-        <translation type="vanished">ஸ்கிரீன்சேவர்கள்</translation>
+        <translation>ஸ்கிரீன்சேவர்கள்</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="607"/>
         <source>Only desktop</source>
-        <translation type="vanished">டெஸ்க்டாப்பில் மட்டும்</translation>
+        <translation>டெஸ்க்டாப்பில் மட்டும்</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="608"/>
         <source>Only lock screen</source>
-        <translation type="vanished">திரையை மட்டுமே பூட்டு</translation>
+        <translation>திரையை மட்டுமே பூட்டு</translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="636"/>
         <source>Apply</source>
-        <translation type="vanished">உபயோகி</translation>
+        <translation>உபயோகி</translation>
     </message>
 </context>
 <context>
     <name>ZoneMainWindow</name>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Fast Screen Off</source>
-        <translation type="vanished">விரைவு திரை அணைத்தல்</translation>
+        <translation>விரைவு திரை அணைத்தல்</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Control Center</source>
-        <translation type="vanished">கட்டுப்பாட்டு மையம்</translation>
+        <translation>கட்டுப்பாட்டு மையம்</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>All Windows</source>
-        <translation type="vanished">அனைத்து விண்டோஸ்களும்</translation>
+        <translation>அனைத்து விண்டோஸ்களும்</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Launcher</source>
-        <translation type="vanished">தொடக்கம்</translation>
+        <translation>தொடக்கம்</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Desktop</source>
-        <translation type="vanished">கணினி</translation>
+        <translation>கணினி</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>None</source>
-        <translation type="vanished">எதுவும் இல்லை</translation>
+        <translation>எதுவும் இல்லை</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="59"/>
         <source>Close Window</source>
-        <translation type="vanished">விண்டோஸை மூடு</translation>
+        <translation>விண்டோஸை மூடு</translation>
     </message>
 </context>
 </TS>

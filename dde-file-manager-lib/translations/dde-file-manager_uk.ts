@@ -503,8 +503,6 @@
 <context>
     <name>DeepinStorage</name>
     <message>
-        <location filename="../../dde-dock-plugins/disk-mount/dattachedudisks2device.cpp" line="91"/>
-        <location filename="../../dde-dock-plugins/disk-mount/dattachedudisks2device.cpp" line="106"/>
         <location filename="../devicemanagement/dfmudisks2deviceinfo.cpp" line="114"/>
         <location filename="../devicemanagement/dfmudisks2deviceinfo.cpp" line="129"/>
         <source>%1 Volume</source>
@@ -844,19 +842,12 @@
 <context>
     <name>DiskMountPlugin</name>
     <message>
-        <location filename="../../dde-dock-plugins/disk-mount/diskmountplugin.cpp" line="48"/>
         <source>Disk</source>
-        <translation type="unfinished">Диск</translation>
+        <translation type="obsolete">Диск</translation>
     </message>
     <message>
-        <location filename="../../dde-dock-plugins/disk-mount/diskmountplugin.cpp" line="102"/>
         <source>Open</source>
-        <translation type="unfinished">Відкрити</translation>
-    </message>
-    <message>
-        <location filename="../../dde-dock-plugins/disk-mount/diskmountplugin.cpp" line="108"/>
-        <source>Unmount all</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Відкрити</translation>
     </message>
 </context>
 <context>
@@ -976,204 +967,378 @@
 <context>
     <name>GenerateSettingTranslate</name>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="5"/>
+        <location filename="../configure/global-setting-template-pro.js" line="5"/>
+        <location filename="../configure/global-setting-template.js" line="5"/>
         <source>Basic</source>
-        <translation type="vanished">Основний</translation>
+        <translation>Основний</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="9"/>
+        <location filename="../configure/global-setting-template-pro.js" line="9"/>
+        <location filename="../configure/global-setting-template.js" line="9"/>
         <source>Open behavior</source>
-        <translation type="vanished">Поведінка відкриття</translation>
+        <translation>Поведінка відкриття</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="14"/>
+        <location filename="../configure/global-setting-template-pro.js" line="14"/>
+        <location filename="../configure/global-setting-template.js" line="14"/>
         <source>Always open folder in new window</source>
-        <translation type="vanished">Завжди відкривати теку у новому вікні</translation>
+        <translation>Завжди відкривати теку у новому вікні</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="19"/>
+        <location filename="../configure/global-setting-template-pro.js" line="19"/>
+        <location filename="../configure/global-setting-template.js" line="19"/>
         <source>Open file:</source>
-        <translation type="vanished">Відкриття файла:</translation>
+        <translation>Відкриття файла:</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="22"/>
+        <location filename="../configure/global-setting-template-pro.js" line="22"/>
+        <location filename="../configure/global-setting-template.js" line="22"/>
         <source>Click</source>
-        <translation type="vanished">Клацання</translation>
+        <translation>Клацання</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="23"/>
+        <location filename="../configure/global-setting-template-pro.js" line="23"/>
+        <location filename="../configure/global-setting-template.js" line="23"/>
         <source>Double click</source>
-        <translation type="vanished">Подвійне клацання</translation>
+        <translation>Подвійне клацання</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="31"/>
+        <location filename="../configure/global-setting-template-pro.js" line="31"/>
+        <location filename="../configure/global-setting-template.js" line="31"/>
         <source>New window and tab</source>
-        <translation type="vanished">Нове вікно і вкладка</translation>
+        <translation>Нове вікно і вкладка</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="35"/>
+        <location filename="../configure/global-setting-template-pro.js" line="35"/>
+        <location filename="../configure/global-setting-template.js" line="35"/>
         <source>Open from default window:</source>
-        <translation type="vanished">Відкриття з типового вікна:</translation>
+        <translation>Відкриття з типового вікна:</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="39"/>
+        <location filename="../configure/global-setting-template-fedora.js" line="68"/>
+        <location filename="../configure/global-setting-template-pro.js" line="39"/>
+        <location filename="../configure/global-setting-template-pro.js" line="68"/>
+        <location filename="../configure/global-setting-template.js" line="39"/>
+        <location filename="../configure/global-setting-template.js" line="68"/>
         <source>Computer</source>
-        <translation type="vanished">Комп&apos;ютер</translation>
+        <translation>Комп&apos;ютер</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="40"/>
+        <location filename="../configure/global-setting-template-fedora.js" line="69"/>
+        <location filename="../configure/global-setting-template-pro.js" line="40"/>
+        <location filename="../configure/global-setting-template-pro.js" line="69"/>
+        <location filename="../configure/global-setting-template.js" line="40"/>
+        <location filename="../configure/global-setting-template.js" line="69"/>
         <source>Home</source>
-        <translation type="vanished">Домівка</translation>
+        <translation>Домівка</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="41"/>
+        <location filename="../configure/global-setting-template-fedora.js" line="70"/>
+        <location filename="../configure/global-setting-template-pro.js" line="41"/>
+        <location filename="../configure/global-setting-template-pro.js" line="70"/>
+        <location filename="../configure/global-setting-template.js" line="41"/>
+        <location filename="../configure/global-setting-template.js" line="70"/>
         <source>Desktop</source>
-        <translation type="vanished">Стільниця</translation>
+        <translation>Стільниця</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="42"/>
+        <location filename="../configure/global-setting-template-fedora.js" line="71"/>
+        <location filename="../configure/global-setting-template-pro.js" line="42"/>
+        <location filename="../configure/global-setting-template-pro.js" line="71"/>
+        <location filename="../configure/global-setting-template.js" line="42"/>
+        <location filename="../configure/global-setting-template.js" line="71"/>
         <source>Videos</source>
-        <translation type="vanished">Відео</translation>
+        <translation>Відео</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="43"/>
+        <location filename="../configure/global-setting-template-fedora.js" line="72"/>
+        <location filename="../configure/global-setting-template-pro.js" line="43"/>
+        <location filename="../configure/global-setting-template-pro.js" line="72"/>
+        <location filename="../configure/global-setting-template.js" line="43"/>
+        <location filename="../configure/global-setting-template.js" line="72"/>
         <source>Music</source>
-        <translation type="vanished">Музика</translation>
+        <translation>Музика</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="44"/>
+        <location filename="../configure/global-setting-template-fedora.js" line="73"/>
+        <location filename="../configure/global-setting-template-pro.js" line="44"/>
+        <location filename="../configure/global-setting-template-pro.js" line="73"/>
+        <location filename="../configure/global-setting-template.js" line="44"/>
+        <location filename="../configure/global-setting-template.js" line="73"/>
         <source>Pictures</source>
-        <translation type="vanished">Зображення</translation>
+        <translation>Зображення</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="45"/>
+        <location filename="../configure/global-setting-template-fedora.js" line="74"/>
+        <location filename="../configure/global-setting-template-pro.js" line="45"/>
+        <location filename="../configure/global-setting-template-pro.js" line="74"/>
+        <location filename="../configure/global-setting-template.js" line="45"/>
+        <location filename="../configure/global-setting-template.js" line="74"/>
         <source>Documents</source>
-        <translation type="vanished">Документи</translation>
+        <translation>Документи</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="46"/>
+        <location filename="../configure/global-setting-template-fedora.js" line="75"/>
+        <location filename="../configure/global-setting-template-pro.js" line="46"/>
+        <location filename="../configure/global-setting-template-pro.js" line="75"/>
+        <location filename="../configure/global-setting-template.js" line="46"/>
+        <location filename="../configure/global-setting-template.js" line="75"/>
         <source>Downloads</source>
-        <translation type="vanished">Завантаження</translation>
+        <translation>Завантаження</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="63"/>
+        <location filename="../configure/global-setting-template-pro.js" line="63"/>
+        <location filename="../configure/global-setting-template.js" line="63"/>
         <source>Open in new tab:</source>
-        <translation type="vanished">Відкриття у новій вкладці:</translation>
+        <translation>Відкриття у новій вкладці:</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="67"/>
+        <location filename="../configure/global-setting-template-pro.js" line="67"/>
+        <location filename="../configure/global-setting-template.js" line="67"/>
         <source>Current Directory</source>
-        <translation type="vanished">Поточний каталог</translation>
+        <translation>Поточний каталог</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="95"/>
+        <location filename="../configure/global-setting-template-pro.js" line="95"/>
+        <location filename="../configure/global-setting-template.js" line="95"/>
         <source>View</source>
-        <translation type="vanished">Перегляд</translation>
+        <translation>Перегляд</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="99"/>
+        <location filename="../configure/global-setting-template-pro.js" line="99"/>
+        <location filename="../configure/global-setting-template.js" line="99"/>
         <source>Default size:</source>
-        <translation type="vanished">Типовий розмір:</translation>
+        <translation>Типовий розмір:</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="102"/>
+        <location filename="../configure/global-setting-template-pro.js" line="102"/>
+        <location filename="../configure/global-setting-template.js" line="102"/>
         <source>Extra small</source>
-        <translation type="vanished">Дуже малий</translation>
+        <translation>Дуже малий</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="103"/>
+        <location filename="../configure/global-setting-template-pro.js" line="103"/>
+        <location filename="../configure/global-setting-template.js" line="103"/>
         <source>Small</source>
-        <translation type="vanished">Малий</translation>
+        <translation>Малий</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="104"/>
+        <location filename="../configure/global-setting-template-pro.js" line="104"/>
+        <location filename="../configure/global-setting-template.js" line="104"/>
         <source>Medium</source>
-        <translation type="vanished">Середній</translation>
+        <translation>Середній</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="105"/>
+        <location filename="../configure/global-setting-template-pro.js" line="105"/>
+        <location filename="../configure/global-setting-template.js" line="105"/>
         <source>Large</source>
-        <translation type="vanished">Великий</translation>
+        <translation>Великий</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="106"/>
+        <location filename="../configure/global-setting-template-pro.js" line="106"/>
+        <location filename="../configure/global-setting-template.js" line="106"/>
         <source>Extra large</source>
-        <translation type="vanished">Дуже великий</translation>
+        <translation>Дуже великий</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="112"/>
+        <location filename="../configure/global-setting-template-pro.js" line="112"/>
+        <location filename="../configure/global-setting-template.js" line="112"/>
         <source>Default view:</source>
-        <translation type="vanished">Типовий перегляд:</translation>
+        <translation>Типовий перегляд:</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="116"/>
+        <location filename="../configure/global-setting-template-pro.js" line="116"/>
+        <location filename="../configure/global-setting-template.js" line="116"/>
         <source>Icon</source>
-        <translation type="vanished">Піктограма</translation>
+        <translation>Піктограма</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="117"/>
+        <location filename="../configure/global-setting-template-pro.js" line="117"/>
+        <location filename="../configure/global-setting-template.js" line="117"/>
         <source>List</source>
-        <translation type="vanished">Список</translation>
+        <translation>Список</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="129"/>
+        <location filename="../configure/global-setting-template-pro.js" line="129"/>
+        <location filename="../configure/global-setting-template.js" line="129"/>
         <source>Hidden files</source>
-        <translation type="vanished">Приховані файли</translation>
+        <translation>Приховані файли</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="133"/>
+        <location filename="../configure/global-setting-template-pro.js" line="133"/>
+        <location filename="../configure/global-setting-template.js" line="133"/>
         <source>Show hidden files</source>
-        <translation type="vanished">Показувати приховані файли</translation>
+        <translation>Показувати приховані файли</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="139"/>
+        <location filename="../configure/global-setting-template-pro.js" line="139"/>
+        <location filename="../configure/global-setting-template.js" line="139"/>
         <source>Hide file extension when rename</source>
-        <translation type="vanished">Приховувати суфікс назви під час перейменовування</translation>
+        <translation>Приховувати суфікс назви під час перейменовування</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="156"/>
+        <location filename="../configure/global-setting-template-pro.js" line="157"/>
+        <location filename="../configure/global-setting-template.js" line="157"/>
         <source>Advanced</source>
-        <translation type="vanished">Додатково</translation>
+        <translation>Додатково</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="160"/>
+        <location filename="../configure/global-setting-template-pro.js" line="161"/>
+        <location filename="../configure/global-setting-template.js" line="161"/>
         <source>Index</source>
-        <translation type="vanished">Покажчик</translation>
+        <translation>Покажчик</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="164"/>
+        <location filename="../configure/global-setting-template-pro.js" line="165"/>
+        <location filename="../configure/global-setting-template.js" line="165"/>
         <source>Auto index internal disk</source>
-        <translation type="vanished">Автоматично створювати покажчик вбудованого диска</translation>
+        <translation>Автоматично створювати покажчик вбудованого диска</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="170"/>
+        <location filename="../configure/global-setting-template-pro.js" line="171"/>
+        <location filename="../configure/global-setting-template.js" line="171"/>
         <source>Index external storage device after connected to computer</source>
-        <translation type="vanished">Створювати покажчики зовнішніх дисків після з&apos;єднання із комп&apos;ютером</translation>
+        <translation>Створювати покажчики зовнішніх дисків після з&apos;єднання із комп&apos;ютером</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="259"/>
+        <location filename="../configure/global-setting-template-pro.js" line="259"/>
+        <location filename="../configure/global-setting-template.js" line="258"/>
         <source>Other</source>
-        <translation type="vanished">Інше</translation>
+        <translation>Інше</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="263"/>
+        <location filename="../configure/global-setting-template-pro.js" line="263"/>
+        <location filename="../configure/global-setting-template.js" line="262"/>
         <source>Hide system disk</source>
-        <translation type="vanished">Приховати системний диск</translation>
+        <translation>Приховати системний диск</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="182"/>
+        <location filename="../configure/global-setting-template-pro.js" line="183"/>
+        <location filename="../configure/global-setting-template.js" line="183"/>
         <source>Show hidden files in search results</source>
-        <translation type="vanished">Показувати приховані файли у результатах пошуку</translation>
+        <translation>Показувати приховані файли у результатах пошуку</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="145"/>
+        <location filename="../configure/global-setting-template-pro.js" line="145"/>
+        <location filename="../configure/global-setting-template.js" line="145"/>
         <source>Display recent file entry in left panel</source>
-        <translation type="vanished">Показувати запис останнього файла на лівій панелі</translation>
+        <translation>Показувати запис останнього файла на лівій панелі</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="191"/>
+        <location filename="../configure/global-setting-template-pro.js" line="192"/>
+        <location filename="../configure/global-setting-template.js" line="192"/>
         <source>Preview</source>
-        <translation type="vanished">Попередній перегляд</translation>
+        <translation>Попередній перегляд</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="195"/>
+        <location filename="../configure/global-setting-template-pro.js" line="196"/>
+        <location filename="../configure/global-setting-template.js" line="196"/>
         <source>Compress file preview</source>
-        <translation type="vanished">Перегляд стиснених файлів</translation>
+        <translation>Перегляд стиснених файлів</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="202"/>
+        <location filename="../configure/global-setting-template-pro.js" line="203"/>
+        <location filename="../configure/global-setting-template.js" line="202"/>
         <source>Text preview</source>
-        <translation type="vanished">Перегляд тексту</translation>
+        <translation>Перегляд тексту</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="208"/>
+        <location filename="../configure/global-setting-template-pro.js" line="209"/>
+        <location filename="../configure/global-setting-template.js" line="208"/>
         <source>Document preview</source>
-        <translation type="vanished">Перегляд документів</translation>
+        <translation>Перегляд документів</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="214"/>
+        <location filename="../configure/global-setting-template-pro.js" line="215"/>
+        <location filename="../configure/global-setting-template.js" line="214"/>
         <source>Image preview</source>
-        <translation type="vanished">Перегляд зображень</translation>
+        <translation>Перегляд зображень</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="220"/>
+        <location filename="../configure/global-setting-template-pro.js" line="221"/>
+        <location filename="../configure/global-setting-template.js" line="220"/>
         <source>Video preview</source>
-        <translation type="vanished">Перегляд відео</translation>
+        <translation>Перегляд відео</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="229"/>
+        <location filename="../configure/global-setting-template-pro.js" line="229"/>
+        <location filename="../configure/global-setting-template.js" line="228"/>
         <source>Mount</source>
-        <translation type="vanished">Монтування</translation>
+        <translation>Монтування</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="233"/>
+        <location filename="../configure/global-setting-template-pro.js" line="233"/>
+        <location filename="../configure/global-setting-template.js" line="232"/>
         <source>Auto mount</source>
-        <translation type="vanished">Автоматичне монтування</translation>
+        <translation>Автоматичне монтування</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="239"/>
+        <location filename="../configure/global-setting-template-pro.js" line="239"/>
+        <location filename="../configure/global-setting-template.js" line="238"/>
         <source>Open after auto mount</source>
-        <translation type="vanished">Відкривати після автоматичного монтування</translation>
+        <translation>Відкривати після автоматичного монтування</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="247"/>
+        <location filename="../configure/global-setting-template-pro.js" line="247"/>
+        <location filename="../configure/global-setting-template.js" line="246"/>
         <source>Dialog</source>
-        <translation type="vanished">Вікно</translation>
+        <translation>Вікно</translation>
     </message>
     <message>
+        <location filename="../configure/global-setting-template-fedora.js" line="251"/>
+        <location filename="../configure/global-setting-template-pro.js" line="251"/>
+        <location filename="../configure/global-setting-template.js" line="250"/>
         <source>Use the file chooser dialog of Deepin File Manager</source>
-        <translation type="vanished">Використовувати вікно вибору файлів Менеджера файлів Deepin</translation>
+        <translation>Використовувати вікно вибору файлів Менеджера файлів Deepin</translation>
     </message>
 </context>
 <context>
@@ -1215,72 +1380,6 @@
         <location filename="../gvfs/gvfsmountmanager.cpp" line="1496"/>
         <source>Cannot eject the device &quot;%1&quot;</source>
         <translation>Не вдалося виштовхнути носій з пристрою «%1»</translation>
-    </message>
-</context>
-<context>
-    <name>ImageMenuPlugin</name>
-    <message>
-        <location filename="../../dde-file-manager-plugins/ImageMenuPlugin/imagemenuplugin.cpp" line="49"/>
-        <source>Format convert</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../dde-file-manager-plugins/ImageMenuPlugin/imagemenuplugin.cpp" line="50"/>
-        <source>Format test</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../dde-file-manager-plugins/ImageMenuPlugin/imagemenuplugin.cpp" line="51"/>
-        <source>SubMenu</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../dde-file-manager-plugins/ImageMenuPlugin/imagemenuplugin.cpp" line="93"/>
-        <source>dssdds</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../dde-file-manager-plugins/ImageMenuPlugin/imagemenuplugin.cpp" line="94"/>
-        <source>sdsdds</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../dde-file-manager-plugins/ImageMenuPlugin/imagemenuplugin.cpp" line="95"/>
-        <source>sdds</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>MainWindow</name>
-    <message>
-        <location filename="../../dde-file-manager-plugins/showfile/testprog/testprog.ui" line="14"/>
-        <source>菜单测试</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../dde-file-manager-plugins/showfile/testprog/testprog.ui" line="41"/>
-        <source>菜单：</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../dde-file-manager-plugins/showfile/testprog/testprog.ui" line="54"/>
-        <source>测试</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../dde-file-manager-plugins/showfile/testprog/testprog.ui" line="67"/>
-        <source>点击事件：</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../dde-file-manager-plugins/showfile/testprog/testprog.ui" line="80"/>
-        <source>文件：</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../dde-file-manager-plugins/showfile/testprog/testprog.ui" line="93"/>
-        <source>TextLabel</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1742,14 +1841,6 @@
         <location filename="../controllers/pathmanager.cpp" line="67"/>
         <source>Recent</source>
         <translation>Нещодавні</translation>
-    </message>
-</context>
-<context>
-    <name>PdfWidget</name>
-    <message>
-        <location filename="../../dde-file-manager-plugins/pluginPreview/dde-pdf-preview-plugin/pdfwidget.cpp" line="198"/>
-        <source>Cannot preview this file!</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2396,7 +2487,6 @@
     </message>
     <message>
         <location filename="../interfaces/dfileinfo.cpp" line="754"/>
-        <location filename="../models/fileinfo.cpp" line="130"/>
         <source>File has been moved or deleted</source>
         <translation>Файл був переміщений чи видалений</translation>
     </message>
@@ -2404,13 +2494,11 @@
         <location filename="../interfaces/dfileinfo.cpp" line="756"/>
         <location filename="../interfaces/dfileinfo.cpp" line="764"/>
         <location filename="../interfaces/dfileinfo.cpp" line="770"/>
-        <location filename="../models/fileinfo.cpp" line="132"/>
         <source>You do not have permission to access this folder</source>
         <translation>У вас немає дозволу на доступ до цієї теки</translation>
     </message>
     <message>
         <location filename="../interfaces/dfileinfo.cpp" line="774"/>
-        <location filename="../models/fileinfo.cpp" line="135"/>
         <location filename="../models/recentfileinfo.cpp" line="191"/>
         <location filename="../models/trashfileinfo.cpp" line="376"/>
         <source>Folder is empty</source>
@@ -2715,11 +2803,6 @@
     <message>
         <location filename="../controllers/filecontroller.cpp" line="753"/>
         <source>Files are being processed</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../dde-dock-plugins/disk-mount/diskcontrolwidget.cpp" line="292"/>
-        <source>Device has been removed</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

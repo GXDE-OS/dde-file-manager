@@ -75,43 +75,97 @@
 <context>
     <name>Frame</name>
     <message>
-        <source>Only desktop</source>
-        <translation type="vanished">শুধুমাত্র ডেস্কটপ</translation>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="423"/>
+        <source>Wallpaper Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="449"/>
+        <source>When login</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="451"/>
+        <source>When wakeup</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="491"/>
+        <source>Require a password on wakeup</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="516"/>
+        <source>Never</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="517"/>
+        <source>Wait:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="545"/>
+        <source>Wallpaper</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="545"/>
+        <source>Screensaver</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="607"/>
+        <source>Only desktop</source>
+        <translation>শুধুমাত্র ডেস্কটপ</translation>
+    </message>
+    <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="608"/>
         <source>Only lock screen</source>
-        <translation type="vanished">শুধুমাত্র লক স্ক্রিন </translation>
+        <translation>শুধুমাত্র লক স্ক্রিন </translation>
+    </message>
+    <message>
+        <location filename="../../dde-wallpaper-chooser/frame.cpp" line="636"/>
+        <source>Apply</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>ZoneMainWindow</name>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Fast Screen Off</source>
-        <translation type="vanished">দ্রুত স্ক্রিন বন্ধ </translation>
+        <translation>দ্রুত স্ক্রিন বন্ধ </translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Control Center</source>
-        <translation type="vanished">কন্ট্রোল সেন্টার </translation>
+        <translation>কন্ট্রোল সেন্টার </translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>All Windows</source>
-        <translation type="vanished">সকল উইন্ডো সমূহ </translation>
+        <translation>সকল উইন্ডো সমূহ </translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Launcher</source>
-        <translation type="vanished">লঞ্চার</translation>
+        <translation>লঞ্চার</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>Desktop</source>
-        <translation type="vanished">ডেস্কটপ</translation>
+        <translation>ডেস্কটপ</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
         <source>None</source>
-        <translation type="vanished">কোনোটিই নয়</translation>
+        <translation>কোনোটিই নয়</translation>
     </message>
     <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="59"/>
         <source>Close Window</source>
-        <translation type="vanished">উইন্ডো বন্ধ করুন</translation>
+        <translation>উইন্ডো বন্ধ করুন</translation>
     </message>
 </context>
 </TS>
