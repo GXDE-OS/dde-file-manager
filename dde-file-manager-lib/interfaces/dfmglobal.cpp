@@ -238,7 +238,10 @@ void DFMGlobal::autoLoadDefaultPlugins()
 void DFMGlobal::autoLoadDefaultMenuExtensions()
 {
     QString configPath = DFMStandardPaths::location(DFMStandardPaths::ApplicationConfigPath);
+    QString sharePath = DFMStandardPaths::location(DFMStandardPaths::ApplicationSharePath);
     QString menuExtensionPath = QString("%1/%2").arg(configPath, "menuextensions");
+    DFMGlobal::addMenuExtensionPath(menuExtensionPath);
+    menuExtensionPath = QString("%1/%2").arg(sharePath, "menuextensions");
     DFMGlobal::addMenuExtensionPath(menuExtensionPath);
 }
 
