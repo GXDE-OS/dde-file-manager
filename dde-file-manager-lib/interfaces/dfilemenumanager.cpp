@@ -185,7 +185,7 @@ DFileMenu *DFileMenuManager::createNormalMenu(const DUrl &currentUrl, const DUrl
     } else {
         bool isSystemPathIncluded = false;
         bool isAllCompressedFiles = true;
-//        QMimeType fileMimeType;
+        //        QMimeType fileMimeType;
         QStringList supportedMimeTypes;
         bool mime_displayOpenWith = true;
 
@@ -276,10 +276,10 @@ DFileMenu *DFileMenuManager::createNormalMenu(const DUrl &currentUrl, const DUrl
         QStringList recommendApps = mimeAppsManager->getRecommendedApps(info->redirectedFileUrl());
 
         foreach (QString app, recommendApps) {
-//            const DesktopFile& df = mimeAppsManager->DesktopObjs.value(app);
-        //ignore no show apps
-//            if(df.getNoShow())
-//                continue;
+            //            const DesktopFile& df = mimeAppsManager->DesktopObjs.value(app);
+            //ignore no show apps
+            //            if(df.getNoShow())
+            //                continue;
             DesktopFile desktopFile(app);
             QAction *action = new QAction(desktopFile.getDisplayName(), openWithMenu);
             action->setIcon(FileUtils::searchAppIcon(desktopFile));
@@ -462,6 +462,16 @@ QList<QAction *> DFileMenuManager::loadMenuExtensionActions(const DUrlList &urlL
         QString menuType = metaEnum.valueToKey(menuExtensionType);
 
         foreach (QFileInfo fileInfo, menuExtensionDir.entryInfoList(QDir::Files)) {
+            if (fileInfo.fileName().endsWith(".desktop")) {
+                qDebug() << fileInfo.absoluteFilePath();
+                QFile file(fileInfo.absoluteFilePath());
+                if (!file.open(QIODevice::ReadOnly)) {
+                    qDebug() << "Couldn't open" << fileInfo.absoluteFilePath();
+                    return actions;
+                }
+                QByteArray data = file.readAll();
+                actions << desktopToActions(data, urlList, currentUrl, menuType, onDesktop);
+            }
             if (fileInfo.fileName().endsWith(".json")) {
                 qDebug() << fileInfo.absoluteFilePath();
                 QFile file(fileInfo.absoluteFilePath());
@@ -477,6 +487,175 @@ QList<QAction *> DFileMenuManager::loadMenuExtensionActions(const DUrlList &urlL
         }
     }
 
+    return actions;
+}
+
+QList<QAction *> DFileMenuManager::desktopToActions(const QString data, const DUrlList &urlList, const DUrl &currentUrl,
+                                                    const QString &menuExtensionType, const bool onDesktop)
+{
+    QList<QAction *> actions;
+    QString nowShowIn = onDesktop ? QStringLiteral("Desktop") : QStringLiteral("FileManager");
+    QString menuType = "SingleFile";
+    QString suffix = "";
+    QString mimeType = "";
+    QString icon = "";
+    QString textKey = QString("Name[%1]=").arg(QLocale::system().name());
+    QString text = "";
+    QString exec = "";
+    QStringList args;
+    QStringList notShowIn;
+    QVariantList subMenuDataList;
+    for (QString i: data.split("\n")) {
+        if (i.startsWith("X-DFM-MenuTypes=")) {
+            menuType = i.replace("X-DFM-MenuTypes=", "");
+        }
+        else if (i.startsWith("MimeType=")) {
+            mimeType = i.replace("MimeType=", "");
+        }
+        else if (i.startsWith("Icon=")) {
+            icon = i.replace("Icon=", "");
+        }
+        else if (i.startsWith(textKey)) {
+            text = i.replace(textKey, "");
+        }
+        else if (i.startsWith("Exec=")) {
+            exec = i.replace("Exec=", "");
+            QString argsText = exec;
+            args = argsText.replace("  ", " ").split(" ");
+            exec = args.at(0);
+            if (args.count() == 1) {
+                args.clear();
+            }
+            else {
+                args = args.mid(1);
+            }
+        }
+        else if (i.startsWith("NoDisplay=")) {
+            notShowIn.append(i.replace("NoDisplay=", ""));
+        }
+    }
+    qDebug() << exec;
+
+    bool canCreateAction = false;
+
+    if (menuType == menuExtensionType) {
+        canCreateAction = true;
+    }
+
+    if (!notShowIn.isEmpty() && notShowIn.contains(nowShowIn)) {
+        canCreateAction = false;
+    }
+
+    if (canCreateAction) {
+        if (menuExtensionType == "SingleFile" || menuExtensionType == "MultiFiles") {
+
+            if (mimeType.isEmpty() && suffix.isEmpty()) {
+                canCreateAction = true;
+            }
+            if (!mimeType.isEmpty()) {
+                QStringList supportMimeTypes = mimeType.split(";");
+                int count = 0;
+                for (const DUrl &url : urlList) {
+                    QString mimeType = FileUtils::getFileMimetype(url.toLocalFile());
+
+                    if (supportMimeTypes.isEmpty() || supportMimeTypes.contains(mimeType)) {
+                        count += 1;
+                    }
+                }
+                if (count == urlList.count()) {
+                    canCreateAction = true;
+                } else {
+                    canCreateAction = false;
+                }
+            }
+            if (!suffix.isEmpty()) {
+                QStringList supportsuffixs = suffix.split(";");
+                int count = 0;
+                foreach (DUrl url, urlList) {
+                    QString _suxffix = QFileInfo(url.toLocalFile()).suffix();
+
+                    if (supportsuffixs.isEmpty() || supportsuffixs.contains(_suxffix)) {
+                        count += 1;
+                    }
+                }
+                if (count == urlList.count()) {
+                    canCreateAction = true;
+                } else {
+                    canCreateAction = false;
+                }
+            }
+        }
+    }
+
+    if (canCreateAction) {
+        QAction *action = new QAction(QIcon(icon), text, nullptr);
+
+        if (subMenuDataList.count() > 1) {
+            QJsonArray subActionsArray;
+            QJsonArray _subActionsArray = QJsonArray::fromVariantList(subMenuDataList);
+            for (const QJsonValue v : _subActionsArray) {
+                QJsonObject obj = v.toObject();
+                obj.insert("MenuType", menuType);
+                subActionsArray.append(QJsonValue(obj));
+            }
+            QList<QAction *> subActions = jsonToActions(subActionsArray, urlList, currentUrl, menuExtensionType, onDesktop);
+            QMenu *menu = new QMenu;
+            menu->addActions(subActions);
+            action->setMenu(menu);
+        } else {
+            connect(action, &QAction::triggered, [ = ]() {
+                QStringList argsList;
+                // If user doesn't leave a "Args" key, use the file list instead.
+                if (args.isEmpty()) {
+                    for (const DUrl &url : urlList) {
+                        argsList << url.toString();
+                    }
+                    if (urlList.isEmpty()) {
+                        argsList << currentUrl.toString();
+                    }
+                } else {
+                    //argsList = args;
+                    QString u = currentUrl.toString();
+                    QString f = u;
+                    QStringList F;
+                    QStringList U;
+                    f.replace("file://", "");
+                    for (const DUrl &url : urlList) {
+                        U << url.toString();
+                        F << url.toString().replace("file://", "");
+                    }
+                    if (U.isEmpty()) {
+                        U << currentUrl.toString();
+                        F << currentUrl.toString().replace("file://", "");
+                    }
+
+                    // 处理 %F、%U
+                    for (QString i: args) {
+                        if (i.contains("%f")) {
+                            argsList.append(i.replace("%f", f));
+                        }
+                        else if (i.contains("%u")) {
+                            argsList.append(i.replace("%u", u));
+                        }
+                        else if (i == "%F") {
+                            argsList.append(F);
+                        }
+                        else if (i == "%U") {
+                            argsList.append(U);
+                        }
+                        else {
+                            argsList.append(i);
+                        }
+                    }
+                }
+
+                QProcess::startDetached(exec, argsList, currentUrl.isLocalFile() ? currentUrl.toLocalFile() : QDir::currentPath());
+                qDebug() << exec << argsList;
+            });
+        }
+        actions << action;
+    }
+    //}
     return actions;
 }
 
@@ -787,9 +966,9 @@ void DFileMenuData::initActions()
 }
 
 DFileMenu *DFileMenuManager::genereteMenuByKeys(const QVector<MenuAction> &keys,
-        const QSet<MenuAction> &disableList,
-        bool checkable,
-        const QMap<MenuAction, QVector<MenuAction> > &subMenuList, bool isUseCachedAction, bool isRecursiveCall)
+                                                const QSet<MenuAction> &disableList,
+                                                bool checkable,
+                                                const QMap<MenuAction, QVector<MenuAction> > &subMenuList, bool isUseCachedAction, bool isRecursiveCall)
 {
     static bool actions_initialized = false;
 

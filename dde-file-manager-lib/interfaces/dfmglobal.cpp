@@ -243,6 +243,8 @@ void DFMGlobal::autoLoadDefaultMenuExtensions()
     DFMGlobal::addMenuExtensionPath(menuExtensionPath);
     menuExtensionPath = QString("%1/%2").arg(sharePath, "menuextensions");
     DFMGlobal::addMenuExtensionPath(menuExtensionPath);
+    menuExtensionPath = QString("%1/%2").arg("/usr/share/deepin/dde-file-manager/", "oem-menuextensions");
+    DFMGlobal::addMenuExtensionPath(menuExtensionPath);
 }
 
 void DFMGlobal::initPluginManager()
