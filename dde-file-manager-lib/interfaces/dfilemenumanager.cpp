@@ -542,6 +542,9 @@ QList<QAction *> DFileMenuManager::desktopToActions(const QString data, const DU
                  i.startsWith("X-DFM-SupportSuffix=")) {
             suffix = i.replace("X-DDE-FileManager-SupportSuffix=", "").replace("X-DFM-SupportSuffix=", "");
         }
+        else if (i.startsWith("X-DDE-FileManager-NotShowIn=")) {
+            notShowIn << i.replace("X-DDE-FileManager-NotShowIn=", "").split(";");
+        }
     }
     qDebug() << exec;
 
