@@ -507,7 +507,7 @@ QList<QAction *> DFileMenuManager::desktopToActions(const QString data, const DU
     QVariantList subMenuDataList;
     for (QString i: data.split("\n")) {
         if (i.startsWith("X-DFM-MenuTypes=")) {
-            menuType = i.replace("X-DFM-MenuTypes=", "");
+            menuType = i.replace("X-DFM-MenuTypes=", "").split(";").at(0);
         }
         else if (i.startsWith("MimeType=")) {
             mimeType = i.replace("MimeType=", "");
@@ -516,7 +516,12 @@ QList<QAction *> DFileMenuManager::desktopToActions(const QString data, const DU
             icon = i.replace("Icon=", "");
         }
         else if (i.startsWith(textKey)) {
+            // 读取 Name[zh_CN]=（非 Name=）
             text = i.replace(textKey, "");
+        }
+        else if (i.startsWith("Name=")) {
+            // 读取 Name=（非 Name[zh_CN]=）
+            text = i.replace("Name=", "");
         }
         else if (i.startsWith("Exec=")) {
             exec = i.replace("Exec=", "");
@@ -532,6 +537,10 @@ QList<QAction *> DFileMenuManager::desktopToActions(const QString data, const DU
         }
         else if (i.startsWith("NoDisplay=")) {
             notShowIn.append(i.replace("NoDisplay=", ""));
+        }
+        else if (i.startsWith("X-DDE-FileManager-SupportSuffix=") ||
+                 i.startsWith("X-DFM-SupportSuffix=")) {
+            suffix = i.replace("X-DDE-FileManager-SupportSuffix=", "").replace("X-DFM-SupportSuffix=", "");
         }
     }
     qDebug() << exec;
@@ -616,10 +625,9 @@ QList<QAction *> DFileMenuManager::desktopToActions(const QString data, const DU
                 } else {
                     //argsList = args;
                     QString u = currentUrl.toString();
-                    QString f = u;
+                    QString f = u.replace("file://", "");
                     QStringList F;
                     QStringList U;
-                    f.replace("file://", "");
                     for (const DUrl &url : urlList) {
                         U << url.toString();
                         F << url.toString().replace("file://", "");
@@ -629,10 +637,18 @@ QList<QAction *> DFileMenuManager::desktopToActions(const QString data, const DU
                         F << currentUrl.toString().replace("file://", "");
                     }
 
-                    // 处理 %F、%U
+                    // 处理 %F、%U、%p、%P
                     for (QString i: args) {
                         if (i.contains("%f")) {
                             argsList.append(i.replace("%f", f));
+                        }
+                        else if (i.contains("%p")) {
+                            // %p 用 %f 替代
+                            argsList.append(i.replace("%p", f));
+                        }
+                        else if (i.contains("%P")) {
+                            // %P 用 %F 替代
+                            argsList.append(F);
                         }
                         else if (i.contains("%u")) {
                             argsList.append(i.replace("%u", u));
@@ -655,7 +671,6 @@ QList<QAction *> DFileMenuManager::desktopToActions(const QString data, const DU
         }
         actions << action;
     }
-    //}
     return actions;
 }
 
