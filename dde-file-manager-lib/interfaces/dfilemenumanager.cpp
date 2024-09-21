@@ -64,6 +64,8 @@
 #include <QPushButton>
 #include <QWidgetAction>
 
+#include <XdgDesktopFile>
+
 namespace DFileMenuData
 {
 static QMap<MenuAction, QString> actionKeys;
@@ -464,13 +466,14 @@ QList<QAction *> DFileMenuManager::loadMenuExtensionActions(const DUrlList &urlL
         foreach (QFileInfo fileInfo, menuExtensionDir.entryInfoList(QDir::Files)) {
             if (fileInfo.fileName().endsWith(".desktop")) {
                 qDebug() << fileInfo.absoluteFilePath();
-                QFile file(fileInfo.absoluteFilePath());
+                /*QFile file(fileInfo.absoluteFilePath());
                 if (!file.open(QIODevice::ReadOnly)) {
                     qDebug() << "Couldn't open" << fileInfo.absoluteFilePath();
                     return actions;
                 }
-                QByteArray data = file.readAll();
-                actions << desktopToActions(data, urlList, currentUrl, menuType, onDesktop);
+                QByteArray data = file.readAll();*/
+                //actions << desktopToActions(data, urlList, currentUrl, menuType, onDesktop);
+                actions << desktopToActions(fileInfo.absoluteFilePath(), urlList, currentUrl, menuType, onDesktop);
             }
             if (fileInfo.fileName().endsWith(".json")) {
                 qDebug() << fileInfo.absoluteFilePath();
@@ -490,24 +493,52 @@ QList<QAction *> DFileMenuManager::loadMenuExtensionActions(const DUrlList &urlL
     return actions;
 }
 
-QList<QAction *> DFileMenuManager::desktopToActions(const QString data, const DUrlList &urlList, const DUrl &currentUrl,
+QList<QAction *> DFileMenuManager::desktopToActions(const QString path, const DUrlList &urlList, const DUrl &currentUrl,
                                                     const QString &menuExtensionType, const bool onDesktop)
 {
     QList<QAction *> actions;
+    XdgDesktopFile desktopFile;
+    desktopFile.load(path);
+    if (!desktopFile.isValid()) {
+        // 不可读则直接退出
+        return actions;
+    }
     QString nowShowIn = onDesktop ? QStringLiteral("Desktop") : QStringLiteral("FileManager");
     QString menuType = "SingleFile";
     QString suffix = "";
     QString mimeType = "";
-    QString icon = "";
+    QIcon icon;
+    QString iconStr = "";
     QString textKey = QString("Name[%1]=").arg(QLocale::system().name());
     QString text = "";
     QString exec = "";
     QStringList args;
     QStringList notShowIn;
     QVariantList subMenuDataList;
-    for (QString i: data.split("\n")) {
+    menuType = desktopFile.value("X-DFM-MenuTypes").toString().split(";").at(0);
+    if (menuType == "") {
+        menuType = desktopFile.value("MimeType").toString();
+    }
+    icon = desktopFile.icon();
+    iconStr = desktopFile.iconName();
+    text = desktopFile.name();
+    exec = desktopFile.value("Exec").toString();
+    QString argsText = exec;
+    args = argsText.replace("  ", " ").split(" ");
+    exec = args.at(0);
+    if (args.count() == 1) {
+        args.clear();
+    }
+    else {
+        args = args.mid(1);
+    }
+    suffix = desktopFile.value("X-DDE-FileManager-SupportSuffix").toString();
+    notShowIn << desktopFile.value("X-DDE-FileManager-NotShowIn").toString().split(";");
+
+    /*for (QString i: data.split("\n")) {
         if (i.startsWith("X-DFM-MenuTypes=")) {
-            menuType = i.replace("X-DFM-MenuTypes=", "").split(";").at(0);
+            desktopFile.value("X-DFM-MenuTypes=")
+            menuType = i.replace("X-DFM-MenuTypes=", "").split(";", QString::SkipEmptyParts).at(0);
         }
         else if (i.startsWith("MimeType=")) {
             mimeType = i.replace("MimeType=", "");
@@ -545,7 +576,7 @@ QList<QAction *> DFileMenuManager::desktopToActions(const QString data, const DU
         else if (i.startsWith("X-DDE-FileManager-NotShowIn=")) {
             notShowIn << i.replace("X-DDE-FileManager-NotShowIn=", "").split(";");
         }
-    }
+    }*/
     qDebug() << exec;
 
     bool canCreateAction = false;
@@ -600,7 +631,7 @@ QList<QAction *> DFileMenuManager::desktopToActions(const QString data, const DU
     }
 
     if (canCreateAction) {
-        QAction *action = new QAction(QIcon(icon), text, nullptr);
+        QAction *action = new QAction(iconStr.isEmpty() ? QIcon() : icon, text, nullptr);
 
         if (subMenuDataList.count() > 1) {
             QJsonArray subActionsArray;

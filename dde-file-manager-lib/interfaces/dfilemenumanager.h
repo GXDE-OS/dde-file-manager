@@ -59,7 +59,7 @@ public:
     static QList<QAction *> loadEmptyAreaExtensionMenu(DFileMenu *menu, const DUrl &currentUrl, bool onDesktop);
 
     static QList<QAction *> loadMenuExtensionActions(const DUrlList &urlList, const DUrl &currentUrl, bool onDesktop = false);
-    static QList<QAction *> desktopToActions(const QString data, const DUrlList &urlList, const DUrl &currentUrl,
+    static QList<QAction *> desktopToActions(const QString path, const DUrlList &urlList, const DUrl &currentUrl,
                                           const QString &menuExtensionType, const bool onDesktop);
     static QList<QAction *> jsonToActions(const QJsonArray &data, const DUrlList &urlList, const DUrl &currentUrl,
                                           const QString &menuExtensionType, const bool onDesktop);
