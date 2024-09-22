@@ -112,7 +112,7 @@ int main(int argc, char *argv[])
     app.setApplicationVersion(DApplication::buildVersion((QMAKE_VERSION)));
     QIcon icon(":/images/images/dde-file-manager_96.svg");
     app.setProductIcon(icon);
-    app.setApplicationAcknowledgementPage("https://www.deepin.org/acknowledgments/" + qApp->applicationName());
+    app.setApplicationAcknowledgementPage("https://www.gxde.top/" + qApp->applicationName());
     app.setApplicationDescription(app.translate("Application", "File Manager is a file management tool independently "
                                                                "developed by Deepin Technology, featured with searching, "
                                                                "copying, trash, compression/decompression, file property "

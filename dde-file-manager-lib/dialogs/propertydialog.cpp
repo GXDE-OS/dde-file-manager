@@ -461,7 +461,7 @@ void PropertyDialog::initUI()
 
     QFrame *frame = new QFrame(this);
     frame->setLayout(m_mainLayout);
-    addContent(frame);
+    addContent(frame, Qt::AlignCenter);
 }
 
 void PropertyDialog::initConnect()
