@@ -93,7 +93,7 @@ void TrashPropertyDialog::initUI()
     mainLayout->setContentsMargins(10, 10, 10, 10);
     contenFrame->setLayout(mainLayout);
 
-    addContent(contenFrame);
+    addContent(contenFrame,Qt::AlignCenter);
 
     startComputerFolderSize(m_url);
 }

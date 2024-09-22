@@ -32,9 +32,9 @@ Config::Config()
 {
     auto configPath = QStandardPaths::standardLocations(QStandardPaths::ConfigLocation).first();
     configPath = configPath
-                 + "/" + QApplication::organizationName()
-                 + "/" + QApplication::applicationName()
-                 + "/" + QApplication::applicationName() + ".conf";
+            + "/" + QApplication::organizationName()
+            + "/" + QApplication::applicationName()
+            + "/" + QApplication::applicationName() + ".conf";
 
     qDebug() << configPath;
 
