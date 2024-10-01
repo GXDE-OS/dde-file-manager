@@ -38,6 +38,7 @@
 #include "app/define.h"
 #include "singleton.h"
 #include "dfmapplication.h"
+#include "dimagebutton.h"
 
 DFM_USE_NAMESPACE
 
@@ -336,6 +337,16 @@ DFMSettingDialog::DFMSettingDialog(QWidget *parent):
     m_settings->setParent(this);
     m_settings->setBackend(backen);
     updateSettings("GenerateSettingTranslate", m_settings);
+
+    // 设置关闭按钮图标
+    DImageButton *closeButton = this->findChild<DImageButton *>();
+    qDebug() << closeButton;
+    if (closeButton != NULL) {
+        closeButton->show();
+        closeButton->setHoverPic(":/images/dialogs/images/light/window_close_hover.png");
+        closeButton->setNormalPic(":/images/dialogs/images/light/window_close_normal.png");
+        closeButton->setPressPic(":/images/dialogs/images/light/window_close_press.png");
+    }
 }
 
 QWidget *DFMSettingDialog::createAutoMountCheckBox(QObject *opt)
