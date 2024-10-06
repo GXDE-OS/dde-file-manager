@@ -101,20 +101,24 @@ void Desktop::onBackgroundEnableChanged()
         QMetaObject::invokeMethod(background, "raise", Qt::QueuedConnection);
 
         // 隐藏完全重叠的窗口
-        for (QLabel *l : d->background->allBackgrounds()) {
-            if (l != background) {
-                Xcb::XcbMisc::instance().set_window_transparent_input(l->winId(), true);
-                l->setVisible(!background->geometry().contains(l->geometry()));
-            } else {
-                Xcb::XcbMisc::instance().set_window_transparent_input(l->winId(), false);
-                l->show();
+        if (qgetenv("XDG_SESSION_TYPE") != "wayland") {
+            for (QLabel *l : d->background->allBackgrounds()) {
+                if (l != background) {
+                    Xcb::XcbMisc::instance().set_window_transparent_input(l->winId(), true);
+                    l->setVisible(!background->geometry().contains(l->geometry()));
+                } else {
+                    Xcb::XcbMisc::instance().set_window_transparent_input(l->winId(), false);
+                    l->show();
+                }
             }
         }
     } else {
         d->screenFrame.setParent(nullptr);
         setWindowFlag(&d->screenFrame, Qt::FramelessWindowHint, true);
         d->screenFrame.QWidget::setGeometry(qApp->primaryScreen()->geometry());
-        Xcb::XcbMisc::instance().set_window_type(d->screenFrame.winId(), Xcb::XcbMisc::Desktop);
+        if (qgetenv("XDG_SESSION_TYPE") != "wayland") {
+            Xcb::XcbMisc::instance().set_window_type(d->screenFrame.winId(), Xcb::XcbMisc::Desktop);
+        }
         QWindow::fromWinId(d->screenFrame.winId())->setOpacity(0.99);
         d->screenFrame.show();
     }

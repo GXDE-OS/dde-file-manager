@@ -255,7 +255,9 @@ void BackgroundHelper::onScreenAdded(QScreen *screen)
     if (m_previuew) {
         l->setWindowFlags(l->windowFlags() | Qt::BypassWindowManagerHint | Qt::WindowDoesNotAcceptFocus);
     } else {
-        Xcb::XcbMisc::instance().set_window_type(l->winId(), Xcb::XcbMisc::Desktop);
+        if (qgetenv("XDG_SESSION_TYPE") != "wayland") {
+            Xcb::XcbMisc::instance().set_window_type(l->winId(), Xcb::XcbMisc::Desktop);
+        }
     }
 
     if (m_visible)
