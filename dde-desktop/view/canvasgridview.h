@@ -46,6 +46,7 @@ public:
 
         AutoMerge,
         AutoSort,
+        HideIcon,
 
         IconSize,
         IconSize0 = IconSize,
@@ -121,8 +122,11 @@ public:
     QSize cellSize() const;
 
     WId winId() const;
+    bool hideIcon() const;
     bool autoMerge() const;
+    void setHideIcon(bool enabled = false);
     void setAutoMerge(bool enabled = false);
+    void toggleHideIcon(bool enabled = true);
     void toggleAutoMerge(bool enabled = true);
     void toggleEntryExpandedState(const DUrl &url);
 
@@ -130,6 +134,7 @@ signals:
     void sortRoleChanged(int role, Qt::SortOrder order);
     void autoAlignToggled();
     void autoMergeToggled();
+    void autoHideIconToggled();
     void changeIconLevel(int iconLevel);
     void dodgeDurationChanged(double dodgeDuration);
 

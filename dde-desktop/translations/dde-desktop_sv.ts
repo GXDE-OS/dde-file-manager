@@ -4,42 +4,47 @@
 <context>
     <name>CanvasGridView</name>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2405"/>
+        <location filename="../view/canvasgridview.cpp" line="2436"/>
         <source>Icon size</source>
         <translation>Ikonstorlek</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2411"/>
+        <location filename="../view/canvasgridview.cpp" line="2442"/>
         <source>Auto merge</source>
         <translation>Autosammanfogning</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2420"/>
+        <location filename="../view/canvasgridview.cpp" line="2451"/>
         <source>Auto arrange</source>
         <translation>Autoarrangera</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2475"/>
+        <location filename="../view/canvasgridview.cpp" line="2460"/>
+        <source>Hide Icon</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../view/canvasgridview.cpp" line="2513"/>
         <source>Set Wallpaper</source>
         <translation>Ange som bakgrundsbild</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2477"/>
+        <location filename="../view/canvasgridview.cpp" line="2515"/>
         <source>Wallpaper and Screensaver</source>
         <translation>Bakgrundsbild och skärmsläckare</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2558"/>
+        <location filename="../view/canvasgridview.cpp" line="2596"/>
         <source>Properties</source>
         <translation>Egenskaper</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2461"/>
+        <location filename="../view/canvasgridview.cpp" line="2499"/>
         <source>Display Settings</source>
         <translation>Skärminställningar</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2468"/>
+        <location filename="../view/canvasgridview.cpp" line="2506"/>
         <source>Corner Settings</source>
         <translation>Kantinställningar</translation>
     </message>

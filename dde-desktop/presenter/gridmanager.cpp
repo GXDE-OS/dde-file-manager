@@ -28,6 +28,7 @@ public:
         positionProfile = settings->value(Config::keyProfile).toString();
         autoArrange = settings->value(Config::keyAutoAlign).toBool();
         autoMerge = settings->value(Config::keyAutoMerge, false).toBool();
+        hideIcon = settings->value(Config::keyHideIcon, false).toBool();
         settings->endGroup();
 
         coordWidth = 0;
@@ -107,6 +108,10 @@ public:
 
     void loadProfile(const QList<DAbstractFileInfoPointer> &fileInfoList)
     {
+        if (hideIcon) {
+            // 如果设置为隐藏图标，则直接跳过渲染
+            return;
+        }
         QMap<QString, int> existItems;
 
         for (const DAbstractFileInfoPointer &info : fileInfoList) {
@@ -140,6 +145,10 @@ public:
 
     void loadWithoutProfile(const QList<DAbstractFileInfoPointer> &fileInfoList)
     {
+        if (hideIcon) {
+            // 如果设置为隐藏图标，则直接跳过渲染
+            return;
+        }
         QMap<QString, int> existItems;
 
         for (const DAbstractFileInfoPointer &info : fileInfoList) {
@@ -490,6 +499,7 @@ public:
 
     bool                    autoArrange;
     bool                    autoMerge = false;
+    bool                    hideIcon = false;
 
     std::atomic<bool>       m_whetherShowHiddenFiles{ false };
 };
@@ -748,6 +758,11 @@ bool GridManager::autoMerge() const
     return d->autoMerge;
 }
 
+bool GridManager::hideIcon() const
+{
+    return d->hideIcon;
+}
+
 void GridManager::toggleArrange()
 {
     d->autoArrange = !d->autoArrange;
@@ -763,6 +778,17 @@ void GridManager::setAutoMerge(bool enable)
 {
     if (d->autoMerge == enable) return;
     d->autoMerge = enable;
+}
+
+void GridManager::setHideIcon(bool enable)
+{
+    if (d->hideIcon == enable) return;
+    d->hideIcon = enable;
+}
+
+void GridManager::toggleHideIcon()
+{
+    setHideIcon(!d->hideIcon);
 }
 
 void GridManager::toggleAutoMerge()

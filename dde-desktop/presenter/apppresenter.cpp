@@ -47,6 +47,11 @@ void Presenter::onAutoMergeToggled()
     emit setConfig(Config::groupGeneral, Config::keyAutoMerge, GridManager::instance()->autoMerge());
 }
 
+void Presenter::onHideIconToggled()
+{
+    emit setConfig(Config::groupGeneral, Config::keyHideIcon, GridManager::instance()->hideIcon());
+}
+
 void Presenter::OnIconLevelChanged(int iconLevel)
 {
     emit setConfig(Config::groupGeneral, Config::keyIconLevel, iconLevel);

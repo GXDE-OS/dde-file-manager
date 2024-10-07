@@ -4,42 +4,47 @@
 <context>
     <name>CanvasGridView</name>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2405"/>
+        <location filename="../view/canvasgridview.cpp" line="2436"/>
         <source>Icon size</source>
         <translation>圖示大小</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2411"/>
+        <location filename="../view/canvasgridview.cpp" line="2442"/>
         <source>Auto merge</source>
         <translation>自動整理</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2420"/>
+        <location filename="../view/canvasgridview.cpp" line="2451"/>
         <source>Auto arrange</source>
         <translation>自動排列</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2475"/>
+        <location filename="../view/canvasgridview.cpp" line="2460"/>
+        <source>Hide Icon</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../view/canvasgridview.cpp" line="2513"/>
         <source>Set Wallpaper</source>
         <translation>設定桌布</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2477"/>
+        <location filename="../view/canvasgridview.cpp" line="2515"/>
         <source>Wallpaper and Screensaver</source>
         <translation>桌布和螢幕保護程式</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2558"/>
+        <location filename="../view/canvasgridview.cpp" line="2596"/>
         <source>Properties</source>
         <translation>屬性</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2461"/>
+        <location filename="../view/canvasgridview.cpp" line="2499"/>
         <source>Display Settings</source>
         <translation>顯示設定</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2468"/>
+        <location filename="../view/canvasgridview.cpp" line="2506"/>
         <source>Corner Settings</source>
         <translation>螢幕熱點設定</translation>
     </message>

@@ -4,42 +4,47 @@
 <context>
     <name>CanvasGridView</name>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2405"/>
+        <location filename="../view/canvasgridview.cpp" line="2436"/>
         <source>Icon size</source>
         <translation>Размер на икона</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2411"/>
+        <location filename="../view/canvasgridview.cpp" line="2442"/>
         <source>Auto merge</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2420"/>
+        <location filename="../view/canvasgridview.cpp" line="2451"/>
         <source>Auto arrange</source>
         <translation>Автоматична подредба</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2475"/>
+        <location filename="../view/canvasgridview.cpp" line="2460"/>
+        <source>Hide Icon</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../view/canvasgridview.cpp" line="2513"/>
         <source>Set Wallpaper</source>
         <translation>Задай тапет</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2477"/>
+        <location filename="../view/canvasgridview.cpp" line="2515"/>
         <source>Wallpaper and Screensaver</source>
         <translation>Тапет и предпазител на екрана</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2558"/>
+        <location filename="../view/canvasgridview.cpp" line="2596"/>
         <source>Properties</source>
         <translation>Свойства</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2461"/>
+        <location filename="../view/canvasgridview.cpp" line="2499"/>
         <source>Display Settings</source>
         <translation>Найстройки на екрана</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2468"/>
+        <location filename="../view/canvasgridview.cpp" line="2506"/>
         <source>Corner Settings</source>
         <translation>Настройки на ъглите</translation>
     </message>

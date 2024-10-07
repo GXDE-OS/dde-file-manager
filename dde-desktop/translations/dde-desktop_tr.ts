@@ -4,42 +4,47 @@
 <context>
     <name>CanvasGridView</name>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2405"/>
+        <location filename="../view/canvasgridview.cpp" line="2436"/>
         <source>Icon size</source>
         <translation>Simge boyutu</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2411"/>
+        <location filename="../view/canvasgridview.cpp" line="2442"/>
         <source>Auto merge</source>
         <translation>Otomatik birleştir</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2420"/>
+        <location filename="../view/canvasgridview.cpp" line="2451"/>
         <source>Auto arrange</source>
         <translation>Otomatik hizala</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2475"/>
+        <location filename="../view/canvasgridview.cpp" line="2460"/>
+        <source>Hide Icon</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../view/canvasgridview.cpp" line="2513"/>
         <source>Set Wallpaper</source>
         <translation>Duvar Kağıdını Ayarla</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2477"/>
+        <location filename="../view/canvasgridview.cpp" line="2515"/>
         <source>Wallpaper and Screensaver</source>
         <translation>Duvar Kağıdı ve Ekran Koruyucu</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2558"/>
+        <location filename="../view/canvasgridview.cpp" line="2596"/>
         <source>Properties</source>
         <translation>Özellikler</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2461"/>
+        <location filename="../view/canvasgridview.cpp" line="2499"/>
         <source>Display Settings</source>
         <translation>Görüntü Ayarları</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2468"/>
+        <location filename="../view/canvasgridview.cpp" line="2506"/>
         <source>Corner Settings</source>
         <translation>Köşe Ayarları</translation>
     </message>

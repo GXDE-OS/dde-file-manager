@@ -27,6 +27,7 @@ signals:
 
 public slots:
     void onSortRoleChanged(int role, Qt::SortOrder order);
+    void onHideIconToggled();
     void onAutoAlignToggled();
     void onAutoMergeToggled();
     void OnIconLevelChanged(int iconLevel);

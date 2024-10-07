@@ -51,8 +51,11 @@ public:
     bool shouldArrange() const;
     bool autoArrange() const;
     bool autoMerge() const;
+    bool hideIcon() const;
     void toggleArrange();
     void setAutoMerge(bool enable = true);
+    void setHideIcon(bool enable = true);
+    void toggleHideIcon();
     void toggleAutoMerge();
     void reArrange();
 

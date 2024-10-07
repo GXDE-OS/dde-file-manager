@@ -372,11 +372,31 @@ void CanvasGridView::setAutoMerge(bool enabled)
     }
 }
 
+bool CanvasGridView::hideIcon() const
+{
+    return GridManager::instance()->hideIcon();
+}
+
 void CanvasGridView::toggleAutoMerge(bool enabled)
 {
     if (enabled == GridManager::instance()->autoMerge()) return;
 
     setAutoMerge(enabled);
+}
+
+void CanvasGridView::setHideIcon(bool enabled)
+{
+    GridManager::instance()->setHideIcon(enabled);
+    // 重新刷新页面（因为需要设置不同的值才能刷新页面，故执行 2 次）
+    setAutoMerge(!autoMerge());
+    setAutoMerge(!autoMerge());
+}
+
+void CanvasGridView::toggleHideIcon(bool enabled)
+{
+    if (enabled == GridManager::instance()->hideIcon()) return;
+
+    setHideIcon(enabled);
 }
 
 // please make sure the passed \a url argument is a valid virtual entry url.
@@ -1364,6 +1384,7 @@ bool CanvasGridView::setCurrentUrl(const DUrl &url)
     QList<DAbstractFileInfoPointer> infoList = DFileService::instance()->getChildren(this, fileUrl,
                                                                                      QStringList(), model()->filters());
 
+
     if (autoMerge()) {
         GridManager::instance()->initWithoutProfile(infoList);
     } else {
@@ -1420,6 +1441,7 @@ bool CanvasGridView::setCurrentUrl(const DUrl &url)
 
         update();
     });
+
     return true;
 }
 
@@ -1451,6 +1473,9 @@ bool CanvasGridView::setRootUrl(const DUrl &url)
     itemDelegate()->hideAllIIndexWidget();
 
     clearSelection();
+    /*if (this->hideIcon()) {
+        return false;
+    }*/
 
     return setCurrentUrl(url);
 }
@@ -2005,6 +2030,8 @@ void CanvasGridView::initConnection()
             Presenter::instance(), &Presenter::onAutoAlignToggled);
     connect(this, &CanvasGridView::autoMergeToggled,
             Presenter::instance(), &Presenter::onAutoMergeToggled);
+    connect(this, &CanvasGridView::autoHideIconToggled,
+            Presenter::instance(), &Presenter::onHideIconToggled);
     connect(this, &CanvasGridView::sortRoleChanged,
             Presenter::instance(), &Presenter::onSortRoleChanged);
     connect(this, &CanvasGridView::changeIconLevel,
@@ -2306,6 +2333,10 @@ void CanvasGridView::handleContextMenuAction(int action)
     case AutoSort:
         emit autoAlignToggled();
         break;
+    case HideIcon:
+        this->toggleHideIcon(!hideIcon());
+        emit autoHideIconToggled();
+        break;
 
     case IconSize0:
     case IconSize1:
@@ -2424,6 +2455,13 @@ void CanvasGridView::showEmptyAreaMenu(const Qt::ItemFlags &/*indexFlags*/)
     if (!autoMerge()) {
         menu->insertAction(pasteAction, &autoSort);
     }
+
+    QAction hideIcon(menu);
+    hideIcon.setText(tr("Hide Icon"));
+    hideIcon.setData(HideIcon);
+    hideIcon.setCheckable(true);
+    hideIcon.setChecked(GridManager::instance()->hideIcon());
+    menu->insertAction(pasteAction, &hideIcon);
 
     auto *propertyAction = menu->actionAt(DFileMenuManager::getActionString(MenuAction::Property));
 //    QAction property(menu);
