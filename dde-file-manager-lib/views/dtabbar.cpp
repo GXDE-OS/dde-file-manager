@@ -38,7 +38,6 @@
 #include "app/define.h"
 #include "dfmevent.h"
 #include "app/filesignalmanager.h"
-#include "deviceinfo/udisklistener.h"
 #include "usershare/usersharemanager.h"
 #include "controllers/pathmanager.h"
 #include "interfaces/dfileservices.h"
@@ -856,7 +855,7 @@ bool TabBar::event(QEvent *event)
 
 void TabBar::mouseMoveEvent(QMouseEvent *event)
 {
-    if(!m_TabCloseButton->isVisible())
+    if(!m_TabCloseButton->isVisible() && count() >= 2)
         m_TabCloseButton->show();
 
     int closingIndex = -1;

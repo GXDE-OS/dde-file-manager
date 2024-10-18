@@ -523,19 +523,15 @@ DTabCloseButton#TabCloseButton:pressed{
 
 /*New tab button*/
 QPushButton#NewTabButton{
-    border: none;
     image: url(:/dark/icons/new_tab_normal.svg);
 }
 QPushButton#NewTabButton:hover{
-    border: none;
     image: url(:/dark/icons/new_tab_hover.svg);
 }
 QPushButton#NewTabButton:pressed{
-    border: none;
     image: url(:/dark/icons/new_tab_press.svg);
 }
 QPushButton#NewTabButton:disabled {
-    border: none;
     image: url(:/dark/icons/new_tab_disabled.svg);
 }
 

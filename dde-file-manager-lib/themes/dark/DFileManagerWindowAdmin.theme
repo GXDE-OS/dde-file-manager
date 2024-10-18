@@ -642,19 +642,15 @@ DTabCloseButton#TabCloseButton:pressed{
 
 /*New tab button*/
 QPushButton#NewTabButton{
-    border: none;
     image: url(:/icons/images/icons/new_tab_normal.png);
 }
 QPushButton#NewTabButton:hover{
-    border: none;
     image: url(:/icons/images/icons/new_tab_hover.png);
 }
 QPushButton#NewTabButton:pressed{
-    border: none;
     image: url(:/icons/images/icons/new_tab_press.png);
 }
 QPushButton#NewTabButton:disabled {
-    border: none;
     image: url(:/icons/images/icons/new_tab_disabled.png);
 }
 

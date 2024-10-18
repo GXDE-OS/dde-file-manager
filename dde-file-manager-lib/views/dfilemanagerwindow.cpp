@@ -889,8 +889,9 @@ void DFileManagerWindow::initUI()
 
     resize(DEFAULT_WINDOWS_WIDTH, DEFAULT_WINDOWS_HEIGHT);
     setMinimumSize(650, 420);
-    initTitleBar();
+
     initCentralWidget();
+    initTitleBar();
     setCentralWidget(d->centralWidget);
 }
 
@@ -915,6 +916,9 @@ void DFileManagerWindow::initTitleFrame()
     titleLayout->addSpacing(12);
     titleLayout->addWidget(d->toolbar);
     titleLayout->setSpacing(0);
+    titleLayout->addSpacing(0);
+    titleLayout->addWidget(d->newTabButton);
+    titleLayout->addSpacing(12);
     titleLayout->setContentsMargins(0, 0, 0, 0);
     d->titleFrame->setLayout(titleLayout);
     d->titleFrame->setFixedHeight(TITLE_FIXED_HEIGHT);
@@ -1019,7 +1023,7 @@ void DFileManagerWindow::initRightView()
     tabBarLayout->setMargin(0);
     tabBarLayout->setSpacing(0);
     tabBarLayout->addWidget(d->tabBar);
-    tabBarLayout->addWidget(d->newTabButton);
+    //tabBarLayout->addWidget(d->newTabButton);
 
     d->rightViewLayout = new QVBoxLayout;
     d->rightViewLayout->addLayout(tabBarLayout);
@@ -1047,9 +1051,10 @@ void DFileManagerWindow::initTabBar()
     d->tabBar->setFixedHeight(24);
 
     d->newTabButton = new QPushButton(this);
-    d->newTabButton->setObjectName("NewTabButton");
+    //d->newTabButton->setObjectName("NewTabButton");
+    d->newTabButton->setText("+");
     d->newTabButton->setFixedSize(25, 24);
-    d->newTabButton->hide();
+    //d->newTabButton->hide();
 }
 
 void DFileManagerWindow::initViewLayout()
@@ -1094,7 +1099,7 @@ void DFileManagerWindow::initConnect()
     QObject::connect(d->tabBar, &TabBar::tabAddableChanged, this, &DFileManagerWindow::onTabAddableChanged);
 
     QObject::connect(d->tabBar, &TabBar::tabBarShown, this, &DFileManagerWindow::showNewTabButton);
-    QObject::connect(d->tabBar, &TabBar::tabBarHidden, this, &DFileManagerWindow::hideNewTabButton);
+    //QObject::connect(d->tabBar, &TabBar::tabBarHidden, this, &DFileManagerWindow::hideNewTabButton);
     QObject::connect(d->newTabButton, &QPushButton::clicked, this, &DFileManagerWindow::onNewTabButtonClicked);
 
     QObject::connect(d->emptyTrashButton, &QPushButton::clicked,
