@@ -2391,7 +2391,10 @@ void CanvasGridView::showEmptyAreaMenu(const Qt::ItemFlags &/*indexFlags*/)
     if (!autoMerge()) {
         actions << MenuAction::Paste;
     }
-    actions << MenuAction::SelectAll << MenuAction::OpenInTerminal
+//    actions << MenuAction::SelectAll << MenuAction::OpenInTerminal
+//            << MenuAction::Property << MenuAction::Separator;
+// adjust: https://bbs.deepin.org.cn/post/279763  https://gitee.com/GXDE-OS/GXDE/issues/IAVRED
+    actions << MenuAction::OpenInTerminal
             << MenuAction::Property << MenuAction::Separator;
 
     if (actions.isEmpty()) {

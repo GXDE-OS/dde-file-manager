@@ -1,3 +1,9 @@
+dde-file-manager (4.8.20-3) UNRELEASED; urgency=medium
+
+  * 去除桌面右键全选功能
+  * 依赖 deepin-anything-server-service，但仅限x86,其实arm也可以但是为了照顾Termux就不开了
+
+ -- shenmo <shenmo@spark-app.store>  Mon, 07 Oct 2024 14:50:36 +0800
 dde-file-manager (4.8.20) UNRELEASED; urgency=medium
 
   * 修复文件管理器设置窗口没有关闭按钮的问题
