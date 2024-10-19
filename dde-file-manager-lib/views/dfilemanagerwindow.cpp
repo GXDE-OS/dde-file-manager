@@ -1051,10 +1051,15 @@ void DFileManagerWindow::initTabBar()
     d->tabBar->setFixedHeight(24);
 
     d->newTabButton = new QPushButton(this);
+    d->newTabButton->setFixedSize(25, 25);
     //d->newTabButton->setObjectName("NewTabButton");
+    // 设置按钮样式
     d->newTabButton->setText("+");
-    d->newTabButton->setFixedSize(25, 24);
-    //d->newTabButton->hide();
+    QFont font = d->newTabButton->font();
+    font.setPointSize(font.pointSize()); // 调大字体
+    font.setWeight(QFont::Light);
+    d->newTabButton->setFont(font);
+
 }
 
 void DFileManagerWindow::initViewLayout()

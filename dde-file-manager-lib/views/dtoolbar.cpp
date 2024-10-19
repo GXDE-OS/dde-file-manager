@@ -98,9 +98,9 @@ void DToolBar::initUI()
 
     QHBoxLayout* mainLayout = new QHBoxLayout;
     mainLayout->addWidget(m_addressToolBar);
-    mainLayout->addSpacing(10);
+    mainLayout->addSpacing(3);
     mainLayout->addWidget(m_contollerToolBar);
-    mainLayout->addSpacing(10);
+    mainLayout->addSpacing(3);
     mainLayout->addWidget(m_settingsButton);
     mainLayout->setSpacing(0);
     mainLayout->setContentsMargins(14, 0, 14, 0);
