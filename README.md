@@ -2,6 +2,8 @@
 
 Deepin File Manager is a file management tool independently developed by Deepin Technology, featured with searching, copying, trash, compression/decompression, file property and other file management functions.
 
+Now DFM V4.x is forked and maintained by GXDE to provide filemanager and desktop for GXDE
+
 ### Dependencies
 
 ### Build dependencies
@@ -85,21 +87,6 @@ Execute `dde-file-manager`
  - [Development Documentation](https://linuxdeepin.github.io/dde-file-manager/)
  - [User Documentation](https://wiki.deepin.org/wiki/Deepin_File_Manager) | [用户文档](https://wiki.deepin.org/index.php?title=%E6%B7%B1%E5%BA%A6%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86%E5%99%A8)
 
-## Getting help
-
- - [Official Forum](https://bbs.deepin.org/)
- - [Developer Center](https://github.com/linuxdeepin/developer-center)
- - [Gitter](https://gitter.im/orgs/linuxdeepin/rooms)
- - [IRC Channel](https://webchat.freenode.net/?channels=deepin)
- - [Wiki](https://wiki.deepin.org/)
-
-## Getting involved
-
-We encourage you to report issues and contribute changes
-
- - [Contribution guide for developers](https://github.com/linuxdeepin/developer-center/wiki/Contribution-Guidelines-for-Developers-en) (English)
- - [开发者代码贡献指南](https://github.com/linuxdeepin/developer-center/wiki/Contribution-Guidelines-for-Developers) (中文)
- - [Translate for your language on Transifex](https://www.transifex.com/linuxdeepin/deepin-file-manager/)
 
 ## License
 
