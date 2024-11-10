@@ -58,6 +58,9 @@ int PartitionManager::getMaxNameLengthByType(const PartitionManager::FsType &typ
     case Ext4:
         return 16;
         break;
+    case Exfat:
+        return 16;
+        break;
     case F2fs:
         return 19;
         break;
@@ -544,6 +547,32 @@ bool PartitionManager::actionFormatReiserfs(const QString &path, const QString &
     }
     if (!ok) {
       qCritical() << "FormatReiserfs() err:" << err;
+    }
+    return ok;
+}
+
+bool PartitionManager::actionFormatExfat(const Partition &partition)
+{
+    QString path = partition.path();
+    QString label = partition.label();
+    return actionFormatExfat(path, label);
+}
+
+bool PartitionManager::actionFormatExfat(const QString &path, const QString &label)
+{
+    QString output;
+    QString err;
+    bool ok;
+    if (label.isEmpty()) {
+      ok = SpawnCmd("mkfs.exfat", {path}, output, err);
+    } else {
+      const QString real_label = label.left(12);
+      ok = SpawnCmd("mkfs.exfat", {QString("-L%1").arg(real_label), path},
+                    output, err);
+
+    }
+    if (!ok) {
+      qCritical() << "FormatExfat() err:" << err;
     }
     return ok;
 }

@@ -42,6 +42,9 @@ public:
         Fat16,
         Fat32,
         Ntfs,
+        Exfat,
+        Ext4,
+        Xfs
     };
     Q_ENUM(FsType)
 

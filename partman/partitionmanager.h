@@ -55,6 +55,7 @@ public:
         Reiser4,
         Reiserfs,
         Xfs,
+        Exfat,
         Unknown,
     };
 
@@ -121,6 +122,9 @@ public slots:
 
     bool actionFormatReiserfs(const Partition& partition);
     bool actionFormatReiserfs(const QString& path, const QString& label);
+
+    bool actionFormatExfat(const Partition& partition);
+    bool actionFormatExfat(const QString& path, const QString& label);
 
     bool actionFormatXfs(const Partition& partition);
     bool actionFormatXfs(const QString& path, const QString& label);
