@@ -43,8 +43,21 @@ public:
         Fat32,
         Ntfs,
         Exfat,
+        Btrfs,
+        Efi,
+        Ext2,
+        Ext3,
         Ext4,
-        Xfs
+        F2fs,
+        Hfs,
+        Hfsplus,
+        Jfs,
+        Linuxswap,
+        Lvm2pv,
+        Nilfs2,
+        Reiser4,
+        Reiserfs,
+        Xfs,
     };
     Q_ENUM(FsType)
 

@@ -88,8 +88,8 @@ int main(int argc, char *argv[])
     a.installTranslator(translator);
 
     a.setTheme("light");
-    a.setOrganizationName("deepin");
-    a.setApplicationName("Deepin usb device formatter");
+    a.setOrganizationName("GXDE");
+    a.setApplicationName("GXDE device formatter");
     a.setApplicationVersion("1.0");
     a.setWindowIcon(QIcon(":/app/usb-device-formatter.png"));
     a.setQuitOnLastWindowClosed(true);
@@ -112,14 +112,15 @@ int main(int argc, char *argv[])
         return 0;
     }
 
+    // 解除只允许格式化可移动设备的限制
     //Check if is a removable device
-    PartMan::Partition p = PartMan::Partition::getPartitionByDevicePath(path);
+    /*PartMan::Partition p = PartMan::Partition::getPartitionByDevicePath(path);
     if(!p.getIsRemovable()){
         QString message = QObject::tr("Cannot format local device");
         MessageDialog d(message, 0);
         d.exec();
         return 0;
-    }
+    }*/
 
     MainWindow* w = new MainWindow(path);
     w->show();

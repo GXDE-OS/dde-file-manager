@@ -419,7 +419,7 @@ QVector<MenuAction> UDiskDeviceInfo::menuActionList(DAbstractFileInfo::MenuType 
         actionKeys << MenuAction::Mount;
     }
 
-    if (getMediaType() == removable) {
+    if (getMediaType() == removable || getMediaType() == native) {
         actionKeys << MenuAction::FormatDevice;
     }
 

@@ -4,10 +4,10 @@
  "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
 <policyconfig>
   <vendor>LinuxDeepin</vendor>
-  <vendor_url>https://www.deepin.com/</vendor_url>
+  <vendor_url>https://www.gxde.org/</vendor_url>
   <action id="com.deepin.pkexec.usb-device-formatter">
-    <message>Authentication is required to run the USB Device Formatter</message>
-    <message xml:lang="zh_CN">运行 U 盘格式化工具需要输入密码</message>
+    <message>Authentication is required to run the Device Formatter</message>
+    <message xml:lang="zh_CN">运行格式化工具需要输入密码</message>
     <icon_name>usb-device-formatter</icon_name>
     <defaults>
       <allow_any>no</allow_any>

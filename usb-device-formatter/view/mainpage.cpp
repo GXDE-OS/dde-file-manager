@@ -128,7 +128,7 @@ void MainPage::initUI()
     QLabel* labelText = new QLabel(tr("Label"),this);
     labelText->setObjectName("TagLabel");
     m_labelLineEdit = new QLineEdit(this);
-    m_labelLineEdit->setText(m_typeCombo->currentText());
+    m_labelLineEdit->setText("GXDE-" + m_typeCombo->currentText());
     m_labelLineEdit->setFixedSize(160, 22);
 
     QCheckBox* fastFormatCheckBox = new QCheckBox(this);
@@ -178,7 +178,7 @@ QString MainPage::getLabel()
 
 void MainPage::onCurrentSelectedTypeChanged(const QString &type)
 {
-    m_labelLineEdit->setText(type);
+    m_labelLineEdit->setText("GXDE-" + type);
     m_maxLabelNameLength = PartMan::PartitionManager::getMaxNameLengthByTypeString(type);
     m_labelLineEdit->setMaxLength(m_maxLabelNameLength);
 }
