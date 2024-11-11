@@ -1,10 +1,11 @@
-dde-file-manager (4.8.21) UNRELEASED; urgency=medium
+dde-file-manager (4.8.21-1) UNRELEASED; urgency=medium
 
   [ shenmo ]
   * 去除桌面右键全选功能
   * 依赖 deepin-anything-server-service，但仅限x86,其实arm也可以但是为了照顾Termux就不开了
   * 新增 多标签页模式 按钮
   * 视频预览更改为libgxmr实现
+  * 推更 重新编译
 
   [ gfdgd_xi ]
   * 文件管理器支持格式化本地磁盘
