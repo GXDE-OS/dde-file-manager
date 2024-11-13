@@ -88,7 +88,7 @@ Architecture: any
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- libpoppler-cpp0v5 (>= 0.48.0),
+ libpoppler-cpp0v5 | libpoppler-cpp1,
  gvfs-backends(>=1.27.3),
  cryptsetup,
  libkf5codecs5,

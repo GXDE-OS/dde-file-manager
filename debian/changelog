@@ -1,4 +1,4 @@
-dde-file-manager (4.8.21-1) UNRELEASED; urgency=medium
+dde-file-manager (4.8.22) UNRELEASED; urgency=medium
 
   [ shenmo ]
   * 去除桌面右键全选功能
@@ -10,8 +10,9 @@ dde-file-manager (4.8.21-1) UNRELEASED; urgency=medium
   [ gfdgd_xi ]
   * 文件管理器支持格式化本地磁盘
   * 格式化工具支持更多分区格式
+  * 修复因为 debian port 缺失依赖 libpoppler-cpp0v5 从而无法正常安装的问题
 
- -- gfdgd_xi <3025613752@qq.com>  Sun, 10 Nov 2024 10:53:39 +0800
+ -- gfdgd_xi <3025613752@qq.com>  Wed, 13 Nov 2024 21:37:34 +0800
 
 dde-file-manager (4.8.20) UNRELEASED; urgency=medium
 
