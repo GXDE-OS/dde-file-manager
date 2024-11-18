@@ -1,4 +1,4 @@
-dde-file-manager (4.8.22) UNRELEASED; urgency=medium
+dde-file-manager (4.8.22-1) UNRELEASED; urgency=medium
 
   [ shenmo ]
   * 去除桌面右键全选功能
@@ -6,6 +6,7 @@ dde-file-manager (4.8.22) UNRELEASED; urgency=medium
   * 新增 多标签页模式 按钮
   * 视频预览更改为libgxmr实现
   * 推更 重新编译
+  * 修复 依赖fantascene
 
   [ gfdgd_xi ]
   * 文件管理器支持格式化本地磁盘
