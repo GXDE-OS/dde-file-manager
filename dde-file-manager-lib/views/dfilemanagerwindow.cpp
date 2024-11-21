@@ -893,6 +893,8 @@ void DFileManagerWindow::initUI()
     initCentralWidget();
     initTitleBar();
     setCentralWidget(d->centralWidget);
+
+    refreshBackgroundPicture();
 }
 
 void DFileManagerWindow::initTitleFrame()
@@ -1197,6 +1199,14 @@ void DFileManagerWindow::setTheme(const QString &theme)
     }
 }
 
+void DFileManagerWindow::refreshBackgroundPicture()
+{
+    QString theme = DThemeManager::instance()->theme(this);
+    this->setStyleSheet(this->styleSheet() + " QFrame#CentralWidget{"
+                        "background: url(" + QDir::homePath() + "/.config/GXDE/dde-file-manager/background-" + theme + ".png) no-repeat;" +
+                        "background-position: right bottom;}");
+}
+
 void DFileManagerWindow::onThemeChanged()
 {
     QString theme = DThemeManager::instance()->theme(this);
@@ -1211,6 +1221,7 @@ void DFileManagerWindow::onThemeChanged()
     }
 
     WindowManager::instance()->saveWindowState(this);
+    refreshBackgroundPicture();
 }
 
 void DFileManagerWindow::showEvent(QShowEvent *event)

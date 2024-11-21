@@ -6,7 +6,6 @@ QMainWindow{
     background-color: white;
 }
 
-
 QPushButton#LogoButton{
    border: none;
    image: url(:/images/images/dde-file-manager.png);
@@ -19,6 +18,8 @@ QPushButton#LogoButton:press{
 }
 
 QFrame#CentralWidget{
+    background-position: right bottom;
+    background-color: transparent;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -487,7 +488,8 @@ QLineEdit#BookmarkLineEdit{
 
 QScrollArea#ComputerView{
     border: none;
-    background-color: white;
+    /*background-color: white;*/
+    background-color: transparent;
 }
 
 QScrollArea#ComputerView #TitleLabel {

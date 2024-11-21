@@ -19,6 +19,7 @@ QPushButton#LogoButton:press{
 }
 
 QFrame#CentralWidget{
+    background-position: right bottom;
     background-color: transparent;
     border-top: 1px insert rgba(255, 255, 255, 0.05);
 }
@@ -452,6 +453,7 @@ QPushButton#close:hover{
 
 QScrollArea#ComputerView{
     border: none;
+    background-color: transparent;
     /*background-color: white;*/
 }
 

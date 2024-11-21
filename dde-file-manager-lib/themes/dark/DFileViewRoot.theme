@@ -1,5 +1,6 @@
 QListView {
     background: #202020;
+    background-color: transparent;
     border: none;
 }
 

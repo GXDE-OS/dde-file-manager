@@ -181,6 +181,8 @@ private:
     QScopedPointer<DFileManagerWindowPrivate> d_ptr;
     Q_DECLARE_PRIVATE_D(qGetPtrHelper(d_ptr), DFileManagerWindow)
 
+    void refreshBackgroundPicture();
+
 public:
     static std::unique_ptr<RecordRenameBarState>  renameBarState;//###: record pattern of RenameBar and the string of QLineEdit's content.
     static std::atomic<bool> flagForNewWindowFromTab;           //###: open a new window form a already has tab, this will be true.
