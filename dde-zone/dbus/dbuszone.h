@@ -30,7 +30,7 @@
 #include <QtDBus/QtDBus>
 
 /*
- * Proxy class for interface com.deepin.daemon.Zone
+ * Proxy class for interface com.gxde.daemon.corneredge
  */
 class ZoneInterface: public QDBusAbstractInterface
 {
@@ -42,7 +42,7 @@ class ZoneInterface: public QDBusAbstractInterface
         if (3 != arguments.count())
             return;
         QString interfaceName = msg.arguments().at(0).toString();
-        if (interfaceName !="com.deepin.daemon.Zone")
+        if (interfaceName !="com.gxde.daemon.corneredge")
             return;
         QVariantMap changedProps = qdbus_cast<QVariantMap>(arguments.at(1).value<QDBusArgument>());
         foreach(const QString &prop, changedProps.keys()) {
@@ -57,7 +57,7 @@ class ZoneInterface: public QDBusAbstractInterface
    }
 public:
     static inline const char *staticInterfaceName()
-    { return "com.deepin.daemon.Zone"; }
+    { return "com.gxde.daemon.corneredge"; }
 
 public:
     ZoneInterface(const QString &service, const QString &path, const QDBusConnection &connection, QObject *parent = 0);

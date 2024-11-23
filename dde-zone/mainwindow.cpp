@@ -21,7 +21,7 @@ ZoneMainWindow::ZoneMainWindow(QWidget *parent)
     : QWidget(parent)
     , m_videoWidget(nullptr)
 {
-    m_dbusZoneInter = new ZoneInterface("com.deepin.daemon.Zone", "/com/deepin/daemon/Zone", QDBusConnection::sessionBus(), this);
+    m_dbusZoneInter = new ZoneInterface("com.gxde.daemon.corneredge", "/com/gxde/daemon/corneredge", QDBusConnection::sessionBus(), this);
 
     // let the app start without system animation
     setWindowFlags(Qt::X11BypassWindowManagerHint | Qt::WindowStaysOnTopHint);

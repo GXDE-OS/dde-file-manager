@@ -13,7 +13,7 @@
 PushButtonList::PushButtonList(HoverWidget *parent, const bool isRight, const bool isBottom, QLabel *selectedText)
 {
     // this variable if so important that I have to new it before everything else
-    m_zoneInterface = new ZoneInterface("com.deepin.daemon.Zone", "/com/deepin/daemon/Zone",
+    m_zoneInterface = new ZoneInterface("com.gxde.daemon.corneredge", "/com/gxde/daemon/corneredge",
                                         QDBusConnection::sessionBus(), this);
 
     m_ParentItem = parent;
