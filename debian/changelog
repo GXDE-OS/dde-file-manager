@@ -1,4 +1,4 @@
-dde-file-manager (4.8.24) UNRELEASED; urgency=medium
+dde-file-manager (4.8.25) UNRELEASED; urgency=medium
 
   [ shenmo ]
   * 去除桌面右键全选功能
@@ -14,8 +14,9 @@ dde-file-manager (4.8.24) UNRELEASED; urgency=medium
   * 修复因为 debian port 缺失依赖 libpoppler-cpp0v5 从而无法正常安装的问题
   * 支持在文件管理器右下方设置自定义图片
   * 热区设置接入 gxde-requ
+  * 调整依赖
 
- -- gfdgd_xi <3025613752@qq.com>  Sat, 23 Nov 2024 20:52:04 +0800
+ -- gfdgd_xi <3025613752@qq.com>  Sat, 23 Nov 2024 22:56:33 +0800
 
 dde-file-manager (4.8.20) UNRELEASED; urgency=medium
 
