@@ -85,7 +85,7 @@ private:
     bool m_mouseIsEnterFromButtonColumnAfterButtonClick;
 
     // this variable indicate the hight and width of m_mainItem;
-    const int WRAPPER_SIZE = 300;
+    const int WRAPPER_SIZE = 350;
     // imageSize indicates the height and width of image ,also the size of m_hoverItem
     const int IMAGE_SIZE = 110;
     // MAIN_ITEM_TOP_MARGIN is aimed to steer clear of the fade-zone of mouseEvent of mainWindow Item.

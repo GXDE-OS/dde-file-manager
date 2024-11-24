@@ -179,11 +179,21 @@
     </message>
     <message>
         <location filename="../../dde-zone/mainwindow.cpp" line="63"/>
+        <source>File Manager</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="64"/>
+        <source>System Monitor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="65"/>
         <source>None</source>
         <translation>Nessuna</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="83"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="89"/>
         <source>Close Window</source>
         <translation>Chiudi finestra</translation>
     </message>
