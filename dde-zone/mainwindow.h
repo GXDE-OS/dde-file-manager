@@ -53,10 +53,12 @@ private:
     const QString SHOW_DESKTOP_STR = "/usr/lib/deepin-daemon/desktop-toggle";
     const QString NONE_STR = "";
     const QString FAST_SCREEN_OFF = "sh -c \"sleep 0.5 && xset dpms force off\"";
-    const QString CLOSE_MAX_WINDOW_STR = "!wm:close";
+    const QString CLOSE_MAX_WINDOW_STR = "/usr/libexec/gxde-requ/bin/close_window";
     const QString SCREENRECORDER_STR = "deepin-screen-recorder";
     const QString GXDEEDITOR_STR = "gxde-editor";
     const QString COLORPICKER_STR = "gxde-picker";
+    const QString FILEMANAGER_STR = "dde-file-manager";
+    const QString SYSTEMMONITOR_STR = "deepin-system-monitor";
 
     // MAIN_ITEM_TOP_MARGIN is aimed to steer clear of the fade-zone of mouseEvent of mainWindow Item.
     const int MAIN_ITEM_TOP_MARGIN = 30;

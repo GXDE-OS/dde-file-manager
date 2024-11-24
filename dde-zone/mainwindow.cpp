@@ -60,6 +60,8 @@ ZoneMainWindow::ZoneMainWindow(QWidget *parent)
                   << tr("Text Editor")
                   << tr("Screen Recorder")
                   << tr("Color Picker")
+                  << tr("File Manager")
+                  << tr("System Monitor")
                   << tr("None");
     m_ActionStrs << FAST_SCREEN_OFF
                  << CONTROL_CENTER_FROM_LEFT_STR
@@ -69,6 +71,8 @@ ZoneMainWindow::ZoneMainWindow(QWidget *parent)
                  << GXDEEDITOR_STR
                  << SCREENRECORDER_STR
                  << COLORPICKER_STR
+                 << FILEMANAGER_STR
+                 << SYSTEMMONITOR_STR
                  << NONE_STR;
     m_ActionStrs2 << FAST_SCREEN_OFF
                   << CONTROL_CENTER_FROM_RIGHT_STR
@@ -78,6 +82,8 @@ ZoneMainWindow::ZoneMainWindow(QWidget *parent)
                   << GXDEEDITOR_STR
                   << SCREENRECORDER_STR
                   << COLORPICKER_STR
+                  << FILEMANAGER_STR
+                  << SYSTEMMONITOR_STR
                   << NONE_STR;
 
     QStringList topRightNames = QStringList() << tr("Close Window") << m_ButtonNames;

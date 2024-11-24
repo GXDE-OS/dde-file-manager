@@ -1,4 +1,4 @@
-dde-file-manager (4.8.26) UNRELEASED; urgency=medium
+dde-file-manager (4.8.27) UNRELEASED; urgency=medium
 
   [ shenmo ]
   * 去除桌面右键全选功能
@@ -15,9 +15,10 @@ dde-file-manager (4.8.26) UNRELEASED; urgency=medium
   * 支持在文件管理器右下方设置自定义图片
   * 热区设置接入 gxde-requ
   * 调整依赖
-  * 热区支持触发调色器、文本编辑器和截图录屏工具
+  * 热区支持触发调色器、文本编辑器、文件管理器、系统监视器和截图录屏工具
+  * 修复热区无法正常关闭窗口的问题
 
- -- gfdgd_xi <3025613752@qq.com>  Sun, 24 Nov 2024 09:28:56 +0800
+ -- gfdgd_xi <3025613752@qq.com>  Sun, 24 Nov 2024 12:29:42 +0800
 
 dde-file-manager (4.8.20) UNRELEASED; urgency=medium
 
