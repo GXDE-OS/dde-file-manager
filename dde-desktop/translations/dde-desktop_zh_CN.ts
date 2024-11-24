@@ -4,47 +4,47 @@
 <context>
     <name>CanvasGridView</name>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2436"/>
+        <location filename="../view/canvasgridview.cpp" line="2439"/>
         <source>Icon size</source>
         <translation>图标大小</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2442"/>
+        <location filename="../view/canvasgridview.cpp" line="2445"/>
         <source>Auto merge</source>
         <translation>自动整理</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2451"/>
+        <location filename="../view/canvasgridview.cpp" line="2454"/>
         <source>Auto arrange</source>
         <translation>自动排列</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2460"/>
+        <location filename="../view/canvasgridview.cpp" line="2463"/>
         <source>Hide Icon</source>
         <translation>隐藏桌面图标</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2513"/>
+        <location filename="../view/canvasgridview.cpp" line="2516"/>
         <source>Set Wallpaper</source>
         <translation>设置壁纸</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2515"/>
+        <location filename="../view/canvasgridview.cpp" line="2518"/>
         <source>Wallpaper and Screensaver</source>
         <translation>壁纸与屏保</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2596"/>
+        <location filename="../view/canvasgridview.cpp" line="2599"/>
         <source>Properties</source>
         <translation>属性</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2499"/>
+        <location filename="../view/canvasgridview.cpp" line="2502"/>
         <source>Display Settings</source>
         <translation>显示设置</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2506"/>
+        <location filename="../view/canvasgridview.cpp" line="2509"/>
         <source>Corner Settings</source>
         <translation>热区设置</translation>
     </message>
@@ -143,32 +143,47 @@
         <translation>快速黑屏</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="56"/>
         <source>Control Center</source>
         <translation>控制中心</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="57"/>
         <source>All Windows</source>
         <translation>所有窗口</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="58"/>
         <source>Launcher</source>
         <translation>启动器</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="59"/>
         <source>Desktop</source>
         <translation>显示桌面</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="60"/>
+        <source>Text Editor</source>
+        <translation>文本编辑器</translation>
+    </message>
+    <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="61"/>
+        <source>Screen Recorder</source>
+        <translation>屏幕截图</translation>
+    </message>
+    <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="62"/>
+        <source>Color Picker</source>
+        <translation>取色器</translation>
+    </message>
+    <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="63"/>
         <source>None</source>
         <translation>无</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="59"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="83"/>
         <source>Close Window</source>
         <translation>关闭窗口</translation>
     </message>

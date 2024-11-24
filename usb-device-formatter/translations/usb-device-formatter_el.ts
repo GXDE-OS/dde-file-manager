@@ -100,9 +100,8 @@
         <translation>Δεν υπάρχει η συσκευή</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="118"/>
         <source>Cannot format local device</source>
-        <translation>Δεν είναι δυνατή η μορφοποίηση της τοπικής συσκευής</translation>
+        <translation type="vanished">Δεν είναι δυνατή η μορφοποίηση της τοπικής συσκευής</translation>
     </message>
 </context>
 <context>

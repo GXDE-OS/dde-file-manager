@@ -100,9 +100,8 @@
         <translation>Устройството не съществува</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="118"/>
         <source>Cannot format local device</source>
-        <translation>Не се форматира местно устройство</translation>
+        <translation type="vanished">Не се форматира местно устройство</translation>
     </message>
 </context>
 <context>

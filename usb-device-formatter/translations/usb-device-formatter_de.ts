@@ -100,9 +100,8 @@
         <translation>Datenträger existiert nicht</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="118"/>
         <source>Cannot format local device</source>
-        <translation>Lokaler Datenträger kann nicht formatiert werden</translation>
+        <translation type="vanished">Lokaler Datenträger kann nicht formatiert werden</translation>
     </message>
 </context>
 <context>

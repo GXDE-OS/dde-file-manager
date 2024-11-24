@@ -100,9 +100,8 @@
         <translation>ਡਿਵਾਈਸ ਮੌਜੂਦ ਨਹੀਂ ਹੈ</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="118"/>
         <source>Cannot format local device</source>
-        <translation>ਲੋਕਲ ਡਰਾਇਵ ਨੂੰ ਫਾਰਮੈਟ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ</translation>
+        <translation type="vanished">ਲੋਕਲ ਡਰਾਇਵ ਨੂੰ ਫਾਰਮੈਟ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ</translation>
     </message>
 </context>
 <context>

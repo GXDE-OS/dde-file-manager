@@ -100,9 +100,8 @@
         <translation>Naprava ne obstaja</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="118"/>
         <source>Cannot format local device</source>
-        <translation>Ne morem formatirati lokalne naprave</translation>
+        <translation type="vanished">Ne morem formatirati lokalne naprave</translation>
     </message>
 </context>
 <context>

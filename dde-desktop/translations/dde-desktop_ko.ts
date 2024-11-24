@@ -4,47 +4,47 @@
 <context>
     <name>CanvasGridView</name>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2436"/>
+        <location filename="../view/canvasgridview.cpp" line="2439"/>
         <source>Icon size</source>
         <translation>아이콘 크기</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2442"/>
+        <location filename="../view/canvasgridview.cpp" line="2445"/>
         <source>Auto merge</source>
         <translation>자동 병합</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2451"/>
+        <location filename="../view/canvasgridview.cpp" line="2454"/>
         <source>Auto arrange</source>
         <translation>자동 정렬</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2460"/>
+        <location filename="../view/canvasgridview.cpp" line="2463"/>
         <source>Hide Icon</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2513"/>
+        <location filename="../view/canvasgridview.cpp" line="2516"/>
         <source>Set Wallpaper</source>
         <translation>배경화면 설정</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2515"/>
+        <location filename="../view/canvasgridview.cpp" line="2518"/>
         <source>Wallpaper and Screensaver</source>
         <translation>배경화면과 화면보호기</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2596"/>
+        <location filename="../view/canvasgridview.cpp" line="2599"/>
         <source>Properties</source>
         <translation>속성</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2499"/>
+        <location filename="../view/canvasgridview.cpp" line="2502"/>
         <source>Display Settings</source>
         <translation>화면 설정</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2506"/>
+        <location filename="../view/canvasgridview.cpp" line="2509"/>
         <source>Corner Settings</source>
         <translation>코너 설정</translation>
     </message>
@@ -143,32 +143,47 @@
         <translation>빠른 화면 끄기</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="56"/>
         <source>Control Center</source>
         <translation>설정</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="57"/>
         <source>All Windows</source>
         <translation>모든 창</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="58"/>
         <source>Launcher</source>
         <translation>런처</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="59"/>
         <source>Desktop</source>
         <translation>데스크톱</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="60"/>
+        <source>Text Editor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="61"/>
+        <source>Screen Recorder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="62"/>
+        <source>Color Picker</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="63"/>
         <source>None</source>
         <translation>없음</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="59"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="83"/>
         <source>Close Window</source>
         <translation>창 닫기</translation>
     </message>

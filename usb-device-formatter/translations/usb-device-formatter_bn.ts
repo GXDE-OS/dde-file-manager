@@ -100,9 +100,8 @@
         <translation>ডিভাইস বিদ্যামান নেই</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="118"/>
         <source>Cannot format local device</source>
-        <translation>লোকাল ডিভাইস ফরমেট করা যাচ্ছে না</translation>
+        <translation type="vanished">লোকাল ডিভাইস ফরমেট করা যাচ্ছে না</translation>
     </message>
 </context>
 <context>

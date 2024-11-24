@@ -100,9 +100,8 @@
         <translation>Aygıt bulunamadı</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="118"/>
         <source>Cannot format local device</source>
-        <translation>Yerel aygıt biçimlendirilemez</translation>
+        <translation type="vanished">Yerel aygıt biçimlendirilemez</translation>
     </message>
 </context>
 <context>

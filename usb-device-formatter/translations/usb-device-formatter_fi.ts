@@ -100,9 +100,8 @@
         <translation>Laitetta ei ole</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="118"/>
         <source>Cannot format local device</source>
-        <translation>Paikallista laitetta ei voi alustaa</translation>
+        <translation type="vanished">Paikallista laitetta ei voi alustaa</translation>
     </message>
 </context>
 <context>

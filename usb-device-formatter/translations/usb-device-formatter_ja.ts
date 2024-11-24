@@ -100,9 +100,8 @@
         <translation>デバイスが存在しません</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="118"/>
         <source>Cannot format local device</source>
-        <translation>ローカルデバイスをフォーマットできません</translation>
+        <translation type="vanished">ローカルデバイスをフォーマットできません</translation>
     </message>
 </context>
 <context>

@@ -100,9 +100,8 @@
         <translation>Пристрій не існує</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="118"/>
         <source>Cannot format local device</source>
-        <translation>Неможливо відформатувати місцевий пристрій</translation>
+        <translation type="vanished">Неможливо відформатувати місцевий пристрій</translation>
     </message>
 </context>
 <context>

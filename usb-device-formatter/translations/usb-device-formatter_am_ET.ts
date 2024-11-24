@@ -100,9 +100,8 @@
         <translation>አካሉ አልተገኘም</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="118"/>
         <source>Cannot format local device</source>
-        <translation>ይህን አካል ማሰናዳት አይቻልም</translation>
+        <translation type="vanished">ይህን አካል ማሰናዳት አይቻልም</translation>
     </message>
 </context>
 <context>

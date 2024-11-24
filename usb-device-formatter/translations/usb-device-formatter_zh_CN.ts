@@ -100,9 +100,8 @@
         <translation>设备不存在</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="118"/>
         <source>Cannot format local device</source>
-        <translation>不能格式化本地设备</translation>
+        <translation type="vanished">不能格式化本地设备</translation>
     </message>
 </context>
 <context>

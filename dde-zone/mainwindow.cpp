@@ -52,9 +52,33 @@ ZoneMainWindow::ZoneMainWindow(QWidget *parent)
     }
 
     // init corresponding QList for addButtons()
-    m_ButtonNames << tr("Fast Screen Off") << tr("Control Center") << tr("All Windows") << tr("Launcher") << tr("Desktop") << tr("None");
-    m_ActionStrs << FAST_SCREEN_OFF << CONTROL_CENTER_FROM_LEFT_STR << ALL_WINDOWS_STR << LAUNCHER_STR << SHOW_DESKTOP_STR << NONE_STR;
-    m_ActionStrs2 << FAST_SCREEN_OFF << CONTROL_CENTER_FROM_RIGHT_STR << ALL_WINDOWS_STR << LAUNCHER_STR << SHOW_DESKTOP_STR << NONE_STR;
+    m_ButtonNames << tr("Fast Screen Off")
+                  << tr("Control Center")
+                  << tr("All Windows")
+                  << tr("Launcher")
+                  << tr("Desktop")
+                  << tr("Text Editor")
+                  << tr("Screen Recorder")
+                  << tr("Color Picker")
+                  << tr("None");
+    m_ActionStrs << FAST_SCREEN_OFF
+                 << CONTROL_CENTER_FROM_LEFT_STR
+                 << ALL_WINDOWS_STR
+                 << LAUNCHER_STR
+                 << SHOW_DESKTOP_STR
+                 << GXDEEDITOR_STR
+                 << SCREENRECORDER_STR
+                 << COLORPICKER_STR
+                 << NONE_STR;
+    m_ActionStrs2 << FAST_SCREEN_OFF
+                  << CONTROL_CENTER_FROM_RIGHT_STR
+                  << ALL_WINDOWS_STR
+                  << LAUNCHER_STR
+                  << SHOW_DESKTOP_STR
+                  << GXDEEDITOR_STR
+                  << SCREENRECORDER_STR
+                  << COLORPICKER_STR
+                  << NONE_STR;
 
     QStringList topRightNames = QStringList() << tr("Close Window") << m_ButtonNames;
     QStringList topRightActionStr = QStringList() << CLOSE_MAX_WINDOW_STR << m_ActionStrs2;

@@ -100,9 +100,8 @@
         <translation>Įrenginio nėra</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="118"/>
         <source>Cannot format local device</source>
-        <translation>Negalima formatuoti vietinį įrenginį</translation>
+        <translation type="vanished">Negalima formatuoti vietinį įrenginį</translation>
     </message>
 </context>
 <context>

@@ -100,9 +100,8 @@
         <translation>Zařízení není</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="118"/>
         <source>Cannot format local device</source>
-        <translation>Nelze formátovat místní zařízení</translation>
+        <translation type="vanished">Nelze formátovat místní zařízení</translation>
     </message>
 </context>
 <context>

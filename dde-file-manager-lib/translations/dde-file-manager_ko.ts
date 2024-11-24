@@ -373,7 +373,7 @@
 <context>
     <name>DFileManagerWindow</name>
     <message>
-        <location filename="../views/dfilemanagerwindow.cpp" line="938"/>
+        <location filename="../views/dfilemanagerwindow.cpp" line="944"/>
         <source>Dark theme</source>
         <translation>어두운 테마</translation>
     </message>
@@ -2089,7 +2089,7 @@
     </message>
     <message>
         <location filename="../interfaces/dfilemenumanager.cpp" line="930"/>
-        <location filename="../views/dfmsidebardeviceitem.cpp" line="164"/>
+        <location filename="../views/dfmsidebardeviceitem.cpp" line="168"/>
         <source>Log out and unmount</source>
         <translation>로그아웃하고 마운트 해제</translation>
     </message>
@@ -2116,7 +2116,7 @@
     </message>
     <message>
         <location filename="../interfaces/dfilemenumanager.cpp" line="937"/>
-        <location filename="../views/dfmsidebardeviceitem.cpp" line="150"/>
+        <location filename="../views/dfmsidebardeviceitem.cpp" line="154"/>
         <source>Format</source>
         <translation>포맷</translation>
     </message>
@@ -2665,13 +2665,13 @@
         <translation>즐겨찾기</translation>
     </message>
     <message>
-        <location filename="../views/dfmsidebardeviceitem.cpp" line="156"/>
+        <location filename="../views/dfmsidebardeviceitem.cpp" line="160"/>
         <location filename="../views/dfmsidebaropticaldevitem.cpp" line="107"/>
         <source>Erase</source>
         <translation>지우기</translation>
     </message>
     <message>
-        <location filename="../views/dfmsidebardeviceitem.cpp" line="171"/>
+        <location filename="../views/dfmsidebardeviceitem.cpp" line="175"/>
         <location filename="../views/dfmsidebarhomeitem.cpp" line="62"/>
         <location filename="../views/dfmsidebaropticaldevitem.cpp" line="114"/>
         <location filename="../views/dfmsidebarrootitem.cpp" line="61"/>

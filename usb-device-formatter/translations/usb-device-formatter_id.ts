@@ -100,9 +100,8 @@
         <translation>Perangkat tidak ada</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="118"/>
         <source>Cannot format local device</source>
-        <translation>Tidak dapat memformat diska lokal</translation>
+        <translation type="vanished">Tidak dapat memformat diska lokal</translation>
     </message>
 </context>
 <context>

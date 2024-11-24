@@ -4,47 +4,47 @@
 <context>
     <name>CanvasGridView</name>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2436"/>
+        <location filename="../view/canvasgridview.cpp" line="2439"/>
         <source>Icon size</source>
         <translation>Ikon méret</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2442"/>
+        <location filename="../view/canvasgridview.cpp" line="2445"/>
         <source>Auto merge</source>
         <translation>Automatikus összefűzés</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2451"/>
+        <location filename="../view/canvasgridview.cpp" line="2454"/>
         <source>Auto arrange</source>
         <translation>Automatikus elrendezés</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2460"/>
+        <location filename="../view/canvasgridview.cpp" line="2463"/>
         <source>Hide Icon</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2513"/>
+        <location filename="../view/canvasgridview.cpp" line="2516"/>
         <source>Set Wallpaper</source>
         <translation>Beállítás háttérképnek</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2515"/>
+        <location filename="../view/canvasgridview.cpp" line="2518"/>
         <source>Wallpaper and Screensaver</source>
         <translation>Háttérkép és képernyővédő</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2596"/>
+        <location filename="../view/canvasgridview.cpp" line="2599"/>
         <source>Properties</source>
         <translation>Tulajdonságok</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2499"/>
+        <location filename="../view/canvasgridview.cpp" line="2502"/>
         <source>Display Settings</source>
         <translation>Megjelenítési beállítások</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2506"/>
+        <location filename="../view/canvasgridview.cpp" line="2509"/>
         <source>Corner Settings</source>
         <translation>Sarok beállítások</translation>
     </message>
@@ -143,32 +143,47 @@
         <translation>Képernyő gyors kikapcsolása</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="56"/>
         <source>Control Center</source>
         <translation>Vezérlőpult</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="57"/>
         <source>All Windows</source>
         <translation>Minden ablak</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="58"/>
         <source>Launcher</source>
         <translation>Indítópult</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="59"/>
         <source>Desktop</source>
         <translation>Asztal</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="60"/>
+        <source>Text Editor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="61"/>
+        <source>Screen Recorder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="62"/>
+        <source>Color Picker</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="63"/>
         <source>None</source>
         <translation>Nincs</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="59"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="83"/>
         <source>Close Window</source>
         <translation>Ablak bezárása</translation>
     </message>

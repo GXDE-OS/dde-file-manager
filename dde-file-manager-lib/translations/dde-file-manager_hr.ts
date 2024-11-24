@@ -366,7 +366,7 @@
 <context>
     <name>DFileManagerWindow</name>
     <message>
-        <location filename="../views/dfilemanagerwindow.cpp" line="938"/>
+        <location filename="../views/dfilemanagerwindow.cpp" line="944"/>
         <source>Dark theme</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2080,7 +2080,7 @@
     </message>
     <message>
         <location filename="../interfaces/dfilemenumanager.cpp" line="930"/>
-        <location filename="../views/dfmsidebardeviceitem.cpp" line="164"/>
+        <location filename="../views/dfmsidebardeviceitem.cpp" line="168"/>
         <source>Log out and unmount</source>
         <translation>Odjavi i odspoji se</translation>
     </message>
@@ -2107,7 +2107,7 @@
     </message>
     <message>
         <location filename="../interfaces/dfilemenumanager.cpp" line="937"/>
-        <location filename="../views/dfmsidebardeviceitem.cpp" line="150"/>
+        <location filename="../views/dfmsidebardeviceitem.cpp" line="154"/>
         <source>Format</source>
         <translation>Format</translation>
     </message>
@@ -2656,13 +2656,13 @@
         <translation>Zabilješke</translation>
     </message>
     <message>
-        <location filename="../views/dfmsidebardeviceitem.cpp" line="156"/>
+        <location filename="../views/dfmsidebardeviceitem.cpp" line="160"/>
         <location filename="../views/dfmsidebaropticaldevitem.cpp" line="107"/>
         <source>Erase</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../views/dfmsidebardeviceitem.cpp" line="171"/>
+        <location filename="../views/dfmsidebardeviceitem.cpp" line="175"/>
         <location filename="../views/dfmsidebarhomeitem.cpp" line="62"/>
         <location filename="../views/dfmsidebaropticaldevitem.cpp" line="114"/>
         <location filename="../views/dfmsidebarrootitem.cpp" line="61"/>

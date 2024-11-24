@@ -100,9 +100,8 @@
         <translation>Az eszköz nem létezik</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="118"/>
         <source>Cannot format local device</source>
-        <translation>Nem lehet formázni a helyi eszközt</translation>
+        <translation type="vanished">Nem lehet formázni a helyi eszközt</translation>
     </message>
 </context>
 <context>

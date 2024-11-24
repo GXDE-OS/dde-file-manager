@@ -100,9 +100,8 @@
         <translation>Le périphérique n&apos;existe pas</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="118"/>
         <source>Cannot format local device</source>
-        <translation>Impossible de formater un périphérique local</translation>
+        <translation type="vanished">Impossible de formater un périphérique local</translation>
     </message>
 </context>
 <context>

@@ -99,11 +99,6 @@
         <source>Device does not exist</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <location filename="../main.cpp" line="118"/>
-        <source>Cannot format local device</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>WarnPage</name>

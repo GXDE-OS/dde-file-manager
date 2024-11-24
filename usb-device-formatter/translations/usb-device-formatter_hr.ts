@@ -100,9 +100,8 @@
         <translation>Uređaj ne postoji</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="118"/>
         <source>Cannot format local device</source>
-        <translation>Ne mogu formatirati lokalni uređaj</translation>
+        <translation type="vanished">Ne mogu formatirati lokalni uređaj</translation>
     </message>
 </context>
 <context>

@@ -100,9 +100,8 @@
         <translation>Apparaat bestaat niet</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="118"/>
         <source>Cannot format local device</source>
-        <translation>Kan lokaal apparaat niet formatteren</translation>
+        <translation type="vanished">Kan lokaal apparaat niet formatteren</translation>
     </message>
 </context>
 <context>

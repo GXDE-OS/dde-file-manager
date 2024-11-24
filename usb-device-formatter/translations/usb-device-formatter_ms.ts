@@ -100,9 +100,8 @@
         <translation>Peranti tidak wujud</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="118"/>
         <source>Cannot format local device</source>
-        <translation>Tidak dapat format peranti setempat</translation>
+        <translation type="vanished">Tidak dapat format peranti setempat</translation>
     </message>
 </context>
 <context>

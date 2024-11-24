@@ -100,9 +100,8 @@
         <translation>장치가 없습니다</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="118"/>
         <source>Cannot format local device</source>
-        <translation>로컬 장치는 포맷할 수 없습니다</translation>
+        <translation type="vanished">로컬 장치는 포맷할 수 없습니다</translation>
     </message>
 </context>
 <context>

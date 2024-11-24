@@ -100,9 +100,8 @@
         <translation>O dispositivo não existe</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="118"/>
         <source>Cannot format local device</source>
-        <translation>Não é possível formatar dispositivo local</translation>
+        <translation type="vanished">Não é possível formatar dispositivo local</translation>
     </message>
 </context>
 <context>

@@ -100,9 +100,8 @@
         <translation>الجهاز غير موجود</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="118"/>
         <source>Cannot format local device</source>
-        <translation>لا يمكن تهيئة الجهاز المحلي</translation>
+        <translation type="vanished">لا يمكن تهيئة الجهاز المحلي</translation>
     </message>
 </context>
 <context>

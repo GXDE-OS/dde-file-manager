@@ -100,9 +100,8 @@
         <translation>Enheden findes ikke</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="118"/>
         <source>Cannot format local device</source>
-        <translation>Kan ikke formatere lokal enhed</translation>
+        <translation type="vanished">Kan ikke formatere lokal enhed</translation>
     </message>
 </context>
 <context>

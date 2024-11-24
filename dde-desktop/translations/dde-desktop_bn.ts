@@ -4,47 +4,47 @@
 <context>
     <name>CanvasGridView</name>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2436"/>
+        <location filename="../view/canvasgridview.cpp" line="2439"/>
         <source>Icon size</source>
         <translation>আইকনের আকার</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2442"/>
+        <location filename="../view/canvasgridview.cpp" line="2445"/>
         <source>Auto merge</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2451"/>
+        <location filename="../view/canvasgridview.cpp" line="2454"/>
         <source>Auto arrange</source>
         <translation>স্বয়ংক্রিয়ভাবে সাজান</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2460"/>
+        <location filename="../view/canvasgridview.cpp" line="2463"/>
         <source>Hide Icon</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2513"/>
+        <location filename="../view/canvasgridview.cpp" line="2516"/>
         <source>Set Wallpaper</source>
         <translation>ওয়ালপেপার সেট করুন </translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2515"/>
+        <location filename="../view/canvasgridview.cpp" line="2518"/>
         <source>Wallpaper and Screensaver</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2596"/>
+        <location filename="../view/canvasgridview.cpp" line="2599"/>
         <source>Properties</source>
         <translation>বৈশিষ্ট্যসমূহ </translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2499"/>
+        <location filename="../view/canvasgridview.cpp" line="2502"/>
         <source>Display Settings</source>
         <translation>ডিসপ্লে সেটিংস</translation>
     </message>
     <message>
-        <location filename="../view/canvasgridview.cpp" line="2506"/>
+        <location filename="../view/canvasgridview.cpp" line="2509"/>
         <source>Corner Settings</source>
         <translation>কোনা সেটিংস </translation>
     </message>
@@ -143,32 +143,47 @@
         <translation>দ্রুত স্ক্রিন বন্ধ </translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="56"/>
         <source>Control Center</source>
         <translation>কন্ট্রোল সেন্টার </translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="57"/>
         <source>All Windows</source>
         <translation>সকল উইন্ডো সমূহ </translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="58"/>
         <source>Launcher</source>
         <translation>লঞ্চার</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="59"/>
         <source>Desktop</source>
         <translation>ডেস্কটপ</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="55"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="60"/>
+        <source>Text Editor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="61"/>
+        <source>Screen Recorder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="62"/>
+        <source>Color Picker</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="63"/>
         <source>None</source>
         <translation>কোনোটিই নয়</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="59"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="83"/>
         <source>Close Window</source>
         <translation>উইন্ডো বন্ধ করুন</translation>
     </message>
