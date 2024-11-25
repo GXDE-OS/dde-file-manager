@@ -41,7 +41,7 @@ QListWidget#ListWidget::icon{
 }
 
 QFrame#LeftSideBar{
-    background-color: #252525;
+    background-color: #67252525;
     border: 0px solid transparent;
 }
 
@@ -61,7 +61,7 @@ QFrame#LeftSideDiskBar{
 }
 
 FileDialogStatusBar {
-    background-color: #f9f9fa;
+    background-color: #67f9f9fa;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 

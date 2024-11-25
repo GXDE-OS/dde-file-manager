@@ -29,7 +29,7 @@
 #include "dfmglobal.h"
 #include "dfmabstracteventhandler.h"
 #include "shutil/filebatchprocess.h"
-
+#include "dfilemanagerwindowbackground.h"
 
 #include <DMainWindow>
 
@@ -101,6 +101,8 @@ public:
     void requestToSelectUrls();
     bool isAdvanceSearchBarVisible();
     void toggleAdvanceSearchBar(bool visible = true, bool resetForm = true);
+
+    void paintEvent(QPaintEvent *event);
 
 signals:
     void aboutToClose();
@@ -180,6 +182,8 @@ private:
 
     QScopedPointer<DFileManagerWindowPrivate> d_ptr;
     Q_DECLARE_PRIVATE_D(qGetPtrHelper(d_ptr), DFileManagerWindow)
+
+    DFileManagerWindowBackground *m_backgroundManager;
 
     void refreshBackgroundPicture();
 

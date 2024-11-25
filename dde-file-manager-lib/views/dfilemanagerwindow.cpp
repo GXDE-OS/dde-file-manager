@@ -446,6 +446,7 @@ DFileManagerWindow::DFileManagerWindow(QWidget *parent)
 DFileManagerWindow::DFileManagerWindow(const DUrl &fileUrl, QWidget *parent)
     : DMainWindow(parent)
     , d_ptr(new DFileManagerWindowPrivate(this))
+    , m_backgroundManager(new DFileManagerWindowBackground(this))
 {
     if (!DFMGlobal::IsFileManagerDiloagProcess) {
         const QString &currentTheme = DFMApplication::appAttribute(DFMApplication::AA_ThemeName).toString();
@@ -474,6 +475,7 @@ DFileManagerWindow::DFileManagerWindow(const DUrl &fileUrl, QWidget *parent)
 DFileManagerWindow::~DFileManagerWindow()
 {
     m_currentTab = nullptr;
+    delete m_backgroundManager;
 }
 
 void DFileManagerWindow::onRequestCloseTab(const int index, const bool &remainState)
@@ -1201,10 +1203,7 @@ void DFileManagerWindow::setTheme(const QString &theme)
 
 void DFileManagerWindow::refreshBackgroundPicture()
 {
-    QString theme = DThemeManager::instance()->theme(this);
-    this->setStyleSheet(this->styleSheet() + " QFrame#CentralWidget{"
-                        "background: url(" + QDir::homePath() + "/.config/GXDE/dde-file-manager/background-" + theme + ".png) no-repeat;" +
-                        "background-position: right bottom;}");
+    m_backgroundManager->refresh();
 }
 
 void DFileManagerWindow::onThemeChanged()
@@ -1291,4 +1290,17 @@ void DFileManagerWindow::toggleAdvanceSearchBar(bool visible, bool resetForm)
     if (d->advanceSearchBar && resetForm) {
         d->advanceSearchBar->resetForm();
     }
+}
+
+void DFileManagerWindow::paintEvent(QPaintEvent *event)
+{
+    DMainWindow::paintEvent(event);
+    QString theme = DThemeManager::instance()->theme(this);
+    QPainter painter;
+    painter.begin(this);
+
+    // 绘制背景图片
+    m_backgroundManager->drawInWidget(&painter);
+
+    painter.end();
 }
