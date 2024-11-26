@@ -1,6 +1,6 @@
 DStatusBar {
-    color: "#797979";
-    background-color: white;
+    color: "#67797979";
+    background-color: "#67ffffff";
 }
 
 DStatusBar QLabel {

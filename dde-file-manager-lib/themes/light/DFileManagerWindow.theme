@@ -501,7 +501,7 @@ QScrollArea#ComputerView #LineLabel {
 }
 
 QScrollArea#ComputerView #DiskSize {
-    color: #a2a2a2;
+    color: #67a2a2a2;
 }
 
 /*TabBar*/
