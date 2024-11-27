@@ -2,6 +2,7 @@
 #include <QFile>
 #include <DThemeManager>
 #include <QDebug>
+#include <QDir>
 
 DWIDGET_USE_NAMESPACE
 
