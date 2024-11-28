@@ -88,7 +88,6 @@
 DWIDGET_USE_NAMESPACE
 
 const QColor DARK_TOP_BORDERCOLOR = QColor(255, 255, 255, 13);
-const QColor LIGHT_TOP_BORDERCOLOR = QColor(0, 0, 0, 13);
 
 std::unique_ptr<RecordRenameBarState>  DFileManagerWindow::renameBarState{ nullptr };
 std::atomic<bool> DFileManagerWindow::flagForNewWindowFromTab{ false };
@@ -949,11 +948,6 @@ void DFileManagerWindow::initTitleBar()
             set_theme_action->setChecked(true);
             QPalette palette;
             palette.setColor(QPalette::Window, DARK_TOP_BORDERCOLOR);
-            d->toolbar->setPalette(palette);
-        }
-        else {
-            QPalette palette;
-            palette.setColor(QPalette::Window, LIGHT_TOP_BORDERCOLOR);
             d->toolbar->setPalette(palette);
         }
         connect(set_theme_action, &QAction::triggered, this, &DFileManagerWindow::onThemeChanged);

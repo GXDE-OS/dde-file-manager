@@ -458,7 +458,7 @@ QScrollArea#ComputerView{
 }
 
 QScrollArea#ComputerView #TitleLabel {
-    color: #67bdbdbd;
+    color: #bdbdbd;
 }
 
 QScrollArea#ComputerView #LineLabel {
@@ -466,11 +466,11 @@ QScrollArea#ComputerView #LineLabel {
 }
 
 QScrollArea#ComputerView #DiskSize {
-    color: #67616161;
+    color: #616161;
 }
 
 QScrollArea#ComputerView ComputerViewItem QTextEdit {
-    color: #67bdbdbd;
+    color: #bdbdbd;
 }
 
 /*TabBar*/

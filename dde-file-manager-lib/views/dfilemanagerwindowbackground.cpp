@@ -14,8 +14,6 @@ DFileManagerWindowBackground::DFileManagerWindowBackground(DMainWindow *window)
 
 void DFileManagerWindowBackground::drawInWidget(QPainter *painter)
 {
-    QString theme = DThemeManager::instance()->theme(m_dmainWindow);
-
     QList<BackgroundPlace> list = {
         BackgroundPlace::FullWindow,
         BackgroundPlace::Center,
@@ -32,27 +30,9 @@ void DFileManagerWindowBackground::drawInWidget(QPainter *painter)
         QList<int> xy = getImageXY(DFileManagerWindowBackground::BackgroundPlace(i));
         int x = xy[0];
         int y = xy[1];
+        qDebug() << i << x << y;
         painter->drawImage(x, y, getImage(DFileManagerWindowBackground::BackgroundPlace(i)));
     }
-    //// 绘制半透明图层
-    // 备份原来的 QPen 和 QBrush
-    QPen oldPen = painter->pen();
-    QBrush oldBrush = painter->brush();
-    if (theme == "dark") {
-        painter->setPen(QPen(QColor("#99252525")));
-        painter->setBrush(QBrush(QColor("#99252525")));
-    }
-    else {
-        painter->setPen(QPen(QColor("#99ffffff")));
-        painter->setBrush(QBrush(QColor("#99ffffff")));
-    }
-    int windowWidth = m_dmainWindow->size().width();
-    int windowHeight = m_dmainWindow->size().height();
-    painter->drawRect(0, 0, windowWidth, windowHeight);
-    // 还原原来的 QPen 和 QBrush
-    painter->setPen(oldPen);
-    painter->setBrush(oldBrush);
-
 }
 
 void DFileManagerWindowBackground::setMainWindow(DMainWindow *window)
