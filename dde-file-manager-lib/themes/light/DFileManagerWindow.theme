@@ -486,6 +486,10 @@ QLineEdit#BookmarkLineEdit{
 
 /*ComputerView*/
 
+QFrame#ComputerViewFrame {
+    background: transparent;
+}
+
 QScrollArea#ComputerView{
     border: none;
     /*background-color: white;*/
@@ -501,7 +505,7 @@ QScrollArea#ComputerView #LineLabel {
 }
 
 QScrollArea#ComputerView #DiskSize {
-    color: #67a2a2a2;
+    color: #a2a2a2;
 }
 
 /*TabBar*/
@@ -513,7 +517,7 @@ TabBar#TabBar{
 TabBar>Tab#Tab{
     border-right: 1px solid rgba(0,0,0,30);
     border-bottom: 1px solid rgba(0,0,0,30);
-    background-color: #fafafa;
+    background-color: #67fafafa;
     color: #949494;
     border-radius: 0px;
     font-size: 12px;
@@ -522,7 +526,7 @@ TabBar>Tab#Tab{
 TabBar>Tab#Tab:selected {
     border-right: 1px solid rgba(0,0,0,30);
     border-bottom: 1px solid rgba(0,0,0,30);
-    background-color: #ffffff;
+    background-color: #67ffffff;
     color: #303030;
     border-radius: 0px;
     font-size: 12px;
@@ -530,7 +534,7 @@ TabBar>Tab#Tab:selected {
 TabBar>Tab#Tab:hover {
     border-right: 1px solid rgba(0,0,0,30);
     border-bottom: 1px solid rgba(0,0,0,30);
-    background-color: #ededed;
+    background-color: #67ededed;
     color: #303030;
     border-radius: 0px;
     font-size: 12px;

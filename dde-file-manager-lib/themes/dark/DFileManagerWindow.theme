@@ -3,7 +3,7 @@
 /***********************************************************/
 QMainWindow{
     /*background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:1, fx:0.5, fy:0.5, stop:0 rgba(119, 255, 255, 255), stop:1 rgba(32, 127, 155, 255));*/
-    background-color: #202020;
+    background-color: #67202020;
 }
 
 
@@ -451,14 +451,18 @@ QPushButton#close:hover{
 
 /*ComputerView*/
 
+QFrame#ComputerViewFrame {
+    background: transparent;
+}
+
 QScrollArea#ComputerView{
     border: none;
     background-color: transparent;
-    /*background-color: white;*/
+    background: transparent;
 }
 
 QScrollArea#ComputerView #TitleLabel {
-    color: #67bdbdbd;
+    color: #bdbdbd;
 }
 
 QScrollArea#ComputerView #LineLabel {
@@ -466,11 +470,11 @@ QScrollArea#ComputerView #LineLabel {
 }
 
 QScrollArea#ComputerView #DiskSize {
-    color: #67616161;
+    color: #c8c8c8;
 }
 
 QScrollArea#ComputerView ComputerViewItem QTextEdit {
-    color: #67bdbdbd;
+    color: #bdbdbd;
 }
 
 /*TabBar*/
@@ -482,7 +486,7 @@ TabBar#TabBar{
 TabBar>Tab#Tab{
     border-right: 1px solid rgba(0,0,0,30);
     border-bottom: 1px solid rgba(0,0,0,30);
-    background-color: #fafafa;
+    background-color: #67fafafa;
     color: #949494;
     border-radius: 0px;
     font-size: 12px;
@@ -491,7 +495,7 @@ TabBar>Tab#Tab{
 TabBar>Tab#Tab:selected {
     border-right: 1px solid rgba(0,0,0,30);
     border-bottom: 1px solid rgba(0,0,0,30);
-    background-color: #ffffff;
+    background-color: #67ffffff;
     color: #303030;
     border-radius: 0px;
     font-size: 12px;
@@ -499,7 +503,7 @@ TabBar>Tab#Tab:selected {
 TabBar>Tab#Tab:hover {
     border-right: 1px solid rgba(0,0,0,30);
     border-bottom: 1px solid rgba(0,0,0,30);
-    background-color: #ededed;
+    background-color: #67ededed;
     color: #303030;
     border-radius: 0px;
     font-size: 12px;

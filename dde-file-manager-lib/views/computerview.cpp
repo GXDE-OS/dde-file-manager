@@ -568,6 +568,8 @@ void ComputerView::initUI()
 
     QFrame *contentFrame = new QFrame(this);
 
+    contentFrame->setObjectName("ComputerViewFrame");
+
     m_systemTitleLine = new TitleLine(tr("My Directories"), this);
     m_systemFlowLayout = new DFlowLayout();
     m_systemFlowLayout->setContentsMargins(20, 20, 20, 20);

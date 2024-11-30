@@ -54,10 +54,10 @@ HEADERS  += \
 RESOURCES += \
     theme/theme.qrc
 
-!system(deepin-policy-ts-convert policy2ts pkexec/com.deepin.pkexec.usb-device-formatter.policy.tmp translations/policy): message("Failed policy to ts")
-!system(deepin-policy-ts-convert ts2policy pkexec/com.deepin.pkexec.usb-device-formatter.policy.tmp translations/policy pkexec/com.deepin.pkexec.usb-device-formatter.policy) {
-    system(cp pkexec/com.deepin.pkexec.usb-device-formatter.policy.tmp pkexec/com.deepin.pkexec.usb-device-formatter.policy)
-}
+#!system(deepin-policy-ts-convert policy2ts pkexec/com.deepin.pkexec.usb-device-formatter.policy.tmp translations/policy): message("Failed policy to ts")
+#!system(deepin-policy-ts-convert ts2policy pkexec/com.deepin.pkexec.usb-device-formatter.policy.tmp translations/policy pkexec/com.deepin.pkexec.usb-device-formatter.policy) {
+#    system(cp pkexec/com.deepin.pkexec.usb-device-formatter.policy.tmp pkexec/com.deepin.pkexec.usb-device-formatter.policy)
+#}
 
 
 # Automating generation .qm files from .ts files
