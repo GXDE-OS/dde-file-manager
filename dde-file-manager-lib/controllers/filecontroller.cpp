@@ -391,17 +391,17 @@ bool FileController::openFileByApp(const QSharedPointer<DFMOpenFileByAppEvent> &
 
 bool FileController::compressFiles(const QSharedPointer<DFMCompressEvent> &event) const
 {
-    if (findExecutable("file-roller")) {
+    if (findExecutable("gxde-compressor")) {
         QStringList args;
         args << "-d";
         foreach (DUrl url, event->urlList()) {
             args << url.toLocalFile();
         }
         qDebug() << args;
-        bool result = QProcess::startDetached("file-roller", args);
+        bool result = QProcess::startDetached("gxde-compressor", args);
         return result;
     } else {
-        qDebug() << "file-roller is not installed";
+        qDebug() << "gxde-compressor is not installed";
     }
 
     return false;
@@ -409,17 +409,17 @@ bool FileController::compressFiles(const QSharedPointer<DFMCompressEvent> &event
 
 bool FileController::decompressFile(const QSharedPointer<DFMDecompressEvent> &event) const
 {
-    if (findExecutable("file-roller")) {
+    if (findExecutable("gxde-compressor")) {
         QStringList args;
         args << "-f";
         for (auto it : event->urlList()) {
             args << it.toLocalFile();
         }
         qDebug() << args;
-        bool result = QProcess::startDetached("file-roller", args);
+        bool result = QProcess::startDetached("gxde-compressor", args);
         return result;
     } else {
-        qDebug() << "file-roller is not installed";
+        qDebug() << "gxde-compressor is not installed";
     }
 
     return false;
@@ -427,17 +427,17 @@ bool FileController::decompressFile(const QSharedPointer<DFMDecompressEvent> &ev
 
 bool FileController::decompressFileHere(const QSharedPointer<DFMDecompressEvent> &event) const
 {
-    if (findExecutable("file-roller")) {
+    if (findExecutable("gxde-compressor")) {
         QStringList args;
         args << "-h";
         for (auto it : event->urlList()) {
             args << it.toLocalFile();
         }
         qDebug() << args;
-        bool result = QProcess::startDetached("file-roller", args);
+        bool result = QProcess::startDetached("gxde-compressor", args);
         return result;
     } else {
-        qDebug() << "file-roller is not installed";
+        qDebug() << "gxde-compressor is not installed";
     }
 
     return false;
