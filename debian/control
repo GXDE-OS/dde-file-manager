@@ -64,7 +64,8 @@ Depends:
  libdtkwidget2,
  libdtkcore2, 
  libdisomaster,
- libisoburn1
+ libisoburn1,
+ gxde-compressor,
 Recommends: dde-qt5integration, avfs, samba
 Description: File manager front end
  File manager front-end of Deepin OS
