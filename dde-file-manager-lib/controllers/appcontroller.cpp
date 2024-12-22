@@ -379,6 +379,10 @@ void AppController::actionSetFMBackground(quint64 winId)
     }
     QString lightBackgroundPath = QDir::homePath() + "/.config/GXDE/dde-file-manager/background-light-FullWindow.png";
     QString darkBackgroundPath = QDir::homePath() + "/.config/GXDE/dde-file-manager/background-dark-FullWindow.png";
+    QDir dir(QDir::homePath() + "/.config/GXDE/dde-file-manager/");
+    if (!dir.exists()) {
+        dir.mkpath(QDir::homePath() + "/.config/GXDE/dde-file-manager/");
+    }
     if (QFile::exists(lightBackgroundPath)) {
         QFile::remove(lightBackgroundPath);
     }
