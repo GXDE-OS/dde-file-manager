@@ -211,6 +211,7 @@ public:
         UnShare,
         SetUserSharePassword,
         FormatDevice,
+        SetFMBackground,
 
         ///###: tag protocol.
         TagInfo,

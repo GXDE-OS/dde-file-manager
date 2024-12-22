@@ -38,6 +38,8 @@ public:
 private:
     QList<QImage> m_imageVar;
     DMainWindow *m_dmainWindow;
+    bool m_showFMLogo = true;
+    QImage m_fmLogo;
     /*QImage m_topLeft_image;
     QImage m_topCenter_image;
     QImage m_topRight_image;

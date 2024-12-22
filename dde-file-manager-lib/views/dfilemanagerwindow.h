@@ -102,6 +102,8 @@ public:
     bool isAdvanceSearchBarVisible();
     void toggleAdvanceSearchBar(bool visible = true, bool resetForm = true);
 
+    void refreshBackgroundPicture();
+
     void paintEvent(QPaintEvent *event);
 
 signals:
@@ -183,9 +185,7 @@ private:
     QScopedPointer<DFileManagerWindowPrivate> d_ptr;
     Q_DECLARE_PRIVATE_D(qGetPtrHelper(d_ptr), DFileManagerWindow)
 
-    DFileManagerWindowBackground *m_backgroundManager;
-
-    void refreshBackgroundPicture();
+    DFileManagerWindowBackground *m_backgroundManager;    
 
 public:
     static std::unique_ptr<RecordRenameBarState>  renameBarState;//###: record pattern of RenameBar and the string of QLineEdit's content.

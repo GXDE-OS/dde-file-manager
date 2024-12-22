@@ -102,6 +102,7 @@ void WindowManager::initConnect()
 {
     connect(fileSignalManager, &FileSignalManager::requestOpenNewWindowByUrl, this, &WindowManager::showNewWindow);
     connect(fileSignalManager, &FileSignalManager::aboutToCloseLastActivedWindow, this, &WindowManager::onLastActivedWindowClosed);
+    connect(fileSignalManager, &FileSignalManager::requestChangeFMBackground, this, &WindowManager::onChangeFMBackground);
 
 #ifdef AUTO_RESTART_DEAMON
     connect(m_restartProcessTimer, &QTimer::timeout, this, &WindowManager::reastartAppProcess);
@@ -290,6 +291,14 @@ void WindowManager::onWindowClosed()
         dialogManager->closeAllPropertyDialog();
     }
     m_windows.remove(static_cast<const QWidget*>(sender()));
+}
+
+void WindowManager::onChangeFMBackground(quint64 winId)
+{
+    DFileManagerWindow* window = qobject_cast<DFileManagerWindow*>(getWindowById(winId));
+    if (window) {
+        window->refreshBackgroundPicture();
+    }
 }
 
 void WindowManager::onLastActivedWindowClosed(quint64 winId)

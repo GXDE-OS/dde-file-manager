@@ -93,6 +93,9 @@ signals:
     /* view select all */
     void requestViewSelectAll(int windowId);
 
+    /* set file manager background */
+    void requestChangeFMBackground(int windowId);
+
     /*requst open new window by given url*/
     void requestOpenNewWindowByUrl(const DUrl& url, bool isAlwaysOpen);
 

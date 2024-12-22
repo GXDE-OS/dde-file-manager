@@ -1210,6 +1210,7 @@ void DFileManagerWindow::setTheme(const QString &theme)
 void DFileManagerWindow::refreshBackgroundPicture()
 {
     m_backgroundManager->refresh();
+    update();
 }
 
 void DFileManagerWindow::onThemeChanged()

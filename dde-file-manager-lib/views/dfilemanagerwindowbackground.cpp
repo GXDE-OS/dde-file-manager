@@ -34,6 +34,16 @@ void DFileManagerWindowBackground::drawInWidget(QPainter *painter)
         int y = xy[1];
         painter->drawImage(x, y, getImage(DFileManagerWindowBackground::BackgroundPlace(i)));
     }
+    if (m_showFMLogo) {
+        auto oldMode = painter->compositionMode();
+        // 设置半透明
+        auto oldOpacity = painter->opacity();
+        painter->setOpacity(0.5);
+        painter->drawImage(m_dmainWindow->width() - m_fmLogo.width(),
+                           m_dmainWindow->height() - m_fmLogo.height(),
+                           m_fmLogo);
+        painter->setOpacity(oldOpacity);
+    }
     //// 绘制半透明图层
     // 备份原来的 QPen 和 QBrush
     QPen oldPen = painter->pen();
@@ -143,7 +153,15 @@ void DFileManagerWindowBackground::refresh()
         QImage image;
         if (QFile::exists(imagePath[i])) {
             image.load(imagePath[i]);
+            if (i == 8) {
+                // 如果已经设置了右下角 logo,则不重复显示
+                m_showFMLogo = false;
+            }
         }
         m_imageVar.append(image);
     }
+    // 读取默认 logo
+    m_fmLogo = QImage(":/images/images/fm-logo.png");
+
+
 }

@@ -70,6 +70,7 @@ public slots:
 private slots:
     void onWindowClosed();
     void onLastActivedWindowClosed(quint64 winId);
+    void onChangeFMBackground(quint64 winId);
 
 protected:
     explicit WindowManager(QObject *parent = 0);

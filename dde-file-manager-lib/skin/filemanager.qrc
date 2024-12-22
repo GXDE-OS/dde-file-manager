@@ -107,6 +107,7 @@
         <file>images/light/select.png</file>
         <file>images/light/space16.png</file>
         <file>images/light/select@2x.png</file>
+        <file>images/fm-logo.png</file>
     </qresource>
     <qresource prefix="/icons">
         <file>images/icons/desktop_checked_16px.svg</file>

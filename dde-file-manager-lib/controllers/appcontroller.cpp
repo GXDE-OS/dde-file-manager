@@ -93,6 +93,8 @@
 #include "ddiskdevice.h"
 #include "ddiskmanager.h"
 
+#include <QFileDialog>
+
 #ifdef SW_LABEL
 #include "sw_label/filemanagerlibrary.h"
 #endif
@@ -366,6 +368,27 @@ void AppController::actionNewFolder(const QSharedPointer<DFMUrlBaseEvent> &event
 void AppController::actionSelectAll(quint64 winId)
 {
     emit fileSignalManager->requestViewSelectAll(winId);
+}
+
+void AppController::actionSetFMBackground(quint64 winId)
+{
+    // 请求
+    auto fileName = QFileDialog::getOpenFileName(NULL, "", QDir::homePath(), "图像文件 (*.jpg);;所有文件 (*.*)");
+    if (fileName == NULL || fileName == "") {
+        return;
+    }
+    QString lightBackgroundPath = QDir::homePath() + "/.config/GXDE/dde-file-manager/background-light-FullWindow.png";
+    QString darkBackgroundPath = QDir::homePath() + "/.config/GXDE/dde-file-manager/background-dark-FullWindow.png";
+    if (QFile::exists(lightBackgroundPath)) {
+        QFile::remove(lightBackgroundPath);
+    }
+    if (QFile::exists(darkBackgroundPath)) {
+        QFile::remove(darkBackgroundPath);
+    }
+    QFile::copy(fileName, lightBackgroundPath);
+    QFile::copy(fileName, darkBackgroundPath);
+
+    emit fileSignalManager->requestChangeFMBackground(winId);
 }
 
 void AppController::actionClearRecent(const QSharedPointer<DFMMenuActionEvent> &event)
