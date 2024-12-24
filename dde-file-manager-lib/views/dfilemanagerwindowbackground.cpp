@@ -3,11 +3,17 @@
 #include <DThemeManager>
 #include <QDebug>
 #include <QDir>
+#include "ddialog.h"
 
 DWIDGET_USE_NAMESPACE
 
 DFileManagerWindowBackground::DFileManagerWindowBackground(DMainWindow *window)
 {
+    /*m_imageTranslateList = {QObject::tr("TopLeft"), QObject::tr("TopCenter"), QObject::tr("TopRight"),
+                               QObject::tr("CenterLeft"), QObject::tr("Center"), QObject::tr("CenterRight"),
+                               QObject::tr("BottomLeft"), QObject::tr("BottomCenter"), QObject::tr("BottomRight"),
+                                // 特殊的一类
+                               QObject::tr("FullWindow")};*/
     setMainWindow(window);
     refresh();
 }
@@ -70,11 +76,17 @@ void DFileManagerWindowBackground::setMainWindow(DMainWindow *window)
     m_dmainWindow = window;
 }
 
+void DFileManagerWindowBackground::resizeImage()
+{
+    m_backgroundResized = m_imageVar[BackgroundPlace::FullWindow].scaled(m_dmainWindow->size(), Qt::KeepAspectRatioByExpanding, Qt::SmoothTransformation);
+}
+
 QImage DFileManagerWindowBackground::getImage(BackgroundPlace place)
 {
     if (place == BackgroundPlace::FullWindow) {
         // 拉伸图片
-        return m_imageVar[place].scaled(m_dmainWindow->size(), Qt::KeepAspectRatioByExpanding, Qt::SmoothTransformation);
+        return m_backgroundResized;
+        //return m_imageVar[place].scaled(m_dmainWindow->size(), Qt::KeepAspectRatioByExpanding, Qt::SmoothTransformation);
     }
     return m_imageVar[place];
 }
@@ -135,11 +147,7 @@ void DFileManagerWindowBackground::refresh()
 {
     QString theme = DThemeManager::instance()->theme(m_dmainWindow);
 
-    QStringList imageName = {"TopLeft", "TopCenter", "TopRight",
-                            "CenterLeft", "Center", "CenterRight",
-                            "BottomLeft", "BottomCenter", "BottomRight",
-                             // 特殊的一类
-                            "FullWindow"};
+    QStringList imageName = m_imageList;
     QStringList imagePath = {};
     // 清空列表
     m_imageVar.clear();
@@ -160,6 +168,7 @@ void DFileManagerWindowBackground::refresh()
         }
         m_imageVar.append(image);
     }
+    resizeImage();
     // 读取默认 logo
     //m_fmLogo = QImage(":/images/images/fm-logo.png");
 

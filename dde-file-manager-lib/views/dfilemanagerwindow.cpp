@@ -842,6 +842,7 @@ void DFileManagerWindow::resizeEvent(QResizeEvent *event)
 {
     Q_D(DFileManagerWindow);
     DMainWindow::resizeEvent(event);
+    m_backgroundManager->resizeImage();
     d->titleFrame->setFixedSize(event->size().width() - titlebar()->buttonAreaWidth(), TITLE_FIXED_HEIGHT);
 }
 

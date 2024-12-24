@@ -24,9 +24,20 @@ public:
         // 特殊的一类
         FullWindow = 9
     };
+    QStringList m_imageList = {"TopLeft", "TopCenter", "TopRight",
+                            "CenterLeft", "Center", "CenterRight",
+                            "BottomLeft", "BottomCenter", "BottomRight",
+                             // 特殊的一类
+                            "FullWindow"};
+    QStringList m_imageTranslateList = {"TopLeft", "TopCenter", "TopRight",
+                                        "CenterLeft", "Center", "CenterRight",
+                                        "BottomLeft", "BottomCenter", "BottomRight",
+                                         // 特殊的一类
+                                        "FullWindow"};
 
     DFileManagerWindowBackground(DMainWindow *window);
     void refresh();
+    void resizeImage();
     void setMainWindow(DMainWindow *window);
 
     QImage getImage(BackgroundPlace place);
@@ -40,6 +51,7 @@ private:
     DMainWindow *m_dmainWindow;
     bool m_showFMLogo = true;
     QImage m_fmLogo;
+    QImage m_backgroundResized;
     /*QImage m_topLeft_image;
     QImage m_topCenter_image;
     QImage m_topRight_image;
