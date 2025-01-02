@@ -373,7 +373,7 @@ void AppController::actionSelectAll(quint64 winId)
 void AppController::actionSetFMBackground(quint64 winId)
 {
     // 请求
-    auto fileName = QFileDialog::getOpenFileName(NULL, "", QDir::homePath(), "图像文件 (*.jpg);;所有文件 (*.*)");
+    auto fileName = QFileDialog::getOpenFileName(NULL, "", QDir::homePath(), "图像文件 (*.jpg *.png *.svg *.bmp *.jpeg *.gif);;所有文件 (*.*)");
     if (fileName == NULL || fileName == "") {
         return;
     }

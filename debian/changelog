@@ -1,4 +1,4 @@
-dde-file-manager (4.8.31) UNRELEASED; urgency=medium
+dde-file-manager (4.8.32.1) UNRELEASED; urgency=medium
 
   [ shenmo ]
   * 去除桌面右键全选功能
@@ -20,7 +20,7 @@ dde-file-manager (4.8.31) UNRELEASED; urgency=medium
   * 修复热区无法正常关闭窗口的问题(bump version to -1 to push fix)
   * 支持设置背景
 
- -- gfdgd_xi <3025613752@qq.com>  Fri, 27 Dec 2024 23:08:35 +0800
+ -- gfdgd_xi <3025613752@qq.com>  Thu, 02 Jan 2025 22:38:27 +0800
 
 dde-file-manager (4.8.20) UNRELEASED; urgency=medium
 

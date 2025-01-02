@@ -36,7 +36,7 @@ void DFMBackgroundSettingDialog::setBackgroundButtonClick()
     }
     // 获取位置
     QString place = m_backgroundManager.m_imageList.at(buttonIndex);
-    QString filePath = QFileDialog::getOpenFileName(this, "", QDir::homePath(), "图像文件 (*.jpg);;所有文件 (*.*)");
+    QString filePath = QFileDialog::getOpenFileName(this, "", QDir::homePath(), "图像文件 (*.jpg *.png *.svg *.bmp *.jpeg *.gif);;所有文件 (*.*)");
     if (filePath == NULL || filePath == "") {
         return;
     }
