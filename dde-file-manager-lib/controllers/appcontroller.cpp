@@ -370,6 +370,19 @@ void AppController::actionSelectAll(quint64 winId)
     emit fileSignalManager->requestViewSelectAll(winId);
 }
 
+void AppController::actionRemoveFMBackground(quint64 winId)
+{
+    QString lightBackgroundPath = QDir::homePath() + "/.config/GXDE/dde-file-manager/background-light-FullWindow.png";
+    QString darkBackgroundPath = QDir::homePath() + "/.config/GXDE/dde-file-manager/background-dark-FullWindow.png";
+    if (QFile::exists(lightBackgroundPath)) {
+        QFile::remove(lightBackgroundPath);
+    }
+    if (QFile::exists(darkBackgroundPath)) {
+        QFile::remove(darkBackgroundPath);
+    }
+    emit fileSignalManager->requestChangeFMBackground(winId);
+}
+
 void AppController::actionSetFMBackground(quint64 winId)
 {
     // 请求

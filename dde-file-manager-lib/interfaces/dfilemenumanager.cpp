@@ -144,6 +144,7 @@ DFileMenu *DFileMenuManager::createToolBarSettingsMenu(const QSet<MenuAction> &d
                << MenuAction::ToggleTheme
                << MenuAction::Separator
                << MenuAction::SetFMBackground
+               << MenuAction::RemoveFMBackground
                << MenuAction::SetUserSharePassword
                << MenuAction::Settings;
 
@@ -937,6 +938,7 @@ void DFileMenuData::initData()
     actionKeys[MenuAction::SetUserSharePassword] = QObject::tr("Set share password");
     actionKeys[MenuAction::FormatDevice] = QObject::tr("Format");
     actionKeys[MenuAction::SetFMBackground] = QObject::tr("Set file manager background");
+    actionKeys[MenuAction::RemoveFMBackground] = QObject::tr("Remove file manager background");
 
     ///###: tag protocol.
     actionKeys[MenuAction::TagInfo] = QObject::tr("Tag information");

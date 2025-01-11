@@ -321,6 +321,9 @@ static bool processMenuEvent(const QSharedPointer<DFMMenuActionEvent> &event)
     case DFMGlobal::SetFMBackground:
         AppController::instance()->actionSetFMBackground(event->windowId());
         break;
+    case DFMGlobal::RemoveFMBackground:
+        AppController::instance()->actionRemoveFMBackground(event->windowId());
+        break;
     case DFMGlobal::RemoveFromRecent:
         if (event->urlList().first().isRecentFile()) {
             DFileService::instance()->deleteFiles(event->sender(), event->urlList(), false, true);

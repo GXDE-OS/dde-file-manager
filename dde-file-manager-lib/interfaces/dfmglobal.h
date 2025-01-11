@@ -212,6 +212,7 @@ public:
         SetUserSharePassword,
         FormatDevice,
         SetFMBackground,
+        RemoveFMBackground,
 
         ///###: tag protocol.
         TagInfo,
