@@ -366,7 +366,7 @@
 <context>
     <name>DFileManagerWindow</name>
     <message>
-        <location filename="../views/dfilemanagerwindow.cpp" line="947"/>
+        <location filename="../views/dfilemanagerwindow.cpp" line="948"/>
         <source>Dark theme</source>
         <translation>ダークテーマ</translation>
     </message>
@@ -402,7 +402,7 @@
         <translation>作成日時</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="922"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="923"/>
         <location filename="../interfaces/dfilesystemmodel.cpp" line="1387"/>
         <source>Last access</source>
         <translation>最後のアクセス</translation>
@@ -1779,7 +1779,7 @@
     <name>QObject</name>
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="870"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="918"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="919"/>
         <source>Size</source>
         <translation>サイズ</translation>
     </message>
@@ -1792,7 +1792,7 @@
     </message>
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="871"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="919"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="920"/>
         <source>Type</source>
         <translation>種類</translation>
     </message>
@@ -1803,7 +1803,7 @@
     </message>
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="873"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="921"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="922"/>
         <source>Time modified</source>
         <translation>更新時間</translation>
     </message>
@@ -1883,8 +1883,8 @@
     <message>
         <location filename="../dialogs/filepreviewdialog.cpp" line="77"/>
         <location filename="../dialogs/previewdialog.cpp" line="157"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="869"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="872"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="870"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="873"/>
         <source>Open</source>
         <translation>開く</translation>
     </message>
@@ -1910,8 +1910,8 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="870"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="873"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="871"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="874"/>
         <location filename="../interfaces/dfmcrumbitem.cpp" line="134"/>
         <location filename="../interfaces/dfmsidebaritem.cpp" line="505"/>
         <location filename="../views/dfmsidebarbookmarkitem.cpp" line="78"/>
@@ -1927,8 +1927,8 @@
         <translation>新しいウインドウで開く</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="871"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="874"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="872"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="875"/>
         <location filename="../interfaces/dfmcrumbitem.cpp" line="138"/>
         <location filename="../interfaces/dfmsidebaritem.cpp" line="509"/>
         <location filename="../views/dfmsidebarbookmarkitem.cpp" line="82"/>
@@ -1944,45 +1944,45 @@
         <translation>新しいタブで開く</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="876"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="877"/>
         <source>Open with</source>
         <translation>他のアプリケーションで開く</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="879"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="880"/>
         <source>Compress</source>
         <translation>圧縮</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="880"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="881"/>
         <source>Extract</source>
         <translation>解凍</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="881"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="882"/>
         <source>Extract here</source>
         <translation>ここへ解凍</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="882"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="883"/>
         <source>Cut</source>
         <translation>カット</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="883"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="884"/>
         <source>Copy</source>
         <translation>コピー</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="884"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="885"/>
         <source>Paste</source>
         <translation>ペースト</translation>
     </message>
     <message>
         <location filename="../dialogs/ddesktoprenamedialog.cpp" line="383"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="885"/>
         <location filename="../interfaces/dfilemenumanager.cpp" line="886"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="946"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="887"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="948"/>
         <location filename="../views/dfmsidebarbookmarkitem.cpp" line="88"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="113"/>
         <location filename="../views/dfmsidebartagitem.cpp" line="60"/>
@@ -1991,34 +1991,34 @@
         <translation>名前を変更</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="916"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="917"/>
         <location filename="../views/dfmsidebarbookmarkitem.cpp" line="93"/>
         <location filename="../views/dfmsidebartagitem.cpp" line="65"/>
         <source>Remove</source>
         <translation>削除</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="888"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="889"/>
         <source>Create link</source>
         <translation>リンクの作成</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="889"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="890"/>
         <source>Send to desktop</source>
         <translation>デスクトップへ送る</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="890"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="891"/>
         <source>Send to</source>
         <translation>送る</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="891"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="892"/>
         <source>Add to bookmark</source>
         <translation>ブックマークへ追加</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="894"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="895"/>
         <location filename="../interfaces/dfmsidebaritem.cpp" line="513"/>
         <location filename="../views/dfmsidebarbookmarkitem.cpp" line="99"/>
         <location filename="../views/dfmsidebarhomeitem.cpp" line="73"/>
@@ -2027,154 +2027,159 @@
         <translation>プロパテイ</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="896"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="897"/>
         <source>New folder</source>
         <translation>新しいフォルダー</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="897"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="898"/>
         <source>New window</source>
         <translation>新しいウインドウ</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="898"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="899"/>
         <source>Select all</source>
         <translation>すべて選択</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="899"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="900"/>
         <location filename="../views/dfmsidebarrecentitem.cpp" line="65"/>
         <source>Clear recent history</source>
         <translation>最近の履歴を削除</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="900"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="901"/>
         <location filename="../views/dfmsidebartrashitem.cpp" line="59"/>
         <source>Empty Trash</source>
         <translation>ゴミ箱を空にする</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="901"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="902"/>
         <source>Display as</source>
         <translation>表示方法</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="902"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="903"/>
         <source>Sort by</source>
         <translation>並び方</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="903"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="904"/>
         <source>New document</source>
         <translation>新しいドキュメント</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="908"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="909"/>
         <source>Refresh</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="920"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="921"/>
         <source>Time created</source>
         <translation>作成時間</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="931"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="932"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="168"/>
         <source>Log out and unmount</source>
         <translation>ログアウトしてアンマウント</translation>
     </message>
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="874"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="933"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="934"/>
         <source>Source path</source>
         <translation>ソースのパス</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="935"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="936"/>
         <source>Share folder</source>
         <translation>共有フォルダ</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="936"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="937"/>
         <source>Cancel sharing</source>
         <translation>共有をやめる</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="937"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="938"/>
         <source>Set share password</source>
         <translation>共有パスワードを設定</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="938"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="939"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="154"/>
         <source>Format</source>
         <translation>フォーマット</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="939"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="940"/>
         <source>Set file manager background</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="942"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="941"/>
+        <source>Remove file manager background</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="944"/>
         <source>Tag information</source>
         <translation>タグ情報</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="875"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="876"/>
         <source>Open in new window as admin</source>
         <translation>新しいウインドウを管理者として開く</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="877"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="878"/>
         <source>Select default program</source>
         <translation>既定のプログラムを選択</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="878"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="879"/>
         <source>Open file location</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="887"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="888"/>
         <source>Remove bookmark</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="892"/>
         <location filename="../interfaces/dfilemenumanager.cpp" line="893"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="944"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="894"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="946"/>
         <source>Delete</source>
         <translation>削除</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="904"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="905"/>
         <source>Office Text</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="905"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="906"/>
         <source>Spreadsheets</source>
         <translation>スプレッドシート</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="907"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="908"/>
         <source>Plain Text</source>
         <translation>プレーンテキスト</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="909"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="910"/>
         <source>Open in terminal</source>
         <translation>ターミナルで開く</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="910"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="911"/>
         <source>Restore</source>
         <translation>元に戻す</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="911"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="912"/>
         <source>Restore all</source>
         <translation>すべて元に戻す</translation>
     </message>
@@ -2189,15 +2194,15 @@
         <translation>マウント後に開く</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="912"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="948"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="913"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="950"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="132"/>
         <location filename="../views/dfmsidebaropticaldevitem.cpp" line="95"/>
         <source>Mount</source>
         <translation>マウント</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="913"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="914"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="146"/>
         <location filename="../views/dfmsidebaropticaldevitem.cpp" line="103"/>
         <source>Unmount</source>
@@ -2205,7 +2210,7 @@
     </message>
     <message>
         <location filename="../dialogs/burnoptdialog.cpp" line="138"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="949"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="951"/>
         <location filename="../views/dfmopticalmediawidget.cpp" line="69"/>
         <source>Burn</source>
         <translation type="unfinished"></translation>
@@ -2238,58 +2243,58 @@
     </message>
     <message>
         <location filename="../dialogs/burnoptdialog.cpp" line="181"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="914"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="915"/>
         <source>Eject</source>
         <translation>取り出す</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="915"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="916"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="126"/>
         <source>Safely Remove</source>
         <translation>安全に取り出す</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="917"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="918"/>
         <source>Name</source>
         <translation>名前</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="923"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="924"/>
         <source>Settings</source>
         <translation>設定</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="924"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="925"/>
         <source>Help</source>
         <translation>ヘルプ</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="925"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="926"/>
         <source>About</source>
         <translation>情報</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="926"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="927"/>
         <source>Exit</source>
         <translation>終了</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="927"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="928"/>
         <source>Icon</source>
         <translation>アイコン</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="928"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="929"/>
         <source>List</source>
         <translation>リスト</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="929"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="930"/>
         <source>Extend</source>
         <translation>延長</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="930"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="931"/>
         <source>Set as wallpaper</source>
         <translation>壁紙に設定</translation>
     </message>
@@ -2358,12 +2363,12 @@
         <translation>シンボリックリンクの作成</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="934"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="935"/>
         <source>Path</source>
         <translation>パス</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="932"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="933"/>
         <location filename="../models/trashfileinfo.cpp" line="335"/>
         <location filename="../models/trashfileinfo.cpp" line="343"/>
         <source>Time deleted</source>
@@ -2416,23 +2421,23 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../controllers/appcontroller.cpp" line="415"/>
+        <location filename="../controllers/appcontroller.cpp" line="432"/>
         <source>Document</source>
         <translation>ドキュメント</translation>
     </message>
     <message>
-        <location filename="../controllers/appcontroller.cpp" line="422"/>
+        <location filename="../controllers/appcontroller.cpp" line="439"/>
         <source>Spreadsheet</source>
         <translation>スプレッドシート</translation>
     </message>
     <message>
-        <location filename="../controllers/appcontroller.cpp" line="429"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="906"/>
+        <location filename="../controllers/appcontroller.cpp" line="446"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="907"/>
         <source>Presentation</source>
         <translation>プレゼンテーション</translation>
     </message>
     <message>
-        <location filename="../controllers/appcontroller.cpp" line="436"/>
+        <location filename="../controllers/appcontroller.cpp" line="453"/>
         <source>Text</source>
         <translation>テキスト</translation>
     </message>

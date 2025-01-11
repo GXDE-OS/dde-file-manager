@@ -366,7 +366,7 @@
 <context>
     <name>DFileManagerWindow</name>
     <message>
-        <location filename="../views/dfilemanagerwindow.cpp" line="947"/>
+        <location filename="../views/dfilemanagerwindow.cpp" line="948"/>
         <source>Dark theme</source>
         <translation>Donker thema</translation>
     </message>
@@ -402,7 +402,7 @@
         <translation>Tijdstip gecreëerd</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="922"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="923"/>
         <location filename="../interfaces/dfilesystemmodel.cpp" line="1387"/>
         <source>Last access</source>
         <translation>Laatst benaderd</translation>
@@ -1779,7 +1779,7 @@
     <name>QObject</name>
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="870"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="918"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="919"/>
         <source>Size</source>
         <translation>Grootte</translation>
     </message>
@@ -1792,7 +1792,7 @@
     </message>
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="871"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="919"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="920"/>
         <source>Type</source>
         <translation>Type</translation>
     </message>
@@ -1803,7 +1803,7 @@
     </message>
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="873"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="921"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="922"/>
         <source>Time modified</source>
         <translation>Tijdstip wijziging</translation>
     </message>
@@ -1883,8 +1883,8 @@
     <message>
         <location filename="../dialogs/filepreviewdialog.cpp" line="77"/>
         <location filename="../dialogs/previewdialog.cpp" line="157"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="869"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="872"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="870"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="873"/>
         <source>Open</source>
         <translation>Openen</translation>
     </message>
@@ -1910,8 +1910,8 @@
         <translation>Items: %1</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="870"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="873"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="871"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="874"/>
         <location filename="../interfaces/dfmcrumbitem.cpp" line="134"/>
         <location filename="../interfaces/dfmsidebaritem.cpp" line="505"/>
         <location filename="../views/dfmsidebarbookmarkitem.cpp" line="78"/>
@@ -1927,8 +1927,8 @@
         <translation>Openen in nieuw venster</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="871"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="874"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="872"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="875"/>
         <location filename="../interfaces/dfmcrumbitem.cpp" line="138"/>
         <location filename="../interfaces/dfmsidebaritem.cpp" line="509"/>
         <location filename="../views/dfmsidebarbookmarkitem.cpp" line="82"/>
@@ -1944,45 +1944,45 @@
         <translation>Openen op nieuw tabblad</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="876"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="877"/>
         <source>Open with</source>
         <translation>Openen met</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="879"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="880"/>
         <source>Compress</source>
         <translation>Comprimeren</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="880"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="881"/>
         <source>Extract</source>
         <translation>Uitpakken</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="881"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="882"/>
         <source>Extract here</source>
         <translation>Hier uitpakken</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="882"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="883"/>
         <source>Cut</source>
         <translation>Knippen</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="883"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="884"/>
         <source>Copy</source>
         <translation>Kopiëren</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="884"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="885"/>
         <source>Paste</source>
         <translation>Plakken</translation>
     </message>
     <message>
         <location filename="../dialogs/ddesktoprenamedialog.cpp" line="383"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="885"/>
         <location filename="../interfaces/dfilemenumanager.cpp" line="886"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="946"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="887"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="948"/>
         <location filename="../views/dfmsidebarbookmarkitem.cpp" line="88"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="113"/>
         <location filename="../views/dfmsidebartagitem.cpp" line="60"/>
@@ -1991,34 +1991,34 @@
         <translation>Naam wijzigen</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="916"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="917"/>
         <location filename="../views/dfmsidebarbookmarkitem.cpp" line="93"/>
         <location filename="../views/dfmsidebartagitem.cpp" line="65"/>
         <source>Remove</source>
         <translation>Verwijderen</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="888"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="889"/>
         <source>Create link</source>
         <translation>Link creëren</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="889"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="890"/>
         <source>Send to desktop</source>
         <translation>Versturen naar bureaublad</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="890"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="891"/>
         <source>Send to</source>
         <translation>Versturen naar</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="891"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="892"/>
         <source>Add to bookmark</source>
         <translation>Toevoegen aan bladwijzers</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="894"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="895"/>
         <location filename="../interfaces/dfmsidebaritem.cpp" line="513"/>
         <location filename="../views/dfmsidebarbookmarkitem.cpp" line="99"/>
         <location filename="../views/dfmsidebarhomeitem.cpp" line="73"/>
@@ -2027,154 +2027,159 @@
         <translation>Eigenschappen</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="896"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="897"/>
         <source>New folder</source>
         <translation>Nieuwe map</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="897"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="898"/>
         <source>New window</source>
         <translation>Nieuw venster</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="898"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="899"/>
         <source>Select all</source>
         <translation>Alles selecteren</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="899"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="900"/>
         <location filename="../views/dfmsidebarrecentitem.cpp" line="65"/>
         <source>Clear recent history</source>
         <translation>Recente geschiedenis wissen</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="900"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="901"/>
         <location filename="../views/dfmsidebartrashitem.cpp" line="59"/>
         <source>Empty Trash</source>
         <translation>Prullenbak leegmaken</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="901"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="902"/>
         <source>Display as</source>
         <translation>Tonen als</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="902"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="903"/>
         <source>Sort by</source>
         <translation>Sorteren op</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="903"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="904"/>
         <source>New document</source>
         <translation>Nieuw document</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="908"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="909"/>
         <source>Refresh</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="920"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="921"/>
         <source>Time created</source>
         <translation>Tijdstip gecreëerd</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="931"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="932"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="168"/>
         <source>Log out and unmount</source>
         <translation>Uitloggen en afkoppelen</translation>
     </message>
     <message>
         <location filename="../dialogs/propertydialog.cpp" line="874"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="933"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="934"/>
         <source>Source path</source>
         <translation>Bronpad</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="935"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="936"/>
         <source>Share folder</source>
         <translation>Map delen</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="936"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="937"/>
         <source>Cancel sharing</source>
         <translation>Delen annuleren</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="937"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="938"/>
         <source>Set share password</source>
         <translation>Gedeeld wachtwoord instellen</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="938"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="939"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="154"/>
         <source>Format</source>
         <translation>Formatteren</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="939"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="940"/>
         <source>Set file manager background</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="942"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="941"/>
+        <source>Remove file manager background</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="944"/>
         <source>Tag information</source>
         <translation>Labelinformatie</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="875"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="876"/>
         <source>Open in new window as admin</source>
         <translation>Openen in nieuw venster als administrator</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="877"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="878"/>
         <source>Select default program</source>
         <translation>Selecteer standaardprogramma</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="878"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="879"/>
         <source>Open file location</source>
         <translation>Bestandslocatie openen</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="887"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="888"/>
         <source>Remove bookmark</source>
         <translation>Bladwijzer verwijderen</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="892"/>
         <location filename="../interfaces/dfilemenumanager.cpp" line="893"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="944"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="894"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="946"/>
         <source>Delete</source>
         <translation>Verwijderen</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="904"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="905"/>
         <source>Office Text</source>
         <translation>Tekstdocument</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="905"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="906"/>
         <source>Spreadsheets</source>
         <translation>Rekenbladen</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="907"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="908"/>
         <source>Plain Text</source>
         <translation>Platte tekst</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="909"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="910"/>
         <source>Open in terminal</source>
         <translation>Openen in terminalvenster</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="910"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="911"/>
         <source>Restore</source>
         <translation>Herstellen</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="911"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="912"/>
         <source>Restore all</source>
         <translation>Alles herstellen</translation>
     </message>
@@ -2189,15 +2194,15 @@
         <translation>Openen na automatisch aankoppelen</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="912"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="948"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="913"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="950"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="132"/>
         <location filename="../views/dfmsidebaropticaldevitem.cpp" line="95"/>
         <source>Mount</source>
         <translation>Aankoppelen</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="913"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="914"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="146"/>
         <location filename="../views/dfmsidebaropticaldevitem.cpp" line="103"/>
         <source>Unmount</source>
@@ -2205,7 +2210,7 @@
     </message>
     <message>
         <location filename="../dialogs/burnoptdialog.cpp" line="138"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="949"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="951"/>
         <location filename="../views/dfmopticalmediawidget.cpp" line="69"/>
         <source>Burn</source>
         <translation>Branden</translation>
@@ -2238,58 +2243,58 @@
     </message>
     <message>
         <location filename="../dialogs/burnoptdialog.cpp" line="181"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="914"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="915"/>
         <source>Eject</source>
         <translation>Uitwerpen</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="915"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="916"/>
         <location filename="../views/dfmsidebardeviceitem.cpp" line="126"/>
         <source>Safely Remove</source>
         <translation>Veilig verwijderen</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="917"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="918"/>
         <source>Name</source>
         <translation>Naam</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="923"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="924"/>
         <source>Settings</source>
         <translation>Instellingen</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="924"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="925"/>
         <source>Help</source>
         <translation>Hulp</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="925"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="926"/>
         <source>About</source>
         <translation>Over</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="926"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="927"/>
         <source>Exit</source>
         <translation>Afsluiten</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="927"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="928"/>
         <source>Icon</source>
         <translation>Pictogram</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="928"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="929"/>
         <source>List</source>
         <translation>Lijst</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="929"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="930"/>
         <source>Extend</source>
         <translation>Uitklappen</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="930"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="931"/>
         <source>Set as wallpaper</source>
         <translation>Instellen als bureaubladachtergrond</translation>
     </message>
@@ -2358,12 +2363,12 @@
         <translation>Zachte koppeling creëren</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="934"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="935"/>
         <source>Path</source>
         <translation>Pad</translation>
     </message>
     <message>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="932"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="933"/>
         <location filename="../models/trashfileinfo.cpp" line="335"/>
         <location filename="../models/trashfileinfo.cpp" line="343"/>
         <source>Time deleted</source>
@@ -2416,23 +2421,23 @@
         <translation>Bronpad</translation>
     </message>
     <message>
-        <location filename="../controllers/appcontroller.cpp" line="415"/>
+        <location filename="../controllers/appcontroller.cpp" line="432"/>
         <source>Document</source>
         <translation>Document</translation>
     </message>
     <message>
-        <location filename="../controllers/appcontroller.cpp" line="422"/>
+        <location filename="../controllers/appcontroller.cpp" line="439"/>
         <source>Spreadsheet</source>
         <translation>Rekenblad</translation>
     </message>
     <message>
-        <location filename="../controllers/appcontroller.cpp" line="429"/>
-        <location filename="../interfaces/dfilemenumanager.cpp" line="906"/>
+        <location filename="../controllers/appcontroller.cpp" line="446"/>
+        <location filename="../interfaces/dfilemenumanager.cpp" line="907"/>
         <source>Presentation</source>
         <translation>Presentatie</translation>
     </message>
     <message>
-        <location filename="../controllers/appcontroller.cpp" line="436"/>
+        <location filename="../controllers/appcontroller.cpp" line="453"/>
         <source>Text</source>
         <translation>Tekst</translation>
     </message>
