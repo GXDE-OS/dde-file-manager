@@ -79,7 +79,9 @@ Depends:
  gxde-daemon,
  gxde-requ
 Conflicts: dde-workspace (<< 2.90.5)
-Recommends: qt5dxcb-plugin, deepin-screensaver,fantascene-dynamic-wallpaper
+Recommends: 
+ deepin-screensaver,
+ fantascene-dynamic-wallpaper
 Description: deepin desktop-environment - desktop module
  Deepin Desktop Environment (DDE) - desktop module.
 
