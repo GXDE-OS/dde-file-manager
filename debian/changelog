@@ -1,8 +1,8 @@
-dde-file-manager (4.8.35) UNRELEASED; urgency=medium
+dde-file-manager (4.8.36) UNRELEASED; urgency=medium
 
-  * 移除推荐依赖 qt5dxcb-plugin
+  * DFM可以对压缩文件右键再压缩（https://gitee.com/GXDE-OS/GXDE/issues/IBKZ1Y）
 
- -- gfdgd_xi <3025613752@qq.com>  Tue, 04 Feb 2025 14:51:10 +0800
+ -- gfdgd_xi <3025613752@qq.com>  Sat, 08 Feb 2025 18:49:40 +0800
 
 dde-file-manager (4.8.20) UNRELEASED; urgency=medium
 

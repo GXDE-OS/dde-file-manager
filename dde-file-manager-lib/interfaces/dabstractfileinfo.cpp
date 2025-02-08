@@ -857,7 +857,8 @@ QVector<MenuAction> DAbstractFileInfo::menuActionList(DAbstractFileInfo::MenuTyp
 
             if (isFile()) {
                 if (FileUtils::isArchive(absoluteFilePath())) {
-                    actionKeys << MenuAction::Decompress
+                    actionKeys << MenuAction::Compress
+                               << MenuAction::Decompress
                                << MenuAction::DecompressHere
                                << MenuAction::Separator;
                 }
