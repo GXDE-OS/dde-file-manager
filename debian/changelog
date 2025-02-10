@@ -1,8 +1,8 @@
-dde-file-manager (4.8.36) UNRELEASED; urgency=medium
+dde-file-manager (4.8.37) UNRELEASED; urgency=medium
 
-  * DFM可以对压缩文件右键再压缩（https://gitee.com/GXDE-OS/GXDE/issues/IBKZ1Y）
+  * 空格预览支持播放 wma、ogg 格式音频
 
- -- gfdgd_xi <3025613752@qq.com>  Sat, 08 Feb 2025 18:49:40 +0800
+ -- gfdgd_xi <3025613752@qq.com>  Mon, 10 Feb 2025 12:18:53 +0800
 
 dde-file-manager (4.8.20) UNRELEASED; urgency=medium
 

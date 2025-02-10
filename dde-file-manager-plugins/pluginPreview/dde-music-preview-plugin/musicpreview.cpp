@@ -136,12 +136,13 @@ void MusicPreview::stop()
 
 bool MusicPreview::canPreview(const DUrl &url) const
 {
-    const DAbstractFileInfoPointer &info = DFileService::instance()->createFileInfo(this, url);
+    return true;
+    /*const DAbstractFileInfoPointer &info = DFileService::instance()->createFileInfo(this, url);
 
     if (!info)
         return false;
 
-    return QMediaPlayer::hasSupport(info->mimeTypeName(QMimeDatabase::MatchContent)) != QMultimedia::NotSupported;
+    return QMediaPlayer::hasSupport(info->mimeTypeName(QMimeDatabase::MatchContent)) != QMultimedia::NotSupported;*/
 }
 
 DFM_END_NAMESPACE

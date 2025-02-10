@@ -46,3 +46,5 @@ NUL
 doc/html/*
 
 tools
+
+.vscode
