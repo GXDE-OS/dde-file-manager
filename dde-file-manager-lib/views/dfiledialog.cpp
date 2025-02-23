@@ -443,10 +443,10 @@ void DFileDialog::setLabelText(QFileDialog::DialogLabel label, const QString &te
 {
     switch (static_cast<int>(label)) {
     case QFileDialog::Accept:
-        statusBar()->acceptButton()->setText(text);
+        statusBar()->acceptButton()->setText(text.toHtmlEscaped());
         break;
     case QFileDialog::Reject:
-        statusBar()->rejectButton()->setText(text);
+        statusBar()->rejectButton()->setText(text.toHtmlEscaped());
         break;
     default:
         break;

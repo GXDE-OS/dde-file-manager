@@ -29,7 +29,6 @@
 #include "dfmglobal.h"
 #include "dfmabstracteventhandler.h"
 #include "shutil/filebatchprocess.h"
-#include "dfilemanagerwindowbackground.h"
 
 #include <DMainWindow>
 
@@ -104,7 +103,6 @@ public:
 
     void refreshBackgroundPicture();
 
-    void paintEvent(QPaintEvent *event);
 
 signals:
     void aboutToClose();
@@ -183,9 +181,7 @@ private:
     std::atomic<bool> m_tabBarIndexChangeFlag{ false };//###: when the index of tabbar changed hide RenameBar through the value.
 
     QScopedPointer<DFileManagerWindowPrivate> d_ptr;
-    Q_DECLARE_PRIVATE_D(qGetPtrHelper(d_ptr), DFileManagerWindow)
-
-    DFileManagerWindowBackground *m_backgroundManager;    
+    Q_DECLARE_PRIVATE_D(qGetPtrHelper(d_ptr), DFileManagerWindow) 
 
 public:
     static std::unique_ptr<RecordRenameBarState>  renameBarState;//###: record pattern of RenameBar and the string of QLineEdit's content.

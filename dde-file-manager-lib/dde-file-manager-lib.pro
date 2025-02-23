@@ -80,8 +80,6 @@ RESOURCES += \
 
 HEADERS += \
     controllers/appcontroller.h \
-    views/dfilemanagerwindowbackground.h \
-    views/dfmbackgroundsettingdialog.h \
     views/dfmsidebaropticaldevitem.h \
     views/dtoolbar.h \
     views/dfileview.h \
@@ -271,8 +269,6 @@ HEADERS += \
 
 SOURCES += \
     controllers/appcontroller.cpp \
-    views/dfilemanagerwindowbackground.cpp \
-    views/dfmbackgroundsettingdialog.cpp \
     views/dfmsidebaropticaldevitem.cpp \
     views/dtoolbar.cpp \
     views/dfileview.cpp \

@@ -184,7 +184,7 @@ void UnknowFilePreview::setFileInfo(const DAbstractFileInfoPointer &info)
     QFontMetrics fm(font);
     QString elidedText = fm.elidedText(info->fileName(), Qt::ElideMiddle, 300);
 
-    m_nameLabel->setText(elidedText);
+    m_nameLabel->setText(elidedText.toHtmlEscaped());
 
     if (info->isFile() || info->isSymLink()) {
         m_sizeLabel->setText(QObject::tr("Size: %1").arg(info->sizeDisplayName()));

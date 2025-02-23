@@ -447,7 +447,6 @@ DFileManagerWindow::DFileManagerWindow(QWidget *parent)
 DFileManagerWindow::DFileManagerWindow(const DUrl &fileUrl, QWidget *parent)
     : DMainWindow(parent)
     , d_ptr(new DFileManagerWindowPrivate(this))
-    , m_backgroundManager(new DFileManagerWindowBackground(this))
 {
     if (!DFMGlobal::IsFileManagerDiloagProcess) {
         const QString &currentTheme = DFMApplication::appAttribute(DFMApplication::AA_ThemeName).toString();
@@ -471,12 +470,13 @@ DFileManagerWindow::DFileManagerWindow(const DUrl &fileUrl, QWidget *parent)
     initConnect();
 
     openNewTab(fileUrl);
+
+    setEnableWindowBackground(1);
 }
 
 DFileManagerWindow::~DFileManagerWindow()
 {
     m_currentTab = nullptr;
-    delete m_backgroundManager;
 }
 
 void DFileManagerWindow::onRequestCloseTab(const int index, const bool &remainState)
@@ -842,7 +842,6 @@ void DFileManagerWindow::resizeEvent(QResizeEvent *event)
 {
     Q_D(DFileManagerWindow);
     DMainWindow::resizeEvent(event);
-    m_backgroundManager->resizeImage();
     d->titleFrame->setFixedSize(event->size().width() - titlebar()->buttonAreaWidth(), TITLE_FIXED_HEIGHT);
 }
 
@@ -1210,7 +1209,7 @@ void DFileManagerWindow::setTheme(const QString &theme)
 
 void DFileManagerWindow::refreshBackgroundPicture()
 {
-    m_backgroundManager->refresh();
+    this->background()->refresh();
     update();
 }
 
@@ -1298,17 +1297,4 @@ void DFileManagerWindow::toggleAdvanceSearchBar(bool visible, bool resetForm)
     if (d->advanceSearchBar && resetForm) {
         d->advanceSearchBar->resetForm();
     }
-}
-
-void DFileManagerWindow::paintEvent(QPaintEvent *event)
-{
-    DMainWindow::paintEvent(event);
-    QString theme = DThemeManager::instance()->theme(this);
-    QPainter painter;
-    painter.begin(this);
-
-    // 绘制背景图片
-    m_backgroundManager->drawInWidget(&painter);
-
-    painter.end();
 }
