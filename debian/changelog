@@ -1,6 +1,7 @@
-dde-file-manager (4.8.38) UNRELEASED; urgency=medium
+dde-file-manager (4.8.39) UNRELEASED; urgency=medium
 
   * 修复高分屏下背景模糊的问题
+  * 修复 i386 break 的问题
 
  -- gfdgd_xi <3025613752@qq.com>  Sun, 23 Feb 2025 11:40:24 +0800
 
