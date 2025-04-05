@@ -15,7 +15,7 @@ unix {
         DEFINES += SPLICE_CP
     }
 
-    isEqual(ARCH, x86_64) | isEqual(ARCH, i686) {
+    isEqual(ARCH, x86_64) | isEqual(ARCH, i686) | | isEqual(ARCH, i386) {
         message("Build arch:" $$ARCH)
     } else {
         message("Build arch:" $$ARCH "Deepin Anything support disabled")
