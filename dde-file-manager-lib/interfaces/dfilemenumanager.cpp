@@ -143,8 +143,8 @@ DFileMenu *DFileMenuManager::createToolBarSettingsMenu(const QSet<MenuAction> &d
     actionKeys << MenuAction::NewWindow
                << MenuAction::ToggleTheme
                << MenuAction::Separator
-               << MenuAction::SetFMBackground
-               << MenuAction::RemoveFMBackground
+//               << MenuAction::SetFMBackground
+//               << MenuAction::RemoveFMBackground  // DTK现已支持，不再需要单独的入口
                << MenuAction::SetUserSharePassword
                << MenuAction::Settings;
 
