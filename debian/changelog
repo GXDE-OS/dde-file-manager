@@ -1,9 +1,10 @@
-dde-file-manager (4.8.40) UNRELEASED; urgency=medium
+dde-file-manager (4.8.41) UNRELEASED; urgency=medium
 
   * 修复高分屏下背景模糊的问题
   * 修复 i386 break 的问题
   * 移除推荐依赖 samba
   * 修复 重复的设置背景功能按钮
+  * 修复 GXDE 25 无法挂载部分 ISO 的问题
 
  -- gfdgd_xi <3025613752@qq.com>  Tue, 08 Apr 2025 22:36:58 +0800
 
