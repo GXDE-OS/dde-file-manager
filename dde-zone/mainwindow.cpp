@@ -62,6 +62,7 @@ ZoneMainWindow::ZoneMainWindow(QWidget *parent)
                   << tr("Color Picker")
                   << tr("File Manager")
                   << tr("System Monitor")
+                  << tr("Notify Center")
                   << tr("None");
     m_ActionStrs << FAST_SCREEN_OFF
                  << CONTROL_CENTER_FROM_LEFT_STR
@@ -73,8 +74,9 @@ ZoneMainWindow::ZoneMainWindow(QWidget *parent)
                  << COLORPICKER_STR
                  << FILEMANAGER_STR
                  << SYSTEMMONITOR_STR
+                 << NOTIFYCENTER_STR
                  << NONE_STR;
-    m_ActionStrs2 << FAST_SCREEN_OFF
+    /*m_ActionStrs2 << FAST_SCREEN_OFF
                   << CONTROL_CENTER_FROM_RIGHT_STR
                   << ALL_WINDOWS_STR
                   << LAUNCHER_STR
@@ -84,7 +86,8 @@ ZoneMainWindow::ZoneMainWindow(QWidget *parent)
                   << COLORPICKER_STR
                   << FILEMANAGER_STR
                   << SYSTEMMONITOR_STR
-                  << NONE_STR;
+                  << NONE_STR;*/
+    m_ActionStrs2 = m_ActionStrs;
 
     QStringList topRightNames = QStringList() << tr("Close Window") << m_ButtonNames;
     QStringList topRightActionStr = QStringList() << CLOSE_MAX_WINDOW_STR << m_ActionStrs2;

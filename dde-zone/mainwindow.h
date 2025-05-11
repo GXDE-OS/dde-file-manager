@@ -59,6 +59,7 @@ private:
     const QString COLORPICKER_STR = "gxde-picker";
     const QString FILEMANAGER_STR = "dde-file-manager";
     const QString SYSTEMMONITOR_STR = "deepin-system-monitor";
+    const QString NOTIFYCENTER_STR = "dbus-send --print-reply --dest=com.deepin.dde.ControlCenter /com/deepin/dde/ControlCenter com.deepin.dde.ControlCenter.ShowNotify";
 
     // MAIN_ITEM_TOP_MARGIN is aimed to steer clear of the fade-zone of mouseEvent of mainWindow Item.
     const int MAIN_ITEM_TOP_MARGIN = 30;
