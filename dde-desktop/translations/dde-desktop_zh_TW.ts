@@ -21,7 +21,7 @@
     <message>
         <location filename="../view/canvasgridview.cpp" line="2463"/>
         <source>Hide Icon</source>
-        <translation type="unfinished"></translation>
+        <translation>隱藏圖標</translation>
     </message>
     <message>
         <location filename="../view/canvasgridview.cpp" line="2516"/>
@@ -165,35 +165,59 @@
     <message>
         <location filename="../../dde-zone/mainwindow.cpp" line="60"/>
         <source>Text Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>文本編輯器</translation>
     </message>
     <message>
         <location filename="../../dde-zone/mainwindow.cpp" line="61"/>
-        <source>Screen Recorder</source>
-        <translation type="unfinished"></translation>
+        <source>Screen Shot</source>
+        <translation>屏幕截圖</translation>
     </message>
     <message>
         <location filename="../../dde-zone/mainwindow.cpp" line="62"/>
-        <source>Color Picker</source>
-        <translation type="unfinished"></translation>
+        <source>Screen Record</source>
+        <translation>屏幕錄製</translation>
     </message>
     <message>
         <location filename="../../dde-zone/mainwindow.cpp" line="63"/>
-        <source>File Manager</source>
-        <translation type="unfinished"></translation>
+        <source>Screen OCR</source>
+        <translation>文字識別</translation>
     </message>
     <message>
         <location filename="../../dde-zone/mainwindow.cpp" line="64"/>
-        <source>System Monitor</source>
-        <translation type="unfinished"></translation>
+        <source>Screen Scroll</source>
+        <translation>滾動截圖</translation>
+    </message>
+    <message>
+        <source>Screen Recorder</source>
+        <translation type="vanished">屏幕截圖</translation>
     </message>
     <message>
         <location filename="../../dde-zone/mainwindow.cpp" line="65"/>
+        <source>Color Picker</source>
+        <translation>取色器</translation>
+    </message>
+    <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="66"/>
+        <source>File Manager</source>
+        <translation>文件管理器</translation>
+    </message>
+    <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="67"/>
+        <source>System Monitor</source>
+        <translation>系統監視器</translation>
+    </message>
+    <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="68"/>
+        <source>Notify Center</source>
+        <translation>通知中心</translation>
+    </message>
+    <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="69"/>
         <source>None</source>
         <translation>無</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="89"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="98"/>
         <source>Close Window</source>
         <translation>關閉視窗</translation>
     </message>

@@ -366,7 +366,7 @@
 <context>
     <name>DFileManagerWindow</name>
     <message>
-        <location filename="../views/dfilemanagerwindow.cpp" line="948"/>
+        <location filename="../views/dfilemanagerwindow.cpp" line="947"/>
         <source>Dark theme</source>
         <translation type="unfinished"></translation>
     </message>
@@ -380,7 +380,7 @@
         <translation>নাম</translation>
     </message>
     <message>
-        <location filename="../interfaces/dabstractfileinfo.cpp" line="1030"/>
+        <location filename="../interfaces/dabstractfileinfo.cpp" line="1031"/>
         <location filename="../interfaces/dfilesystemmodel.cpp" line="1379"/>
         <location filename="../models/searchfileinfo.cpp" line="121"/>
         <source>Time modified</source>
@@ -2371,7 +2371,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interfaces/dabstractfileinfo.cpp" line="1239"/>
+        <location filename="../interfaces/dabstractfileinfo.cpp" line="1240"/>
         <source>Loading...</source>
         <translation>লোড হচ্ছে....</translation>
     </message>

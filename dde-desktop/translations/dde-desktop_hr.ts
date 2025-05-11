@@ -163,27 +163,27 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="61"/>
-        <source>Screen Recorder</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="62"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="65"/>
         <source>Color Picker</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="63"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="66"/>
         <source>File Manager</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="64"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="67"/>
         <source>System Monitor</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="65"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="68"/>
+        <source>Notify Center</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="69"/>
         <source>None</source>
         <translation>Nijedan</translation>
     </message>
@@ -193,7 +193,27 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="89"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="61"/>
+        <source>Screen Shot</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="62"/>
+        <source>Screen Record</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="63"/>
+        <source>Screen OCR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="64"/>
+        <source>Screen Scroll</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="98"/>
         <source>Close Window</source>
         <translation>Zatvori prozor</translation>
     </message>

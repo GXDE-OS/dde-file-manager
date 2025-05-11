@@ -58,7 +58,10 @@ ZoneMainWindow::ZoneMainWindow(QWidget *parent)
                   << tr("Launcher")
                   << tr("Desktop")
                   << tr("Text Editor")
-                  << tr("Screen Recorder")
+                  << tr("Screen Shot")
+                  << tr("Screen Record")
+                  << tr("Screen OCR")
+                  << tr("Screen Scroll")
                   << tr("Color Picker")
                   << tr("File Manager")
                   << tr("System Monitor")
@@ -70,7 +73,10 @@ ZoneMainWindow::ZoneMainWindow(QWidget *parent)
                  << LAUNCHER_STR
                  << SHOW_DESKTOP_STR
                  << GXDEEDITOR_STR
-                 << SCREENRECORDER_STR
+                 << SCREENSHOT_STR
+                 << SCREENRECORD_STR
+                 << SCREENOCR_STR
+                 << SCREENSCROLL_STR
                  << COLORPICKER_STR
                  << FILEMANAGER_STR
                  << SYSTEMMONITOR_STR

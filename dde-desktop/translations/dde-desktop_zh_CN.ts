@@ -169,31 +169,55 @@
     </message>
     <message>
         <location filename="../../dde-zone/mainwindow.cpp" line="61"/>
-        <source>Screen Recorder</source>
+        <source>Screen Shot</source>
         <translation>屏幕截图</translation>
     </message>
     <message>
         <location filename="../../dde-zone/mainwindow.cpp" line="62"/>
+        <source>Screen Record</source>
+        <translation>屏幕录制</translation>
+    </message>
+    <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="63"/>
+        <source>Screen OCR</source>
+        <translation>文字识别</translation>
+    </message>
+    <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="64"/>
+        <source>Screen Scroll</source>
+        <translation>滚动截图</translation>
+    </message>
+    <message>
+        <source>Screen Recorder</source>
+        <translation type="vanished">屏幕截图</translation>
+    </message>
+    <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="65"/>
         <source>Color Picker</source>
         <translation>取色器</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="63"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="66"/>
         <source>File Manager</source>
         <translation>文件管理器</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="64"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="67"/>
         <source>System Monitor</source>
         <translation>系统监视器</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="65"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="68"/>
+        <source>Notify Center</source>
+        <translation>通知中心</translation>
+    </message>
+    <message>
+        <location filename="../../dde-zone/mainwindow.cpp" line="69"/>
         <source>None</source>
         <translation>无</translation>
     </message>
     <message>
-        <location filename="../../dde-zone/mainwindow.cpp" line="89"/>
+        <location filename="../../dde-zone/mainwindow.cpp" line="98"/>
         <source>Close Window</source>
         <translation>关闭窗口</translation>
     </message>

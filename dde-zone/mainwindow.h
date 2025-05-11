@@ -54,7 +54,10 @@ private:
     const QString NONE_STR = "";
     const QString FAST_SCREEN_OFF = "sh -c \"sleep 0.5 && xset dpms force off\"";
     const QString CLOSE_MAX_WINDOW_STR = "/usr/libexec/gxde-requ/bin/close_window";
-    const QString SCREENRECORDER_STR = "deepin-screen-recorder";
+    const QString SCREENSHOT_STR = "deepin-screen-recorder --shot";
+    const QString SCREENRECORD_STR = "deepin-screen-recorder --record";
+    const QString SCREENOCR_STR = "deepin-screen-recorder --ocr";
+    const QString SCREENSCROLL_STR = "deepin-screen-recorder --scroll";
     const QString GXDEEDITOR_STR = "gxde-editor";
     const QString COLORPICKER_STR = "gxde-picker";
     const QString FILEMANAGER_STR = "dde-file-manager";

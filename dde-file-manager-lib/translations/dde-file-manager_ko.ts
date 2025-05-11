@@ -373,7 +373,7 @@
 <context>
     <name>DFileManagerWindow</name>
     <message>
-        <location filename="../views/dfilemanagerwindow.cpp" line="948"/>
+        <location filename="../views/dfilemanagerwindow.cpp" line="947"/>
         <source>Dark theme</source>
         <translation>어두운 테마</translation>
     </message>
@@ -387,7 +387,7 @@
         <translation>이름</translation>
     </message>
     <message>
-        <location filename="../interfaces/dabstractfileinfo.cpp" line="1030"/>
+        <location filename="../interfaces/dabstractfileinfo.cpp" line="1031"/>
         <location filename="../interfaces/dfilesystemmodel.cpp" line="1379"/>
         <location filename="../models/searchfileinfo.cpp" line="121"/>
         <source>Time modified</source>
@@ -2384,7 +2384,7 @@
         <translation>삭제된 시간</translation>
     </message>
     <message>
-        <location filename="../interfaces/dabstractfileinfo.cpp" line="1239"/>
+        <location filename="../interfaces/dabstractfileinfo.cpp" line="1240"/>
         <source>Loading...</source>
         <translation>불러오는 중...</translation>
     </message>
