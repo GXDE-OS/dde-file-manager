@@ -57,13 +57,13 @@ ZoneMainWindow::ZoneMainWindow(QWidget *parent)
                   << tr("All Windows")
                   << tr("Launcher")
                   << tr("Desktop")
-                  << tr("Text Editor")
+//                  << tr("Text Editor")
                   << tr("Screen Shot")
                   << tr("Screen Record")
                   << tr("Screen OCR")
                   << tr("Screen Scroll")
                   << tr("Color Picker")
-                  << tr("File Manager")
+//                  << tr("File Manager")
                   << tr("System Monitor")
                   << tr("Notify Center")
                   << tr("None");
@@ -72,13 +72,13 @@ ZoneMainWindow::ZoneMainWindow(QWidget *parent)
                  << ALL_WINDOWS_STR
                  << LAUNCHER_STR
                  << SHOW_DESKTOP_STR
-                 << GXDEEDITOR_STR
+//                 << GXDEEDITOR_STR
                  << SCREENSHOT_STR
                  << SCREENRECORD_STR
                  << SCREENOCR_STR
                  << SCREENSCROLL_STR
                  << COLORPICKER_STR
-                 << FILEMANAGER_STR
+//                 << FILEMANAGER_STR
                  << SYSTEMMONITOR_STR
                  << NOTIFYCENTER_STR
                  << NONE_STR;

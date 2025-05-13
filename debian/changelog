@@ -1,4 +1,4 @@
-dde-file-manager (4.8.42) UNRELEASED; urgency=medium
+dde-file-manager (4.8.43) UNRELEASED; urgency=medium
 
   * 修复高分屏下背景模糊的问题
   * 修复 i386 break 的问题
@@ -6,8 +6,9 @@ dde-file-manager (4.8.42) UNRELEASED; urgency=medium
   * 修复 重复的设置背景功能按钮
   * 修复 GXDE 25 无法挂载部分 ISO 的问题
   * 热区设置新增打开通知中心选项
+  * 热区设置移除文本编辑器、文件管理器选项
 
- -- gfdgd_xi <3025613752@qq.com>  Sun, 11 May 2025 22:23:31 +0800
+ -- gfdgd_xi <3025613752@qq.com>  Tue, 13 May 2025 22:59:21 +0800
 
 dde-file-manager (4.8.20) UNRELEASED; urgency=medium
 
