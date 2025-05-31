@@ -122,6 +122,14 @@ void DToolBar::initAddressToolBar()
     m_backButton->setFixedHeight(ButtonHeight);
     m_backButton->setDisabled(true);
     m_backButton->setFocusPolicy(Qt::NoFocus);
+
+    m_upButton = new QPushButton(this);
+    m_upButton->setObjectName("upButton");
+    m_upButton->setFixedWidth(ButtonWidth);
+    m_upButton->setFixedHeight(ButtonHeight);
+    m_upButton->setDisabled(true);
+    m_upButton->setFocusPolicy(Qt::NoFocus);
+
     m_forwardButton = new QPushButton(this);
     m_forwardButton->setObjectName("forwardButton");
     m_forwardButton->setFixedWidth(ButtonWidth);
@@ -137,6 +145,7 @@ void DToolBar::initAddressToolBar()
 
     backForwardLayout->addWidget(m_backButton);
     backForwardLayout->addWidget(m_forwardButton);
+    backForwardLayout->addWidget(m_upButton);
     backForwardLayout->setSpacing(0);
     backForwardLayout->setContentsMargins(0, 0, 0, 0);
 
@@ -190,6 +199,7 @@ void DToolBar::initConnect()
 {
     connect(m_backButton, &DStateButton::clicked, this, &DToolBar::onBackButtonClicked);
     connect(m_forwardButton, &DStateButton::clicked, this, &DToolBar::onForwardButtonClicked);
+    connect(m_upButton, &DStateButton::clicked, this, &DToolBar::onUpButtonClicked);
     connect(m_crumbWidget, &DFMCrumbBar::addressBarContentEntered, this, &DToolBar::searchBarTextEntered);
     connect(m_crumbWidget, &DFMCrumbBar::crumbItemClicked, this, &DToolBar::crumbSelected);
     connect(m_crumbWidget, &DFMCrumbBar::addressBarShown, this, &DToolBar::searchBarActivated);
@@ -297,6 +307,8 @@ void DToolBar::currentUrlChanged(const DFMEvent &event)
     }
 
     pushUrlToHistoryStack(event.fileUrl());
+
+    m_upButton->setDisabled(event.fileUrl().path() == "/");
 }
 
 void DToolBar::back()
@@ -484,6 +496,22 @@ void DToolBar::triggerActionByIndex(int index)
 void DToolBar::onBackButtonClicked()
 {
     DFMEventDispatcher::instance()->processEvent(dMakeEventPointer<DFMBackEvent>(this), qobject_cast<DFileManagerWindow*>(window()));
+}
+
+void DToolBar::onUpButtonClicked()
+{
+    const DUrl &currentUrl = qobject_cast<DFileManagerWindow*>(topLevelWidget())->currentUrl();
+    QString path = currentUrl.path();
+    qDebug() << path;
+    if (path == "" && path == "file:///" && path == "/") {
+        return;
+    }
+    // 提取上层目录
+    auto pathInfo = QFileInfo(path);
+    QString upPath = pathInfo.path();
+    qDebug() << pathInfo;
+    qDebug() << upPath;
+    searchBarTextEntered(upPath);
 }
 
 void DToolBar::onForwardButtonClicked()

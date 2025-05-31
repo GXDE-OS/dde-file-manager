@@ -106,5 +106,9 @@
         <file>dark/icons/search.svg</file>
         <file>dark/icons/glowing.svg</file>
         <file>light/icons/glowing.svg</file>
+        <file>dark/icons/up_disabled.svg</file>
+        <file>dark/icons/up_hover.svg</file>
+        <file>dark/icons/up_normal.svg</file>
+        <file>dark/icons/up_press.svg</file>
     </qresource>
 </RCC>

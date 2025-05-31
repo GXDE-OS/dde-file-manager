@@ -99,11 +99,13 @@ private:
     void pushUrlToHistoryStack(DUrl url);
     void onBackButtonClicked();
     void onForwardButtonClicked();
+    void onUpButtonClicked();
 
     bool m_searchState = false;
     QFrame* m_addressToolBar;
     QPushButton* m_backButton = nullptr;
     QPushButton* m_forwardButton = nullptr;
+    QPushButton* m_upButton = nullptr;
     QPushButton* m_searchButton = nullptr;
     QPushButton* m_settingsButton = nullptr;
     QFrame* m_contollerToolBar;

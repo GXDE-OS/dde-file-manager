@@ -314,6 +314,14 @@
         <file>images/icons/tag_yellow_active.svg</file>
         <file>images/icons/tag_yellow_normal.svg</file>
         <file>images/icons/tag_normal.svg</file>
+        <file>images/icons/up_disabled.png</file>
+        <file>images/icons/up_disabled@2x.png</file>
+        <file>images/icons/up_hover@2x.png</file>
+        <file>images/icons/up_normal.png</file>
+        <file>images/icons/up_normal@2x.png</file>
+        <file>images/icons/up_press@2x.png</file>
+        <file>images/icons/up_hover1.png</file>
+        <file>images/icons/up_hover1@2x.png</file>
     </qresource>
     <qresource prefix="/leftsidebar">
         <file>images/leftsidebar/android_active_16px.svg</file>
