@@ -1,7 +1,7 @@
 isEmpty(LIB_INSTALL_DIR) {
-   TOOLDIR = $$[QT_INSTALL_LIBS]/dde-file-manager/tools/thumbnail
+   TOOLDIR = $$[QT_INSTALL_LIBS]/gxde-file-manager/tools/thumbnail
 } else {
-   TOOLDIR = $$LIB_INSTALL_DIR/dde-file-manager/tools/thumbnail
+   TOOLDIR = $$LIB_INSTALL_DIR/gxde-file-manager/tools/thumbnail
 }
 
 top_dir = $$PWD/..

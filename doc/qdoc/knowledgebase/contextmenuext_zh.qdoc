@@ -43,7 +43,7 @@
 
     \section2 Json 形式的上下文菜单扩展
 
-    默认情况下文件管理器会在开启时试图加载 `~/.config/deepin/dde-file-manager/menuextensions/` 目录
+    默认情况下文件管理器会在开启时试图加载 `~/.config/deepin/gxde-file-manager/menuextensions/` 目录
     （如需要编写此类扩展但发现此路径不存在时，手动创建完整路径即可）中的 json 文件作为上下文菜单扩展，
     对于一个上下文菜单扩展，应当包含有如下的通用字段。
 
@@ -128,10 +128,10 @@
 
     \section3 插件头文件
 
-    在安装好 libdde-file-manager-dev （文件管理器开发包）后即可得到对应的插件头文件 menuinterface.h ，使用时需在对应的代码中包含此文件。
+    在安装好 libgxde-file-manager-dev （文件管理器开发包）后即可得到对应的插件头文件 menuinterface.h ，使用时需在对应的代码中包含此文件。
 
     \code
-        #include "dde-file-manager-plugins/menuinterface.h"
+        #include "gxde-file-manager-plugins/menuinterface.h"
     \endcode
 
     \section3 接口说明
@@ -153,21 +153,21 @@
 
     \section3 插件安装目录
 
-    在 Deepin 上，安装位置为 `/usr/lib/<target_arch>/dde-file-manager/plugins/menu/` ，其中 <target_arch> 表示对应架构名，可以通过 `gcc -dumpmachine` 得到。下表供参考：
+    在 Deepin 上，安装位置为 `/usr/lib/<target_arch>/gxde-file-manager/plugins/menu/` ，其中 <target_arch> 表示对应架构名，可以通过 `gcc -dumpmachine` 得到。下表供参考：
 
     \list
         \li x86 架构
             \list
-                \li /usr/lib/x86_64-linux-gnu/dde-file-manager/plugins/menu/ 64位
-                \li /usr/lib/x86_32-linux-gnu/dde-file-manager/plugins/menu/ 32位
+                \li /usr/lib/x86_64-linux-gnu/gxde-file-manager/plugins/menu/ 64位
+                \li /usr/lib/x86_32-linux-gnu/gxde-file-manager/plugins/menu/ 32位
             \endlist
         \li 龙芯架构
             \list
-                \li /usr/lib/mipsel-linux-gnu/dde-file-manager/plugins/menu/
+                \li /usr/lib/mipsel-linux-gnu/gxde-file-manager/plugins/menu/
             \endlist
         \li 神威架构
             \list
-                \li /usr/lib/sw_64-linux-gnu/dde-file-manager/plugins/menu/
+                \li /usr/lib/sw_64-linux-gnu/gxde-file-manager/plugins/menu/
             \endlist
     \endlist
 
@@ -190,6 +190,6 @@
     \section1 参考链接
 
     \list
-        \li \l {https://github.com/linuxdeepin/dde-file-manager/issues/21} {How to add entry to context menu?}
+        \li \l {https://github.com/linuxdeepin/gxde-file-manager/issues/21} {How to add entry to context menu?}
     \endlist
 */

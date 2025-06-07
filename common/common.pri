@@ -1,5 +1,5 @@
 unix {
-    ProjectName = dde-file-manager
+    ProjectName = gxde-file-manager
     PREFIX = /usr
     APPSHAREDIR = $$PREFIX/share/$$ProjectName
     top_srcdir = $$PWD/../
@@ -63,6 +63,6 @@ unix {
 
 INCLUDEPATH += $$top_srcdir \
                $$top_srcdir/utils \
-               $$top_srcdir/dde-file-manager-lib/interfaces \
-               $$top_srcdir/dde-file-manager-lib/interfaces/plugins \
-               $$top_srcdir/dde-file-manager-plugins/plugininterfaces
+               $$top_srcdir/gxde-file-manager-lib/interfaces \
+               $$top_srcdir/gxde-file-manager-lib/interfaces/plugins \
+               $$top_srcdir/gxde-file-manager-plugins/plugininterfaces

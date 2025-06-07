@@ -1,7 +1,7 @@
 #ifndef DFMCTXMENUPLUGIN_H
 #define DFMCTXMENUPLUGIN_H
 
-#include "dde-file-manager-plugins/menuinterface.h"
+#include "gxde-file-manager-plugins/menuinterface.h"
 
 class DFMCtxMenuPlugin : public MenuInterface
 {

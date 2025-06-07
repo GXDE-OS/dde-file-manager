@@ -2,9 +2,9 @@
 QT       += widgets
 
 CONFIG   += link_pkgconfig
-PKGCONFIG += dde-file-manager
+PKGCONFIG += gxde-file-manager
 
-TARGET = dde-file-manager-mounter-plugin
+TARGET = gxde-file-manager-mounter-plugin
 TEMPLATE = lib
 
 DEFINES += DFMMOUNTERPLUGIN_LIBRARY
@@ -20,6 +20,6 @@ HEADERS += \
         dfmctxmenuplugin.h
 
 unix {
-    target.path = $$[QT_INSTALL_LIBS]/dde-file-manager/plugins/menu/
+    target.path = $$[QT_INSTALL_LIBS]/gxde-file-manager/plugins/menu/
     INSTALLS += target
 }

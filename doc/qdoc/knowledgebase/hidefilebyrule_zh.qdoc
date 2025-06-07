@@ -40,7 +40,7 @@
     \section2 配置文件的位置
     
     在1.8版本中统一了配置文件的格式和程序中的读写入口，针对根据规则彻底隐藏文件这个需求而言，
-    所涉及的配置文件位于 `~/.config/deepin/` 目录下，对应的配置名称为 dde-file-manager.obtusely.json
+    所涉及的配置文件位于 `~/.config/deepin/` 目录下，对应的配置名称为 gxde-file-manager.obtusely.json
     ，是常规的 json 文件。
     
     \section2 规则编写方式

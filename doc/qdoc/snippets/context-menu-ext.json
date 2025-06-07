@@ -14,21 +14,21 @@
                 "Text[zh_CN]": "sub文件SingleFile",
                 "Text[zh_HK]": "sub文件SingleFile",
                 "Text[zh_TW]": "sub文件SingleFile",
-                "Exec": "dde-file-manager",
+                "Exec": "gxde-file-manager",
                 "SubMenu": [
                     {
                         "Icon": "dssd",
                         "Text[zh_CN]": "sub文件SingleFile",
                         "Text[zh_HK]": "sub文件SingleFile",
                         "Text[zh_TW]": "sub文件SingleFile",
-                        "Exec": "dde-file-manager"
+                        "Exec": "gxde-file-manager"
                     },
                     {
                         "Icon": "dssd",
                         "Text[zh_CN]": "sub文件SingleFile",
                         "Text[zh_HK]": "sub文件SingleFile",
                         "Text[zh_TW]": "sub文件SingleFile",
-                        "Exec": "dde-file-manager"
+                        "Exec": "gxde-file-manager"
                     }
                 ]
              },
@@ -37,7 +37,7 @@
                 "Text[zh_CN]": "sub文件SingleFile",
                 "Text[zh_HK]": "sub文件SingleFile",
                 "Text[zh_TW]": "sub文件SingleFile",
-                "Exec": "dde-file-manager"
+                "Exec": "gxde-file-manager"
              }
         ]
     },
@@ -48,7 +48,7 @@
         "Text[zh_HK]": "文件SingleFile2",
         "Text[zh_TW]": "文件SingleFile2",
         "MimeType": "",
-        "Exec": "dde-file-manager"
+        "Exec": "gxde-file-manager"
     },
     {
         "MenuType": "MultiFiles",
@@ -57,7 +57,7 @@
         "Text[zh_HK]": "文件MultiFiles",
         "Text[zh_TW]": "文件MultiFiles",
         "MimeType": "text/plain;image/jpeg",
-        "Exec": "dde-file-manager"
+        "Exec": "gxde-file-manager"
     },
     {
         "MenuType": "MultiFiles",
@@ -66,7 +66,7 @@
         "Text[zh_HK]": "文件MultiFiles2",
         "Text[zh_TW]": "文件MultiFiles2",
         "MimeType": "",
-        "Exec": "dde-file-manager"
+        "Exec": "gxde-file-manager"
     },
     {
         "MenuType": "SingleDir",
@@ -74,7 +74,7 @@
         "Text[zh_CN]": "文件SingleDir",
         "Text[zh_HK]": "文件SingleDir",
         "Text[zh_TW]": "文件SingleDir",
-        "Exec": "dde-file-manager"
+        "Exec": "gxde-file-manager"
     },
     {
         "MenuType": "MultiDirs",
@@ -82,7 +82,7 @@
         "Text[zh_CN]": "文件MultiDir",
         "Text[zh_HK]": "文件MultiDir",
         "Text[zh_TW]": "文件MultiDir",
-        "Exec": "dde-file-manager"
+        "Exec": "gxde-file-manager"
     },
     {
         "MenuType": "MultiFileDirs",
@@ -90,7 +90,7 @@
         "Text[zh_CN]": "文件MultiFileDirs",
         "Text[zh_HK]": "文件MultiFileDirs",
         "Text[zh_TW]": "文件MultiFileDirs",
-        "Exec": "dde-file-manager"
+        "Exec": "gxde-file-manager"
     },
     {
         "MenuType": "EmptyArea",
@@ -98,6 +98,6 @@
         "Text[zh_CN]": "EmptyArea",
         "Text[zh_HK]": "EmptyArea",
         "Text[zh_TW]": "EmptyArea",
-        "Exec": "dde-file-manager"
+        "Exec": "gxde-file-manager"
     }
 ]

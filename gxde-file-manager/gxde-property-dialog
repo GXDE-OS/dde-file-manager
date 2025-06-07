@@ -1,0 +1,21 @@
+#!/bin/bash
+#shell name: gxde-property-dialog.sh
+#description: reuqest show files's or folders's property dialog. 
+#usage: just use it in bash like gxde-property-dialog path1 path2 ...
+
+#!/bin/bash
+process=`ps ax -o 'cmd' |grep 'gxde-file-manager$'`;
+processd=`ps ax -o 'cmd' |grep 'gxde-file-manager -d$'`;
+
+paths=\"\";
+
+if [[ "$process" == ""&&"$processd" == "" ]]; then
+    gxde-file-manager -p "$@";
+else
+    for path in "$@";
+     do
+        paths=$paths,\"$path\";
+    done;
+    json="{\"paths\":[$paths],\"isShowPropertyDialogRequest\":true}";
+    echo $json |socat - $XDG_RUNTIME_DIR/gxde-file-manager;
+fi

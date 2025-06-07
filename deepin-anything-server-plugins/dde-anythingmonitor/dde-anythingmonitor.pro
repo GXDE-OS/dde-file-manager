@@ -25,7 +25,7 @@ CONFIG -= app_bundle \
 
 
 isEmpty(DDE_FILE_MANAGER_LIB_DIR){
-    DDE_FILE_MANAGER_LIB_DIR = $$PWD/../../dde-file-manager-lib
+    DDE_FILE_MANAGER_LIB_DIR = $$PWD/../../gxde-file-manager-lib
 }
 
 isEmpty(DDE_FILE_MANAGER_DIR){
@@ -36,9 +36,9 @@ isEmpty(DDE_FILE_MANAGER_DIR){
 #PKGCONFIG += deepin-anything-server-lib
 
 
-INCLUDEPATH += $$PWD/../../dde-file-manager-lib \
-               $$PWD/../../dde-file-manager-lib/interfaces \
-               $$PWD/../../dde-file-manager-lib/shutil \
+INCLUDEPATH += $$PWD/../../gxde-file-manager-lib \
+               $$PWD/../../gxde-file-manager-lib/interfaces \
+               $$PWD/../../gxde-file-manager-lib/shutil \
                $$PWD/../../utils
 
 unix{

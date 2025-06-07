@@ -13,4 +13,4 @@ navigation.hometitle = "DFM $DFM_VER"
 
 sourcedirs += includes
 
-url = https://linuxdeepin.github.io/dde-file-manager/
+url = https://linuxdeepin.github.io/gxde-file-manager/

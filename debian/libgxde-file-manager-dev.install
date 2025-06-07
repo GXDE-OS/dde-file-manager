@@ -1,0 +1,3 @@
+usr/include/gxde-file-manager/
+usr/lib/*/pkgconfig/gxde-file-manager.pc
+usr/lib/*/libgxde-file-manager.so

@@ -1,6 +1,6 @@
 ## Documentation
 
-We are using `qdoc` to generate the documentation of `dde-file-manager`.
+We are using `qdoc` to generate the documentation of `gxde-file-manager`.
 
 ### Generate the doc
 

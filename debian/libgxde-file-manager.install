@@ -1,0 +1,9 @@
+usr/lib/*/libgxde-file-manager.so.*
+usr/share/gxde-file-manager/translations/*.qm
+usr/share/gxde-file-manager/templates/*
+usr/share/gxde-file-manager/mimetypes/*
+usr/share/gxde-file-manager/mimetypeassociations/*
+usr/share/icons/*
+
+usr/lib/*/gxde-file-manager/plugins/*
+usr/lib/*/gxde-file-manager/tools/*
