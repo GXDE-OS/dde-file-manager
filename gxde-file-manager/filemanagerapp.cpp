@@ -226,12 +226,12 @@ void FileManagerApp::showPropertyDialog(const QStringList paths)
 
         if(realTargetUrl.toLocalFile().endsWith(".desktop")){
             DesktopFile df(realTargetUrl.toLocalFile());
-            if(df.getDeepinId() == "dde-trash"){
+            if(df.getDeepinId() == "gxde-trash"){
                 DFMEvent event(this);
                 event.setData(DUrl::fromTrashFile("/"));
                 dialogManager->showTrashPropertyDialog(event);
                 continue;
-            } else if(df.getDeepinId() == "dde-computer"){
+            } else if(df.getDeepinId() == "gxde-computer"){
                 dialogManager->showComputerPropertyDialog();
                 continue;
             }

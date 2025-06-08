@@ -259,12 +259,12 @@ QMap<QString, QVariant> DesktopFileInfo::getDesktopFileInfo(const DUrl &fileUrl)
 QVector<MenuAction> DesktopFileInfo::menuActionList(DAbstractFileInfo::MenuType type) const
 {
     Q_D(const DesktopFileInfo);
-    if(d->deepinID == "dde-trash" || d->deepinID == "dde-computer"){
+    if(d->deepinID == "gxde-trash" || d->deepinID == "gxde-computer"){
         QVector<MenuAction> actions;
         actions << MenuAction::Open
         << MenuAction::Separator;
 
-        if(d->deepinID == "dde-trash"){
+        if(d->deepinID == "gxde-trash"){
             actions << MenuAction::ClearTrash
                     << MenuAction::Separator;
         }
@@ -283,7 +283,7 @@ QVector<MenuAction> DesktopFileInfo::menuActionList(DAbstractFileInfo::MenuType 
 QSet<MenuAction> DesktopFileInfo::disableMenuActionList() const
 {
     Q_D(const DesktopFileInfo);
-    if(d->deepinID == "dde-trash"){
+    if(d->deepinID == "gxde-trash"){
         QSet<MenuAction> actions;
         if(FileUtils::filesCount(DFMStandardPaths::location(DFMStandardPaths::TrashFilesPath)) <= 0)
             actions << MenuAction::ClearTrash;
@@ -300,7 +300,7 @@ QList<QIcon> DesktopFileInfo::additionalIcon() const
 Qt::DropActions DesktopFileInfo::supportedDragActions() const
 {
     Q_D(const DesktopFileInfo);
-    if(d->deepinID == "dde-trash" || d->deepinID == "dde-computer"){
+    if(d->deepinID == "gxde-trash" || d->deepinID == "gxde-computer"){
         return Qt::IgnoreAction;
     }
 
@@ -311,7 +311,7 @@ bool DesktopFileInfo::canDrop() const
 {
     //ignore drop event for computer desktop file
     Q_D(const DesktopFileInfo);
-    if(d->deepinID == "dde-computer")
+    if(d->deepinID == "gxde-computer")
         return false;
 
     return DFileInfo::canDrop();
@@ -319,12 +319,12 @@ bool DesktopFileInfo::canDrop() const
 
 DUrl DesktopFileInfo::trashDesktopFileUrl()
 {
-    return DUrl::fromLocalFile(DFMStandardPaths::location(DFMStandardPaths::DesktopPath) + "/dde-trash.desktop");
+    return DUrl::fromLocalFile(DFMStandardPaths::location(DFMStandardPaths::DesktopPath) + "/gxde-trash.desktop");
 }
 
 DUrl DesktopFileInfo::computerDesktopFileUrl()
 {
-    return DUrl::fromLocalFile(DFMStandardPaths::location(DFMStandardPaths::DesktopPath) + "/dde-computer.desktop");
+    return DUrl::fromLocalFile(DFMStandardPaths::location(DFMStandardPaths::DesktopPath) + "/gxde-computer.desktop");
 }
 
 void DesktopFileInfoPrivate::updateInfo(const DUrl &fileUrl)

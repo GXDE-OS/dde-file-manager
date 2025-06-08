@@ -544,10 +544,10 @@ void AppController::actionProperty(const QSharedPointer<DFMUrlListBaseEvent> &ev
 
         if (realTargetUrl.toLocalFile().endsWith(QString(".") + DESKTOP_SURRIX)) {
             DesktopFile df(realTargetUrl.toLocalFile());
-            if (df.getDeepinId() == "dde-trash") {
+            if (df.getDeepinId() == "gxde-trash") {
                 dialogManager->showTrashPropertyDialog(DFMUrlBaseEvent(event->sender(), realTargetUrl));
                 urlList.removeOne(url);
-            } else if (df.getDeepinId() == "dde-computer") {
+            } else if (df.getDeepinId() == "gxde-computer") {
                 dialogManager->showComputerPropertyDialog();
                 urlList.removeOne(url);
             }

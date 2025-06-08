@@ -148,14 +148,14 @@ bool DFileService::fmEvent(const QSharedPointer<DFMEvent> &event, QVariant *resu
 
         if (urlList.contains(DesktopFileInfo::computerDesktopFileUrl())) {
             DesktopFile df(DesktopFileInfo::computerDesktopFileUrl().toLocalFile());
-            if (df.getDeepinId() == "dde-computer") {
+            if (df.getDeepinId() == "gxde-computer") {
                 urlList.removeOne(DesktopFileInfo::computerDesktopFileUrl());
             }
         }
 
         if (urlList.contains(DesktopFileInfo::trashDesktopFileUrl())) {
             DesktopFile df(DesktopFileInfo::trashDesktopFileUrl().toLocalFile());
-            if (df.getDeepinId() == "dde-trash") {
+            if (df.getDeepinId() == "gxde-trash") {
                 urlList.removeOne(DesktopFileInfo::trashDesktopFileUrl());
             }
         }

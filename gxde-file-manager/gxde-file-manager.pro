@@ -86,8 +86,8 @@ INSTALLS += target desktop gxde-xdg-user-dirs-update policy pkexec propertyDialo
 
 isEqual(ARCH, sw_64) | isEqual(ARCH, mips64) | isEqual(ARCH, mips32) {
     dde-mips-shs.path = $$BINDIR
-    dde-mips-shs.files = $$PWD/mips/dde-computer.sh \
-                         $$PWD/mips/dde-trash.sh \
+    dde-mips-shs.files = $$PWD/mips/gxde-computer.sh \
+                         $$PWD/mips/gxde-trash.sh \
                          $$PWD/mips/file-manager.sh
 
     gxde-file-manager-autostart.path = /etc/xdg/autostart
@@ -117,8 +117,8 @@ HEADERS += \
 DISTFILES += \
     mips/gxde-file-manager-autostart.desktop \
     mips/gxde-file-manager.desktop \
-    mips/dde-computer.sh \
-    mips/dde-trash.sh \
+    mips/gxde-computer.sh \
+    mips/gxde-trash.sh \
     mips/file-manager.sh \
     generate_translations.sh
 

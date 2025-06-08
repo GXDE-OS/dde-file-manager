@@ -5,8 +5,8 @@ usr/bin/gxde-property-dialog
 usr/bin/gxde-xdg-user-dirs-update
 usr/bin/usb-device-formatter
 usr/bin/usb-device-formatter-pkexec
-usr/bin/dde-computer.sh
-usr/bin/dde-trash.sh
+usr/bin/gxde-computer.sh
+usr/bin/gxde-trash.sh
 usr/bin/file-manager.sh
 
 usr/share/applications/gxde-file-manager.desktop
