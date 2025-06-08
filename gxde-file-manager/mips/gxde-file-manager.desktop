@@ -1,4 +1,19 @@
 [Desktop Entry]
+Actions=new-window;
+Categories=Utility;
+Comment=Browse the file system
+Exec=/usr/bin/file-manager.sh %u
+GenericName=File Manager
+Icon=gxde-file-manager
+MimeType=inode/directory;
+Name=Deepin File Manager
+OnlyShowIn=Deepin;
+StartupNotify=false
+Terminal=false
+Type=Application
+Version=1.0
+X-Deepin-Vendor=deepin
+X-GNOME-Autostart-Delay=20;
 
 # Translations:
 # Do not manually modify!
@@ -158,6 +173,9 @@ Name[zh_HK]=深度檔案管理員
 Name[zh_TW]=Deepin 檔案管理器
 
 [Desktop Action new-window]
+Exec=/usr/bin/file-manager.sh --new-window
+Name=New Window
+Name[sr@latin]=Novi prozor
 
 # Translations:
 # Do not manually modify!
