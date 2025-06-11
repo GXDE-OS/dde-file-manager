@@ -1,4 +1,4 @@
-gxde-file-manager (5.0.1) UNRELEASED; urgency=medium
+gxde-file-manager (5.0.1-1) UNRELEASED; urgency=medium
 
   * 修复高分屏下背景模糊的问题
   * 修复 i386 break 的问题
@@ -10,6 +10,7 @@ gxde-file-manager (5.0.1) UNRELEASED; urgency=medium
   * 文件管理器支持返回上层目录
   * dde-file-manager 改名为 gxde-file-manager，dde-desktop 改名为 gxde-desktop-panel
   * 修复启动器的计算机、回收站翻译丢失的问题
+  * 各平台均不在运行时使用deepin-anything来搜索
 
  -- gfdgd_xi <3025613752@qq.com>  Sun, 08 Jun 2025 08:33:20 +0800
 
