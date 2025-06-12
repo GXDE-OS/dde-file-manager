@@ -58,9 +58,6 @@ Depends:
  ${misc:Depends},
  libgxde-file-manager( =${binary:Version}),
  socat,
- deepin-anything-dkms[amd64],
- deepin-anything-server[amd64],
- deepin-anything-server-service[amd64],
  libdtkwidget2,
  libdtkcore2, 
  libdisomaster,
@@ -70,6 +67,8 @@ Provides:
  dde-file-manager
 Replaces:
  dde-file-manager,
+Conflicts:
+ dde-file-manager(>> 5.0.1-1)
 Recommends: dde-qt5integration, avfs
 Description: File manager front end
  File manager front-end of Deepin OS
@@ -82,7 +81,7 @@ Depends:
  libgxde-file-manager( =${binary:Version}),
  gxde-daemon,
  gxde-requ
-Conflicts: dde-workspace (<< 2.90.5)
+Conflicts: dde-workspace (<< 2.90.5), dde-desktop (>> 5.0.1-1)
 Provides: dde-desktop
 Replaces: dde-desktop
 Recommends: 
@@ -94,6 +93,7 @@ Description: deepin desktop-environment - desktop module
 Package: gxde-disk-mount-plugin
 Architecture: any
 Provides: dde-disk-mount-plugin
+Conflicts: dde-disk-mount-plugin (>> 5.0.1-1)
 Replaces: dde-disk-mount-plugin
 Depends: ${shlibs:Depends}, ${misc:Depends}, libgxde-file-manager( =${binary:Version})
 Description: plugin of gxde-dock
@@ -111,6 +111,7 @@ Depends:
  deepin-anything-libs
 Breaks: gxde-file-manager(<=1.2.3-3)
 Replaces: libdde-file-manager
+Conflicts: libdde-file-manager (>> 5.0.1-1)
 Provides: libdde-file-manager
 Multi-Arch: same
 Description: DDE File Manager library
@@ -120,6 +121,7 @@ Package: libgxde-file-manager-dev
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libgxde-file-manager( =${binary:Version})
 Replaces: libdde-file-manager-dev
+Conflicts: libdde-file-manager-dev (>> 5.0.1-1)
 Provides: libdde-file-manager-dev
 Description: DDE File Manager Devel library
  This package contains the header files and static libraries
