@@ -68,8 +68,6 @@ Depends:
  gxde-compressor,
 Provides:
  dde-file-manager
-Conflicts:
- dde-file-manager,
 Replaces:
  dde-file-manager,
 Recommends: dde-qt5integration, avfs
@@ -84,7 +82,7 @@ Depends:
  libgxde-file-manager( =${binary:Version}),
  gxde-daemon,
  gxde-requ
-Conflicts: dde-workspace (<< 2.90.5), dde-desktop
+Conflicts: dde-workspace (<< 2.90.5)
 Provides: dde-desktop
 Replaces: dde-desktop
 Recommends: 
@@ -95,7 +93,6 @@ Description: deepin desktop-environment - desktop module
 
 Package: gxde-disk-mount-plugin
 Architecture: any
-Conflicts: dde-disk-mount-plugin
 Provides: dde-disk-mount-plugin
 Replaces: dde-disk-mount-plugin
 Depends: ${shlibs:Depends}, ${misc:Depends}, libgxde-file-manager( =${binary:Version})
@@ -113,7 +110,6 @@ Depends:
  libkf5codecs5,
  deepin-anything-libs
 Breaks: gxde-file-manager(<=1.2.3-3)
-Conflicts: libdde-file-manager
 Replaces: libdde-file-manager
 Provides: libdde-file-manager
 Multi-Arch: same
@@ -124,7 +120,6 @@ Package: libgxde-file-manager-dev
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libgxde-file-manager( =${binary:Version})
 Replaces: libdde-file-manager-dev
-Conflicts: libdde-file-manager-dev
 Provides: libdde-file-manager-dev
 Description: DDE File Manager Devel library
  This package contains the header files and static libraries
